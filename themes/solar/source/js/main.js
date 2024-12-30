@@ -15,10 +15,8 @@ $(window).load(function() {
        const colorThief = new ColorThief();
        const img = document.querySelector('img');
 
-       colorThief.getColor(img)
-        .then(color => {
-            $('.posttitle').css('color', `rgb(${color[0]}, ${color[1]}, ${color[2]}))`)
-        })
+       const color = colorThief.getColor(img)
+       $('.posttitle').css('color', `rgb(${color[0]}, ${color[1]}, ${color[2]}))`)
 });
 
 $(document).ready(function() {
