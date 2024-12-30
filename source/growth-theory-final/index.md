@@ -22,4 +22,4 @@ index: 正規 7 輯
 10. 라이프리뷰
 11. 구름의 그림자
 12. 새녘바람
-13. 기특해
+13. [기특해](/growth-theory-final/give-it-up/)
