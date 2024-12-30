@@ -4,7 +4,7 @@ date: 2018-12-14
 layout: album-view
 id: snail-mail
 cover: /images/snail-mail.jpg
-type: mini
+type: single
 index: 單曲 2 輯
 ---
 
