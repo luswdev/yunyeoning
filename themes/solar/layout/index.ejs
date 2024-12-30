@@ -2,39 +2,9 @@
   <% if (config.description) { %>
     <%- markdown(config.description) %>
   <% } %>
-  <div id="regular-album">
-    <h1>正規專輯</h1>
-    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
-        <% site.pages.forEach(page => {
-            if (page.type !== 'regular') return;
-        %>
-            <div class="col">
-                <div class="card bg-transparent mx-3 mx-md-0">
-                    <img src="<%= page.cover %>" alt="<%= page.title %>" class="rounded" />
-                    <p class="text-center"><a href="<%= page.permalink %>"><%= page.title || page.slug %></a></p>
-                </div>
-            </div>
-        <% }); %>
-    </div>
-  </div>
-  <div id="mini-album">
-    <h1>迷你專輯</h1>
-    <% site.pages.forEach(page => {
-        if (page.type !== 'mini') return;
-    %>
-        <img src="<%= page.cover %>" alt="<%= page.title %>" />
-        <p><a href="<%= page.permalink %>"><%= page.title || page.slug %></a></p>
-    <% }); %>
-  </div>
-  <div id="single-album">
-    <h1>單曲</h1>
-    <% site.pages.forEach(page => {
-        if (page.type !== 'single') return;
-    %>
-        <img src="<%= page.cover %>" alt="<%= page.title %>" />
-        <p><a href="<%= page.permalink %>"><%= page.title || page.slug %></a></p>
-    <% }); %>
-  </div>
+  <%- partial('_partial/albums', { title: '正規專輯', type: 'regular' }) %>
+  <%- partial('_partial/albums', { title: '迷你專輯', type: 'mini' }) %>
+  <%- partial('_partial/albums', { title: '單曲', type: 'single' }) %>
 </section>
 
 <section id="writing">
