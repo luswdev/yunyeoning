@@ -10,32 +10,8 @@
     </div>
   </header>
   <%- partial('_partial/post/gallery') %>
-  <div class="song-meta">
-    <table class="table table-borderless">
-        <tbody>
-          <tr>
-            <th scope="row">作詞</th>
-            <td><%= page.lyric %></td>
-          </tr>
-          <tr>
-            <th scope="row">作曲</th>
-            <td><%= page.composition %></td>
-          </tr>
-          <tr>
-            <th scope="row">編曲</th>
-            <td><%= page.arrangement %></td>
-          </tr>
-        </tbody>
-    </table>
-  </div>
   <div class="content" itemprop="articleBody">
     <%- page.content %>
-    <h1>Youtube</h1>
-    <iframe width="560" height="315" src=<%= "https://www.youtube.com/embed/" + page.youtube %>
-        title="YouTube video player" frameborder="0"
-        allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" 
-        referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
-    </iframe>
   </div>
 </article>
 <%- partial('_partial/comments') %>
