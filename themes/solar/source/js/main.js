@@ -7,9 +7,21 @@ if (!!$.prototype.justifiedGallery) { // if justifiedGallery method is defined
     $('.article-gallery').justifiedGallery(options);
 }
 
+const colorThief = new ColorThief();
+const img = document.querySelector('img');
+
+if (img.complete) {
+    colorThief.getColor(img);
+} else {
+    image.addEventListener('load', function() {
+        colorThief.getColor(img)
+            .then(color => { console.log(color) })
+            .catch(err => { console.log(err) })
+    });
+}
 
 $(window).load(function() {
-    
+
        $("#wrapper").fadeTo("slow",1);
        $("#blogtitel").fadeOut(2000);
 });
