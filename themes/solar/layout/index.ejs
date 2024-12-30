@@ -9,9 +9,9 @@
             if (page.type !== 'regular') return;
         %>
             <div class="col">
-                <div class="card bg-transparent mx-1 mx-md-0">
+                <div class="card bg-transparent mx-3 mx-md-0">
                     <img src="<%= page.cover %>" alt="<%= page.title %>" class="rounded" />
-                    <p><a href="<%= page.permalink %>"><%= page.title || page.slug %></a></p>
+                    <p class="text-center"><a href="<%= page.permalink %>"><%= page.title || page.slug %></a></p>
                 </div>
             </div>
         <% }); %>
