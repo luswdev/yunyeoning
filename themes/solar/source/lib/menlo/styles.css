@@ -1,0 +1,5 @@
+@font-face {
+  font-family: 'Menlo';
+  font-style: normal;
+  src: local('Menlo'), url(fonts/Menlo-Regular.ttf) format('truetype');
+}
