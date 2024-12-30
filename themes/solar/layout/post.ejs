@@ -10,6 +10,24 @@
     </div>
   </header>
   <%- partial('_partial/post/gallery') %>
+  <div class="song-meta">
+    <table class="table">
+        <tbody>
+          <tr>
+            <th scope="row">做曲</th>
+            <td><%= page.composition %></td>
+          </tr>
+          <tr>
+            <th scope="row">作曲</th>
+            <td><%= page.lyric %></td>
+          </tr>
+          <tr>
+            <th scope="row">編曲</th>
+            <td><%= page.arrangement %></td>
+          </tr>
+        </tbody>
+    </table>
+  </div>
   <div class="content" itemprop="articleBody">
     <%- page.content %>
   </div>
