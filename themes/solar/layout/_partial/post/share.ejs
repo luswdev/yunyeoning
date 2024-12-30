@@ -1,12 +1,32 @@
 <ul>
-  <li><a class="icon" href="http://www.facebook.com/sharer.php?u=<%= page.permalink %>"><i class="fa-brands fa-facebook <%= icon_class_name %>" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="https://twitter.com/share?url=<%= page.permalink %>&text=<%= page.title %>"><i class="fa-brands fa-twitter <%= icon_class_name %>" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://www.linkedin.com/shareArticle?url=<%= page.permalink %>&title=<%= page.title %>"><i class="fa-brands fa-linkedin <%= icon_class_name %>" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=<%= page.permalink %>&is_video=false&description=<%= page.title %>"><i class="fa-brands fa-pinterest <%= icon_class_name %>" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="mailto:?subject=<%= page.title %>&body=Check out this article: <%= page.permalink %>"><i class="fa-brands fa-envelope <%= icon_class_name %>" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="https://getpocket.com/save?url=<%= page.permalink %>&title=<%= page.title %>"><i class="fa-brands fa-get-pocket <%= icon_class_name %>" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://reddit.com/submit?url=<%= page.permalink %>&title=<%= page.title %>"><i class="fa-brands fa-reddit <%= icon_class_name %>" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://www.stumbleupon.com/submit?url=<%= page.permalink %>&title=<%= page.title %>"><i class="fa-brands fa-stumbleupon <%= icon_class_name %>" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://digg.com/submit?url=<%= page.permalink %>&title=<%= page.title %>"><i class="fa-brands fa-digg <%= icon_class_name %>" aria-hidden="true"></i></a></li>
-  <li><a class="icon" href="http://www.tumblr.com/share/link?url=<%= page.permalink %>&name=<%= page.title %>&description=<%= page.excerpt %>"><i class="fa-brands fa-tumblr <%= icon_class_name %>" aria-hidden="true"></i></a></li>
+  <li>
+    <a class="icon" href="http://www.facebook.com/sharer.php?u=<%= page.permalink %>">
+      <i class="bi bi-facebook"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://twitter.com/share?url=<%= page.permalink %>&text=<%= page.title %>">
+      <i class="bi bi-twitter-x"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://www.linkedin.com/shareArticle?url=<%= page.permalink %>&title=<%= page.title %>">
+      <i class="bi bi-linkedin"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="https://pinterest.com/pin/create/bookmarklet/?url=<%= page.permalink %>&is_video=false&description=<%= page.title %>">
+      <i class="bi bi-pinterest"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="mailto:?subject=<%= page.title %>&body=Check out this article: <%= page.permalink %>">
+      <i class="bi bi-envelope-fill"></i>
+    </a>
+  </li>
+  <li>
+    <a class="icon" href="http://reddit.com/submit?url=<%= page.permalink %>&title=<%= page.title %>">
+      <i class="bi bi-reddit"></i>
+    </a>
+  </li>
 </ul>
