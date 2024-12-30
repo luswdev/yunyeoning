@@ -4,12 +4,18 @@
   <% } %>
   <div id="regular-album">
     <h1>正規專輯</h1>
-    <% site.pages.forEach(page => {
-        if (page.type !== 'regular') return;
-    %>
-        <img src="<%= page.cover %>" alt="<%= page.title %>" />
-        <p><a href="<%= page.permalink %>"><%= page.title || page.slug %></a></p>
-    <% }); %>
+    <div class="row row-cols-1 row-cols-md-2 row-cols-lg-3 g-4">
+        <% site.pages.forEach(page => {
+            if (page.type !== 'regular') return;
+        %>
+            <div class="col">
+                <div class="card bg-transparent">
+                    <img src="<%= page.cover %>" alt="<%= page.title %>" />
+                    <p><a href="<%= page.permalink %>"><%= page.title || page.slug %></a></p>
+                </div>
+            </div>
+        <% }); %>
+    </div>
   </div>
   <div id="mini-album">
     <h1>迷你專輯</h1>
