@@ -5,4 +5,5 @@ layout: album-view
 id:
 cover:
 type:
+index:
 ---

@@ -6,7 +6,10 @@
           <span itemprop="name"><% if (page.author) { %><%- page.author %><% } else { %><%- config.title %><% } %></span>
         </span>
         <%- partial('_partial/post/date', { post: page, class_name: 'postdate' }) %>
-        <%- partial('_partial/post/tag') %>
+        <div class="article-tag">
+            <i class="fa fa-tag"></i>
+            <%- page.index %>
+        </div>
       </div>
     </header>
     <%- partial('_partial/post/gallery') %>
@@ -14,17 +17,3 @@
       <%- page.content %>
     </div>
 </article>
-
-<section id="playlist">
-    <h2>收錄曲目</h2>
-<%
-// Filter posts in the 'growth-theory' subdirectory
-let albumPlaylist = site.posts.filter(post => post.source.startsWith("_posts/" + page.id));
-
-albumPlaylist.forEach(post => {
-%>
-    <p><a href="<%= post.permalink %>"><%= post.title %></a></p>
-<%
-});
-%>
-</section>
