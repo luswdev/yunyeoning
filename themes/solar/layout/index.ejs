@@ -11,6 +11,24 @@
         <p><a href="<%= page.permalink %>"><%= page.title || page.slug %></a></p>
     <% }); %>
   </div>
+  <div id="mini-album">
+    <h1>迷你專輯</h1>
+    <% site.pages.forEach(page => {
+        if (page.type !== 'mini') return;
+    %>
+        <img src="<%= page.cover %>" alt="<%= page.title %>" />
+        <p><a href="<%= page.permalink %>"><%= page.title || page.slug %></a></p>
+    <% }); %>
+  </div>
+  <div id="single-album">
+    <h1>單曲</h1>
+    <% site.pages.forEach(page => {
+        if (page.type !== 'single') return;
+    %>
+        <img src="<%= page.cover %>" alt="<%= page.title %>" />
+        <p><a href="<%= page.permalink %>"><%= page.title || page.slug %></a></p>
+    <% }); %>
+  </div>
 </section>
 
 <section id="writing">
