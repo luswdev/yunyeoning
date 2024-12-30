@@ -5,7 +5,7 @@ layout: album-view
 id: growth-theory-final
 cover: /images/growth-theory-final.jpg
 type: regular
-index: 正規 7 輯
+index: 正規 7 輯 (Repackage)
 ---
 
 ## 收錄曲目
