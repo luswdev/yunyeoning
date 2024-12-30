@@ -17,7 +17,7 @@ index: 正規 7 輯 (Repackage)
 5. [코리올리 힘](/growth-theory/coriolis-force/)
 6. [태양물고기](/growth-theory/sunfish/)
 7. [로켓방정식의 저주](/growth-theory/curse-for-the-rocket-formula/)
-8. [포인트 니모](/growth-theory-final/point-nemo/)
+8. [포인트 니모](/growth-theory-final/point-nemo/) <span class="badge text-bg-info">TITLE</span>
 9. [케이프 혼](/growth-theory/attention/)
 10. [라이프리뷰](/growth-theory/life-review/)
 11. [구름의 그림자](/growth-theory/part-of-cloud/)
