@@ -15,7 +15,7 @@ index: 正規 7 輯 (Repackage)
 3. 은화
 4. [퀘이사](/growth-theory-final/quasar/)
 5. 코리올리 힘
-6. [태양물고기](/growth-theory/sunfish)
+6. [태양물고기](/growth-theory/sunfish/)
 7. 로켓방정식의 저주
 8. [포인트 니모](/growth-theory-final/point-nemo/)
 9. 케이프 혼
