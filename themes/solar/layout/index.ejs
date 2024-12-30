@@ -2,8 +2,11 @@
   <% if (config.description) { %>
     <%- markdown(config.description) %>
   <% } %>
-  <div>
-    <% site.pages.forEach(page => { %>
+  <div id="regular-album">
+    <h1>正規專輯</h1>
+    <% site.pages.forEach(page => {
+        if (page.type !== 'regular') return;
+    %>
         <img src="<%= page.cover %>" alt="<%= page.title %>" />
         <p><a href="<%= page.permalink %>"><%= page.title || page.slug %></a></p>
     <% }); %>
