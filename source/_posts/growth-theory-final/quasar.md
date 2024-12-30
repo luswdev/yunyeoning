@@ -3,9 +3,9 @@ title: 퀘이사 (QUASAR)
 layout: song-view
 date: 2024-11-14
 tags: growth-theory-final
-composition: KZ , Nthonius , Meisobo , HOFF
+composition: KZ, Nthonius, Meisobo, HOFF
 lyric: 윤하 (Younha/ユンナ)
-arrangement: Nthonius , Meisobo
+arrangement: Nthonius, Meisobo
 youtube: nIVWsVFtPOk?si=J3YaNdMU6qjG0ohU
 ---
 
