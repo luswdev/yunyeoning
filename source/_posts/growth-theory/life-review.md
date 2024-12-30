@@ -6,6 +6,7 @@ tags: growth-theory
 composition: JEWNO (손준호), 윤하 (Younha/ユンナ), 이하은
 lyric: 윤하 (Younha/ユンナ)
 arrangement: JEWNO (손준호), 이하은
+author: 윤하 (Younha/ユンナ)
 youtube: Tuwkcti9cbU?si=FWMghL2Xb3JegdQu
 ---
 

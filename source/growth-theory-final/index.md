@@ -6,6 +6,7 @@ id: growth-theory-final
 cover: /images/growth-theory-final.jpg
 type: regular
 index: 正規 7 輯 (Repackage)
+author: 윤하 (Younha/ユンナ)
 ---
 
 ## 收錄曲目

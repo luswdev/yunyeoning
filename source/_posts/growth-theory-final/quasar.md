@@ -6,6 +6,7 @@ tags: growth-theory-final
 composition: KZ, Nthonius, Meisobo, HOFF
 lyric: 윤하 (Younha/ユンナ)
 arrangement: Nthonius, Meisobo
+author: 윤하 (Younha/ユンナ)
 youtube: nIVWsVFtPOk?si=J3YaNdMU6qjG0ohU
 ---
 

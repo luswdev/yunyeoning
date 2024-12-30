@@ -6,6 +6,7 @@ tags: growth-theory-final
 composition: Aileen Dela Cruz, Vince Degiorgio, Scott Stoddart
 lyric: 윤하 (Younha/ユンナ)
 arrangement: Scott Stoddart
+author: 윤하 (Younha/ユンナ)
 youtube: 30B2mLgg3Pw?si=O2BbHP46K_otHj76
 ---
 

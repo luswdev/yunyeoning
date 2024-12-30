@@ -6,6 +6,7 @@ tags: growth-theory
 composition: 이하은, 윤하(Younha/ユンナ)
 lyric: 윤하 (Younha/ユンナ)
 arrangement: 이하은
+author: 윤하 (Younha/ユンナ)
 youtube: Kv_zcoq6190?si=g39mdNwWlrTUt9uZ
 ---
 

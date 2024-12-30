@@ -6,4 +6,5 @@ id:
 cover:
 type:
 index:
+author: 윤하 (Younha/ユンナ)
 ---

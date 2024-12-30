@@ -6,6 +6,7 @@ layout: song-view
 composition: JEWNO (손준호), 윤하 (Younha/ユンナ)
 lyric: 윤하 (Younha/ユンナ)
 arrangement: JEWNO (손준호)
+author: 윤하 (Younha/ユンナ)
 youtube: GCKSrC6XVOk?si=uH2RKyLof7mh5L_9
 ---
 
