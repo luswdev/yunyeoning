@@ -18,6 +18,9 @@ $(document).ready(function() {
 
 
     $(window).on('scroll', function() {
+        if (!$(".banner").length) {
+            return
+        }
 
         var z = $(".banner")[0].getBoundingClientRect().bottom / (
             $(".banner")[0].getBoundingClientRect().bottom - $(".banner")[0].getBoundingClientRect().top)
