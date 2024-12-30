@@ -1,5 +1,5 @@
 ---
-title: GROWTH THEORY Final Edition
+title: "GROWTH THEORY: Final Edition"
 date: 2024-11-14
 layout: album-view
 id: growth-theory-final

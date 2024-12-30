@@ -1,11 +1,12 @@
 ---
-title: END THEORY Final Edition
+title: "END THEORY: Final Edition"
 date: 2022-03-20
 layout: album-view
 id: end-theory-final
 cover: /images/end-theory-final.jpg
 type: regular
 index: 正規 6 輯
+author: 윤하 (Younha/ユンナ)
 ---
 
 ## 收錄曲目
