@@ -1,0 +1,15 @@
+<%
+// Filter posts in the 'growth-theory' subdirectory
+let albumPlaylist = site.posts.filter(post => post.source.startsWith("_posts/" + page.id));
+
+albumPlaylist.forEach(post => {
+%>
+  <article>
+    <h2><%= post.source %></h2>
+    <h2><a href="<%= post.permalink %>"><%= post.title %></a></h2>
+    <p><%= post.excerpt || post.content.substring(0, 100) %>...</p>
+    <p><a href="<%= post.permalink %>">Read more</a></p>
+  </article>
+<%
+});
+%>
