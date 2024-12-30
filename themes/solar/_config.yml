@@ -11,7 +11,7 @@ customize:
         enabled: true
         width: 50
         height: 50
-        url: /images/yholics.png
+        url: /images/yholics.svg
         gravatar: false
     favicon: 
       # eg. generate with http://realfavicongenerator.net/
