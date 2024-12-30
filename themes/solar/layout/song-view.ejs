@@ -1,7 +1,7 @@
 <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
   <header class="d-flex">
     <div class="me-3">
-        <img src=<%= "/images/" + page.id + ".jpg" %> style="height: 3.75rem;" class="rounded">
+        <img src=<%= "/images/" + page.tags.data[0].name + ".jpg" %> style="height: 3.75rem;" class="rounded">
     </div>
     <div>
         <%- partial('_partial/post/title', { post: page, index: false, class_name: 'posttitle' }) %>
