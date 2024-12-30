@@ -10,13 +10,13 @@ index: 正規 7 輯
 
 ## 收錄曲目
 
-1. [맹그로브](/growth-theory/mangrove-tree/)
-2. [죽음의 나선](/growth-theory/antmill/)
-3. [케이프 혼](/growth-theory/attention/)
-4. [은화](/growth-theory/silvering/)
-5. [로켓방정식의 저주](/growth-theory/curse-for-the-rocket-formula/)
-6. [태양물고기](/growth-theory/sunfish) <span class="badge text-bg-info">TITLE</span>
-7. [코리올리 힘](/growth-theory/coriolis-force/)
-8. [라이프리뷰](/growth-theory/life-review/)
-9. [구름의 그림자](/growth-theory/part-of-cloud/)
-10. [새녘바람](/growth-theory/east-wind/)
+1. [맹그로브 (Mangrove tree)](/growth-theory/mangrove-tree/)
+2. [죽음의 나선 (Antmill)](/growth-theory/antmill/)
+3. [케이프 혼 (Attention!)](/growth-theory/attention/)
+4. [은화 (Silvering)](/growth-theory/silvering/)
+5. [로켓방정식의 저주 (Curse for the rocket formula)](/growth-theory/curse-for-the-rocket-formula/)
+6. [태양물고기 (Sunfish)](/growth-theory/sunfish) <span class="badge text-bg-info">TITLE</span>
+7. [코리올리 힘 (Coriolis force)](/growth-theory/coriolis-force/)
+8. [라이프리뷰 (Life review)](/growth-theory/life-review/)
+9. [구름의 그림자 (Part of cloud)](/growth-theory/part-of-cloud/)
+10. [새녘바람 (East wind)](/growth-theory/east-wind/)
