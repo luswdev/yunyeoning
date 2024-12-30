@@ -2,9 +2,9 @@ nav:
   Home: /home/
   About: /about/
   Writing: /archives/
-  Projects: http://github.com/tzvetkov75
+  Projects: http://github.com/luswdev
 
-projects_url: http://github.com/tzvetkov75
+projects_url: http://github.com/luswdev
 
 customize:
     gravatar:
@@ -27,10 +27,10 @@ customize:
         url: /images/apple-touch-icon.png
         gravator: false
     social_links:
-        github: https://github.com/tzvetkov75/solar-theme-hexo
-        twitter: /
-        facebook: /
-        linkedin: /
+        github: https://github.com/luswdev/yholics
+        twitter: 
+        facebook: 
+        linkedin: 
     post_count: 5
     highlight: lightcode
 
@@ -39,7 +39,7 @@ root: ..
 
 solar:
     # factor between 0 (fast), 1(normal), 2(very slow)  
-    speed: 1
+    speed: -1
     sun_image: /images/sun.png
     earth_image: /images/earth.png
     jupiter_image: /images/jupiter.png

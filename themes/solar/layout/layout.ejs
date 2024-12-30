@@ -2,7 +2,9 @@
 <html<%= config.language ? " lang=" + config.language.substring(0, 2) : ""%>>
 <%- partial('_partial/head') %>
 <body>
-    <%- partial('_partial/banner') %>
+    <% if (theme.solar.speed != -1) { %>
+      <%- partial('_partial/banner') %>
+    <% } %>
     <div class="background">
       <% if (is_post()) { %>
         <%- partial('_partial/post/actions_desktop') %>
