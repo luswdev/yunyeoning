@@ -1,5 +1,5 @@
 ---
-title: Antmill
+title: 죽음의 나선 (Antmill)
 layout: song-view
 date: 2024-09-01
 tags: growth-theory
