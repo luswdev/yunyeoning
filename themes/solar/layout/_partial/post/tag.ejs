@@ -2,7 +2,7 @@
     <div class="article-tag">
         <i class="bi bi-disc-fill"></i>
         <% site.pages.forEach(album => {
-            if (album.type !== page.tags[0]) return;
+            if (album.id !== page.tags[0]) return;
         %>
             <a class="tag-link-link" href=<%= "/" + page.tags[0] %> rel="tag">album.title</a>
         <% }); %>
