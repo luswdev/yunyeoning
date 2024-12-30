@@ -37,6 +37,9 @@ customize:
 # keept it like this to add the root path (probably a bug)
 root: ..
 
+primary:
+  color: rgb(175 225 255)
+
 solar:
     # factor between 0 (fast), 1(normal), 2(very slow)  
     speed: -1
