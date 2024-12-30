@@ -1,64 +1,47 @@
-name: Site CI
+name: Pages
 
 on:
   push:
     branches:
-    - main
-
-env:
-  GIT_USER: luswdev
-  GIT_EMAIL: callumlu@gmail.com
-  DEPLOY_REPO: blog
-  DEPLOY_BRANCH: gh-pages
+      - main
 
 jobs:
   build:
-    name: Build on node ${{ matrix.node-version }} and ${{ matrix.os }}
     runs-on: ubuntu-latest
-
-    strategy:
-      matrix:
-        os: [ubuntu-latest]
-        node-version: [18.x]
-
     steps:
-      - uses: actions/checkout@v1
-      - name: Use Node.js ${{ matrix.node-version }}
-        uses: actions/setup-node@v1
+      - uses: actions/checkout@v4
         with:
-          node-version: ${{ matrix.node-version }}
-      
-      - name: Setup timezone
-        run: |
-          export TZ="Asia/Taipei"
-          export NOW=$(date +"%Y-%m-%d %H:%M:%S")
-          sudo timedatectl set-timezone "Asia/Taipei"
-
-      - name: Configuration environment
-        env:
-          HEXO_DEPLOY_PRI: ${{ secrets.HEXO_DEPLOY_PRI }}
-        run: |          
-          mkdir -p ~/.ssh/
-          echo "$HEXO_DEPLOY_PRI" > ~/.ssh/id_rsa
-          chmod 600 ~/.ssh/id_rsa
-          ssh-keyscan github.com >> ~/.ssh/known_hosts
-          git config --global user.name $GIT_USER
-          git config --global user.email $GIT_EMAIL
-        
-      - name: Save commit history
-        uses: actions/checkout@v2
+          token: ${{ secrets.GITHUB_TOKEN }}
+          submodules: recursive
+      - name: Use Node.js 20
+        uses: actions/setup-node@v4
         with:
-          repository: ${{ env.GIT_USER }}/${{ env.DEPLOY_REPO }}
-          ref: ${{ env.DEPLOY_BRANCH }}
-          path: .deploy_git
-
-      - name: Install dependencies
-        run: |
-          npm i -g hexo-cli
-          npm i
-
-      - name: Deploy hexo
-        run: |
-          hexo generate
-          hexo deploy
-
+          node-version: "20"
+      - name: Cache NPM dependencies
+        uses: actions/cache@v4
+        with:
+          path: node_modules
+          key: ${{ runner.OS }}-npm-cache
+          restore-keys: |
+            ${{ runner.OS }}-npm-cache
+      - name: Install Dependencies
+        run: npm install
+      - name: Build
+        run: npm run build
+      - name: Upload Pages artifact
+        uses: actions/upload-pages-artifact@v3
+        with:
+          path: ./public
+  deploy:
+    needs: build
+    permissions:
+      pages: write
+      id-token: write
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v4
