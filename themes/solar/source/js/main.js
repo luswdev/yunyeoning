@@ -25,8 +25,8 @@ $(window).load(function() {
            adjustedColor = hslToRgb(h, s, newL);
        }
 
-       $('.posttitle').css('color', `rgb(${color[0]}, ${color[1]}, ${color[2]})`)
-       $('.badge').css('background-color', `rgb(${color[0]}, ${color[1]}, ${color[2]})`);
+       $('.posttitle').css('color', `rgb(${adjustedColor[0]}, ${adjustedColor[1]}, ${adjustedColor[2]})`)
+       $('.badge').css('background-color', `rgb(${adjustedColor[0]}, ${adjustedColor[1]}, ${adjustedColor[2]})`);
 
        const adjustedLuminance = (0.299 * adjustedColor[0] + 0.587 * adjustedColor[1] + 0.114 * adjustedColor[2]) / 255;
        const textColor = adjustedLuminance > 0.5 ? 'black' : 'white';
