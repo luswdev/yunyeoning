@@ -5,4 +5,7 @@ permalink: /404.html
 type: "404"
 ---
 
-Go to [Home](/)
+# 404
+你怎麼來這的？
+
+- Go to [Home](/)
