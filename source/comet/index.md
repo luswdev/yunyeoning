@@ -8,6 +8,7 @@ id: comet
 cover: /images/album/comet.jpg
 type: regular
 index: 正規 1.5 輯
+author: 윤하
 ---
 
 ## 收錄曲目

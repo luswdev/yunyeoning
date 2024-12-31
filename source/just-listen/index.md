@@ -8,6 +8,7 @@ id: just-listen
 cover: /images/album/just-listen.jpg
 type: mini
 index: 迷你 2 輯
+author: 윤하
 ---
 
 ## 收錄曲目

@@ -8,6 +8,7 @@ id: supersonic
 cover: /images/album/supersonic.jpg
 type: regular
 index: 正規 4 輯
+author: 윤하
 ---
 
 ## 收錄曲目

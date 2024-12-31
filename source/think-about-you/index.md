@@ -8,6 +8,7 @@ id: think-about-you
 cover: /images/album/think-about-you.jpg
 type: single
 index: 數位單曲
+author: 윤하
 ---
 
 ## 收錄曲目

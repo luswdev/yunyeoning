@@ -1,5 +1,6 @@
 ---
 title: STABLE MINDSET
+subtitle:
 date: 2019-07-02
 tag:
 layout: album-view
@@ -7,6 +8,7 @@ id: stable-mindset
 cover: /images/album/stable-mindset.jpg
 type: mini
 index: 迷你 4 輯
+author: 윤하
 ---
 
 ## 收錄曲目

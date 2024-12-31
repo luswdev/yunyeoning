@@ -8,6 +8,7 @@ id: unstable-mindset
 cover: /images/album/unstable-mindset.jpg
 type: mini
 index: 迷你 5 輯
+author: 윤하
 ---
 
 ## 收錄曲目

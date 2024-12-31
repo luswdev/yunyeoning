@@ -8,7 +8,7 @@ id: rescue
 cover: /images/album/rescue.jpg
 type: regular
 index: 正規 5 輯
-author: 윤하 (Younha/ユンナ)
+author: 윤하
 ---
 
 ## 收錄曲目

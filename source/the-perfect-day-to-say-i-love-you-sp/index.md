@@ -8,6 +8,7 @@ id: the-perfect-day-to-say-i-love-you-sp
 cover: /images/album/the-perfect-day-to-say-i-love-you-sp.jpg
 type: regular
 index: 正規 1 輯
+author: 윤하
 ---
 
 ## 收錄曲目

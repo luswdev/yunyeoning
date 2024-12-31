@@ -8,6 +8,7 @@ id: hello
 cover: /images/album/hello.jpg
 type: single
 index: 數位單曲
+author: 윤하
 ---
 
 ## 收錄曲目

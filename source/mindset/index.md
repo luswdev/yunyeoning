@@ -8,6 +8,7 @@ id: mindset
 cover: /images/album/mindset.jpg
 type: studio
 index: 錄音室現場專輯
+author: 윤하
 ---
 
 ## 收錄曲目

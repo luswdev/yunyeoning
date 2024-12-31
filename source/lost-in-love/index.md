@@ -8,6 +8,7 @@ id: lost-in-love
 cover: /images/album/lost-in-love.jpg
 type: mini
 index: 迷你 1 輯
+author: 윤하
 ---
 
 ## 收錄曲目

@@ -8,6 +8,7 @@ id: take-five
 cover: /images/album/take-five.jpg
 type: single
 index: 數位單曲
+author: 윤하
 ---
 
 ## 收錄曲目

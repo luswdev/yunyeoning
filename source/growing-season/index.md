@@ -8,6 +8,7 @@ id: growing-season
 cover: /images/album/growing-season.jpg
 type: regular
 index: 正規 3 輯
+author: 윤하
 ---
 
 ## 收錄曲目

@@ -8,6 +8,7 @@ id: subsonic
 cover: /images/album/subsonic.jpg
 type: mini
 index: 迷你 3 輯
+author: 윤하
 ---
 
 ## 收錄曲目

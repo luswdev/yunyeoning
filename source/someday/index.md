@@ -8,6 +8,7 @@ id: someday
 cover: /images/album/someday.jpg
 type: regular
 index: 正規 2 輯
+author: 윤하
 ---
 
 ## 收錄曲目

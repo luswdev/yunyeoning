@@ -8,6 +8,7 @@ id: snail-mail
 cover: /images/album/snail-mail.jpg
 type: single
 index: 單曲 2 輯
+author: 윤하
 ---
 
 ## 收錄曲目

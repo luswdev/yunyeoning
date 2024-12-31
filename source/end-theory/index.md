@@ -8,7 +8,7 @@ id: end-theory
 cover: /images/album/end-theory.jpg
 type: regular
 index: 正規 6 輯
-author: 윤하 (Younha/ユンナ)
+author: 윤하
 ---
 
 ## 收錄曲目

@@ -8,6 +8,7 @@ id: audition
 cover: /images/album/audition.jpg
 type: single
 index: 單曲 1 輯
+author: 윤하
 ---
 
 ## 收錄曲目

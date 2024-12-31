@@ -8,6 +8,7 @@ id: peace-love-n-ice-cream
 cover: /images/album/peace-love-n-ice-cream.jpg
 type: regular
 index: 正規 3 輯
+author: 윤하
 ---
 
 ## 收錄曲目

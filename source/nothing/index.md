@@ -8,6 +8,7 @@ id: nothing
 cover: /images/album/nothing.jpg
 type: studio
 index: 錄音室現場單曲
+author: 윤하
 ---
 
 ## 收錄曲目
