@@ -7,7 +7,7 @@
             <a class="tag-link-link" href=<%= "/" + page.tags.data[0].name %> rel="tag">
                 <%= album.title %>
                 <% if (album.subtitle) { %>
-                    : <%= album.subtitle %>
+                    (<%= album.subtitle %>)
                 <% } %>
             </a>
         <% }); %>
