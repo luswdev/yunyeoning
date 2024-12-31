@@ -3,12 +3,12 @@
         <a href="<%= page.permalink %>">
             <img src="<%= page.cover %>" alt="<%= page.title %>" class="mw-100 rounded" />
         </a>
-        <p class="album-title m-0">
-            <a href="<%= page.permalink %>"><%= page.title || page.slug %></span></a>
+        <span class="album-title m-0">
+            <a href="<%= page.permalink %>"><%= page.title || page.slug %></a>
             <% if (page.tag) { %>
                 <br>
                 <span class="badge"><%- page.tag %>
             <% } %>
-        </p>
+        </span>
     </div>
 </div>
