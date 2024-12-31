@@ -12,7 +12,7 @@ index: 迷你 1 輯
 
 ## 收錄曲目
 
-1. 기다리다 (Acoustic Ver.)
+1. [기다리다 (Waiting) (Acoustic Ver.)](/lost-in-love/waiting/)
 2. 말도 안돼
 3. One Shot (Feat. 주석)
 4. 꿈 속에서

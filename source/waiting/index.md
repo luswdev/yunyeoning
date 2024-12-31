@@ -12,4 +12,4 @@ index: 數位單曲
 
 ## 收錄曲目
 
-1. [기다리다 (20th Anniversary Edition)](/waiting/waiting) <span class="badge">TITLE</span>
+1. [기다리다 (Waiting) (20th Anniversary Edition)](/waiting/waiting) <span class="badge">TITLE</span>
