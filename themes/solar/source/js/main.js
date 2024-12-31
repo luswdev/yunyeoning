@@ -16,11 +16,20 @@ $(window).load(function() {
        const img = document.querySelector('img');
 
        const color = colorThief.getColor(img)
+       const luminance = (0.299 * color[0] + 0.587 * color[1] + 0.114 * color[2]) / 255;
+
+       let adjustedColor = color;
+       if (luminance < 0.3) {
+           const [h, s, l] = rgbToHsl(color[0], color[1], color[2]);
+           const newL = Math.max(l, 30);
+           adjustedColor = hslToRgb(h, s, newL);
+       }
+
        $('.posttitle').css('color', `rgb(${color[0]}, ${color[1]}, ${color[2]})`)
        $('.badge').css('background-color', `rgb(${color[0]}, ${color[1]}, ${color[2]})`);
 
-        const luminance = (0.299 * color[0] + 0.587 * color[1] + 0.114 * color[2]) / 255;
-        const textColor = luminance > 0.5 ? 'black' : 'white';
+       const adjustedLuminance = (0.299 * adjustedColor[0] + 0.587 * adjustedColor[1] + 0.114 * adjustedColor[2]) / 255;
+       const textColor = adjustedLuminance > 0.5 ? 'black' : 'white';
         $('.badge').css('color', textColor);
 });
 
