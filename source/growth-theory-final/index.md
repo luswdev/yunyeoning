@@ -7,7 +7,7 @@ layout: album-view
 id: growth-theory-final
 cover: /images/album/growth-theory-final.jpg
 type: regular
-index: 正規 7 輯 (Repackage)
+index: 正規 7 輯
 author: 윤하 (Younha/ユンナ)
 ---
 

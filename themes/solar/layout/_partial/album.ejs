@@ -1,8 +1,10 @@
 <div class="col">
     <div class="card bg-transparent border-0">
-        <a href="<%= page.permalink %>"><img src="<%= page.cover %>" alt="<%= page.title %>" class="rounded" /></a>
+        <a href="<%= page.permalink %>">
+            <img src="<%= page.cover %>" alt="<%= page.title %>" class="mw-100 rounded" />
+        </a>
         <p class="text-center">
-            <a href="<%= page.permalink %>"><%= page.title || page.slug %></a>
+            <a href="<%= page.permalink %>"><%= page.title || page.slug %> <span class="badge"><%- page.tag %></span></a>
         </p>
     </div>
 </div>
