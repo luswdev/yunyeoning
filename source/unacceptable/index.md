@@ -7,7 +7,7 @@ layout: album-view
 id: unacceptable
 cover: /images/album/unacceptable.jpg
 type: single
-index: 數位單曲單曲
+index: 數位單曲
 ---
 
 ## 收錄曲目
