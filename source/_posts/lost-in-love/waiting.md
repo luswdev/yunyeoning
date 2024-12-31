@@ -4,7 +4,7 @@ subtitle: Waiting
 layout: song-view
 author: 윤하
 date: 2010-12-09
-tags: audition
+tags: lost-in-love
 composition: 윤하
 lyric: 심재희
 arrangement: 홍준호
