@@ -6,14 +6,14 @@ projects_url: http://github.com/luswdev
 
 customize:
     gravatar:
-        email: 
+        email:
     logo:
         enabled: true
         width: 50
         height: 50
         url: /images/yholics.svg
         gravatar: false
-    favicon: 
+    favicon:
       # eg. generate with http://realfavicongenerator.net/
       desktop:
         url: /images/favicon.ico
@@ -26,9 +26,9 @@ customize:
         gravator: false
     social_links:
         github: https://github.com/luswdev/yholics
-        twitter: 
-        facebook: 
-        linkedin: 
+        twitter:
+        facebook:
+        linkedin:
     post_count: 5
     highlight: lightcode
 
@@ -39,7 +39,7 @@ primary:
   color: "#afe1ff"
 
 solar:
-    # factor between 0 (fast), 1(normal), 2(very slow)  
+    # factor between 0 (fast), 1(normal), 2(very slow)
     speed: -1
     sun_image: /images/sun.png
     earth_image: /images/earth.png
@@ -55,7 +55,7 @@ rss: false
 # Plugins
 plugins:
     disqus_shortname: # Disqus Comments Shortname
-    google_analytics: # enter the tracking ID for your Google Analytics
+    google_analytics: G-GCX6LZQLR2
 
 # Miscellaneous
 miscellaneous:
