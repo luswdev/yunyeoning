@@ -5,7 +5,9 @@
         </a>
         <p class="text-center">
             <a href="<%= page.permalink %>"><%= page.title || page.slug %></span></a>
-            <span class="badge"><%- page.tag %>
+            <% if (page.tag) { %>
+                <span class="badge"><%- page.tag %>
+            <% } %>
         </p>
     </div>
 </div>
