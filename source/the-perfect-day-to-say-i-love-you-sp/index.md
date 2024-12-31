@@ -4,8 +4,8 @@ subtitle: Special Edition
 date: 2007-06-26
 tag: Repackage
 layout: album-view
-id: the_perfect_day_to_say_i_love_you_sp
-cover: /images/album/the_perfect_day_to_say_i_love_you_sp.jpg
+id: the-perfect-day-to-say-i-love-you-sp
+cover: /images/album/the-perfect-day-to-say-i-love-you-sp.jpg
 type: regular
 index: 正規 1 輯
 ---

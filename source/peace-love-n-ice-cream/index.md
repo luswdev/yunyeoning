@@ -4,8 +4,8 @@ subtitle:
 date: 2009-04-15
 tag: Part.A
 layout: album-view
-id: peace_love_n_ice_cream
-cover: /images/album/peace_love_n_ice_cream.jpg
+id: peace-love-n-ice-cream
+cover: /images/album/peace-love-n-ice-cream.jpg
 type: regular
 index: 正規 3 輯
 ---

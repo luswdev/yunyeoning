@@ -4,8 +4,8 @@ subtitle:
 date: 2009-12-02
 tag: Part.B
 layout: album-view
-id: growing_season
-cover: /images/album/growing_season.jpg
+id: growing-season
+cover: /images/album/growing-season.jpg
 type: regular
 index: 正規 3 輯
 ---

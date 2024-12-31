@@ -4,8 +4,8 @@ subtitle:
 date: 2007-03-15
 tag: 
 layout: album-view
-id: the_perfect_day_to_say_i_love_you
-cover: /images/album/the_perfect_day_to_say_i_love_you.jpg
+id: the-perfect-day-to-say-i-love-you
+cover: /images/album/the-perfect-day-to-say-i-love-you.jpg
 type: regular
 index: 正規 1 輯
 ---
