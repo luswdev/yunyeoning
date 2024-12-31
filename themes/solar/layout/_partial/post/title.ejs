@@ -9,6 +9,9 @@
 <% } else { %>
     <h1 class="<%= class_name %>" itemprop="name headline" style="color: transparent;">
         <%= post.title %>
+        <% if (post.subtitle !== "") { %>
+            : <%= post.subtitle %>
+        <% } %>
     </h1>
 <% } %>
 

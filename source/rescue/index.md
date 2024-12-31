@@ -1,6 +1,8 @@
 ---
 title: RescuE
+subtitle:
 date: 2017-12-27
+tag:
 layout: album-view
 id: rescue
 cover: /images/album/rescue.jpg

@@ -1,6 +1,8 @@
 ---
-title: "END THEORY: Final Edition"
+title: END THEORY
+subtitle: Final Edition
 date: 2022-03-20
+tag: Repackage
 layout: album-view
 id: end-theory-final
 cover: /images/album/end-theory-final.jpg

@@ -1,6 +1,8 @@
 ---
 title: UNSTABLE MINDSET
+subtitle:
 date: 2020-01-06
+tag:
 layout: album-view
 id: unstable-mindset
 cover: /images/album/unstable-mindset.jpg

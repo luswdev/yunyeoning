@@ -1,6 +1,8 @@
 ---
-title: "GROWTH THEORY: Final Edition"
+title: GROWTH THEORY
+subtitle: Final Edition
 date: 2024-11-14
+tag: Repackage
 layout: album-view
 id: growth-theory-final
 cover: /images/album/growth-theory-final.jpg

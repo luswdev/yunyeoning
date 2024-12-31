@@ -1,5 +1,6 @@
 ---
 title: GROWTH THEORY
+subtitle:
 layout: album-view
 date: 2024-09-01
 id: growth-theory

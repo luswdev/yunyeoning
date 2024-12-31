@@ -1,6 +1,8 @@
 ---
 title: 느린 우체통 (Snail mail)
+subtitle:
 date: 2018-12-14
+tag:
 layout: album-view
 id: snail-mail
 cover: /images/album/snail-mail.jpg

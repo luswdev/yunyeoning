@@ -1,6 +1,8 @@
 ---
 title: END THEORY
+subtitle:
 date: 2021-11-16
+tag:
 layout: album-view
 id: end-theory
 cover: /images/album/end-theory.jpg
