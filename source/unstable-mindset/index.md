@@ -10,6 +10,8 @@ type: mini
 index: 迷你 5 輯
 ---
 
+## 收錄曲目
+
 1. WINTER FLOWER (雪中梅) (Feat. RM)
 2. 먹구름 <span class="badge">TITLE</span>
 3. 다음에 봐
