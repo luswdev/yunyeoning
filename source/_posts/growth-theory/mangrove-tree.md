@@ -1,11 +1,12 @@
 ---
-title: 맹그로브 (Mangrove tree)
+title: 맹그로브
+subtitle: Mangrove tree
 layout: song-view
 date: 2024-09-01
 tags: growth-theory
-composition: 윤하 (Younha/ユンナ)
-lyric: 윤하 (Younha/ユンナ)
-arrangement: 이하은, JEWNO (손준호)
+composition: 윤하
+lyric: 윤하
+arrangement: 이하은, JEWNO
 youtube: 2p2AiFY1Sm0?si=KOgwF_QG2X6q65jy
 ---
 

@@ -1,12 +1,13 @@
 ---
-title: 로켓방정식의 저주 (Curse for the rocket formula)
+title: 로켓방정식의 저주
+subtitle: Curse for the rocket formula
 layout: song-view
 date: 2024-09-01
 tags: growth-theory
-composition: JEWNO (손준호), 윤하 (Younha/ユンナ), Perrie
-lyric: 윤하 (Younha/ユンナ)
-arrangement: JEWNO (손준호)
-author: 윤하 (Younha/ユンナ)
+composition: JEWNO, 윤하, Perrie
+lyric: 윤하
+arrangement: JEWNO
+author: 윤하
 youtube: Ox_wfL_JJy0?si=0wOKUYani6b4o1ya
 ---
 

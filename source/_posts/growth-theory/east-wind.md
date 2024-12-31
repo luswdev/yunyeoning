@@ -1,12 +1,13 @@
 ---
-title: 새녘바람 (East wind)
+title: 새녘바람
+subtitle: East wind
 layout: song-view
 date: 2024-09-01
 tags: growth-theory
-composition: JEWNO (손준호), 윤하 (Younha/ユンナ)
-lyric: 윤하 (Younha/ユンナ)
-arrangement: JEWNO (손준호)
-author: 윤하 (Younha/ユンナ)
+composition: JEWNO, 윤하
+lyric: 윤하
+arrangement: JEWNO
+author: 윤하
 youtube: eAxE1sObDPM?si=jLA30G1XJYSAE_gU
 ---
 

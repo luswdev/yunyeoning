@@ -1,12 +1,13 @@
 ---
-title: 구름의 그림자 (Part of cloud)
+title: 구름의 그림자
+subtitle: Part of cloud
 layout: song-view
 date: 2024-09-01
 tags: growth-theory
-composition: 윤하 (Younha/ユンナ)
-lyric: 윤하 (Younha/ユンナ)
-arrangement: 윤하 (Younha/ユンナ)
-author: 윤하 (Younha/ユンナ)
+composition: 윤하
+lyric: 윤하
+arrangement: 윤하
+author: 윤하
 youtube: GiyZ0yQ4090?si=SR1JroCVu4YxmGRk
 ---
 

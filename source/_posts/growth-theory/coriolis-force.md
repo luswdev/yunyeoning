@@ -1,12 +1,13 @@
 ---
-title: 코리올리 힘 (Coriolis force)
+title: 코리올리 힘
+subtitle: Coriolis force
 layout: song-view
 date: 2024-09-01
 tags: growth-theory
-composition: JEWNO (손준호), 윤하 (Younha/ユンナ)
-lyric: 윤하 (Younha/ユンナ)
-arrangement: JEWNO (손준호)
-author: 윤하 (Younha/ユンナ)
+composition: JEWNO, 윤하
+lyric: 윤하
+arrangement: JEWNO
+author: 윤하
 youtube: CfJQpm8UZWo?si=KkdYoIzeAQ12HRyi
 ---
 

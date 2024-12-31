@@ -1,12 +1,13 @@
 ---
-title: 태양물고기 (Sunfish)
+title: 태양물고기
+subtitle: Sunfish
 layout: song-view
 date: 2024-09-01
 tags: growth-theory
-composition: 윤하 (Younha/ユンナ), JEWNO (손준호)
-lyric: 윤하 (Younha/ユンナ)
-arrangement: JEWNO (손준호), 숀 (SHAUN), 이신우
-author: 윤하 (Younha/ユンナ)
+composition: 윤하, JEWNO
+lyric: 윤하
+arrangement: JEWNO, 숀, 이신우
+author: 윤하
 youtube: ehX7MAhc5iA?si=tBGWi5wQTpac81xp
 ---
 

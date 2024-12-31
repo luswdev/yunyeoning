@@ -1,12 +1,13 @@
 ---
-title: 라이프리뷰 (Life review)
+title: 라이프리뷰
+subtitle: Life review
 layout: song-view
 date: 2024-09-01
 tags: growth-theory
-composition: JEWNO (손준호), 윤하 (Younha/ユンナ), 이하은
-lyric: 윤하 (Younha/ユンナ)
-arrangement: JEWNO (손준호), 이하은
-author: 윤하 (Younha/ユンナ)
+composition: JEWNO, 윤하, 이하은
+lyric: 윤하
+arrangement: JEWNO, 이하은
+author: 윤하
 youtube: Tuwkcti9cbU?si=FWMghL2Xb3JegdQu
 ---
 

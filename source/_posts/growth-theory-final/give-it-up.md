@@ -1,12 +1,13 @@
 ---
-title: 기특해 (Give it up)
+title: 기특해
+subtitle: Give it up
 layout: song-view
 date: 2024-11-14
 tags: growth-theory-final
 composition: Aileen Dela Cruz, Vince Degiorgio, Scott Stoddart
-lyric: 윤하 (Younha/ユンナ)
+lyric: 윤하
 arrangement: Scott Stoddart
-author: 윤하 (Younha/ユンナ)
+author: 윤하
 youtube: 30B2mLgg3Pw?si=O2BbHP46K_otHj76
 ---
 

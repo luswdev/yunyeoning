@@ -1,12 +1,14 @@
 ---
-title: 케이프 혼 (Attention!)
+title: 케이프 혼
+subtitle: Attention!
 layout: song-view
+author: 윤하
 date: 2024-09-01
 tags: growth-theory
-composition: JEWNO (손준호), 윤하 (Younha/ユンナ), Perrie
-lyric: 윤하 (Younha/ユンナ)
-arrangement: JEWNO (손준호) , 이신우
-author: 윤하 (Younha/ユンナ)
+composition: JEWNO, 윤하, Perrie
+lyric: 윤하
+arrangement: JEWNO , 이신우
+author: 윤하
 youtube: MvWEe3Q89GE?si=PxnM6cLdJ5RRewBm
 ---
 

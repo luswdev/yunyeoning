@@ -1,12 +1,13 @@
 ---
-title: 은화 (Silvering)
+title: 은화
+subtitle: Silvering
 layout: song-view
 date: 2024-09-01
 tags: growth-theory
-composition: JEWNO (손준호), 윤하 (Younha/ユンナ), 이신우
-lyric: 윤하 (Younha/ユンナ), 고윤진
-arrangement: JEWNO (손준호), 이신우
-author: 윤하 (Younha/ユンナ)
+composition: JEWNO, 윤하, 이신우
+lyric: 윤하, 고윤진
+arrangement: JEWNO, 이신우
+author: 윤하
 youtube: UzFh_xQgkxs?si=FxpA9u30PS26QDIT
 ---
 
