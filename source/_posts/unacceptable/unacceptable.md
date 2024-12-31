@@ -2,7 +2,7 @@
 title: 아니야
 layout: song-view
 author: 윤하
-date: 2025-01-01 02:34:41
+date: 2013-03-22
 subtitle: Unacceptable
 tags: unacceptable
 composition: 나얼
