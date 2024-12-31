@@ -13,4 +13,4 @@ author: 윤하
 
 ## 收錄曲目
 
-1. It’s Beautiful <span class="badge">TITLE</span>
+1. [It’s Beautiful](/its-beautiful/its-beautiful/) <span class="badge">TITLE</span>

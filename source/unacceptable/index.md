@@ -13,4 +13,4 @@ author: 윤하
 
 ## 收錄曲目
 
-1. 아니야 <span class="badge">TITLE</span>
+1. [아니야 (Unacceptable)](/unacceptable/unacceptable/) <span class="badge">TITLE</span>
