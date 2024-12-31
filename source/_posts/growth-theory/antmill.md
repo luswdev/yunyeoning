@@ -2,7 +2,6 @@
 title: 죽음의 나선
 subtitle: Antmill
 layout: song-view
-author: 윤하
 date: 2024-09-01
 tags: growth-theory
 composition: 이하은, 윤하
