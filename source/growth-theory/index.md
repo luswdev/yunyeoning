@@ -3,7 +3,7 @@ title: GROWTH THEORY
 layout: album-view
 date: 2024-09-01
 id: growth-theory
-cover: /images/growth-theory.jpg
+cover: /images/album/growth-theory.jpg
 type: regular
 index: 正規 7 輯
 author: 윤하 (Younha/ユンナ)

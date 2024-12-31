@@ -3,7 +3,7 @@ title: RescuE
 date: 2017-12-27
 layout: album-view
 id: rescue
-cover: /images/rescue.jpg
+cover: /images/album/rescue.jpg
 type: regular
 index: 正規 5 輯
 author: 윤하 (Younha/ユンナ)

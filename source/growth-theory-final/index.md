@@ -3,7 +3,7 @@ title: "GROWTH THEORY: Final Edition"
 date: 2024-11-14
 layout: album-view
 id: growth-theory-final
-cover: /images/growth-theory-final.jpg
+cover: /images/album/growth-theory-final.jpg
 type: regular
 index: 正規 7 輯 (Repackage)
 author: 윤하 (Younha/ユンナ)

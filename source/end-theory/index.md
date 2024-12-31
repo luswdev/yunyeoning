@@ -3,7 +3,7 @@ title: END THEORY
 date: 2021-11-16
 layout: album-view
 id: end-theory
-cover: /images/end-theory.jpg
+cover: /images/album/end-theory.jpg
 type: regular
 index: 正規 6 輯
 author: 윤하 (Younha/ユンナ)
