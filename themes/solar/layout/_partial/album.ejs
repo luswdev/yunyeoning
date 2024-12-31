@@ -1,11 +1,12 @@
 <div class="col">
     <div class="card bg-transparent border-0">
-        <a href="<%= page.permalink %>" class="gallery-album-link">
+        <a href="<%= page.permalink %>">
             <img src="<%= page.cover %>" alt="<%= page.title %>" class="mw-100 rounded" />
         </a>
-        <p class="text-center">
+        <p class="album-title">
             <a href="<%= page.permalink %>"><%= page.title || page.slug %></span></a>
             <% if (page.tag) { %>
+                <br>
                 <span class="badge"><%- page.tag %>
             <% } %>
         </p>
