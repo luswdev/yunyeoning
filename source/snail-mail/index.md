@@ -10,4 +10,4 @@ index: 單曲 2 輯
 
 ## 收錄曲目
 
-1. 느린 우체통 <span class="badge text-bg-info">TITLE</span>
+1. 느린 우체통 <span class="badge">TITLE</span>

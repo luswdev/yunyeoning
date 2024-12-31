@@ -21,7 +21,7 @@ author: 윤하 (Younha/ユンナ)
 8. Truly
 9. 별의 조각
 10. 하나의 달
-11. 사건의 지평선 <span class="badge text-bg-info">TITLE</span>
+11. 사건의 지평선 <span class="badge">TITLE</span>
 12. Black hole
 13. Savior
 14. 잘 지내

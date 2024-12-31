@@ -17,6 +17,11 @@ $(window).load(function() {
 
        const color = colorThief.getColor(img)
        $('.posttitle').css('color', `rgb(${color[0]}, ${color[1]}, ${color[2]})`)
+       $('.badge').css('color', `rgb(${color[0]}, ${color[1]}, ${color[2]})`);
+
+        const luminance = (0.299 * color[0] + 0.587 * color[1] + 0.114 * color[2]) / 255;
+        const textColor = luminance > 0.5 ? 'black' : 'white';
+        $('.badge').css('color', textColor);
 });
 
 $(document).ready(function() {

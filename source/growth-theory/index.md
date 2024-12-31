@@ -16,7 +16,7 @@ author: 윤하 (Younha/ユンナ)
 3. [케이프 혼 (Attention!)](/growth-theory/attention/)
 4. [은화 (Silvering)](/growth-theory/silvering/)
 5. [로켓방정식의 저주 (Curse for the rocket formula)](/growth-theory/curse-for-the-rocket-formula/)
-6. [태양물고기 (Sunfish)](/growth-theory/sunfish) <span class="badge text-bg-info">TITLE</span>
+6. [태양물고기 (Sunfish)](/growth-theory/sunfish) <span class="badge">TITLE</span>
 7. [코리올리 힘 (Coriolis force)](/growth-theory/coriolis-force/)
 8. [라이프리뷰 (Life review)](/growth-theory/life-review/)
 9. [구름의 그림자 (Part of cloud)](/growth-theory/part-of-cloud/)

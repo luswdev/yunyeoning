@@ -19,6 +19,6 @@ author: 윤하 (Younha/ユンナ)
 6. 반짝, 빛을 내
 7. 6년 230일
 8. Truly
-9. 별의 조각 <span class="badge text-bg-info">TITLE</span>
+9. 별의 조각 <span class="badge">TITLE</span>
 10. 하나의 달
 11. Savior

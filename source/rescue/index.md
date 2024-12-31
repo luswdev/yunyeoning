@@ -13,7 +13,7 @@ author: 윤하 (Younha/ユンナ)
 
 1. RescuE
 2. 종이비행기 (Hello) (Feat. pH-1)
-3. Parade <span class="badge text-bg-info">TITLE</span>
+3. Parade <span class="badge">TITLE</span>
 4. 없던 일처럼
 5. Airplane Mode
 6. 예지몽
