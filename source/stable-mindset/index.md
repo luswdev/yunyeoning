@@ -3,7 +3,7 @@ title: STABLE MINDSET
 date: 2019-07-02
 tag:
 layout: album-view
-id: unstable-mindset
+id: stable-mindset
 cover: /images/album/stable-mindset.jpg
 type: mini
 index: 迷你 4 輯
