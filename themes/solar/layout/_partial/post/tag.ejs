@@ -4,7 +4,12 @@
         <% site.pages.forEach(album => {
             if (album.id !== page.tags.data[0].name) return;
         %>
-            <a class="tag-link-link" href=<%= "/" + page.tags.data[0].name %> rel="tag"><%= album.title %> <%= album.tag %></a>
+            <a class="tag-link-link" href=<%= "/" + page.tags.data[0].name %> rel="tag">
+                <%= album.title %>
+                <% if (post.subtitle) { %>
+                    : <%= post.subtitle %>
+                <% } %>
+            </a>
         <% }); %>
     </div>
 <% } %>
