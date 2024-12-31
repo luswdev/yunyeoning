@@ -1,6 +1,6 @@
 ---
-title: 느린 우체통 (Snail mail)
-subtitle:
+title: 느린 우체통
+subtitle: Snail mail
 date: 2018-12-14
 tag:
 layout: album-view
