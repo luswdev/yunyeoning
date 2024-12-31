@@ -12,5 +12,5 @@ index: 單曲 1 輯
 
 ## 收錄曲目
 
-1. Audition (Time2Rock) <span class="badge">TITLE</span>
+1. [Audition (Time2Rock)](/audition/audition/) <span class="badge">TITLE</span>
 2. [기다리다 (Waiting)](/audition/waiting/)
