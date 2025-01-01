@@ -13,4 +13,4 @@ author: 윤하
 
 ## 收錄曲目
 
-1. 우산 <span class="badge">TITLE</span>
+1. [우산 (Umbrella)](/umbrella/umbrella) <span class="badge">TITLE</span>

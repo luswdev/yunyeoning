@@ -13,4 +13,4 @@ author: 윤하
 
 ## 收錄曲目
 
-1. 내 마음이 뭐가 돼 <span class="badge">TITLE</span>
+1. [내 마음이 뭐가 돼 (Wasted)](/wasted/wasted/) <span class="badge">TITLE</span>
