@@ -13,4 +13,4 @@ author: 윤하
 
 ## 收錄曲目
 
-1. 종이비행기 <span class="badge">TITLE</span>
+1. [종이비행기 (Hello)](/hello/hello/) <span class="badge">TITLE</span>

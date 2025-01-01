@@ -13,4 +13,4 @@ author: 윤하
 
 ## 收錄曲目
 
-1. Take Five <span class="badge">TITLE</span>
+1. [Take Five](/take-five/take-five/) <span class="badge">TITLE</span>
