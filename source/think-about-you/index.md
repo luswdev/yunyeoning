@@ -13,4 +13,4 @@ author: 윤하
 
 ## 收錄曲目
 
-1. 널 생각해 <span class="badge">TITLE</span>
+1. [널 생각해 (Think About You)](/think-about-you/think-about-you/) <span class="badge">TITLE</span>

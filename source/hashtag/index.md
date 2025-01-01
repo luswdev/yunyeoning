@@ -13,4 +13,4 @@ author: 윤하
 
 ## 收錄曲目
 
-1. 허세 <span class="badge">TITLE</span>
+1. [허세 (HASHTAG)](/hashtag/hashtag/) <span class="badge">TITLE</span>
