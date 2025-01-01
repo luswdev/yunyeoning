@@ -13,4 +13,4 @@ author: 윤하
 
 ## 收錄曲目
 
-1. 느린 우체통 <span class="badge">TITLE</span>
+1. [느린 우체통 (Snail mail)](/snail-mail/snail-mail/) <span class="badge">TITLE</span>

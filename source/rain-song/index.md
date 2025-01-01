@@ -13,4 +13,4 @@ author: 윤하
 
 ## 收錄曲目
 
-1. 비 오는 날 듣기 좋은 노래 <span class="badge">TITLE</span>
+1. [비 오는 날 듣기 좋은 노래 (Rain Song)](/rain-song/rain-song/) <span class="badge">TITLE</span>
