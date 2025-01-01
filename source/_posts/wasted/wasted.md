@@ -11,7 +11,7 @@ arrangement: 김종완 of NELL
 youtube: G33WiEktUo8?si=wnZey2laszbIsQQP
 ---
 
-## 收錄曲目
+# 歌詞 (中譯待補)
 
 사랑한다고 했잖아
 놓지 않겠다 했잖아

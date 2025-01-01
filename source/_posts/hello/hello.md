@@ -1,7 +1,7 @@
 ---
 title: 종이비행기
 layout: song-view
-author: 윤하 (Feat. pH-1)
+author: 윤하, pH-1
 date: 2017-12-11
 subtitle: Hello
 tags: hello
