@@ -1,6 +1,6 @@
 ---
 title: 기다리다
-subtitle: Waiting
+subtitle: Waiting Acoustic Ver.
 layout: song-view
 author: 윤하
 date: 2010-12-09
