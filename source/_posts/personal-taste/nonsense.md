@@ -3,8 +3,8 @@ title: 말도 안돼
 subtitle: Nonsense
 layout: song-view
 author: 윤하
-date: 2010-12-09
-tags: lost-in-love
+date: 2010-03-31
+tags: personal-taste
 composition: 이관
 lyric: NaNa
 arrangement: 이관

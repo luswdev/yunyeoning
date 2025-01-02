@@ -3,7 +3,7 @@ title: One Shot
 subtitle:
 layout: song-view
 author: 윤하, 주석
-date: 2010-12-09
+date: 2010-10-14
 tags: one-shot
 composition: 황찬희
 lyric: 주석
