@@ -11,26 +11,6 @@ $(window).load(function() {
 
        $("#wrapper").fadeTo("slow",1);
        $("#blogtitel").fadeOut(2000);
-
-       const colorThief = new ColorThief();
-       const img = document.querySelector('img');
-
-       const color = colorThief.getColor(img)
-       const luminance = (0.299 * color[0] + 0.587 * color[1] + 0.114 * color[2]) / 255;
-
-       let adjustedColor = color;
-       if (luminance < 0.3) {
-           const [h, s, l] = rgbToHsl(color[0], color[1], color[2]);
-           const newL = Math.max(l, 30);
-           adjustedColor = hslToRgb(h, s, newL);
-       }
-
-       $('.posttitle').css('color', `rgb(${adjustedColor[0]}, ${adjustedColor[1]}, ${adjustedColor[2]})`)
-       $('.badge').css('background-color', `rgb(${adjustedColor[0]}, ${adjustedColor[1]}, ${adjustedColor[2]})`);
-
-       const adjustedLuminance = (0.299 * adjustedColor[0] + 0.587 * adjustedColor[1] + 0.114 * adjustedColor[2]) / 255;
-       const textColor = adjustedLuminance > 0.5 ? 'black' : 'white';
-        $('.badge').css('color', textColor);
 });
 
 $(document).ready(function() {

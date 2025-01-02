@@ -56,5 +56,12 @@
     <% } %>
     <!-- jquery -->
     <%- js('lib/jquery/jquery.min') %>
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/color-thief/2.3.0/color-thief.umd.js"></script>
+    <% if (page.dominantColor) { %>
+        <style>
+            .badge {
+                background-color: rgb(<%- page.dominantColor[0] %>, <%- page.dominantColor[1] %>, <%- page.dominantColor[2] %>);
+                color: <%- page.dominantTextColor %>;
+            }
+        </style>
+    <% } %>
 </head>
