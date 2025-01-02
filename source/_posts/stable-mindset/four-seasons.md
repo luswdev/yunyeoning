@@ -1,6 +1,6 @@
 ---
 title: 사계
-subtitle: Four Seasons 四季
+subtitle: Four Seasons, 四季
 layout: song-view
 author: 윤하
 date: 2019-07-02

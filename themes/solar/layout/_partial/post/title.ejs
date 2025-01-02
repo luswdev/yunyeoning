@@ -10,7 +10,9 @@
     <h1 class="<%= class_name %>" itemprop="name headline" style="color: transparent;">
         <%= post.title %>
         <% if (post.subtitle) { %>
-            (<%= post.subtitle %>)
+            <% post.subtitle.split(",").forEach(element => { %>
+                (<%= element %>)
+            <%}) %>
         <% } %>
     </h1>
 <% } %>

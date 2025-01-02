@@ -1,6 +1,6 @@
 ---
 title: 기다리다
-subtitle: Waiting 20th Anniversary Edition
+subtitle: Waiting, 20th Anniversary Edition
 layout: song-view
 author: 윤하
 date: 2023-12-22
