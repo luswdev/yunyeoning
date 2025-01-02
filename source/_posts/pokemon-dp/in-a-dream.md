@@ -3,8 +3,8 @@ title: 꿈속에서
 subtitle: In a Dream
 layout: song-view
 author: 윤하
-date: 2010-12-09
-tags: lost-in-love
+date: 2010-11-18
+tags: pokemon-dp
 composition: 윤하
 lyric: 윤하
 arrangement: 심태현
