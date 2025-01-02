@@ -14,7 +14,7 @@ author: 윤하
 ## 收錄曲目
 
 1. [오르트구름 (Oort Cloud)](/end-theory/oort-cloud/)
-2. [살별](/end-theory-final/c-2022yh/)
+2. [살별 (c/2022YH)](/end-theory-final/c-2022yh/)
 3. [물의 여행 (Wish)](/end-theory/wish/)
 4. [반짝, 빛을 내 (Highlight)](/end-theory/highlight/)
 5. [6년 230일 (Tik-Tok)](/end-theory/tik-tok/)
@@ -23,7 +23,7 @@ author: 윤하
 8. [Truly](/end-theory/truly/)
 9. [별의 조각 (Stardust)](/end-theory/stardust/)
 10. [하나의 달 (Here)](/end-theory/here/)
-11. [사건의 지평선](/end-theory-final/event-horizon/) <span class="badge">TITLE</span>
+11. [사건의 지평선 (Event Horizon)](/end-theory-final/event-horizon/) <span class="badge">TITLE</span>
 12. [Black hole](/end-theory-final/black-hole/)
 13. [Savior](/end-theory/savior/)
 14. [잘 지내 (How U doing)](/end-theory/how-u-doing/)
