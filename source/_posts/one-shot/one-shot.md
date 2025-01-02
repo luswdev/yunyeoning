@@ -4,7 +4,7 @@ subtitle:
 layout: song-view
 author: 윤하, 주석
 date: 2010-12-09
-tags: lost-in-love
+tags: one-shot
 composition: 황찬희
 lyric: 주석
 arrangement: 홍준호
