@@ -11,7 +11,7 @@
         <%= post.title %>
         <% if (post.subtitle) { %>
             <% post.subtitle.split(",").forEach(element => { %>
-                (<%= element %>)
+                (<%= element.trim() %>)
             <%}) %>
         <% } %>
     </h1>
