@@ -19,7 +19,7 @@ author: 윤하
 4. [반짝, 빛을 내 (Highlight)](/end-theory/highlight/)
 5. [6년 230일 (Tik-Tok)](/end-theory/tik-tok/)
 6. [P.R.R.W.](/end-theory/p-r-r-w/)
-7. [나는 계획이 있다 (BIG PICTURE)](/end-theory/big-picutre/)
+7. [나는 계획이 있다 (BIG PICTURE)](/end-theory/big-picture/)
 8. [Truly](/end-theory/truly/)
 9. [별의 조각 (Stardust)](/end-theory/stardust/)
 10. [하나의 달 (Here)](/end-theory/here/)

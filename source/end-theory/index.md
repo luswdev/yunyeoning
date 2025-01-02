@@ -14,7 +14,7 @@ author: 윤하
 ## 收錄曲目
 
 1. [P.R.R.W.](/end-theory/p-r-r-w/)
-2. [나는 계획이 있다 (BIG PICTURE)](/end-theory/big-picutre/)
+2. [나는 계획이 있다 (BIG PICTURE)](/end-theory/big-picture/)
 3. [오르트구름 (Oort Cloud)](/end-theory/oort-cloud/)
 4. [물의 여행 (Wish)](/end-theory/wish/)
 5. [잘 지내 (How U doing)](/end-theory/how-u-doing/)
