@@ -13,4 +13,4 @@ author: 윤하
 
 ## 收錄曲目
 
-1. Fly To High
+1. [Fly To High](/god-of-highschool/fly-to-high/)
