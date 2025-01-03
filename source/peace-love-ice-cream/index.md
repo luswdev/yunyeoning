@@ -16,7 +16,7 @@ author: 윤하
 1. [Peace Love & Icecream](/peace-love-ice-cream/peace-love-icecream/)
 2. [Black Rain](/peace-love-ice-cream/black-rain/)
 3. [Break Out](/peace-love-ice-cream/break-out/)
-4. [원투쓰리 (1, 2, 3)](/peace-love-ice-cream/1-2-3/) <span class="badge">TITLE</span>
+4. [1, 2, 3 (원투쓰리)](/peace-love-ice-cream/1-2-3/) <span class="badge">TITLE</span>
 5. [She is](/peace-love-ice-cream/she-is/)
 6. [사랑하다 (Loving)](/peace-love-ice-cream/loving/)
 7. [Luv U Luv U Luv U](/peace-love-ice-cream/luv-u-luv-u-luv-u)
