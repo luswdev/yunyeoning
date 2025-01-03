@@ -13,4 +13,4 @@ index: OST
 
 ## 收錄曲目
 
-1. 멀리서 안부
+1. [멀리서 안부 (Greetings From Afar)](/the-queen-of-office/greetings-from-afar/)

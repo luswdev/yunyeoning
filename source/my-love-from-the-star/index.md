@@ -13,4 +13,4 @@ index: OST
 
 ## 收錄曲目
 
-1. 별에서 온 그대
+1. [별에서 온 그대 (My Love From the Star)](/my-love-from-the-star/my-love-from-the-star/)

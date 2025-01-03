@@ -1,5 +1,5 @@
 ---
-title: The Late Regret
+title: 늦은 후회
 subtitle: The Late Regret
 layout: song-view
 author: 윤하

@@ -12,3 +12,5 @@ index: 合作單曲
 ---
 
 ## 收錄曲目
+
+1. [Bat Girl](/monthly-project-2014-july/bat-girl/)

@@ -13,4 +13,4 @@ index: OST
 
 ## 收錄曲目
 
-1. 눈물이 한방울
+1. [눈물이 한방울 (A Drop of tear)](/great-doctor/a-drop-of-tear/)
