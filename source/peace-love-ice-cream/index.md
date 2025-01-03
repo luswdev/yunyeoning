@@ -13,7 +13,7 @@ author: 윤하
 
 ## 收錄曲目
 
-1. [Peace Love & Icecream](/peace-love-ice-cream/peace-love-ice-cream/)
+1. [Peace Love & Icecream](/peace-love-ice-cream/peace-love-icecream/)
 2. [Black Rain](/peace-love-ice-cream/black-rain/)
 3. [Break Out](/peace-love-ice-cream/break-out/)
 4. [원투쓰리 (1, 2, 3)](/peace-love-ice-cream/1-2-3/) <span class="badge">TITLE</span>
