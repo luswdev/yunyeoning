@@ -13,4 +13,4 @@ index: OST
 
 ## 收錄曲目
 
-1. [빛이 되어줄게​ (Shine On You)](/the-tale-of-nokdu/shine-on-you/)
+1. [빛이 되어줄게​ (Shine On You)](/the-tale-of-nokdu/i-ll-be-your-light/)

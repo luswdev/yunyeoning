@@ -1,6 +1,6 @@
 ---
 title: 빛이 되어줄게
-subtitle: Shine On You
+subtitle: I'll Be Your Light
 layout: song-view
 author: 윤하
 date: 2019-10-08
