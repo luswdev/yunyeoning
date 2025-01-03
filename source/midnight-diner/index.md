@@ -13,4 +13,4 @@ author: 윤하
 
 ## 收錄曲目
 
-1. 아침이 밝아올 때까지
+1. [아침이 밝아올 때까지 (Till The Morning Comes)](/midnight-diner/till-the-morning-comes/)

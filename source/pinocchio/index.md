@@ -13,4 +13,4 @@ index: OST
 
 ## 收錄曲目
 
-1. 뜨겁게 나를
+1. [뜨겁게 나를 (Passionate to me)](/pinocchio/passionate-to-me/)

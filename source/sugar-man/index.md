@@ -13,4 +13,4 @@ index: OST
 
 ## 收錄曲目
 
-1. 늦은 후회
+1. [늦은 후회 (The Late Regret)](/sugar-man/the-late-regret/)
