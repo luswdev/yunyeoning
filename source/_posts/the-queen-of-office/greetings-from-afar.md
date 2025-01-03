@@ -1,5 +1,5 @@
 ---
-title: Greetings From Afar
+title: 멀리서 안부
 subtitle: Greetings From Afar
 layout: song-view
 author: 윤하
