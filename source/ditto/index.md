@@ -13,4 +13,4 @@ index: OST
 
 ## 收錄曲目
 
-1. 편지
+1. [편지 (Letter)](/ditto/letter/)
