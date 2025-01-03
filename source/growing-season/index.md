@@ -13,10 +13,10 @@ author: 윤하
 
 ## 收錄曲目
 
-1. Say Something
-2. 오늘 헤어졌어요 <span class="badge">TITLE</span>
-3. 좋아해
-4. 편한가봐
-5. 헤어진 후에야 알 수 있는 것 (Duet With BSK)
-6. LaLaLa
-7. 스물두 번째 길
+1. [Say Something](/growing-season/say-something/)
+2. [오늘 헤어졌어요 (Broke up today)](/growing-season/broke-up-today/) <span class="badge">TITLE</span>
+3. [좋아해 (I Like You)](/growing-season/i-like-you/)
+4. [편한가봐 (Must Be Easy)](/growing-season/must-be-easy/)
+5. [헤어진 후에야 알 수 있는 것 (Realization After a Break Up)](/growing-season/realization-after-a-break-up/)
+6. [LaLaLa](/growing-season/lalala/)
+7. [스물두 번째 길 (22nd Street)](/growing-season/22nd-street/)
