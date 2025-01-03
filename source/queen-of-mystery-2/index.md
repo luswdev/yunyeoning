@@ -13,4 +13,4 @@ index: OST
 
 ## 收錄曲目
 
-1. 녹을지 몰라요
+1. [녹을지 몰라요 (May Melt)](/queen-of-mystery-2/may-melt/)

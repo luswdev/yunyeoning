@@ -13,4 +13,4 @@ index: OST
 
 ## 收錄曲目
 
-1. LOVE U
+1. [LOVE U](/revolutionary-love/love-u/)
