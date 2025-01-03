@@ -6,7 +6,7 @@ cover: /images/album/sugar-man-3.jpg
 author: 윤하
 date: 2020-02-22
 tag:
-id: suger-man-3
+id: sugar-man-3
 type: relate
 index: OST
 ---

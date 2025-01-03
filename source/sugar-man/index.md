@@ -6,7 +6,7 @@ cover: /images/album/sugar-man.jpg
 author: 윤하
 date: 2016-02-10
 tag:
-id: suger-man
+id: sugar-man
 type: relate
 index: OST
 ---
