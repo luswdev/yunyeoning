@@ -13,4 +13,4 @@ index: OST
 
 ## 收錄曲目
 
-1. 해요
+1. [해요 (We Have To)](/sugar-man-3/we-have-to/)
