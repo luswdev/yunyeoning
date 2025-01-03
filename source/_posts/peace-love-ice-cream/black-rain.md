@@ -6,8 +6,8 @@ author: 윤하
 date: 2009-04-15
 tags: peace-love-ice-cream
 composition: 이관
-lyric: -
-arrangement: -
+lyric: '-'
+arrangement: '-'
 youtube: IHmVaGuDPoI?si=dqrFAje0XgdIKUvi
 ---
 
