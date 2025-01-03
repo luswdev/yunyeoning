@@ -1,7 +1,10 @@
+/**
+* before post generate filter
+* @description generate a dominate color with post target image
+*/
+
 const path = require('path');
 const { getColorFromURL } = require('color-thief-node');
-const { pathToFileURL } = require('url');
-const { page } = require('hexo/dist/plugins/helper/is');
 
 function rgbToHsl(r, g, b) {
     r /= 255;
@@ -86,7 +89,6 @@ hexo.extend.filter.register('before_post_render', async function (data) {
     }
 
     try {
-        // const getDominantColor = getHelper('getDominantColor');
         const dominantColor = await getDominantColor(img);
         data.dominantColor = dominantColor;
     } catch (error) {
