@@ -13,4 +13,4 @@ index: OST
 
 ## 收錄曲目
 
-1. I Believe
+1. [I Believe](/cinderella-four-knights/i-believe/)

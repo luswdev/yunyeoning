@@ -13,4 +13,4 @@ index: OST
 
 ## 收錄曲目
 
-1. Sunflower
+1. [Sunflower](/doctors/sunflower)

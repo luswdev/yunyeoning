@@ -11,4 +11,4 @@ type: relate
 index: 數位單曲
 ---
 
-1. 알아듣겠지
+1. [알아듣겠지 (Get It?)](/get-it/get-it/)
