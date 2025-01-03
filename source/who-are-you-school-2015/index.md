@@ -1,7 +1,7 @@
 ---
 title: 후아유-학교2015 Part 5
 subtitle: Who Are You - School 2015 Part 5
-date: 2017-08-24
+date: 2015-05-25
 tag:
 layout: album-view
 id: who-are-you-school-2015
@@ -13,4 +13,4 @@ author: 윤하
 
 ## 收錄曲目
 
-1. 기도
+1. [기도 (Pray)](/who-are-you-school-2015/pray/)
