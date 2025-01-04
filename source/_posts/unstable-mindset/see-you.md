@@ -126,3 +126,15 @@ youtube: HNUnIwx7iqs?si=tHMABl8DXzzSCD9O
 잘 지내고 그래 다음에 봐
 
 > 保重了 那麼 下次見吧
+
+# 後記
+
+或許看完歌詞後，有些人會覺得這是在講關於愛情的故事，但其實帶入從小一起玩的朋友或許更有感覺。
+就像是每個人都有的經歷一樣，或多或少都有幾個曾經很要好的朋友，「從什麼時候開始的」，就這樣的不在聯絡了？
+
+- 與 [Lonely](/stable-mindset/lonely/) 相呼應的歌曲
+
+## 參考
+
+- [本丸音樂庫](https://as4572633.pixnet.net/blog/post/469154738)
+- [나무위키](https://namu.wiki/w/UNSTABLE%20MINDSET#s-3.3)
