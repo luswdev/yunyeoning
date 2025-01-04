@@ -13,18 +13,18 @@ author: 윤하
 
 ## 收錄曲目
 
-1. Gossip Boy
-2. 기억 (Feat. 타블로) (Rap Mix Ver.)
-3. Hero
-4. Someday
-5. 텔레파시 <span class="badge">TITLE</span>
-6. Rain & The Bar
-7. 빗소리
-8. Rainbow
-9. Best Friend
-10. Strawberry Days
-11. For Catharina
-12. 미워하다
-13. My Song And... (English Ver.)
-14. 울지마요
-15. 기억 (Original Mix Ver.)
+1. [Gossip Boy](/someday/gossip-boy/)
+2. [기억 (Memory) (Rap Mix Version)](/someday/memory-rap/)
+3. [Hero](/someday/hero/)
+4. [Someday](/someday/someday/)
+5. [텔레파시 (Telepathy)](/someday/telepathy/) <span class="badge">TITLE</span>
+6. [Rain & The Bar](/someday/rain-the-bar)
+7. [빗소리 (Sound Of Rain)](/someday/sound-of-rain/)
+8. [Rainbow](/someday/rainbow/)
+9. [Best Friend](/someday/best-friend/)
+10. [Strawberry Days](/someday/strawberry-days/)
+11. [For Catharina](/someday/for-catharina/)
+12. [미워하다 (Hating)](/someday/hating/)
+13. [My Song And… (English Ver.)](/someday/my-song-and/)
+14. [울지마요 (Don't Cry)](/someday/dont-cry/)
+15. [기억 (Memory) (Origin Mix Version)](/someday/memory-origin/)
