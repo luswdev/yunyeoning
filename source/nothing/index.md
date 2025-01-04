@@ -13,5 +13,5 @@ author: 윤하
 
 ## 收錄曲目
 
-1. 없어 <span class="badge">TITLE</span>
-2. 괜찮다
+1. [없어 (Nothing)](/nothing/nothing/) <span class="badge">TITLE</span>
+2. [괜찮다 (Please Tell Me)](/nothing/please-tell-me/)
