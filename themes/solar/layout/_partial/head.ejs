@@ -36,7 +36,7 @@
         <% } %>
     <% } %>
     <% if (config.keywords) { %>
-        <meta name="keywords" content="<%= config.keywords %>">
+        <meta name="keywords" content="<%= config.keywords %><%= page.title ? ', ' + page.title : '' %><%= page.subtitle ? ', ' + page.subtitle : '' %>">
     <% } %>
     <!-- title -->
     <title><%= page.title ? page.title : '' %><%= page.subtitle ? ' ' + page.subtitle : '' %><%= page.layout == 'song-view' ? ' | 韓中歌詞' : '' %><%= page.title ? ' | ' : '' %><%= config.title %></title>
