@@ -1,9 +1,45 @@
 {{ define "main" }}
     <!-- override Prism's default copy messages to 'empty'. Required by CSS styling.
          see: https://prismjs.com/plugins/copy-to-clipboard/#styling -->
+
+    {{ if eq .Params.layout "song-view" | default false -}}
+        <div class="song-meta">
+            <table class="table table-borderless">
+                <tbody>
+                <tr>
+                    <th scope="row">作詞</th>
+                    <td>{{ .Params.lyric }}</td>
+                </tr>
+                <tr>
+                    <th scope="row">作曲</th>
+                    <td>{{ .Params.composition }}</td>
+                </tr>
+                <tr>
+                    <th scope="row">編曲</th>
+                    <td>{{ .Params.arrangement }}</td>
+                </tr>
+                </tbody>
+            </table>
+        </div>
+    {{ end -}}
+
     <div data-prismjs-copy="" data-prismjs-copy-success="" data-prismjs-copy-error="">
         {{ .Content }}
     </div>
+
+    {{ if eq .Params.layout "song-view" | default false -}}
+        {{ if .Params.youtube -}}
+        <div class="youtube-embedded">
+            Youtube</h1>
+            <iframe src="https://www.youtube.com/embed/{{ .Params.youtube }}"
+                title="YouTube video player" frameborder="0"
+                allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share"
+                referrerpolicy="strict-origin-when-cross-origin" allowfullscreen>
+            </iframe>
+        </div>
+        <h1>
+        {{ end -}}
+    {{ end -}}
 
     {{ if and .GitInfo .Site.Params.docs.repoURL -}}
         {{ partial (printf "%s/%s" ($.Scratch.Get "pathName") "gitinfo") . }}
