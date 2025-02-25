@@ -96,6 +96,17 @@ $btn-link-hover-color:        var(--#{$prefix}link-hover-color);
     --emerald-200-hsl: 154, 77%, 68%;
     --emerald-100-hsl: 149, 89%, 82%;
     --emerald-50-hsl: 145, 100%, 94%;
+    
+    --yholics-900-hsl: 203, 19%, 17%;
+    --yholics-800-hsl: 202, 19%, 34%;
+    --yholics-700-hsl: 203, 19%, 50%;
+    --yholics-600-hsl: 203, 39%, 67%;
+    --yholics-500-hsl: 203, 100%, 84%;
+    --yholics-400-hsl: 203, 100%, 87%;
+    --yholics-300-hsl: 203, 100%, 90%;
+    --yholics-200-hsl: 202, 100%, 94%;
+    --yholics-100-hsl: 203, 100%, 97%;
+    --yholics-50-hsl: 203, 100%, 98%;
 
     --blue-900: hsl(var(--blue-900-hsl));
     --blue-800: hsl(var(--blue-800-hsl));
@@ -185,6 +196,17 @@ $btn-link-hover-color:        var(--#{$prefix}link-hover-color);
     --emerald-100: hsl(var(--emerald-100-hsl));
     --emerald-50: hsl(var(--emerald-50-hsl));
 
+    --yholics-900: hsl(var(--yholics-900-hsl));
+    --yholics-800: hsl(var(--yholics-800-hsl));
+    --yholics-700: hsl(var(--yholics-700-hsl));
+    --yholics-600: hsl(var(--yholics-600-hsl));
+    --yholics-500: hsl(var(--yholics-500-hsl));
+    --yholics-400: hsl(var(--yholics-400-hsl));
+    --yholics-300: hsl(var(--yholics-300-hsl));
+    --yholics-200: hsl(var(--yholics-200-hsl));
+    --yholics-100: hsl(var(--yholics-100-hsl));
+    --yholics-50: hsl(var(--yholics-50-hsl));
+
     --blue: var(--blue-500);
     --green: var(--green-500);
     --red: var(--red-500);
@@ -193,7 +215,7 @@ $btn-link-hover-color:        var(--#{$prefix}link-hover-color);
     --cardinal: var(--cardinal-500);
     --magenta: var(--magenta-500);
     --emerald: var(--emerald-500);
-    --yholic: #afe1ff;
+    --yholics: var(--yholics-500);
 
     --secondary: var(--gray-600);
     --success: var(--green);
@@ -347,7 +369,7 @@ $btn-link-hover-color:        var(--#{$prefix}link-hover-color);
     // Cards
     --card-bg: none;
     --card-border-color: var(--gray-800);
-    --card-border-hover-color: var(--primary-200);
+    --card-border-hover-color: var(--primary);
 
     // sidebar
     --sidebar-primary: var(--primary-300);
