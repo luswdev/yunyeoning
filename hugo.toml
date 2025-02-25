@@ -40,7 +40,7 @@ enableEmoji = true
 
         backToTop = true
 
-        logoLinkURL = "/pages/"
+        logoLinkURL = "/docs/"
 
         pathName = "docs"
         themeColor = "yholics"
