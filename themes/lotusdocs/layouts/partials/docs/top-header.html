@@ -63,6 +63,7 @@
                 {{ end }}
             </ul>
             {{ if eq .Site.Params.docs.darkMode true -}}
+            <!-- @note disable toggle theme
             <button id="mode" class="btn btn-icon btn-default ms-2" type="button" aria-label="Toggle user interface mode">
                 <span class="toggle-dark">
                     <svg xmlns="http://www.w3.org/2000/svg" height="30" width="30" viewBox="0 0 48 48" fill="currentColor">
@@ -77,6 +78,7 @@
                     </svg>
                 </span>
             </button>
+            -->
             {{ end -}}
             {{ if hugo.IsMultilingual }}
                 <div class="dropdown">
