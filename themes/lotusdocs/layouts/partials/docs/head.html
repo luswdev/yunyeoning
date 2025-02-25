@@ -11,7 +11,11 @@
                 {{- if eq .Title .Site.Title }}
                     {{- .Title }}
                 {{- else }}
-                    {{- .Title }} | {{ .Site.Params.docs.Title | default (.Site.Title) }}
+                    {{- if .Params.subtitle }}
+                        {{- .Title }} ({{- .Params.subtitle}}) | {{ .Site.Params.docs.Title | default (.Site.Title) }}
+                    {{- else }}
+                        {{- .Title }} | {{ .Site.Params.docs.Title | default (.Site.Title) }}
+                    {{- end }}
                 {{- end }}
             {{- end }}
         {{- end -}}

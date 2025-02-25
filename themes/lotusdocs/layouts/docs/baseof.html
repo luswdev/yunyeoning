@@ -50,6 +50,9 @@
                                                 {{ end }}
                                                 <h1 class="content-title mb-0">
                                                     {{ $currentPage.Title }}
+                                                    {{- if .Params.subtitle }}
+                                                        ({{ .Params.subtitle }})
+                                                    {{- end }}
                                                     {{ if .Draft }}
                                                         <span class="badge bg-default fs-6 mb-1 align-middle">DRAFT</span>
                                                     {{ end }}
