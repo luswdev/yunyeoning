@@ -142,6 +142,7 @@ $yellow:  #f17425;
 $green:   #2eca8b;
 $teal:    #20c997;
 $cyan:    #17a2b8;
+$yholics: #afe1ff;
 // scss-docs-end color-variables
 
 // scss-docs-start colors-map
@@ -159,6 +160,7 @@ $colors: (
   "white":      $white,
   "gray":       $gray-600,
   "gray-dark":  $gray-800,
+  "yholics":    $yholics,
 );
 // scss-docs-end colors-map
 
@@ -301,6 +303,16 @@ $cyan-700: shade-color($cyan, 40%);
 $cyan-800: shade-color($cyan, 60%);
 $cyan-900: shade-color($cyan, 80%);
 
+$yholics-100: tint-color($yholics, 80%);
+$yholics-200: tint-color($yholics, 60%);
+$yholics-300: tint-color($yholics, 40%);
+$yholics-400: tint-color($yholics, 20%);
+$yholics-500: $yholics;
+$yholics-600: shade-color($yholics, 20%);
+$yholics-700: shade-color($yholics, 40%);
+$yholics-800: shade-color($yholics, 60%);
+$yholics-900: shade-color($yholics, 80%);
+
 $blues: (
   "blue-100": $blue-100,
   "blue-200": $blue-200,
@@ -420,6 +432,19 @@ $cyans: (
   "cyan-800": $cyan-800,
   "cyan-900": $cyan-900
 );
+
+$yholicss: (
+  "yholics-100": $yholics-100,
+  "yholics-200": $yholics-200,
+  "yholics-300": $yholics-300,
+  "yholics-400": $yholics-400,
+  "yholics-500": $yholics-500,
+  "yholics-600": $yholics-600,
+  "yholics-700": $yholics-700,
+  "yholics-800": $yholics-800,
+  "yholics-900": $yholics-900
+);
+
 // fusv-enable
 
 // Characters which are escaped by the escape-svg function
