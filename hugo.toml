@@ -1,6 +1,8 @@
 baseURL = 'https://yholics.lusw.dev/'
 languageCode = 'en-us'
 title = 'Y-HOLICS TW'
+contentDir = 'content'
+enableEmoji = true
 
 [module]
     replacements = "github.com/colinwilson/lotusdocs -> lotusdocs"
