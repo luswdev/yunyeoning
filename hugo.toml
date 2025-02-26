@@ -1,6 +1,6 @@
 baseURL = 'https://yholics.lusw.dev/'
 languageCode = 'en-us'
-title = 'Y-HOLICS TW'
+title = 'Y.HOLICS 台灣粉絲站'
 contentDir = 'content'
 enableEmoji = true
 
@@ -13,6 +13,11 @@ enableEmoji = true
         path = "github.com/gohugoio/hugo-mod-bootstrap-scss/v5"
         disable = false
 
+[markup]
+    [markup.goldmark]
+        [markup.goldmark.renderer]
+            unsafe = true
+
 [params]
     # Google Fonts
     google_fonts = [
@@ -24,23 +29,20 @@ enableEmoji = true
         ["Noto Serif TC"," 300, 400, 600, 700"],
     ]
 
-    [params.footer]
-        copyright = "This website is not affiliated with [C9 Ent](https://www.c9ent.co.kr/). All photos are property of their respective owners &copy; :YEAR: LuSkywalker"
-        version   = true
-
     sans_serif_font = "Lato, Noto Sans TC, Noto Sans KR"     # Default is System font
     secondary_font  = "Lato, Noto Sans TC, Noto Sans KR"     # Default is System font
     mono_font       = "JetBrains Mono" # Default is System font
 
+    [params.footer]
+        copyright = "This website is not affiliated with [C9 Ent](https://www.c9ent.co.kr/). All photos are property of their respective owners &copy; :YEAR: LuSkywalker"
+        version   = true
+
     [params.docs]
         darkMode = true
-
         sidebarIcons = true
         titleIcon = true
-
         backToTop = true
-
         logoLinkURL = "/docs/"
-
         pathName = "docs"
         themeColor = "yholics"
+        descriptions = true
