@@ -11,7 +11,7 @@ arrangement: 그루비룸
 youtube: VQ03WpqlpCI?si=rWa_ewL9zYbZuY-V
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 괜찮아 자유롭게
 자 훨훨 바람을 따라

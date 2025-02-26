@@ -11,7 +11,7 @@ arrangement: Yoshiyuki Sahashi
 youtube: AbP0C7LaAzE?si=R5fkno0u1i3GNXV1
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 아침이 밝아오면 떠나갈 그대 위해
 하지 못할 인사를 조용히 두고 가요

@@ -11,7 +11,7 @@ arrangement: DOKO, 이우현, 이태욱
 youtube: hrO-BgLjJ-Q?si=3pKSGacdia-33ZgR
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 나는 잘 지내
 끼니도 거르지 않았어

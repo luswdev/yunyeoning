@@ -11,7 +11,7 @@ arrangement: 田村直貴
 youtube: FsZVDQa0gOE?si=8DDxt6goUL02a0Ha
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 어두운 공간 속에도 니가 있는 것만으로
 아름다운 색으로 선명하게 물들어

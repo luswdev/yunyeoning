@@ -11,7 +11,7 @@ arrangement: 이관
 youtube: ABNlWG-tt68?si=w9CK50LalWQjNY48
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 뭘 그렇게 망설이고 있니
 너의 시선은 이미 내게 온걸

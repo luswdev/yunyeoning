@@ -11,7 +11,7 @@ arrangement: 이관
 youtube: ID0BOG7z3jY?si=gVlwtzaEwt225itZ
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 널 아는 많은 사람들
 가끔씩 들리는 안부

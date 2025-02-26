@@ -11,7 +11,7 @@ arrangement: 김보민
 youtube: a8N2VVWD80A?si=jbXIerdil2umyrIq
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 언제나 고마웠다고
 너에게 전해주고 싶었어

@@ -11,7 +11,7 @@ arrangement: 이관, 정수완
 youtube: ECwfRlzn1tw?si=HEV87fVTKG5f0T-C
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 아무렇지 않은 듯이 애써 묻는 안부도
 내 맘은 절대 속일 수가 없는지

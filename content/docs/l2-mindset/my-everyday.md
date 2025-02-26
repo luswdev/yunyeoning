@@ -11,7 +11,7 @@ arrangement: 박중훈
 youtube: --uxL6a6gzw?si=vt9ChjXrQE7WlUUs
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 창 밖으로 별빛이 뜰 때면
 그대가 더 선명해지죠

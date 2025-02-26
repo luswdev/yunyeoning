@@ -11,7 +11,7 @@ arrangement: DJ 투컷, DOCSKIM
 youtube: Wy7Zxw6NDAs?si=BYrHnZd1KIjee4CZ
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 비가 오고 네가 생각 나
 비가 오고 비가 오고

@@ -11,7 +11,7 @@ arrangement: Score
 youtube: 0cEtX1Lv2Go?si=5AcCFAwCr96gGYqW
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 뭔지 모르게 좀 텁텁한
 하루 습관처럼 또 집을

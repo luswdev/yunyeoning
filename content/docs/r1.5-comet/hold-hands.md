@@ -11,7 +11,7 @@ arrangement: By mo'doo-
 youtube: CdKH-X_ZTNU?si=SRDpvm-Tn0ibYD7V
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 거칠어진 파도에 맨발로 뛰어들어
 있는 힘을 다해서 파도를 차냈어

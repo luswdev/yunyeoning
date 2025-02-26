@@ -11,7 +11,7 @@ arrangement: 황찬희, 양경주
 youtube: r5MM2iI8-58?si=6aCtIZ8AdDViuFjw
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 한 시간마다 보고 싶다고
 감정 없이 말하지 말아

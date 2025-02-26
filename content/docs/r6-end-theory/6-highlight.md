@@ -12,7 +12,7 @@ arrangement: "JEWNO"
 youtube: "GtaorDNm8iA?si=_yaGXV1hAjNxSCt8"
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 오랜만이야  
 푸르르게 밝아 오는 아침의 소리  

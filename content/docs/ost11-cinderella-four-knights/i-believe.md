@@ -11,7 +11,7 @@ arrangement: 오준성
 youtube: KJWlkZMNJsk?si=k2tiKaS2WY4wCxIU
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 내 머릿속을 어지럽히고
 내 마음속을 흔들어놓고

@@ -11,7 +11,7 @@ arrangement: 황찬희, 양경주
 youtube: oSz0UF8D1oE?si=Y1Sd6OOciqxM8hgj
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 처음 고백하던 날처럼 가슴이 떨려주길
 매일 아침 내게 사랑해 그 말로 날 깨워주길

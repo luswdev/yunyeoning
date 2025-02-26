@@ -11,7 +11,7 @@ arrangement: 김용
 youtube: k1zOYKfKTKc?si=VEG9b0aZJILv7HYG
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 매일 치열하게 살아 올라서려 했던 곳
 그곳엔 내가 없었지

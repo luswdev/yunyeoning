@@ -11,7 +11,7 @@ arrangement: 강화성
 youtube: pnUIVbx-NU0?si=oHyiESOvKh7Humr3
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 어쩌면 이렇게 날 아프게하니
 또 한번 날 울려놓니

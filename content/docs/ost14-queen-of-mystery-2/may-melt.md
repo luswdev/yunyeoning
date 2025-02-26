@@ -11,7 +11,7 @@ arrangement: 알고보니 혼수상태
 youtube: 6ATTXaj4n0c?si=-2zEybgR_rjCSwY6
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 녹을지 몰라요
 나도 날 몰라요

@@ -11,7 +11,7 @@ arrangement: YUKIYANAGI & Moon Jelly
 youtube: IwXe8Jd7q3Y?si=f7wih83h62sbrUoL
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 긴 머리 가는 손 조그맣고 예쁜 코
 수줍게 웃는 얼굴 동그란 눈

@@ -11,7 +11,7 @@ arrangement:
 youtube: MHYKGM5PruI?si=fMhMx_KDd6pt502Y
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 그대의 하루는 아름다웠나요
 어제와 달라진게 있던가요

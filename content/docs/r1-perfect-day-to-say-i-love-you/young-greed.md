@@ -11,7 +11,7 @@ arrangement: 이상호
 youtube: iggV0I7C80k?si=FValXiPOvY-1a1JP
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 아무래도 큰일이야
 요즘 들어 자꾸 내가

@@ -11,7 +11,7 @@ arrangement: JEWON, 박중훈
 youtube: DRA4zH0A3RM?si=aKeevRYivA0Z3ze7
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 여기까지가 끝인가 보오
 이제 나는 돌아서겠소

@@ -11,7 +11,7 @@ arrangement: GroovyRoom
 youtube: ImnohMZZJcc?si=oINm0-y918Ud-lm3
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 나는 그래
 나는

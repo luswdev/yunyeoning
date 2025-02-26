@@ -11,7 +11,7 @@ arrangement: Score, Megatone
 youtube: 6MfCjyV_Ioc?si=_gucVEXjCp_N65x3
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 한 아이가 울고 있네요
 벽 끝에 기대서 소리도 없이 바닥을 적셔요

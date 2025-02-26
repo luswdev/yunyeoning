@@ -11,7 +11,7 @@ arrangement: DOKO, 사승호
 youtube: gWHgpJ3m-x8?si=F6RXPnDPpRBvQY03
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 문득 생각이나요
 우리 헤어지던 날

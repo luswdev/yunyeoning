@@ -11,7 +11,7 @@ arrangement: BOYCOLD
 youtube: T4An5oxRJ4w?si=sarTKH_WrdromHvN
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 So let me go outside please set me free
 길어져 가는 밤의 끝에 맺힌 한숨이

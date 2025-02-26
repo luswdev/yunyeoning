@@ -11,7 +11,7 @@ arrangement: 송양하, 김재현, Brand Newjiq
 youtube: vjk_4EodLEQ?si=TVkX_4aEpkMQEY4w
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 스쳐가는 바람마저 아팠었고
 식어가는 햇살마저 뜨거웠지

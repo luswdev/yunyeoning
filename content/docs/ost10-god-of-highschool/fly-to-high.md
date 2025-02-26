@@ -11,7 +11,7 @@ arrangement: 김도형
 youtube: nsPevDF7cZU?si=wRZoGtpm8uwKaUpX
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 마음속에 피어난 소원이
 바람가득 밀려와

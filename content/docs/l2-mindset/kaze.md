@@ -11,7 +11,7 @@ arrangement: 박중훈
 youtube: hmkyP9yHzNQ?si=9aHmpnKnJbzwltkg
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 하루가 시작된 거리 그 틈 속에서
 바람이 불어들 때

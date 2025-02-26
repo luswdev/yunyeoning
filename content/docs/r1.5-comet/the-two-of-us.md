@@ -11,7 +11,7 @@ arrangement: 田村直貴
 youtube: i4rMz_rzZMw?si=OaPJbCybezVTUoAG
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 언제나 항상 말없이 고개 숙이며
 한걸음 앞으로 나갈 용기가 없어

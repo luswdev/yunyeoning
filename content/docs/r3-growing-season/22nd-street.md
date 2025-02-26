@@ -11,7 +11,7 @@ arrangement: 이관
 youtube: vx8zBqLr4Kw?si=FVn4U6g1Z8bWusM9
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 차가운 창 밖으로 하나 둘
 하얗게 새어가는 별들에

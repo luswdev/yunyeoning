@@ -11,7 +11,7 @@ arrangement: 다비
 youtube: QhlXp6S2re8?si=AV68oiWvMH0jNw9k
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 깜빡거리는 가로등불
 얼마 못 가 빛을 잃겠지

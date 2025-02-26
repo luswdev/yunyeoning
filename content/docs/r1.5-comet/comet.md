@@ -11,7 +11,7 @@ arrangement: 田中直
 youtube: ZnR0JiQGxRE?si=kTBKGHaVNIbvPOqk
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 어두운 하늘을 날아다니는
 저 빛나는 별을 타고서

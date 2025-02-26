@@ -11,7 +11,7 @@ arrangement: 브라더수
 youtube: XJcC2fYmr28?si=M-0X56X8bBiD1Sgn
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 할 일이 너무 많아
 짜증이 늘어만 가

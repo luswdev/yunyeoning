@@ -11,7 +11,7 @@ arrangement: Score, 정수완, 김병석
 youtube: za0Wd7EEbbs?si=8rdDo51cu6qGiCuD
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 ok we got the fresh style
 jay park and yoonha man

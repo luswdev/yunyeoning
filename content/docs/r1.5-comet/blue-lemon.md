@@ -11,7 +11,7 @@ arrangement: 松原憲
 youtube: TfANLHkvBmk?si=dr0WGsQ2Rms3Au9m
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 아이처럼 그대의 품에서 오늘만은 다시 돌아가고 싶어요
 그대 곁에 조금 더 머물고 싶어 초록빛깔 바람이 불어요

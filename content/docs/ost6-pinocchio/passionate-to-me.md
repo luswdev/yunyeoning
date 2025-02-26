@@ -11,7 +11,7 @@ arrangement: 와사비사운드
 youtube: 7qvmNg1omlA?si=mvUfWwwiOPBf8K4X
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 아나요 이 사랑의 포근함을 아나요
 이 순간의 따뜻함을 그대는

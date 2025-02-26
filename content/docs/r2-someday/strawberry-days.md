@@ -11,7 +11,7 @@ arrangement: 조규찬
 youtube: 9_RkoPvSjpQ?si=t6O6zAAaysZ7Z7Ru
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 낯선 내 이름을 기억하고 있을지 몰랐어
 흔한 포니테일에 숨은 내게 관심을 보인 너

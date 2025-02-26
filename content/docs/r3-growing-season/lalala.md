@@ -11,7 +11,7 @@ arrangement: 이관
 youtube: UUr38pr74n0?si=C63mwPtL17ssQaHN
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 하루종일 니 생각에
 손에 잡히는게 하나도 없어

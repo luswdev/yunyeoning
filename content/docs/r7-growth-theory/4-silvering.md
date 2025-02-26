@@ -12,7 +12,7 @@ arrangement: "JEWNO, 이신우"
 youtube: "UzFh_xQgkxs?si=FxpA9u30PS26QDIT"
 ---
 
-# 歌詞 (中譯待補)
+### 歌詞 (中譯待補)
 
 오늘이 오기만을 기다려왔어  
 하루가 멀어서 진작 준비 끝  

@@ -11,7 +11,7 @@ arrangement: Score, 김병석, 적재
 youtube: 6jC7mNM6dkE?si=xEvE2dXSvSXushyY
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 작은 꿈이 있었지 가끔
 생각나곤 해 마치 뭐에

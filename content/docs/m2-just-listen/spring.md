@@ -11,7 +11,7 @@ arrangement: Score
 youtube: o9SujOQXfgk?si=_JCYAdbY-UIWRNLz
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 꽃이 피고 지는 순간을
 당연하게 받아들이며

@@ -11,7 +11,7 @@ arrangement: 타블로
 youtube: ywH06E45qJo?si=n2pJcWNY0x1CFgbW
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 그가 미소지어도
 내 눈은 그대 그대가 웃고있죠

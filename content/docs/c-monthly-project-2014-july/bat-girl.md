@@ -11,7 +11,7 @@ arrangement: Postino
 youtube: G33TFjhvq7o?si=lO5rXF6V6s7csuE2
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 벌써 우리 두 달째인데
 뭐 하는 거야 oh

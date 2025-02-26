@@ -13,7 +13,7 @@ youtube: "BBdC1rl5sKY?si=EOLK1hYuvczYzrYX"
 
 <div class="lyric-body">
 
-# 韓中歌詞
+## 韓中歌詞
 
 생각이 많은 건 말이야  
 肯定會有很多想法的  
@@ -200,7 +200,7 @@ youtube: "BBdC1rl5sKY?si=EOLK1hYuvczYzrYX"
 
 </div>
 
-# 後記
+## 後記
 
 사건의 지평선 (Event Horizon/事件視界) 指的是黑洞外圍的界線，黑洞會將任意物質吸進去，一進去就再也出不來。  
 윤하 以此為題，繪畫出了一首描述離別的歌曲，並以輕快的旋律展現出**這不是終點，而是全新的開始**，呼應專輯名稱 *End Theory*。  
@@ -210,7 +210,7 @@ youtube: "BBdC1rl5sKY?si=EOLK1hYuvczYzrYX"
 
 這首歌在 3月發表，並在當年的年底逆行拿到各大音源的一位，相信也是為 윤하 帶來許多新的粉絲。  
 
-## 參考
+### 參考
 
 - [花生什麼素](https://home.gamer.com.tw/artwork.php?sn=5975250)
 - [나무위키](https://namu.wiki/w/END%20THEORY%20:%20Final%20Edition)

@@ -12,7 +12,7 @@ arrangement: "JEWNO"
 youtube: "46YuYoiyBcA?si=7Nj7sfDeuaU8VTOY"
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 천진했던 아이의 꿈은  
 드높이 자라났고  

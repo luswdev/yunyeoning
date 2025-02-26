@@ -11,7 +11,7 @@ arrangement: Score, 김병석
 youtube: weebKkT-IUU?si=chGtw8k_26tMIqz6
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 아무 미련 없이 hey
 내 몸에 기대

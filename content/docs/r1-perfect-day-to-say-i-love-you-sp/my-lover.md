@@ -11,7 +11,7 @@ arrangement: 田中ユウスケ
 youtube: 713eetEWRh0?si=x4OxSOOLct73cBum
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 I was g girl playing with a boyfriend
 

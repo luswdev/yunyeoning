@@ -11,7 +11,7 @@ arrangement: 정수민, KZ
 youtube: hDRUSK5UpjU?si=hgLSF9RlitPu9QVm
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 어쩌다 그댈 사랑하게 된 거죠
 어떻게 이렇게 아플 수 있죠

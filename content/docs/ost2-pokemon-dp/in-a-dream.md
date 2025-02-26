@@ -11,7 +11,7 @@ arrangement: 심태현
 youtube: F31vHSX22h0?si=bd6SuoaGjvGkFt5t
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 달이 저무는 밤
 밝아 오는 새벽빛이

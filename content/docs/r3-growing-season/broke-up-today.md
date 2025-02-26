@@ -11,7 +11,7 @@ arrangement: 이관
 youtube: f8ymKHxUV_8?si=I9pTDr46PB5nMjNs
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 새하얀 머플러에 얼굴을 묻고
 붉어진 눈을 깜빡이며 널 기다렸어

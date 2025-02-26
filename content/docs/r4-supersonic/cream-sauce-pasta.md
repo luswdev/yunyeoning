@@ -11,7 +11,7 @@ arrangement: Score
 youtube: MicrnoPopM4?si=zHsbVypvCDUqAqAS
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 혼자라는 걸 문득
 깨닫고서 그만

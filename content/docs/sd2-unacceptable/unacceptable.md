@@ -11,7 +11,7 @@ arrangement: 돈 스파이크
 youtube: bUa4RHuTJpo?si=wZ7aXHw8mP0xVbam
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 모자란가 봐 내 모습이 너에게 나는
 우리 영원히 아무 일 없을 거라 생각했는데

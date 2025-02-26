@@ -11,7 +11,7 @@ arrangement: Lohi
 youtube: s-HyBDrdHek?si=xkfPHTfD0PQ2hjhP
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 이상했어
 오늘따라 네가

@@ -11,7 +11,7 @@ arrangement: Yoshihito Onda
 youtube: vitq85AFMfA?si=37vGwz3q8K5HUCZh
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 숨 한번 크게 쉬고 다짐했어
 하지만 무심한 너의 눈을 바라보니

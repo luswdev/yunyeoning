@@ -11,7 +11,7 @@ arrangement: 전준규
 youtube: gZXFMHH2TPM?si=J2RCMfuFaCwWiM4a
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 별빛이 반짝이던 그 어느 날
 내 심장을 멈추게 했던 그 사람

@@ -11,7 +11,7 @@ arrangement: JOKER
 youtube: K-ax_xbmUkM?si=HiZRNMDRlInlihdw
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 그녀와 나는요 그땐 참 어렸어요
 많이 사랑했고 때론 많이 다퉜었죠

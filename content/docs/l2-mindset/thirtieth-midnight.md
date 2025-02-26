@@ -11,7 +11,7 @@ arrangement: 박중훈, 백경진
 youtube: mPmGXcDwq-s?si=gMP50HBlUsxOuMqP
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 가만히 누워있길
 딱 세 시간째

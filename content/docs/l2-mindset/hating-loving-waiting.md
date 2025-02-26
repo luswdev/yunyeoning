@@ -11,7 +11,7 @@ arrangement: 박중훈
 youtube: se4DFfvvQnM?si=JVMbfzliqdv9EtiX
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 [미워하다]
 어쩌면 이렇게 날 아프게 하니

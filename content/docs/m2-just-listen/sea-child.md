@@ -11,7 +11,7 @@ arrangement: 김병석
 youtube: V3xxsba4Ucg?si=WgwcuTHpkhYzLUiz
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 숨을 참고 눈을 감고 귀를 닫고 그 곳으로 갈거야
 너를 안고 손을 잡고 그 곳으로

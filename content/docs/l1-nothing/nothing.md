@@ -11,7 +11,7 @@ arrangement: 김용
 youtube: -yk9dPdJ5O0?si=MDJ_o9vO_rqq0ovm
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 바람은 불어 창밖에 있지만
 너와 나 사이를 시리도록 베고 가네 차갑게

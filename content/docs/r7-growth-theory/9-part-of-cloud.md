@@ -12,7 +12,7 @@ arrangement: "윤하"
 youtube: "GiyZ0yQ4090?si=SR1JroCVu4YxmGRk"
 ---
 
-# 歌詞 (中譯待補)
+### 歌詞 (中譯待補)
 
 그만 울어도 돼 별일이 아니니  
 마음이 얼기설기 얽혀 있을 뿐이니  

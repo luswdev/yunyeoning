@@ -11,7 +11,7 @@ arrangement: 황성제
 youtube: NQPKNQnN-DM?si=W0KwFiHr3BLGTkyS
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 하루에도 수십번씩
 너에 대해 말을 해

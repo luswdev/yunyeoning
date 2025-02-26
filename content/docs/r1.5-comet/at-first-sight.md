@@ -11,7 +11,7 @@ arrangement: 양경주
 youtube: wacBy014pZw?si=aasZu7k3KgO1Btum
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 첫눈에 난 알았죠
 사랑하게 될 줄을

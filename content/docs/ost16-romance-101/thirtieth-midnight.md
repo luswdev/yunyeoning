@@ -11,7 +11,7 @@ arrangement: 박민주
 youtube: oHwAFSpEmPA?si=BLm1AmZJNvMycL4R
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 가만히 누워있길
 딱 세 시간째

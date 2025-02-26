@@ -12,7 +12,7 @@ arrangement: "JEWNO"
 youtube: "X88F1CVGd8w?si=YHPxNd5c9WpCz-Y1"
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 뭐랄까  
 구름이 걷히고 운이 좋으면  

@@ -12,7 +12,7 @@ arrangement: "Scott Stoddart"
 youtube: "30B2mLgg3Pw?si=O2BbHP46K_otHj76"
 ---
 
-# 歌詞 (中譯待補)
+### 歌詞 (中譯待補)
 
 하, 이걸 어째 나  
 또 한 단계 성장해버린 거잖아  

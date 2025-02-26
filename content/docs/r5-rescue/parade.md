@@ -11,7 +11,7 @@ arrangement: GroovyRoom
 youtube: 7bPffIZot10?si=T10acg2h0MxlXBeE
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 진짜 놀란 게 뭔지 아니
 알람이 다정한 거 설레는 거

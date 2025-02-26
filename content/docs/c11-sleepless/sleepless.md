@@ -11,7 +11,7 @@ arrangement: 에피톤 프로젝트
 youtube: hSj5-DMvYmU?si=2gLRqwrBt3UZ9SdF
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 어김없이 뒤척이다
 잠에서 깨어나

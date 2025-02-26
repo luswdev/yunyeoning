@@ -11,7 +11,7 @@ arrangement: GroovyRoom
 youtube: RN1xuMWSQQk?si=tIgMuWn1hHDAFm1o
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 다시 돌아온 계절이
 무색해지는 달력이

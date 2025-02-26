@@ -11,7 +11,7 @@ arrangement: 이관
 youtube: _2wbsVTeWcs?si=MaH04pdN2I6WNkgs
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 나의 Peace Love & Icecream
 잠에 푹 빠져든 편한 미소

@@ -11,7 +11,7 @@ arrangement: 황찬희, 양경주
 youtube: oyA7m7F9HPI?si=gtQl9boCBqtySf2P
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 뒤돌아 서는 연습을 하고
 나 그댈 보낼 준비를 하죠

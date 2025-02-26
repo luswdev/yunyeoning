@@ -11,7 +11,7 @@ arrangement: "양경주"
 youtube: "HBV_hwwMnuI?si=3X_DSnQ0jimniLau"
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 평범한 척 조용히
 사는 건 따분하고 지루해

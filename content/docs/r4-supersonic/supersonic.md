@@ -11,7 +11,7 @@ arrangement: Score, 김병석, 적재
 youtube: dxc3A63WkIE?si=X25Sosf6DITmQxrt
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 조금만 기다려 늦진 않았을 테니
 Cuz I say

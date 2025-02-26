@@ -11,7 +11,7 @@ arrangement: 김병석, 적재
 youtube: Yxe2ZywcEtU?si=n1_lMNRwccNhdeNJ
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 다 잊었다고 난 생각 했나봐
 내 마음조차 날 속였었나봐

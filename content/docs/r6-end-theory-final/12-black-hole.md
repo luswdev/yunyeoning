@@ -12,7 +12,7 @@ arrangement: "JEWNO , SHAUN"
 youtube: "3XZLVtZeNFw?si=TGm5x2uC6aK_PQYK"
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 나를 만나기 전 여긴 어땠어?  
 우연히 시작됐던 운명일까  

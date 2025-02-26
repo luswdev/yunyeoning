@@ -12,7 +12,7 @@ arrangement: "JEWNO , 이신우"
 youtube: "MvWEe3Q89GE?si=PxnM6cLdJ5RRewBm"
 ---
 
-# 歌詞 (中譯待補)
+### 歌詞 (中譯待補)
 
 전례 없던 도전이면  
 선례 없인 불안하지  

@@ -11,7 +11,7 @@ arrangement: 황찬희, 양경주
 youtube: lAfvG5lxZXA?si=aiPsfyg0HEfKQf15
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 I cry I cry 두 번 다시는
 울지 않겠단 약속도 했는데

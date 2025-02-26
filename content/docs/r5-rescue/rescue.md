@@ -11,7 +11,7 @@ arrangement: BOYCOLD
 youtube: ThyVyzvrW-s?si=SzDgOj6rNzMufA9p
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 I lost my aim to find another reason
 A long way to come

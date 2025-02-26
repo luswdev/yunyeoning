@@ -11,7 +11,7 @@ arrangement: 꿀단지
 youtube: gERAJuzPX4M?si=hXgQwfa9wimRuCzP
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 새벽과 아침이 마주친 순간
 그 기적이 빛이 되어

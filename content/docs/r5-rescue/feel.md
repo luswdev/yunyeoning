@@ -11,7 +11,7 @@ arrangement: Vangdale
 youtube: lhARSgayP6Y?si=oMAUH59G47fiS8hH
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 녹아내렸어 내 맘이
 나는 놀랐어 널 본 사이

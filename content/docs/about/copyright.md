@@ -1,12 +1,11 @@
 ---
-weight: 990000000001
 title: "版權聲明"
+subtitle:
 description: ""
 icon: "article"
-date: "2025-02-25T09:44:30+08:00"
-lastmod: "2025-02-25T09:44:30+08:00"
-draft: false
-toc: true
+weight: 990000000001
+date: 2025-02-26
+images: []
 ---
 
 此網站**非**官方網站，為粉絲自製網站。所有圖片以及其他版權皆為 [C9 ent.](http://c9ent.co.kr/) 所有，若有版權以及相關疑問歡迎來信:

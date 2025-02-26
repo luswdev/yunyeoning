@@ -11,7 +11,7 @@ arrangement: 이관
 youtube: 5QIUGp2GOEQ?si=l3Le6xOmz49-trnJ
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 아침 햇살이 날 비추는
 유난히 기분 좋은 날

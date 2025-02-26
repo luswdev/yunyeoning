@@ -11,7 +11,7 @@ arrangement: 황찬희, 양경주
 youtube: D9tecCjqCvU?si=HwxnflaPnfG8x2q5
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 처음 고백하던 날처럼
 가슴이 떨려주길

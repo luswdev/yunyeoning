@@ -11,7 +11,7 @@ arrangement: Score, 이태욱
 youtube: 16pfpJUqu4A?si=CIJTdAJHcWy10wc4
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 바람이 불어 계절이 변해가
 시간은 흘러 너를 더 멀리 데려가

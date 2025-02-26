@@ -11,7 +11,7 @@ arrangement: 박중훈
 youtube: B0XRql8-ebI?si=2hZ_yFOUg4vNwxV1
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 있잖아 지금 난
 누군갈 그렇게

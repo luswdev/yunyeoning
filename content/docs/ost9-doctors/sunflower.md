@@ -11,7 +11,7 @@ arrangement: 조영수, 한길
 youtube: 6VKC8h_-VL8?si=3dlaU0nSvAgmgj_n
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 어제 아픔에
 멍하니 서있지마

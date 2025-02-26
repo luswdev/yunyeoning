@@ -11,7 +11,7 @@ arrangement: Ollounder, LEEZ, 이든
 youtube: OcCkAG_LO9Y?si=WMIr6nsyWzc3hFCz
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 시린 겨울바람 깊은 발자국 아래
 홀로 피어나

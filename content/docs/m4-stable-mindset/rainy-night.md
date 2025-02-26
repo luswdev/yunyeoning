@@ -11,7 +11,7 @@ arrangement: 윤하
 youtube: RZA5iYSOsNU?si=Y3TGICKbwtGMFKag
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 비가 오는 밤
 하루 종일 하늘에 구멍 난 듯이

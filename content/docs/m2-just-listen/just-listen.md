@@ -11,7 +11,7 @@ arrangement: Score
 youtube: xiD3i69u3vU?si=XaoIUqbJjbCLvt3F
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 문을 열어둘게 언제든 들어와도 돼
 취해 볼래 진한 깊이에 아무것도 필요없어

@@ -11,7 +11,7 @@ arrangement: 김병석
 youtube: jLqRIf5TY50?si=WYblpEHW9KpFN470
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 이른 아침에 눈을떠 전화기를 들뻔했어
 어젯밤에 보았던 영화가 너무

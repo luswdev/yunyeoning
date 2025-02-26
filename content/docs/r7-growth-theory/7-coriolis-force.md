@@ -12,7 +12,7 @@ arrangement: "JEWNO"
 youtube: "CfJQpm8UZWo?si=KkdYoIzeAQ12HRyi"
 ---
 
-# 歌詞 (中譯待補)
+### 歌詞 (中譯待補)
 
 Almost done  
 Very close  

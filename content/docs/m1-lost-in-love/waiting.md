@@ -11,7 +11,7 @@ arrangement: 홍준호
 youtube: OxTIbMZyFwI?si=6is4dC4GXRy5m3qK
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 어쩌다 그댈 사랑하게 된 거죠
 어떻게 이렇게 아플 수 있죠

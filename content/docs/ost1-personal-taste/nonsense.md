@@ -11,7 +11,7 @@ arrangement: 이관
 youtube: vc7sbQeLE78?si=Tur2rNRTCE3qtdIk
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 말도 안돼 나도 몰래 너만 바라보게 됐어
 미워해봐도 애를 써봐도 숨겨봐도 안되는걸

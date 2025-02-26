@@ -11,7 +11,7 @@ arrangement: HQM, 이연준
 youtube: 16sXoYFWL4c?si=xQ4fDziW-32IaDA2
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 내겐 좋은 사람이 많다고 생각해
 쉽지 않은 건 같은 자리에 있었어

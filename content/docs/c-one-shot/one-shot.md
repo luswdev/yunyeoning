@@ -11,7 +11,7 @@ arrangement: 홍준호
 youtube: wd6hcMUs0K0?si=ASD5IJ0gp8f_4bjL
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 이젠 더는 못 참아
 무심한 눈으로 자꾸 보잖아

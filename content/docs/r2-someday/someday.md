@@ -11,7 +11,7 @@ arrangement: 이관
 youtube: w-XrhyjpANM?si=gmrAyO8UUpQjKKo9
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 세상을 다 가진 듯 난 자신있다고
 겁 없이 난 어른이 되고

@@ -11,7 +11,7 @@ arrangement: Score
 youtube: 3NJ3m3xTrlc?si=I1bPFNOq_1b7fdiW
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 숨이 차올라
 걸음을 멈출 때

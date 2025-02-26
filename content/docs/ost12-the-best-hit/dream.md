@@ -11,7 +11,7 @@ arrangement: 이승주, 이라음
 youtube: IQU9m2-kkJM?si=S5RRfeQGomd02RqP
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 잡을 수 있을 거라 생각했어
 내가 꿈꿔온 순간들

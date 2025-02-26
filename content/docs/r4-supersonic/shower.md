@@ -11,7 +11,7 @@ arrangement: Score, 김병석, 적재
 youtube: QxlcV3h2NPs?si=LAhKwU-DkAA2NauS
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 눈을 뜨다
 가슴이 울컥 멎어

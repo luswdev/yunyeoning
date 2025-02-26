@@ -12,7 +12,7 @@ arrangement: "JEWNO"
 youtube: "QIB714JSz1k?si=vK3uLIqRpHuFtt0g"
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 가지 못해 지난 그 길론  
 움켜쥐지 못해 흘러버릴 뿐  

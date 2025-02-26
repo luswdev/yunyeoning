@@ -11,7 +11,7 @@ arrangement: 권순관
 youtube: CB6UfM70HMs?si=6TkyOsfsrvFU2rnw
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 온종일 너의 생각에
 마음이 가득찼던 내 하루

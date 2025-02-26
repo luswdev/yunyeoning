@@ -11,7 +11,7 @@ arrangement: 이건영
 youtube: uBGKjMzibjQ?si=3Dg7YTYWeQ_XX1nE
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 그대가 길을 잃었을 때
 빛으로 비춰 주리

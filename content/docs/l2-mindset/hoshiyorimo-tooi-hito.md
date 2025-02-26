@@ -11,7 +11,7 @@ arrangement: 박중훈
 youtube: _T4Y3CUPpaE?si=rtHsma9cFONhlSIj
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 한참을 바라봐도 눈이 마주치면
 없었던 일처럼 고개를 돌리죠

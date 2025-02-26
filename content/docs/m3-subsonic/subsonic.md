@@ -11,7 +11,7 @@ arrangement: Score
 youtube: 9IP2gEekQn4?si=ugx3Sjcp5ExfDJIL
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 순간의 헤어짐은 추억이 되고
 추억의 설레임은 날 이끌어줘

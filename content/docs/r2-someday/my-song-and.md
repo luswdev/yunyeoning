@@ -11,7 +11,7 @@ arrangement: 김보민
 youtube: lyIDP_JABVs?si=G3QnDaxqcFJFjNLb
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 I made a song for you my friend
 I made a song that I will sing for you

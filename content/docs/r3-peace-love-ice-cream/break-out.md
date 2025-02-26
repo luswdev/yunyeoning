@@ -11,7 +11,7 @@ arrangement: Fredrik Hult, Shusui Kosugi, Tebey
 youtube: IXAYNhGbuuc?si=9ZQFT3C6muP3pCYr
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 사람들은 나에게
 정신 차리라 했지

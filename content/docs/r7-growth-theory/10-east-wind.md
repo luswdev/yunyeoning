@@ -12,7 +12,7 @@ arrangement: "JEWNO"
 youtube: "eAxE1sObDPM?si=jLA30G1XJYSAE_gU"
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 붉은 시작 검은 끝이  
 존재하는 세상의 매일에  

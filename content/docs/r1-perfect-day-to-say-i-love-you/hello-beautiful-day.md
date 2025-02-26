@@ -11,7 +11,7 @@ arrangement: 허니사운드
 youtube: bTTlh9mVysU?si=q1eAwicXYj0eMqrO
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 저 멀리 보이는
 그대의 뒷모습에

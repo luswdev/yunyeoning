@@ -11,7 +11,7 @@ arrangement: 황찬희, 양경주
 youtube: Shw41ACKY6A?si=XgDPYH2KNqKBoqEU
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 너를 본 적 있어 그 시선도
 왠지 모든 게 다 익숙해

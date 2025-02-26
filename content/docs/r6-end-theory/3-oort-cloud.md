@@ -12,7 +12,7 @@ arrangement: "JEWNO"
 youtube: "TqFLIZG_aXA?si=GAVElcvG9aNNBRAm"
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 어둠만이 나의 전부였던 동안  
 숨이 벅차도록 달려왔잖아  

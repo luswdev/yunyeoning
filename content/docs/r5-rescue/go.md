@@ -11,7 +11,7 @@ arrangement: BRLLNT
 youtube: j6mlQuUjGCo?si=6k4L9oCzWZLia7Gx
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 미안하다는 사과도
 잘하겠다는 네 말도

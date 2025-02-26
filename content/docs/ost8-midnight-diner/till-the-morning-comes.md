@@ -11,7 +11,7 @@ arrangement: 김현보
 youtube: 2ohohc-H37c?si=ugIQ0aHMWX-_qkxo
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 기나긴 하루 지나고
 대지 위에 어둠이

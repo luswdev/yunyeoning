@@ -11,7 +11,7 @@ arrangement: 이관
 youtube: IpGobyWJOck?si=oxGLcHyK28CZA5Gt
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 내가 미안했다고
 진심을 다 말하고

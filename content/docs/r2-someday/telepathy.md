@@ -11,7 +11,7 @@ arrangement: 이관, 정수완
 youtube: aZ9jVTtd6yY?si=TpbuAvbl1pIdnhBG
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 도대체 몇 번짼지 몰라
 똑같이 전화 거는 너와 나

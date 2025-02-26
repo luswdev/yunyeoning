@@ -12,7 +12,7 @@ arrangement: "SHAUN"
 youtube: "SJeK598YeQQ?si=5XSbDf_DbCGIuRKm"
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 여기로 가다 보면  
 결국 끝은 오겠지  

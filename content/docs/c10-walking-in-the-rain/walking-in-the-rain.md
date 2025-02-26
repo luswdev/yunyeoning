@@ -11,7 +11,7 @@ arrangement: 챈슬러
 youtube: U9rIANptrzE?si=wVuHmrZS42tWT4Ws
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 아침에 날 깨우는
 따듯한 목소리는

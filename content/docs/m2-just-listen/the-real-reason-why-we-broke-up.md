@@ -11,7 +11,7 @@ arrangement: Score
 youtube: qwHnHYPdSQI?si=fY00AskdnpuGFWxu
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 우리가 헤어진 진짜 이유 너는 알고 있을까
 아마 지금의 너에겐 아무런 상관이 없겠지

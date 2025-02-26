@@ -11,7 +11,7 @@ arrangement: 박우상 (LOGOS), 한재완
 youtube: w4yqqguVEUg?si=youTPy4C5IIrfrAQ
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 삼킬 수 없는 내 마음
 처연한 눈빛 숨기기 어려워

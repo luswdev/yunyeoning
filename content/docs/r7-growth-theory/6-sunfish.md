@@ -12,7 +12,7 @@ arrangement: "JEWNO, 숀, 이신우"
 youtube: "ehX7MAhc5iA?si=tBGWi5wQTpac81xp"
 ---
 
-# 歌詞 (中譯待補)
+### 歌詞 (中譯待補)
 
 매일이 좋을 순 없어도  
 가끔은 기대해  

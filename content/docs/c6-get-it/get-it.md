@@ -11,7 +11,7 @@ arrangement: 이우민 'collapsedone', FRANTS
 youtube: aeo_nWsu5cs?si=i_ThslblQOOrtk_b
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 그래 그렇겠지 그랬겠지 그럼 됐지
 니 말대로면 넌 innocent

@@ -11,7 +11,7 @@ arrangement: 박중훈
 youtube: Q4Xwg4r_M4k?si=BIrOoi20J3Y5VCvF
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 이상했어 오늘따라 네가
 차가워진 기분에

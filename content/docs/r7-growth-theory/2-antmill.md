@@ -12,7 +12,7 @@ arrangement: "이하은"
 youtube: "Kv_zcoq6190?si=g39mdNwWlrTUt9uZ"
 ---
 
-# 歌詞 (中譯待補)
+### 歌詞 (中譯待補)
 
 여긴 어디 난 누구  
 정신 차려보니 같은 반복  

@@ -11,7 +11,7 @@ arrangement: 박용준
 youtube: 2BNzdUwfedQ?si=_W4SWmL2iwTQ9hFD
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 조금은 나 기대했나봐
 새로 한 머리 새 구두

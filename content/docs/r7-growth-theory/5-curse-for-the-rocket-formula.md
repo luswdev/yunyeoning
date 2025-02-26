@@ -12,7 +12,7 @@ arrangement: "JEWNO"
 youtube: "Ox_wfL_JJy0?si=0wOKUYani6b4o1ya"
 ---
 
-# 歌詞 (中譯待補)
+### 歌詞 (中譯待補)
 
 알고 있니?  
 꿈과 이상의 차인 뭘까  

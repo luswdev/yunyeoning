@@ -11,7 +11,7 @@ arrangement: 김보민
 youtube: TT8t4K6wV1s?si=3r00BscqVWQuPD5-
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 먼지 쌓인 책장 한 켠에
 어린 나의 친구 앨리스

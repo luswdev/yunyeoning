@@ -12,7 +12,7 @@ arrangement: "JEWNO"
 youtube: "SIUaE6C3GPw?si=Fu0BfxyWjvfIvN9x"
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 한순간 사라진 Cloud  
 오래 기다려 왔어  

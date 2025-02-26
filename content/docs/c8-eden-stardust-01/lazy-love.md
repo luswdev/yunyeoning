@@ -11,7 +11,7 @@ arrangement: 이든, BUDDY
 youtube: 2f4DRTGiogY?si=pGmHx4oXdvhvnOOs
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 하루 종일 니 눈을 바라봐도
 지루하지 않아 난 그래

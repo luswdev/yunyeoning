@@ -11,7 +11,7 @@ arrangement: Score, 김병석, 적재
 youtube: TzQeTJBodbw?si=hKmSKOLMYAIaOehZ
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 Hope
 

@@ -11,7 +11,7 @@ arrangement: 강욱진
 youtube: lpM26RvU7Ow?si=3vjTscM1rL30Zngd
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 걷다
 맛집을 찾아

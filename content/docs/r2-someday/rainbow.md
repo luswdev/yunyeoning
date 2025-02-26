@@ -11,7 +11,7 @@ arrangement: 이관
 youtube: EFwx7MT5yHs?si=P_w5wdFz3vxXn7pg
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 한 방울 두 방울 떨어지는
 빗소리 마저 설레였던 밤

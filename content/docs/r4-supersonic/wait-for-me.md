@@ -11,7 +11,7 @@ arrangement: Score, 김병석, 적재
 youtube: aIxzrJsOBW8?si=_ffcqSdMYAbOXv_Y
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 그리워 처음으로 하는 말
 내게는 어울리지 않던 말

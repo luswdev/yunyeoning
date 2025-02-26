@@ -11,7 +11,7 @@ arrangement: 田中直
 youtube: i5WyCDUCxXI?si=D1XMVfmbcKBdGEfv
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 언제부터였을까 하루 종일 너를 바라만 보는 내 모습이
 멈춰 지지가 않아 여기까지 온 건 혹시 니가 알아줄까봐

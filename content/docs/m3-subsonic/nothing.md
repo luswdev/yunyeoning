@@ -11,7 +11,7 @@ arrangement: Score, 원영헌
 youtube: 4ns9rA0OSFM?si=o-MZIBOzE4uD-2d4
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 바람은 불어 창밖에 있지만
 너와 나 사이를 시리도록 베고가네 차갑게

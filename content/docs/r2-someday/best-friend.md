@@ -11,7 +11,7 @@ arrangement: 홍준호
 youtube: 0cZpyCesaRU?si=gtDf6SHkFYkfpJwC
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 난 가끔 외로울때 왜 너를 찾는지
 튕기면 왜 화가 나는지 난 모르겠어 어~

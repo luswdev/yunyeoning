@@ -12,7 +12,7 @@ arrangement: "JEWNO, 이하은"
 youtube: "Tuwkcti9cbU?si=FWMghL2Xb3JegdQu"
 ---
 
-# 歌詞 (中譯待補)
+### 歌詞 (中譯待補)
 
 무엇이 되기 위해 태어나 자라서  
 자란 김에 주어진 것들 사이에 피어나 버린 꽃  

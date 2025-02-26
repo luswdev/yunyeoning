@@ -11,7 +11,7 @@ arrangement: Score
 youtube: q8BbuREHe2s?si=Z_Re8NmYfG9nEkvl
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 안녕히 가세요 이제는 존댓말이 편할 테죠
 우리만 알던 그 언어들 그 비밀 얘기들

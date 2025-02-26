@@ -11,7 +11,7 @@ arrangement: 박중훈
 youtube: ww-E3_Tl3IQ?si=PITJx4NtWyDmcPvP
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 내 사랑이 사랑이 아니라고는 말하지 말아요
 보이지 않는 길을 걸으려 한다고

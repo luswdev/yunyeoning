@@ -11,7 +11,7 @@ arrangement: 79
 youtube: 5XYUwD2i85Q?si=iygoF8PPv_xG4OrP
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 내 가슴이 이렇게
 아픈건지 몰랐어

@@ -11,7 +11,7 @@ arrangement: 박우상
 youtube: xAm59BGOKJo?si=2zorncSphYOwIfuQ
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 우리 이렇게 같이 걸을 땐
 공기가 달콤해

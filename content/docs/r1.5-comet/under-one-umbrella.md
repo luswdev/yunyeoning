@@ -11,7 +11,7 @@ arrangement: Mano Doi
 youtube: XsQIbPbhTng?si=Um-ooU5pAZsEmyAb
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 소리 없이 내려오는 비를 바라보며
 멍한 눈으로 서 있는 그대에게

@@ -12,7 +12,7 @@ arrangement: "Nthonius, Meisobo"
 youtube: "nIVWsVFtPOk?si=J3YaNdMU6qjG0ohU"
 ---
 
-# 歌詞 (中譯待補)
+### 歌詞 (中譯待補)
 
 어디 있다 나타났니  
 어떻게 찾아냈지  

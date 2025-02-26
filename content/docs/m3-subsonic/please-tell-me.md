@@ -11,7 +11,7 @@ arrangement: Score, 김용
 youtube: gM8xphEIquo?si=w86OrI776GxUn00D
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 안녕히 가세요
 이제는 존댓말이 편할테죠

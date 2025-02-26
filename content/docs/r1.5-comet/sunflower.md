@@ -11,7 +11,7 @@ arrangement: 江口亮
 youtube: V_AAiKL59vY?si=aBuuV9OYqfs1FlCd
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 파란 하늘 하얀 구름을 따라 끝없이 이어진 기나긴 언덕
 하늘 저 너머엔 언제나처럼 수줍게 미소 짓는 그대의 얼굴

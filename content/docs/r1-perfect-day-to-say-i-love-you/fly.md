@@ -11,7 +11,7 @@ arrangement: 양경주
 youtube: Xbx99ANHLBw?si=8r-QanM2HvUaiPlS
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 거칠은 숨을 한번 더 몰아 쉬어보고
 쉴틈도 없는 똑같은 하룰 또 보내고

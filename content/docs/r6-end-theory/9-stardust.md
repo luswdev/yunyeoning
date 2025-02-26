@@ -12,7 +12,7 @@ arrangement: "JEWNO"
 youtube: "CWTwiE15pdY?si=nvT1aA-rRAZRSPy1"
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 무슨 이유로 태어나  
 어디서부터 왔는지  

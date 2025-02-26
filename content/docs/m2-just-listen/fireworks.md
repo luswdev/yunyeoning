@@ -11,7 +11,7 @@ arrangement: 칵스
 youtube: ek5QyQJVruk?si=KPDrB6NG2EkfxYOZ
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 꽃이 핀 자리 그 곳에 불을 지피고
 시계바늘은 그대로 멈춰버리고

@@ -11,7 +11,7 @@ arrangement: 이관, 정수완
 youtube: 77SjBvJJzOY?si=XZP-TmVl2kgJEfrd
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 다신 어디도 갈 수 없어
 네가 올 것만 같아서

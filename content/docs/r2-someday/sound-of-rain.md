@@ -11,7 +11,7 @@ arrangement: 송영주
 youtube: emXAVntNHcM?si=9YFZVAad6l37xSxt
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 비오는 거릴걷다 수줍은 웃음이 나
 비좁은 우산속에 너와 내 모습

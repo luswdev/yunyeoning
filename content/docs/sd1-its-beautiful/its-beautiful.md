@@ -11,7 +11,7 @@ arrangement: 양찬우, 임지훈
 youtube: c9O5rvwlA9M?si=pUsORVk4F9GBq_Sw
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 want to be waterful
 I just wanna be with you

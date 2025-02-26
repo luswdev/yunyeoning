@@ -11,7 +11,7 @@ arrangement: 박중훈
 youtube: gvJ-Q0XdN-o?si=dnMGqP4GDQOGWpke
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 그만 멈춰야 할까
 어울리지 않아 내겐

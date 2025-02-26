@@ -11,7 +11,7 @@ arrangement: 이현승
 youtube: eCtLWQuHnPE?si=TUtIQuFdR-JQ-fVp
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 첫눈 오면 같이 걷자고 꼭 어김없이 둘이 오자던 그 텅 빈 거리엔
 너와 나눈 작은 반지와 다 엉켜버린 우리 추억만 꼭 안고 서 있네

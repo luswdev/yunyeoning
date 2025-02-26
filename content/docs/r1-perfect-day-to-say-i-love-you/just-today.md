@@ -11,7 +11,7 @@ arrangement: 황찬희, 양경주
 youtube: jnt3D2K0cO0?si=InkR37iHp6_fclIe
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 오늘만
 내 슬픔 모른 척 해줄래요

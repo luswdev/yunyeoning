@@ -11,7 +11,7 @@ arrangement: 백경진
 youtube: rKOgqOnKmJ4?si=ns8yo1dJhB4iqpkf
 ---
 
-# 韓中歌詞
+## 韓中歌詞
 
 안녕 오랜만이야
 

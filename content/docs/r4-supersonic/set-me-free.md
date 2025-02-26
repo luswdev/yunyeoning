@@ -11,7 +11,7 @@ arrangement: 김병석
 youtube: fJ6A5zxUM5c?si=8ROSXTelQ0Uetp2g
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 빛바랜 낡은기억
 멈춘 시계속

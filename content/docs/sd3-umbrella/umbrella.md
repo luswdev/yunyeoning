@@ -11,7 +11,7 @@ arrangement: philtre
 youtube: kTVvtlfU-Ts?si=HcfeXWCd694YN-_6
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 어느새 빗물이 내 발목에 고이고
 참았던 눈물이 내 눈가에 고이고

@@ -12,7 +12,7 @@ arrangement: "SHAUN, 김동민"
 youtube: "Tdiq7edlvHM?si=3MC2Vv6pVQfbU5-F"
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 구름이 걷힌 자리로 비추는 불빛  
 하나의 달과 그림잔  

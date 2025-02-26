@@ -11,7 +11,7 @@ arrangement: 타스코, 원매드
 youtube: -Vskj7divWk?si=hptnwGshdf2PgwFK
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 있잖아 지금 난
 누군갈 그렇게

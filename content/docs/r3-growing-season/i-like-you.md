@@ -11,7 +11,7 @@ arrangement: 이관
 youtube: ZeZI4eRTdwA?si=QV8RxGkatXwoOt3C
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 언제부턴지 나와 친해지자는
 여자들이 늘어났어

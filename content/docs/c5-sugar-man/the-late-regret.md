@@ -11,7 +11,7 @@ arrangement: 김형석
 youtube: K68rt-rjimE?si=YfL1jbn1It8Jmc1_
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 얼마나 한참을 서 있었는지
 멀리 너의 모습 보면서

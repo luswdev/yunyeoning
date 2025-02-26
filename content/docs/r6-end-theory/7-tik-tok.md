@@ -12,7 +12,7 @@ arrangement: "이하은, JEWNO, HIZON PATRICK DAEZ"
 youtube: "N6jwTgFA048?si=E_JsQsOjS4SWrdva"
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 tv만 보는 이 공기가  
 불편해진 건 조금 된 얘기  

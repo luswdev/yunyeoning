@@ -11,7 +11,7 @@ arrangement: DOKO, 사승호
 youtube: dejKNQJbI-Q?si=n8yJSTg2H0KP6ALP
 ---
 
-# 歌詞 (中譯待補)
+## 歌詞 (中譯待補)
 
 나를 대하는 사람들
 걱정해주는 말들

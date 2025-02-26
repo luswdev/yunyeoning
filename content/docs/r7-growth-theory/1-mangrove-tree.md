@@ -12,7 +12,7 @@ arrangement: "이하은, JEWNO"
 youtube: "2p2AiFY1Sm0?si=KOgwF_QG2X6q65jy"
 ---
 
-# 歌詞 (中譯待補)
+### 歌詞 (中譯待補)
 
 시작과 끝이 이어져 있다면  
 만물의 생은 정해져 있을까  
