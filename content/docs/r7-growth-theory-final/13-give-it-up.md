@@ -5,6 +5,7 @@ subtitle: "Give it up"
 icon: "genres"
 weight: 763
 date: 2024-11-14
+images: ["/docs/r7-growth-theory-final/growth-theory-final.jpg"]
 composition: "Aileen Dela Cruz, Vince Degiorgio, Scott Stoddart"
 lyric: "윤하"
 arrangement: "Scott Stoddart"
