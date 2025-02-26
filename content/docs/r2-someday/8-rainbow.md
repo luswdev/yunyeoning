@@ -5,7 +5,7 @@ subtitle:
 icon: "genres"
 weight: 208
 date: 2008-08-28
-images: ["/docs/r3-growing-season/growing-season.jpg"]
+images: ["/docs/r2-someday/someday.jpg"]
 composition: "이관"
 lyric: "박가영"
 arrangement: "이관"

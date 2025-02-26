@@ -5,7 +5,7 @@ subtitle: "English Ver."
 icon: "genres"
 weight: 213
 date: 2008-08-28
-images: ["/docs/r3-growing-season/growing-season.jpg"]
+images: ["/docs/r2-someday/someday.jpg"]
 composition: "김보민"
 lyric: "이숲"
 arrangement: "김보민"

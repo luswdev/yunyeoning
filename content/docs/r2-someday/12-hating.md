@@ -5,7 +5,7 @@ subtitle: "Hating"
 icon: "genres"
 weight: 212
 date: 2008-08-28
-images: ["/docs/r3-growing-season/growing-season.jpg"]
+images: ["/docs/r2-someday/someday.jpg"]
 composition: "윤하"
 lyric: "심재희"
 arrangement: "강화성"

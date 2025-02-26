@@ -5,7 +5,7 @@ subtitle:
 icon: "genres"
 weight: 203
 date: 2008-08-28
-images: ["/docs/r3-growing-season/growing-season.jpg"]
+images: ["/docs/r2-someday/someday.jpg"]
 composition: "황찬희"
 lyric: "최갑원"
 arrangement: "이관, 정수완"

@@ -5,7 +5,7 @@ subtitle: "Memory"
 icon: "genres"
 weight: 200
 date: 2008-08-28
-images: ["/docs/r3-growing-season/growing-season.jpg"]
+images: ["/docs/r2-someday/someday.jpg"]
 composition: "타블로"
 lyric: "타블로"
 arrangement: "타블로"

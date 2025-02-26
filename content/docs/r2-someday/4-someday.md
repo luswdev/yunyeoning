@@ -5,7 +5,7 @@ subtitle:
 icon: "genres"
 weight: 204
 date: 2008-08-28
-images: ["/docs/r3-growing-season/growing-season.jpg"]
+images: ["/docs/r2-someday/someday.jpg"]
 composition: "황찬희"
 lyric: "이숲"
 arrangement: "이관"

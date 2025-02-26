@@ -5,7 +5,7 @@ subtitle: "Sound Of Rain"
 icon: "genres"
 weight: 207
 date: 2008-08-28
-images: ["/docs/r3-growing-season/growing-season.jpg"]
+images: ["/docs/r2-someday/someday.jpg"]
 composition: "송영주"
 lyric: "심재희"
 arrangement: "송영주"

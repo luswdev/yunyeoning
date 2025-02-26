@@ -5,7 +5,7 @@ subtitle:
 icon: "genres"
 weight: 210
 date: 2008-08-28
-images: ["/docs/r3-growing-season/growing-season.jpg"]
+images: ["/docs/r2-someday/someday.jpg"]
 composition: "조규찬"
 lyric: "조규찬"
 arrangement: "조규찬"
