@@ -3,6 +3,7 @@ languageCode = 'en-us'
 title = 'Y.HOLICS 台灣粉絲站'
 contentDir = 'content'
 enableEmoji = true
+enableRobotsTXT = true
 
 [module]
     replacements = "github.com/colinwilson/lotusdocs -> lotusdocs"
