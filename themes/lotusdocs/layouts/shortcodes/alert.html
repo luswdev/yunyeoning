@@ -17,10 +17,10 @@
   {{- end -}}
   </div>
   {{ with .Get "text" }}
-  <div class="w-100">{{ . | $.Page.RenderString }}</div>
+  <div class="w-100 me-3">{{ . | $.Page.RenderString }}</div>
   {{ else }}
   {{ with .InnerDeindent }}
-  <div class="w-100">
+  <div class="w-100 me-3">
   {{ . }}
   </div>
   {{ else }}
