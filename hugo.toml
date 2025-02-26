@@ -18,6 +18,10 @@ enableEmoji = true
         [markup.goldmark.renderer]
             unsafe = true
 
+[services]
+    [services.googleAnalytics]
+        id = 'G-GCX6LZQLR2'
+
 [params]
     # Google Fonts
     google_fonts = [
