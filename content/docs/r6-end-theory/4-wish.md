@@ -1,14 +1,15 @@
 ---
-title: 물의 여행
-subtitle: Wish
-layout: song-view
-author: 윤하
+layout: "song-view"
+title: "물의 여행"
+subtitle: "Wish"
+icon: "genres"
+weight: 604
 date: 2021-11-16
-tags: end-theory
-composition: 윤하, JEWNO
-lyric: danke
-arrangement: JEWNO
-youtube: SIUaE6C3GPw?si=Fu0BfxyWjvfIvN9x
+images: ["/docs/r6-end-theory/end-theory.jpg"]
+composition: "윤하, JEWNO"
+lyric: "danke"
+arrangement: "JEWNO"
+youtube: "SIUaE6C3GPw?si=Fu0BfxyWjvfIvN9x"
 ---
 
 # 歌詞 (中譯待補)

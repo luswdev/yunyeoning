@@ -1,14 +1,15 @@
 ---
-title: P.R.R.W
+layout: "song-view"
+title: "P.R.R.W"
 subtitle:
-layout: song-view
-author: 윤하
+icon: "genres"
+weight: 601
 date: 2021-11-16
-tags: end-theory
-composition: 윤하, JEWNO
-lyric: 윤하, James Son
-arrangement: JEWNO
-youtube: QIB714JSz1k?si=vK3uLIqRpHuFtt0g
+images: ["/docs/r6-end-theory/end-theory.jpg"]
+composition: "윤하, JEWNO"
+lyric: "윤하, James Son"
+arrangement: "JEWNO"
+youtube: "QIB714JSz1k?si=vK3uLIqRpHuFtt0g"
 ---
 
 # 歌詞 (中譯待補)

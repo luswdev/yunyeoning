@@ -1,14 +1,15 @@
 ---
-title: Savior
+layout: "song-view"
+title: "Savior"
 subtitle:
-layout: song-view
-author: 윤하
+icon: "genres"
+weight: 611
 date: 2021-11-16
-tags: end-theory
-composition: James Son
-lyric: 윤하, James Son
-arrangement: SHAUN
-youtube: SJeK598YeQQ?si=5XSbDf_DbCGIuRKm
+images: ["/docs/r6-end-theory/end-theory.jpg"]
+composition: "James Son"
+lyric: "윤하, James Son"
+arrangement: "SHAUN"
+youtube: "SJeK598YeQQ?si=5XSbDf_DbCGIuRKm"
 ---
 
 # 歌詞 (中譯待補)

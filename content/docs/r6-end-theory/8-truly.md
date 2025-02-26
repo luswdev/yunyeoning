@@ -1,14 +1,15 @@
 ---
-title: Truly
+layout: "song-view"
+title: "Truly"
 subtitle:
-layout: song-view
-author: 윤하
+icon: "genres"
+weight: 608
 date: 2021-11-16
-tags: end-theory
-composition: 윤하
-lyric: 윤하
-arrangement: JEWNO
-youtube: a4WVehZgD2I?si=I7d7n9cS6ee6tton
+images: ["/docs/r6-end-theory/end-theory.jpg"]
+composition: "윤하"
+lyric: "윤하"
+arrangement: "JEWNO"
+youtube: "a4WVehZgD2I?si=I7d7n9cS6ee6tton"
 ---
 
 # 歌詞 (中譯待補)

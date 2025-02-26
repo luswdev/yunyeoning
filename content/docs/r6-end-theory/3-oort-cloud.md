@@ -1,14 +1,15 @@
 ---
-title: 오르트구름
-subtitle: Oort Cloud
-layout: song-view
-author: 윤하
+layout: "song-view"
+title: "오르트구름"
+subtitle: "Oort Cloud"
+icon: "genres"
+weight: 603
 date: 2021-11-16
-tags: end-theory
-composition: JEWNO, KZ, HOFF
-lyric: danke
-arrangement: JEWNO
-youtube: TqFLIZG_aXA?si=GAVElcvG9aNNBRAm
+images: ["/docs/r6-end-theory/end-theory.jpg"]
+composition: "JEWNO, KZ, HOFF"
+lyric: "danke"
+arrangement: "JEWNO"
+youtube: "TqFLIZG_aXA?si=GAVElcvG9aNNBRAm"
 ---
 
 # 歌詞 (中譯待補)

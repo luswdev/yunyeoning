@@ -1,14 +1,15 @@
 ---
-title: 6년 230일
-subtitle: Tik-Tok
-layout: song-view
-author: 윤하
+layout: "song-view"
+title: "6년 230일"
+subtitle: "Tik-Tok"
+icon: "genres"
+weight: 607
 date: 2021-11-16
-tags: end-theory
-composition: Sarah Kang
-lyric: 윤하
-arrangement: 이하은, JEWNO, HIZON PATRICK DAEZ
-youtube: N6jwTgFA048?si=E_JsQsOjS4SWrdva
+images: ["/docs/r6-end-theory/end-theory.jpg"]
+composition: "Sarah Kang"
+lyric: "윤하"
+arrangement: "이하은, JEWNO, HIZON PATRICK DAEZ"
+youtube: "N6jwTgFA048?si=E_JsQsOjS4SWrdva"
 ---
 
 # 歌詞 (中譯待補)

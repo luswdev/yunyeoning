@@ -1,14 +1,15 @@
 ---
-title: 별의 조각
-subtitle: Stardust
-layout: song-view
-author: 윤하
+layout: "song-view"
+title: "별의 조각"
+subtitle: "Stardust"
+icon: "genres"
+weight: 609
 date: 2021-11-16
-tags: end-theory
-composition: 권순일
-lyric: 윤하
-arrangement: JEWNO
-youtube: CWTwiE15pdY?si=nvT1aA-rRAZRSPy1
+images: ["/docs/r6-end-theory/end-theory.jpg"]
+composition: "권순일"
+lyric: "윤하"
+arrangement: "JEWNO"
+youtube: "CWTwiE15pdY?si=nvT1aA-rRAZRSPy1"
 ---
 
 # 歌詞 (中譯待補)

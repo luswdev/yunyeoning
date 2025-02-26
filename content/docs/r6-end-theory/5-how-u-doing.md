@@ -1,14 +1,15 @@
 ---
-title: 잘 지내
-subtitle: How U doing
-layout: song-view
-author: 윤하
+layout: "song-view"
+title: "잘 지내"
+subtitle: "How U doing"
+icon: "genres"
+weight: 605
 date: 2021-11-16
-tags: end-theory
-composition: 윤하
-lyric: 윤하
-arrangement: JEWNO
-youtube: X88F1CVGd8w?si=YHPxNd5c9WpCz-Y1
+images: ["/docs/r6-end-theory/end-theory.jpg"]
+composition: "윤하"
+lyric: "윤하"
+arrangement: "JEWNO"
+youtube: "X88F1CVGd8w?si=YHPxNd5c9WpCz-Y1"
 ---
 
 # 歌詞 (中譯待補)

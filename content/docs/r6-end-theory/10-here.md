@@ -1,14 +1,15 @@
 ---
-title: 하나의 달
-subtitle: Here
-layout: song-view
-author: 윤하
+layout: "song-view"
+title: "하나의 달"
+subtitle: "Here"
+icon: "genres"
+weight: 610
 date: 2021-11-16
-tags: end-theory
-composition: 윤하, James Son
-lyric: 윤하
-arrangement: SHAUN, 김동민
-youtube: Tdiq7edlvHM?si=3MC2Vv6pVQfbU5-F
+images: ["/docs/r6-end-theory/end-theory.jpg"]
+composition: "윤하, James Son"
+lyric: "윤하"
+arrangement: "SHAUN, 김동민"
+youtube: "Tdiq7edlvHM?si=3MC2Vv6pVQfbU5-F"
 ---
 
 # 歌詞 (中譯待補)

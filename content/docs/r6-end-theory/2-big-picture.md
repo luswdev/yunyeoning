@@ -1,14 +1,15 @@
 ---
-title: 나는 계획이 있다
-subtitle: BIG PICTURE
-layout: song-view
-author: 윤하
+layout: "song-view"
+title: "나는 계획이 있다"
+subtitle: "BIG PICTURE"
+icon: "genres"
+weight: 602
 date: 2021-11-16
-tags: end-theory
-composition: JEWNO, 윤하
-lyric: 김수지
-arrangement: JEWNO
-youtube: 46YuYoiyBcA?si=7Nj7sfDeuaU8VTOY
+images: ["/docs/r6-end-theory/end-theory.jpg"]
+composition: "JEWNO, 윤하"
+lyric: "김수지"
+arrangement: "JEWNO"
+youtube: "46YuYoiyBcA?si=7Nj7sfDeuaU8VTOY"
 ---
 
 # 歌詞 (中譯待補)

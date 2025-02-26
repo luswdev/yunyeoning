@@ -1,14 +1,15 @@
 ---
-title: 반짝, 빛을 내
-subtitle: Highlight
-layout: song-view
-author: 윤하
+layout: "song-view"
+title: "반짝, 빛을 내"
+subtitle: "Highlight"
+icon: "genres"
+weight: 606
 date: 2021-11-16
-tags: end-theory
-composition: 윤하, JEWNO, Jade
-lyric: 윤하, danke
-arrangement: JEWNO
-youtube: GtaorDNm8iA?si=_yaGXV1hAjNxSCt8
+images: ["/docs/r6-end-theory/end-theory.jpg"]
+composition: "윤하, JEWNO, Jade"
+lyric: "윤하, danke"
+arrangement: "JEWNO"
+youtube: "GtaorDNm8iA?si=_yaGXV1hAjNxSCt8"
 ---
 
 # 歌詞 (中譯待補)
