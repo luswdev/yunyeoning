@@ -225,9 +225,10 @@ i {
 // Blockquote
 .docs-content .main-content blockquote {
     margin-bottom: 1rem;
-    font-size: 1.25rem;
+    // font-size: 1.25rem;
     border-left: 3px solid var(--blockquote-border-color);
     padding-left: 1rem;
+    color: var(--gray-500);
 }
 
 // Code
@@ -295,4 +296,10 @@ i {
 
 .docs-content figcaption {
     font-size: small;
+}
+
+.docs-content .lyric-body > p {
+    strong {
+        color: var(--primary)
+    }
 }
