@@ -10,6 +10,9 @@
                         {{ if .IsSection }}<i class="material-icons icon-faint align-middle ms-auto" title="Directory">folder</i>{{ end }}
                     </span>
                     <div class="card-body p-0 content">
+                        {{ if .Params.images }}
+                            <img src="{{ index .Params.images 0 }}" alt="{{ .Title }}" class="float-end h-auto rounded-1 w-25">
+                        {{ end }}
                         <p class="fs-5 fw-semibold card-title mb-1">{{ .Title }}</p>
                         <p class="para card-text mb-0">{{ .Description | truncate (.Site.Params.docs.listDescTrunc | default 100) | markdownify }}</p>
                     </div>
