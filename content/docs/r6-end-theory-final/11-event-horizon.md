@@ -4,6 +4,7 @@ title: "사건의 지평선"
 subtitle: "Event Horizon"
 weight: 661
 date: 2022-03-20
+images: ["/docs/r6-end-theory-final/end-theory-final.jpg"]
 composition: "윤하, JEWNO"
 lyric: "윤하"
 arrangement: "JEWNO, SHAUN"
