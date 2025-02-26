@@ -2,6 +2,7 @@
 layout: "song-view"
 title: "우린 달라졌을까"
 subtitle: "Would We Have Changed"
+icon: "genres"
 weight: 407
 date: 2012-07-03
 images: ["/docs/r4-supersonic/supersonic.jpg"]

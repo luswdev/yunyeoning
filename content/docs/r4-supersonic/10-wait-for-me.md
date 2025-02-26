@@ -2,6 +2,7 @@
 layout: "song-view"
 title: "기다려줘"
 subtitle: "Wait For Me"
+icon: "genres"
 weight: 410
 date: 2012-07-03
 images: ["/docs/r4-supersonic/supersonic.jpg"]

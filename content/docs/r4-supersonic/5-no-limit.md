@@ -2,6 +2,7 @@
 layout: "song-view"
 title: "No Limit"
 subtitle:
+icon: "genres"
 weight: 405
 date: 2012-07-03
 images: ["/docs/r4-supersonic/supersonic.jpg"]

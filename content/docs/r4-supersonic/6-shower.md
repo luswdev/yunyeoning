@@ -2,6 +2,7 @@
 layout: "song-view"
 title: "소나기"
 subtitle: "Shower"
+icon: "genres"
 weight: 406
 date: 2012-07-03
 images: ["/docs/r4-supersonic/supersonic.jpg"]

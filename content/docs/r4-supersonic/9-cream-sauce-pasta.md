@@ -2,6 +2,7 @@
 layout: "song-view"
 title: "크림소스 파스타"
 subtitle: "Cream Sauce Pasta"
+icon: "genres"
 weight: 409
 date: 2012-07-03
 images: ["/docs/r4-supersonic/supersonic.jpg"]

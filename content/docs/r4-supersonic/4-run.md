@@ -2,6 +2,7 @@
 layout: "song-view"
 title: "Run"
 subtitle:
+icon: "genres"
 weight: 404
 date: 2012-07-03
 images: ["/docs/r4-supersonic/supersonic.jpg"]

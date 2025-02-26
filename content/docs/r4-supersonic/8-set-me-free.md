@@ -2,6 +2,7 @@
 layout: "song-view"
 title: "Set Me Free"
 subtitle:
+icon: "genres"
 weight: 408
 date: 2012-07-03
 images: ["/docs/r4-supersonic/supersonic.jpg"]
