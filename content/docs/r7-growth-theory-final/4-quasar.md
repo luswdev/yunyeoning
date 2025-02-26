@@ -5,6 +5,7 @@ subtitle: "QUASAR"
 icon: "genres"
 weight: 754
 date: 2024-11-14
+images: ["/docs/r7-growth-theory-final/growth-theory-final.jpg"]
 composition: "KZ, Nthonius, Meisobo, HOFF"
 lyric: "윤하"
 arrangement: "Nthonius, Meisobo"
