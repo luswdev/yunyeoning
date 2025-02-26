@@ -5,6 +5,7 @@ subtitle: "Life review"
 icon: "genres"
 weight: 708
 date: 2024-09-01
+images: ["/docs/r7-growth-theory/growth-theory.jpg"]
 composition: "JEWNO, 윤하, 이하은"
 lyric: "윤하"
 arrangement: "JEWNO, 이하은"

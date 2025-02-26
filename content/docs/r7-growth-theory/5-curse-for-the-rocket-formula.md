@@ -5,6 +5,7 @@ subtitle: "Curse for the rocket formula"
 icon: "genres"
 weight: 705
 date: 2024-09-01
+images: ["/docs/r7-growth-theory/growth-theory.jpg"]
 composition: "JEWNO, 윤하, Perrie"
 lyric: "윤하"
 arrangement: "JEWNO"

@@ -5,6 +5,7 @@ subtitle: "Part of cloud"
 icon: "genres"
 weight: 709
 date: 2024-09-01
+images: ["/docs/r7-growth-theory/growth-theory.jpg"]
 composition: "윤하"
 lyric: "윤하"
 arrangement: "윤하"

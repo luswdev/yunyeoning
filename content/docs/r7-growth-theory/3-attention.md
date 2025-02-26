@@ -5,6 +5,7 @@ subtitle: "Attention!"
 icon: "genres"
 weight: 703
 date: 2024-09-01
+images: ["/docs/r7-growth-theory/growth-theory.jpg"]
 composition: "손준호, 윤하, Perrie"
 lyric: "윤하"
 arrangement: "JEWNO , 이신우"

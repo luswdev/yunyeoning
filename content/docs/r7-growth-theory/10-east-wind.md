@@ -5,6 +5,7 @@ subtitle: "East wind"
 icon: "genres"
 weight: 710
 date: 2024-09-01
+images: ["/docs/r7-growth-theory/growth-theory.jpg"]
 composition: "JEWNO, 윤하"
 lyric: "윤하"
 arrangement: "JEWNO"

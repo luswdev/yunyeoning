@@ -5,6 +5,7 @@ subtitle: "Silvering"
 icon: "genres"
 weight: 704
 date: 2024-09-01
+images: ["/docs/r7-growth-theory/growth-theory.jpg"]
 composition: "JEWNO, 윤하, 이신우"
 lyric: "윤하, 고윤진"
 arrangement: "JEWNO, 이신우"

@@ -5,6 +5,7 @@ subtitle: "Antmill"
 icon: "genres"
 weight: 702
 date: 2024-09-01
+images: ["/docs/r7-growth-theory/growth-theory.jpg"]
 composition: "이하은, 윤하"
 lyric: "윤하"
 arrangement: "이하은"

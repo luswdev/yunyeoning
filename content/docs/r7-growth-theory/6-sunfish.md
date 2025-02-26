@@ -5,6 +5,7 @@ subtitle: "Sunfish"
 icon: "genres"
 weight: 706
 date: 2024-09-01
+images: ["/docs/r7-growth-theory/growth-theory.jpg"]
 composition: "윤하, JEWNO"
 lyric: "윤하"
 arrangement: "JEWNO, 숀, 이신우"

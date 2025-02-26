@@ -5,6 +5,7 @@ subtitle: "Mangrove tree"
 icon: "genres"
 weight: 701
 date: 2024-09-01
+images: ["/docs/r7-growth-theory/growth-theory.jpg"]
 composition: "윤하"
 lyric: "윤하"
 arrangement: "이하은, JEWNO"
