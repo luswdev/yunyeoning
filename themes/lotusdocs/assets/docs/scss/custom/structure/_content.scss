@@ -80,6 +80,13 @@
     color: var(--body-color);
 }
 
+.docs-content .main-content h1 {
+    font-size: calc(1rem + 1.5vw);
+    @media (min-width: 1200px) {
+        font-size: 2rem;
+    }
+}
+
 .docs-content .content-title {
     font-weight: 700;
     align-self: center;
