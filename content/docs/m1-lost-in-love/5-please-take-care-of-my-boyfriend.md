@@ -1,7 +1,7 @@
 ---
+layout: "song-view"
 title: "내 남자친구를 부탁해"
 subtitle: "Please Take Care of My Boyfriend"
-layout: "song-view"
 icon: "genres"
 weight: 10005
 date: 2010-12-09
