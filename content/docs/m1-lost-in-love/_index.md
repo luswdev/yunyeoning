@@ -1,11 +1,9 @@
 ---
-weight: 10000
 title: "Lost In Love"
+subtitle:
 description: "迷你 1 輯"
 icon: library_music
-lead: ""
-date: 2022-10-10T02:21:15+00:00
-lastmod: 2022-10-10T02:21:15+00:00
-draft: false
-images: []
+weight: 10000
+date: 2010-12-09
+images: ["/docs/m1-lost-in-love/lost-in-love.jpg"]
 ---
