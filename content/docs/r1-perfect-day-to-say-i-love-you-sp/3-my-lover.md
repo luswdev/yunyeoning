@@ -4,7 +4,7 @@ title: "마이★러버 (Korean Ver.)"
 subtitle: "My Lover"
 icon: "genres"
 date: 2007-06-26
-weight: 153
+weight: 133
 images: ["/docs/r1-perfect-day-to-say-i-love-you-sp/perfect-day-to-say-i-love-you-sp.jpg"]
 composition: "田中ユウスケ"
 lyric: "윤홍은"

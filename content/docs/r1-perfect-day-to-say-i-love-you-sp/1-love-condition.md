@@ -4,7 +4,7 @@ title: "연애조건 (Remix)"
 subtitle: "Love Condition"
 icon: "genres"
 date: 2007-06-26
-weight: 151
+weight: 131
 images: ["/docs/r1-perfect-day-to-say-i-love-you-sp/perfect-day-to-say-i-love-you-sp.jpg"]
 composition: "황찬희"
 lyric: "김이진"
