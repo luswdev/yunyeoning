@@ -4,8 +4,6 @@ subtitle: "Great Doctor OST Part.4"
 description: "OST"
 icon: "library_music"
 weight: 5300000000
-date: 2022-10-10T02:21:15+00:00
-lastmod: 2022-10-10T02:21:15+00:00
-draft: false
-images: []
+date: 2012-09-17
+images: ["/docs/ost3-great-doctor/great-doctor.jpg"]
 ---

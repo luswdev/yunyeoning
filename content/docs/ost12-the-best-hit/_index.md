@@ -4,8 +4,6 @@ subtitle: "The Best Hit OST Part.2"
 description: "OST"
 icon: "library_music"
 weight: 6200000000
-date: 2022-10-10T02:21:15+00:00
-lastmod: 2022-10-10T02:21:15+00:00
-draft: false
-images: []
+date: 2017-06-09
+images: ["/docs/ost12-the-best-hit/the-best-hit.jpg"]
 ---

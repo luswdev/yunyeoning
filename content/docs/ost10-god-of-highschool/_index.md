@@ -4,8 +4,6 @@ subtitle: "GOD OF HIGHSCHOOL OST"
 description: "OST"
 icon: "library_music"
 weight: 6000000000
-date: 2022-10-10T02:21:15+00:00
-lastmod: 2022-10-10T02:21:15+00:00
-draft: false
-images: []
+date: 2016-08-12
+images: ["/docs/ost10-god-of-highschool/god-of-highschool.jpg"]
 ---

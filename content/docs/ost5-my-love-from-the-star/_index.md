@@ -4,8 +4,6 @@ subtitle: "My Love From the Star OST Part.3"
 description: "OST"
 icon: "library_music"
 weight: 5500000000
-date: 2022-10-10T02:21:15+00:00
-lastmod: 2022-10-10T02:21:15+00:00
-draft: false
-images: []
+date: 2014-01-15
+images: ["/docs/ost5-my-love-from-the-star/my-love-from-the-star.jpg"]
 ---

@@ -4,8 +4,6 @@ subtitle: "Pokemon—Zoroark: Master of Illusions"
 description: "OST"
 icon: "library_music"
 weight: 5200000000
-date: 2022-10-10T02:21:15+00:00
-lastmod: 2022-10-10T02:21:15+00:00
-draft: false
-images: []
+date: 2010-11-18
+images: ["/docs/ost2-pokemon-dp/pokemon-dp.jpg"]
 ---

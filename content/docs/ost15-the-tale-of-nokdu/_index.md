@@ -4,8 +4,6 @@ subtitle: "The Tale Of Nokdu OST - Part 2"
 description: "OST"
 icon: "library_music"
 weight: 6500000000
-date: 2022-10-10T02:21:15+00:00
-lastmod: 2022-10-10T02:21:15+00:00
-draft: false
-images: []
+date: 2019-10-08
+images: ["/docs/ost15-the-tale-of-nokdu/the-tale-of-nokdu.jpg"]
 ---
