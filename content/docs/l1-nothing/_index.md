@@ -1,12 +1,9 @@
 ---
-weight: 510000
 title: "없어"
 subtitle: "Nothing"
 description: "錄音室現場單曲"
-icon: library_music
-lead: ""
-date: 2022-10-10T02:21:15+00:00
-lastmod: 2022-10-10T02:21:15+00:00
-draft: false
-images: []
+icon: "library_music"
+weight: 510000
+date: 2014-01-03
+images: ["/docs/l1-nothing/nothing.jpg"]
 ---
