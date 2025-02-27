@@ -5,7 +5,7 @@ subtitle: "One Day Of Twenty"
 icon: "genres"
 weight: 50004
 date: 2020-01-06
-images: ["/docs/m4-stable-mindset/stable-mindset.jpg"]
+images: ["/docs/m5-unstable-mindset/unstable-mindset.jpg"]
 composition: "타스코, 원매드"
 lyric: "제이큐, 이지혜"
 arrangement: "타스코, 원매드"

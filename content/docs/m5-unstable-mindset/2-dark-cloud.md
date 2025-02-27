@@ -5,7 +5,7 @@ subtitle: "Dark Cloud"
 icon: "genres"
 weight: 50002
 date: 2020-01-06
-images: ["/docs/m4-stable-mindset/stable-mindset.jpg"]
+images: ["/docs/m5-unstable-mindset/unstable-mindset.jpg"]
 composition: "DOKO"
 lyric: "DOKO"
 arrangement: "DOKO, 이우현, 이태욱"

@@ -5,7 +5,7 @@ subtitle: "雪中梅"
 icon: "genres"
 weight: 50001
 date: 2020-01-06
-images: ["/docs/m4-stable-mindset/stable-mindset.jpg"]
+images: ["/docs/m5-unstable-mindset/unstable-mindset.jpg"]
 composition: "Ollounder, LEEZ, 이든"
 lyric: "윤하, RM, 이든"
 arrangement: "Ollounder, LEEZ, 이든"
