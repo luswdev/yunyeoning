@@ -4,8 +4,6 @@ subtitle:
 description: "數位單曲"
 icon: "library_music"
 weight: 55000000
-date: 2022-10-10T02:21:15+00:00
-lastmod: 2022-10-10T02:21:15+00:00
-draft: false
-images: []
+date: 2017-07-19
+images: ["/docs/sd5-take-five/take-five.jpg"]
 ---
