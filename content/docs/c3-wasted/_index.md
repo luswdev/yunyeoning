@@ -4,8 +4,6 @@ subtitle: "Wasted"
 description: "合作單曲"
 icon: "library_music"
 weight: 300000000
-date: 2022-10-10T02:21:15+00:00
-lastmod: 2022-10-10T02:21:15+00:00
-draft: false
-images: []
+date: 2014-10-07
+images: ["/docs/c3-wasted/wasted.jpg"]
 ---
