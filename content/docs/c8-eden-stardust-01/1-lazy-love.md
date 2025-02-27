@@ -5,7 +5,7 @@ subtitle:
 icon: "genres"
 weight: 800000001
 date: 2018-05-14
-images: ["/docs/c8-eden-stardust-01/edan-stardust-01.jpg"]
+images: ["/docs/c8-eden-stardust-01/eden-stardust-01.jpg"]
 composition: "이든, BUDDY"
 lyric: "이든, 윤하"
 arrangement: "이든, BUDDY"
