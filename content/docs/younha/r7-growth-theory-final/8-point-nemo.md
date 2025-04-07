@@ -5,7 +5,7 @@ subtitle: "Point Nemo"
 icon: "genres"
 weight: 758
 date: 2024-11-14
-images: ["/docs/r7-growth-theory-final/growth-theory-final.jpg"]
+images: ["/docs/younha/r7-growth-theory-final/growth-theory-final.jpg"]
 composition: "JEWNO, 윤하"
 lyric: "윤하"
 arrangement: "JEWNO"

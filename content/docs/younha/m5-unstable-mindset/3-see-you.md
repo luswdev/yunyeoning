@@ -5,7 +5,7 @@ subtitle: "See You"
 icon: "genres"
 weight: 50003
 date: 2020-01-06
-images: ["/docs/m5-unstable-mindset/unstable-mindset.jpg"]
+images: ["/docs/younha/m5-unstable-mindset/unstable-mindset.jpg"]
 composition: "윤하"
 lyric: "윤하"
 arrangement: "DOKO, 이태욱"

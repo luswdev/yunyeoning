@@ -5,7 +5,7 @@ subtitle: "Time2Rock"
 icon: "genres"
 weight: 1000001
 date: 2006-12-04
-images: ["/docs/s1-audition/audition.jpg"]
+images: ["/docs/younha/s1-audition/audition.jpg"]
 composition: "양경주"
 lyric: "이애경"
 arrangement: "양경주"
