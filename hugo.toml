@@ -1,6 +1,6 @@
 baseURL = 'https://yholics.lusw.dev/'
 languageCode = 'en-us'
-title = 'Y.HOLICS 台灣粉絲站'
+title = 'LuSkywalker 韓樂站'
 contentDir = 'content'
 enableEmoji = true
 enableRobotsTXT = true
