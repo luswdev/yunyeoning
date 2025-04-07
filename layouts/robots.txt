@@ -2,4 +2,4 @@ User-agent: *
 Allow: /
 Disallow: /images/
 
-Sitemap: https://yholics.lusw.dev/sitemap.xml
+Sitemap: https://kr.lusw.dev/sitemap.xml
