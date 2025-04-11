@@ -5,5 +5,5 @@ description:
 icon: artist
 weight: 13
 date: 2004-09-01
-images: ["/docs/kwon-jinha/kwon-jinah.png"]
+images: ["/docs/kwon-jinah/kwon-jinah.png"]
 ---
