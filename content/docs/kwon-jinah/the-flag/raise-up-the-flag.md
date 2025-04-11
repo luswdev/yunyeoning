@@ -5,7 +5,7 @@ subtitle:
 icon: "genres"
 weight: 50003
 date: 2023-03-02
-images: ["/docs/kwon-jinah/the-flag/raise-up-the-flag.webp"]
+images: ["/docs/kwon-jinah/the-flag/the-flag.webp"]
 composition: "권진아"
 lyric: "권진아"
 arrangement: "홍소진"
