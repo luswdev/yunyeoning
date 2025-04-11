@@ -3,7 +3,7 @@ layout: "song-view"
 title: "Raise Up The Flag"
 subtitle: 
 icon: "genres"
-weight: 50003
+weight: 131003
 date: 2023-03-02
 images: ["/docs/kwon-jinah/the-flag/the-flag.webp"]
 composition: "권진아"

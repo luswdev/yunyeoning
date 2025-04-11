@@ -3,9 +3,9 @@ layout: "song-view"
 title: "포인트 니모"
 subtitle: "Point Nemo"
 icon: "genres"
-weight: 758
+weight: 113001
 date: 2024-11-14
-images: ["/docs/younha/r7-growth-theory-final/growth-theory-final.jpg"]
+images: ["/docs/younha/growth-theory-final/growth-theory-final.jpg"]
 composition: "JEWNO, 윤하"
 lyric: "윤하"
 arrangement: "JEWNO"

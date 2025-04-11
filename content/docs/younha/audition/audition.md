@@ -3,9 +3,9 @@ layout: "song-view"
 title: "Audition"
 subtitle: "Time2Rock"
 icon: "genres"
-weight: 1000001
+weight: 110101
 date: 2006-12-04
-images: ["/docs/younha/s1-audition/audition.jpg"]
+images: ["/docs/younha/audition/audition.jpg"]
 composition: "양경주"
 lyric: "이애경"
 arrangement: "양경주"

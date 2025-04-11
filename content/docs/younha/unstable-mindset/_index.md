@@ -3,7 +3,7 @@ title: "Unstable Mindset"
 subtitle:
 description: "迷你 5 輯"
 icon: library_music
-weight: 50000
+weight: 112400
 date: 2020-01-06
-images: ["/docs/younha/m5-unstable-mindset/unstable-mindset.jpg"]
+images: ["/docs/younha/unstable-mindset/unstable-mindset.jpg"]
 ---

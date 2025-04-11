@@ -3,9 +3,9 @@ layout: "song-view"
 title: "다음에 봐"
 subtitle: "See You"
 icon: "genres"
-weight: 50003
+weight: 112403
 date: 2020-01-06
-images: ["/docs/younha/m5-unstable-mindset/unstable-mindset.jpg"]
+images: ["/docs/younha/unstable-mindset/unstable-mindset.jpg"]
 composition: "윤하"
 lyric: "윤하"
 arrangement: "DOKO, 이태욱"
