@@ -5,5 +5,5 @@ description:
 icon: artist
 weight: 11
 date: 2004-09-01
-images: ["/docs/younha/younha.jpg"]
+images: ["/docs/younha/y-holics.png"]
 ---

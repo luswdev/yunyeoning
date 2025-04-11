@@ -5,5 +5,5 @@ description:
 icon: artist
 weight: 12
 date: 2015-01-16
-images: ["/docs/gfriend/gfriend.jpg"]
+images: ["/docs/gfriend/gfriend.webp"]
 ---
