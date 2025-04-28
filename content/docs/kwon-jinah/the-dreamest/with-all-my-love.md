@@ -85,9 +85,6 @@ youtube: "BxJ1nrBEcPE?si=stKePig4HZN7qEjp"
 너에게로 달려가  
 我奔向你  
 
-사랑하는 널 만나려고  
-只為了遇見深愛的你  
-
 <br>
 
 너를 만나고  
