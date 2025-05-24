@@ -34,9 +34,14 @@ youtube: "CGvqj7bzCVY"
     .qwer_part {
         color: rgb(252, 211, 3);
     }
+    .part_info {
+        font-size: 0.75rem;
+    }
 </style>
 
 ## 韓中歌詞
+
+<div class="part_info">
 
 <span class="q_part">Q. Chodan</span>
 <span class="w_part">W. Magenta</span>
@@ -45,6 +50,8 @@ youtube: "CGvqj7bzCVY"
 <span class="qr_part">Q & R</span>
 <span class="we_part">W & E</span>
 <span class="qwer_part">ALL</span>
+
+</div>
 
 <div class="r_part">
 
