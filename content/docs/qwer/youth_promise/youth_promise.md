@@ -38,6 +38,14 @@ youtube: "CGvqj7bzCVY"
 
 ## 韓中歌詞
 
+<span class="q_part">Q. Chodan</span>
+<span class="w_part">W. Magenta</span>
+<span class="e_part">E. Hina</span>
+<span class="r_part">R. Siyeon</span>
+<span class="qr_part">Q & R</span>
+<span class="we_part">W & E</span>
+<span class="qwer_part">ALL</span>
+
 <div class="r_part">
 
 수도 없이 고민했던 날들  
