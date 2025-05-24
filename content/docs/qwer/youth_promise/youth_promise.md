@@ -41,7 +41,7 @@ youtube: "CGvqj7bzCVY"
 <span class="q_part">Q. Chodan</span>
 <span class="w_part">W. Magenta</span>
 <span class="e_part">E. Hina</span>
-<span class="r_part">R. Siyeon</span>
+<span class="r_part">R. Siyeon</span>  
 <span class="qr_part">Q & R</span>
 <span class="we_part">W & E</span>
 <span class="qwer_part">ALL</span>
