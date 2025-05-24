@@ -1,6 +1,6 @@
 baseURL = 'https://kr.lusw.dev/'
 languageCode = 'en-us'
-title = 'LuSkywalker 韓樂站'
+title = '우연히 유년잉'
 contentDir = 'content'
 enableEmoji = true
 enableRobotsTXT = true
@@ -39,7 +39,7 @@ enableRobotsTXT = true
     mono_font       = "JetBrains Mono" # Default is System font
 
     [params.footer]
-        copyright = "This website is not affiliated with [C9 Ent](https://www.c9ent.co.kr/). All photos are property of their respective owners &copy; :YEAR: LuSkywalker"
+        copyright = "All photos are property of their respective owners &copy; :YEAR: LuSkywalker"
         version   = true
 
     [params.docs]
