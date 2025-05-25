@@ -118,8 +118,6 @@ youtube: "CGvqj7bzCVY"
 
 </div>
 
-<br>
-
 <div class="e_part">
 
 어제의 난 이불 속 달빛 아래서  
