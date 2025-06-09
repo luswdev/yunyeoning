@@ -3,7 +3,7 @@ layout: "song-view"
 title: "널 만나려고"
 subtitle: "With All My Love"
 icon: "genres"
-weight: 131110
+weight: 10
 date: 2025-04-25
 images: ["/docs/kwon-jinah/the-dreamest/the-dreamest.jpg"]
 composition: "권진아"

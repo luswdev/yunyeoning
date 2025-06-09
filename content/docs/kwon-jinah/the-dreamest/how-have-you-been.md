@@ -3,7 +3,7 @@ layout: "song-view"
 title: "재회"
 subtitle: "How have you been"
 icon: "genres"
-weight: 32
+weight: 2
 date: 2025-04-25
 images: ["/docs/kwon-jinah/the-dreamest/the-dreamest.jpg"]
 composition: "권진아, C’SA, 나찬영"

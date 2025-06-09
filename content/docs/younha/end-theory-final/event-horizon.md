@@ -2,7 +2,7 @@
 layout: "song-view"
 title: "사건의 지평선"
 subtitle: "Event Horizon"
-weight: 112601
+weight: 11
 date: 2022-03-20
 images: ["/docs/younha/end-theory-final/end-theory-final.jpg"]
 composition: "윤하, JEWNO"

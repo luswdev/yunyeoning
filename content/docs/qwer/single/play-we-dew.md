@@ -3,7 +3,7 @@ layout: "song-view"
 title: "PLAY, WE DEW"
 subtitle:
 icon: "genres"
-weight: 20
+weight: 5
 date: 2025-04-12
 images: ["/docs/qwer/single/play-we-dew.jpg"]
 composition: "-"

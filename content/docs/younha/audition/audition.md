@@ -3,7 +3,7 @@ layout: "song-view"
 title: "Audition"
 subtitle: "Time2Rock"
 icon: "genres"
-weight: 110101
+weight: 1
 date: 2006-12-04
 images: ["/docs/younha/audition/audition.jpg"]
 composition: "양경주"

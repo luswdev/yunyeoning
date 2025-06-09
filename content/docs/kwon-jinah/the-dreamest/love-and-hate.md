@@ -3,7 +3,7 @@ layout: "song-view"
 title: "Love & Hate"
 subtitle: 
 icon: "genres"
-weight: 38
+weight: 8
 date: 2025-04-25
 images: ["/docs/kwon-jinah/the-dreamest/the-dreamest.jpg"]
 composition: "권덕근(WSHL:ST), clovd, Young Chance, Ayelle, Hautboi Rich "

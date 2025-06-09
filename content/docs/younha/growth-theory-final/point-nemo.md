@@ -3,7 +3,7 @@ layout: "song-view"
 title: "포인트 니모"
 subtitle: "Point Nemo"
 icon: "genres"
-weight: 113001
+weight: 8
 date: 2024-11-14
 images: ["/docs/younha/growth-theory-final/growth-theory-final.jpg"]
 composition: "JEWNO, 윤하"
@@ -141,19 +141,3 @@ youtube: "GCKSrC6XVOk?si=uH2RKyLof7mh5L_9"
 
 **사랑했다** 확신하기를  
 並堅信你是曾真心地愛過我  
-
-</div>
-
-## 後記
-
-포인트 니모 (Point Nemo/尼莫點) 指的是**海洋難抵極**，為地球上離陸地最遠的海洋地區，由於孤離於陸域，因此被各國當作太空飛行器墓地使用。  
-윤하 以一名旅途到地球的少女，來到尼莫點後認識的各種腳色，寫了這首歌，並以此為世界觀，寫了整張專輯。  
-> 上一張專輯 (END THEORY) 正是少女在宇宙的故事，在 2024 年末同名演唱會中，就由 윤하 本人飾演該少女（人造衛星）  
-
-非常推薦如果想了解更多更詳細的世界觀解釋，可以去看 윤하 上 [IU's Palette](https://youtu.be/RWf25nVfBlw?si=Jp76HV7vFqEl1z3d) 的訪談！  
-
-這首歌的歌詞寫得很美，但用中文很難翻出正確的語境，因為韓文常常省略掉主詞  
-就像最後一段，看了很多翻譯，有主詞是**我**的，也有主詞是**你**的  
-但可以看官方的英翻，加上最後兩句的主詞是**你**，就幾乎可以確定整段是對對方說的話了  
-
-也因為 윤하 堅持使用全韓文寫這首歌，才能看到如此美麗的歌詞吧～  

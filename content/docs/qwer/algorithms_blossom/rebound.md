@@ -3,7 +3,7 @@ layout: "song-view"
 title: "메아리"
 subtitle: "REBOUND"
 icon: "genres"
-weight: 37
+weight: 7
 date: 2024-09-23
 images: ["/docs/qwer/algorithms_blossom/algorithms_blossom.jpg"]
 composition: "이동혁, 김혜정"

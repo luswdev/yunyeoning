@@ -3,7 +3,7 @@ layout: "song-view"
 title: "다음에 봐"
 subtitle: "See You"
 icon: "genres"
-weight: 112403
+weight: 3
 date: 2020-01-06
 images: ["/docs/younha/unstable-mindset/unstable-mindset.jpg"]
 composition: "윤하"
