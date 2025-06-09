@@ -1,9 +1,9 @@
---
+---
 weight:
 title:'{{ replace .File.ContentBaseName "-" " " | title }}'
 subtitle:
 description:
-icon:
-date: '{{ .Date }}'
+icon: "library_music"
+date:
 images: []
---
+---
