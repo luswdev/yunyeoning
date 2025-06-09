@@ -3,13 +3,13 @@ layout: "song-view"
 title: "위로"
 subtitle: "Consolation"
 icon: "genres"
-weight: 131003
+weight: 15
 date: 2023-03-02
 images: ["/docs/kwon-jinah/ost/consolation.jpg"]
 composition: "헨(Hen)"
 lyric: "헨(Hen)"
 arrangement: "헨(Hen)"
-youtube: "o9L-Hd3tvD8?si=M1ZfY5-hUJUQ9dJf"
+youtube: "4PachJQanJc"
 ---
 
 세상과 다른 눈으로 나를 사랑하는  
