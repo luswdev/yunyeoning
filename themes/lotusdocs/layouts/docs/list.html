@@ -13,7 +13,12 @@
                         {{ if .Params.images }}
                             <img src="{{ index .Params.images 0 }}" alt="{{ .Title }}" class="float-end h-auto rounded-1 w-25">
                         {{ end }}
-                        <p class="fs-5 fw-semibold card-title mb-1">{{ .Title }}</p>
+                        <p class="fs-5 fw-semibold card-title mb-1">
+                            {{ .Title }}
+                            {{- if .Params.subtitle }}
+                                ({{ .Params.subtitle }})
+                            {{- end }}
+                        </p>
                         <p class="para card-text mb-0">{{ .Description | truncate (.Site.Params.docs.listDescTrunc | default 100) | markdownify }}</p>
                     </div>
                     <!-- <div class="position-absolute top-0 end-0">
