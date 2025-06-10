@@ -14,22 +14,28 @@ youtube: "CGvqj7bzCVY"
 
 <style>
     .q_part {
-        color: rgb(224, 224, 224);
+        color: #e0e0e0;
     }
     .w_part {
-        color: rgb(238, 131, 175);
+        color: #ee83af;
     }
     .e_part {
-        color: rgb(2, 183, 233);
+        color: #02b7e9;
     }
     .r_part {
-        color: rgb(192, 211, 112);
+        color: #c0d370;
     }
     .qr_part {
-        color: rgb(222, 211, 57);
+        display: inline-block;
+        background: linear-gradient(to right, #e0e0e0, #C0D370);
+        background-clip: text;
+        color: transparent;
     }
     .we_part {
-        color: rgb(120, 156, 204);
+        display: inline-block;
+        background: linear-gradient(to right, #ee83af, #02b7e9);
+        background-clip: text;
+        color: transparent;
     }
     .qwer_part {
         color: rgb(252, 211, 3);
