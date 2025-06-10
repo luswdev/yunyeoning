@@ -118,9 +118,9 @@ youtube: "pifz9JH1Re8"
 {{< qwerly e >}}
 내리던 비가 그치고 나면  
 落下的雨若停下的話  
-
 {{< /qwerly >}}
 
+{{< qwerly r >}}
 내일이 꼭 올 테니까  
 明天一定會到來的  
 
@@ -149,3 +149,4 @@ youtube: "pifz9JH1Re8"
 
 잘 지낼게요  
 我會好好生活的  
+{{< /qwerly >}}
