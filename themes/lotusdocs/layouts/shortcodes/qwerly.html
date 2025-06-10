@@ -1,5 +1,5 @@
 {{ $owner := .Get 0 }}
 
 <div class="{{$owner}}_part">
-    {{ $.Inner  | .Page.RenderString }}
+    {{ $.Inner  | .Page.RenderString (dict "display" "block") }}
 </div>
