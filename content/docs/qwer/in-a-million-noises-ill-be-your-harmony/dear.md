@@ -31,7 +31,7 @@ youtube: "pifz9JH1Re8"
 {{< /qwerly >}}
 
 {{< qwerly e true >}}세상이{{< /qwerly >}} {{< qwerly w true >}}아직은 무섭고{{< /qwerly >}}  
-{{< qwerly we true >}}世界依舊如此的可怕{{< /qwerly >}}  
+{{< qwerly ew true >}}世界依舊如此的可怕{{< /qwerly >}}  
 
 {{< qwerly e true >}}여전히{{< /qwerly >}} {{< qwerly r true >}}넘어지는 게{{< /qwerly >}}  
 {{< qwerly er true >}}跌倒後要重新站起來這件事{{< /qwerly >}}  
@@ -73,7 +73,7 @@ youtube: "pifz9JH1Re8"
 {{< /qwerly >}}
 
 {{< qwerly w true >}}말해줘{{< /qwerly >}} {{< qwerly q true >}}다 잘될 거라고{{< /qwerly >}}  
-{{< qwerly qw true >}}告訴我 一切都會好起來的{{< /qwerly >}}  
+{{< qwerly wq true >}}告訴我 一切都會好起來的{{< /qwerly >}}  
 
 {{< qwerly w true >}}도와줘{{< /qwerly >}} {{< qwerly r true >}}겁 많은 나라서{{< /qwerly >}}  
 {{< qwerly wr true >}}請幫幫那個膽小的我吧{{< /qwerly >}}  

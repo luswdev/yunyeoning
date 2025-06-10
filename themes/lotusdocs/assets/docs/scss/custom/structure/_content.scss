@@ -342,9 +342,23 @@ i {
     color: transparent;
 }
 
+.docs-content .wq_part {
+    display: inline-block;
+    background: linear-gradient(to right, var(--qwer-w), var(--qwer-q));
+    background-clip: text;
+    color: transparent;
+}
+
 .docs-content .qe_part {
     display: inline-block;
     background: linear-gradient(to right, var(--qwer-q), var(--qwer-e));
+    background-clip: text;
+    color: transparent;
+}
+
+.docs-content .eq_part {
+    display: inline-block;
+    background: linear-gradient(to right, var(--qwer-e), var(--qwer-q));
     background-clip: text;
     color: transparent;
 }
@@ -356,9 +370,23 @@ i {
     color: transparent;
 }
 
+.docs-content .rq_part {
+    display: inline-block;
+    background: linear-gradient(to right, var(--qwer-r), var(--qwer-q));
+    background-clip: text;
+    color: transparent;
+}
+
 .docs-content .we_part {
     display: inline-block;
     background: linear-gradient(to right, var(--qwer-w), var(--qwer-e));
+    background-clip: text;
+    color: transparent;
+}
+
+.docs-content .ew_part {
+    display: inline-block;
+    background: linear-gradient(to right, var(--qwer-e), var(--qwer-w));
     background-clip: text;
     color: transparent;
 }
@@ -370,9 +398,23 @@ i {
     color: transparent;
 }
 
+.docs-content .rw_part {
+    display: inline-block;
+    background: linear-gradient(to right, var(--qwer-r), var(--qwer-w));
+    background-clip: text;
+    color: transparent;
+}
+
 .docs-content .er_part {
     display: inline-block;
     background: linear-gradient(to right, var(--qwer-e), var(--qwer-r));
+    background-clip: text;
+    color: transparent;
+}
+
+.docs-content .re_part {
+    display: inline-block;
+    background: linear-gradient(to right, var(--qwer-r), var(--qwer-e));
     background-clip: text;
     color: transparent;
 }
