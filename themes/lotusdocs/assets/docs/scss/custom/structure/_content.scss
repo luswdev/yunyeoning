@@ -311,3 +311,74 @@ i {
         color: var(--primary)
     }
 }
+
+// QWER part highlight
+
+.docs-content .part_info {
+    font-size: 0.75rem;
+}
+
+.docs-content .q_part {
+    color: var(--qwer-q);
+}
+
+.docs-content .w_part {
+    color: var(--qwer-w);
+}
+
+.docs-content .e_part {
+    color: var(--qwer-e);
+}
+
+.docs-content .r_part {
+    color: var(--qwer-r);
+}
+
+.docs-content .qw_part {
+    display: inline-block;
+    background: linear-gradient(to right, var(--qwer-q), var(--qwer-w));
+    background-clip: text;
+    color: transparent;
+}
+
+.docs-content .qe_part {
+    display: inline-block;
+    background: linear-gradient(to right, var(--qwer-q), var(--qwer-e));
+    background-clip: text;
+    color: transparent;
+}
+
+.docs-content .qr_part {
+    display: inline-block;
+    background: linear-gradient(to right, var(--qwer-q), var(--qwer-r));
+    background-clip: text;
+    color: transparent;
+}
+
+.docs-content .we_part {
+    display: inline-block;
+    background: linear-gradient(to right, var(--qwer-w), var(--qwer-e));
+    background-clip: text;
+    color: transparent;
+}
+
+.docs-content .wr_part {
+    display: inline-block;
+    background: linear-gradient(to right, var(--qwer-w), var(--qwer-r));
+    background-clip: text;
+    color: transparent;
+}
+
+.docs-content .er_part {
+    display: inline-block;
+    background: linear-gradient(to right, var(--qwer-e), var(--qwer-r));
+    background-clip: text;
+    color: transparent;
+}
+
+.docs-content .qwer_part {
+    display: inline-block;
+    background: linear-gradient(to right, var(--qwer-q), var(--qwer-w), var(--qwer-e), var(--qwer-r));
+    background-clip: text;
+    color: transparent;
+}

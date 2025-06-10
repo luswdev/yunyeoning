@@ -12,39 +12,6 @@ arrangement: "-"
 youtube: "CGvqj7bzCVY"
 ---
 
-<style>
-    .q_part {
-        color: #e0e0e0;
-    }
-    .w_part {
-        color: #ee83af;
-    }
-    .e_part {
-        color: #02b7e9;
-    }
-    .r_part {
-        color: #c0d370;
-    }
-    .qr_part {
-        display: inline-block;
-        background: linear-gradient(to right, #e0e0e0, #C0D370);
-        background-clip: text;
-        color: transparent;
-    }
-    .we_part {
-        display: inline-block;
-        background: linear-gradient(to right, #ee83af, #02b7e9);
-        background-clip: text;
-        color: transparent;
-    }
-    .qwer_part {
-        color: rgb(252, 211, 3);
-    }
-    .part_info {
-        font-size: 0.75rem;
-    }
-</style>
-
 ## 韓中歌詞
 
 <div class="part_info">
