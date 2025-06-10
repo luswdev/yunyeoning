@@ -1,5 +1,11 @@
 {{ $owner := .Get 0 }}
-
+{{ $inline := .Get 1 | default false }}
+{{ if not $inline }}
 <div class="{{$owner}}_part">
     {{ $.Inner  | .Page.RenderString (dict "display" "block") }}
 </div>
+{{ else }}
+<span class="{{$owner}}_part inline">
+    {{ $.Inner  | .Page.RenderString (dict "display" "inline") }}
+</span>
+{{ end }}
