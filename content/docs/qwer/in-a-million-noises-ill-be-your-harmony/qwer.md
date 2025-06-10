@@ -26,6 +26,7 @@ youtube: "8-XjAXrS0bs"
         color: rgb(192, 211, 112);
     }
     .er_part {
+        display: inline-block;
         background: linear-gradient(to right, #C0D370, #02B7E9);
         background-clip: text;
         color: transparent;
@@ -124,7 +125,7 @@ Tap Tap Tap Tap
 
 <div class="e_part">
 
-(내 맘대로) 
+(내 맘대로)  
 (隨心所欲)  
 
 </div>
