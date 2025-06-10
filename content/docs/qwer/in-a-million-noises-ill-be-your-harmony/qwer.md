@@ -12,33 +12,6 @@ arrangement: "이동혁, 이범훈"
 youtube: "8-XjAXrS0bs"
 ---
 
-<style>
-    .q_part {
-        color: rgb(224, 224, 224);
-    }
-    .w_part {
-        color: rgb(238, 131, 175);
-    }
-    .e_part {
-        color: rgb(2, 183, 233);
-    }
-    .r_part {
-        color: rgb(192, 211, 112);
-    }
-    .er_part {
-        display: inline-block;
-        background: linear-gradient(to right, #C0D370, #02B7E9);
-        background-clip: text;
-        color: transparent;
-    }
-    .qwer_part {
-        color: rgb(252, 211, 3);
-    }
-    .part_info {
-        font-size: 0.75rem;
-    }
-</style>
-
 ## 韓中歌詞
 
 <div class="part_info">
@@ -51,15 +24,14 @@ youtube: "8-XjAXrS0bs"
 
 </div>
 
-<div class="r_part">
-
+{{< qwerly r  >}}
 간만에 톡하고 검색해 본 My Name  
 久違的聊起 查了查我的名字  
 
 자꾸만 꾹 하고 확인해도 글쎄  
 一直按著確認  
 
-</div>
+{{< /qwerly >}}
 
 <div class="q_part">
 
