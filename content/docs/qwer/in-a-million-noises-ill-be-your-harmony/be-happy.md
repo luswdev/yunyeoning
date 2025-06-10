@@ -12,41 +12,13 @@ arrangement: "이동혁, 김승준"
 youtube: "PRH8JkIe0Ho"
 ---
 
-<style>
-    .q_part {
-        color: rgb(224, 224, 224);
-    }
-    .w_part {
-        color: rgb(238, 131, 175);
-    }
-    .e_part {
-        color: rgb(2, 183, 233);
-    }
-    .r_part {
-        color: rgb(192, 211, 112);
-    }
-    .qwer_part {
-        color: rgb(252, 211, 3);
-    }
-    .part_info {
-        font-size: 0.75rem;
-    }
-</style>
-
 ## 韓中歌詞
 
-<div class="part_info">
+{{< qwerinfo >}}
 
-<span class="q_part">Q. Chodan</span>
-<span class="w_part">W. Magenta</span>
-<span class="e_part">E. Hina</span>
-<span class="r_part">R. Siyeon</span>
-<span class="qwer_part">ALL</span>
+{{< /qwerly >}}
 
-</div>
-
-<div class="r_part">
-
+{{< qwerly r >}}
 눈부신 햇살 아래  
 在耀眼的陽光下  
 
@@ -58,18 +30,14 @@ youtube: "PRH8JkIe0Ho"
 
 좋은 아침인걸  
 是多美好的一個早晨啊  
+{{< /qwerly >}}
 
-</div>
-
-<div class="q_part">
-
+{{< qwerly q >}}
 (시작이 좋아)  
 (美好的開始)  
+{{< /qwerly >}}
 
-</div>
-
-<div class="r_part">
-
+{{< qwerly r >}}
 커다란 기지갤 켜고  
 伸一個大大的懶腰  
 
@@ -78,20 +46,16 @@ youtube: "PRH8JkIe0Ho"
 
 안녕 안녕 나의 주인공  
 你好 你好 我故事裡的主角  
+{{< /qwerly >}}
 
-</div>
-
-<div class="e_part">
-
+{{< qwerly e >}}
 (You!)  
 (是你!)  
-
-</div>
+{{< /qwerly >}}
 
 <br>
 
-<div class="r_part">
-
+{{< qwerly r >}}
 분주히 나갈 준비하며  
 匆忙的準備出門  
 
@@ -137,18 +101,14 @@ youtube: "PRH8JkIe0Ho"
 
 더 크게 옮겼대  
 還蓋得更大間了  
+{{< /qwerly >}}
 
-</div>
-
-<div class="q_part">
-
+{{< qwerly q >}}
 (휴! 다행이야)  
 (呼! 真是好險)  
+{{< /qwerly >}}
 
-</div>
-
-<div class="r_part">
-
+{{< qwerly r >}}
 갑자기 내린 소나기  
 突然下起了小雨  
 
@@ -157,20 +117,16 @@ youtube: "PRH8JkIe0Ho"
 
 정말 행운이야 그치  
 真的是太幸運了 對吧  
+{{< /qwerly >}}
 
-</div>
-
-<div class="e_part">
-
+{{< qwerly e >}}
 (Yeah!)  
 (耶!)  
-
-</div>
+{{< /qwerly >}}
 
 <br>
 
-<div class="r_part">
-
+{{< qwerly r >}}
 유난히 친절한 오늘  
 格外親切的今天  
 
@@ -202,43 +158,33 @@ youtube: "PRH8JkIe0Ho"
 
 행복을 가져다주는 바로 지금  
 正是現在所帶來的幸福啊  
-
-</div>
+{{< /qwerly >}}
 
 <br>
 
-<div class="q_part">
-
+{{< qwerly q >}}
 고민고민하던 것도  
 那些苦惱著很久的事  
+{{< /qwerly >}}
 
-</div>
-
-<div class="w_part">
-
+{{< qwerly w >}}
 쫌 망설였던 일도  
 有些猶豫的事都  
+{{< /qwerly >}}
 
-</div>
-
-<div class="e_part">
-
+{{< qwerly e >}}
 전부 날려 버리구  
 通通把它拋開吧  
+{{< /qwerly >}}
 
-</div>
-
-<div class="qwer_part">
-
+{{< qwerly qwer >}}
 모두 모두 행복해져라  
 所有人都變得幸福吧  
-
-</div>
+{{< /qwerly >}}
 
 <br>
 
-<div class="r_part">
-
+{{< qwerly r >}}
 하루하루 이렇게 또 웃어보자 하하하  
 也這樣的笑著度過每一天吧 哈哈哈  
 
@@ -256,5 +202,4 @@ youtube: "PRH8JkIe0Ho"
 
 행복을 가져다주는 바로 지금  
 正是現在所帶來的幸福啊  
-
-</div>
+{{< /qwerly >}}
