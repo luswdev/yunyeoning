@@ -14,15 +14,7 @@ youtube: "8-XjAXrS0bs"
 
 ## 韓中歌詞
 
-<div class="part_info">
-
-<span class="q_part">Q. Chodan</span>
-<span class="w_part">W. Magenta</span>
-<span class="e_part">E. Hina</span>
-<span class="r_part">R. Siyeon</span>
-<span class="qwer_part">ALL</span>
-
-</div>
+{{ <qwerinfo> }}
 
 {{< qwerly r  >}}
 간만에 톡하고 검색해 본 My Name  

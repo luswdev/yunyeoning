@@ -1,7 +1,5 @@
 {{ $owner := .Get 0 }}
 
 <div class="{{$owner}}_part">
-    <p>
-        {{ $.Inner }}
-    </p>
+    {{ $.Inner  | .Page.RenderString }}
 </div>
