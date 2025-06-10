@@ -6,8 +6,8 @@ icon: "genres"
 weight: 1
 date: 2025-06-09
 images: ["/docs/qwer/in-a-million-noises-ill-be-your-harmony/in-a-million-noises-ill-be-your-harmony.jpg"]
-composition: "이동혁, 김혜정, 이시연, 마젠타, HINA, 홍지혜, GESTURE, Elum"
-lyric: "이동혁, GESTURE, ONE.KI, Elum"
+composition: "이동혁, GESTURE, ONE.KI, Elum"
+lyric: "이동혁, 김혜정, 이시연, 마젠타, HINA, 홍지혜, GESTURE, Elum"
 arrangement: "이동혁, 홍훈기"
 youtube: "pifz9JH1Re8"
 ---
