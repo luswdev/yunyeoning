@@ -16,8 +16,6 @@ youtube: "PRH8JkIe0Ho"
 
 {{< qwerinfo >}}
 
-{{< /qwerly >}}
-
 {{< qwerly r >}}
 눈부신 햇살 아래  
 在耀眼的陽光下  
