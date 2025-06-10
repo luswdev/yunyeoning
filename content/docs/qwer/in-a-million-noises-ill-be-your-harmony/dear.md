@@ -16,6 +16,7 @@ youtube: "pifz9JH1Re8"
 
 {{< qwerinfo >}}
 
+{{< qwerly r >}}
 맑은 하늘에 비 내리는 날  
 在晴朗的天空中下著雨的日子  
 
@@ -27,13 +28,15 @@ youtube: "pifz9JH1Re8"
 
 점점 맘에 차서 숨쉬기가 힘들 것 같아요  
 漸漸填滿整個心房 讓我快喘不過氣  
+{{< /qwerly >}}
 
 {{< qwerly e true >}}세상이{{< /qwerly >}} {{< qwerly w true >}}아직은 무섭고{{< /qwerly >}}  
 世界依舊如此的可怕  
 
-여전히 넘어지는 게  
+{{< qwerly e true >}}여전히{{< /qwerly >}} {{< qwerly r true >}}넘어지는 게{{< /qwerly >}}  
 跌倒後要重新站起來這件事  
 
+{{< qwerly r >}}
 아직은 너무 어려운가 봐  
 對我而言還是很難做到  
 
@@ -67,13 +70,15 @@ youtube: "pifz9JH1Re8"
 
 이제는 밖으로 다 쏟아져 넘칠 것 같아요  
 已經快要滿溢出心口了  
+{{< /qwerly >}}
 
-말해줘 다 잘될 거라고  
+{{< qwerly w true >}}말해줘{{< /qwerly >}} {{< qwerly q true >}}다 잘될 거라고{{< /qwerly >}}  
 告訴我 一切都會好起來的  
 
-도와줘 겁 많은 나라서  
+{{< qwerly w true >}}도와줘{{< /qwerly >}} {{< qwerly r true >}}겁 많은 나라서{{< /qwerly >}}  
 請幫幫那個膽小的我吧  
 
+{{< qwerly r >}}
 날 믿을 수 없을 땐, 어떡해야 하나요  
 當我不相信我自己時 我該怎麼做  
 
@@ -108,8 +113,13 @@ youtube: "pifz9JH1Re8"
 
 <br>
 
+{{< /qwerly >}}
+
+{{< qwerly e >}}
 내리던 비가 그치고 나면  
 落下的雨若停下的話  
+
+{{< /qwerly >}}
 
 내일이 꼭 올 테니까  
 明天一定會到來的  
