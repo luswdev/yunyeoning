@@ -134,7 +134,7 @@ Yeah We Never Give Up
 외쳐! Burn the Silence  
 吶喊吧！Burn the Silence  
 
-타오르는 심장박동
+타오르는 심장박동  
 燃燒的心跳  
 
 한껏 느껴 이 전율  
