@@ -257,15 +257,3 @@ var sanitizeHTML = function (str) {
 		return '&#' + c.charCodeAt(0) + ';';
 	});
 };
-
-// add auto size for title image 
-
-function syncIconHeight() {
-    const img = document.querySelector('img.title-icon');
-    const h1  = document.querySelector('.content-title');
-    img.style.height = `${h1.offsetHeight}px`;
-    img.style.width = 'auto';
-}
-
-window.addEventListener('load',  syncIconHeight);
-window.addEventListener('resize', syncIconHeight);
