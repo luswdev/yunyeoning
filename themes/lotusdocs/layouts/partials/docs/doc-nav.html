@@ -1,6 +1,6 @@
-<hr class="doc-hr">
 <!--
-<div id="doc-nav" class="d-print-none">
+    <hr class="doc-hr">
+    <div id="doc-nav" class="d-print-none">
 {{ if or .Prev .Next -}}
 	{{ $pages := where .Site.RegularPages "Section" .Section -}}
     <div class="row flex-xl-nowrap {{ if .Next }}{{ else }}flex-row-reverse{{ end }}">
