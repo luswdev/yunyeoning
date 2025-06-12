@@ -99,7 +99,7 @@ i, img {
         width: 44px;
         height: 44px;
         color: var(--content-icon-color);
-        background-color: var(--content-icon-bg);
+        // background-color: var(--content-icon-bg);
         display: inline-flex !important;
         align-self: center;
         align-items: center;
@@ -114,6 +114,11 @@ i, img {
     }
 }
 
+i, img {
+    &.title-icon {
+        background-color: var(--content-icon-bg);
+    }
+}
 .docs-content p {
     &.lead {
         color: var(--text-muted);
