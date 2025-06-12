@@ -5,7 +5,7 @@ subtitle: "REBOUND"
 icon: "genres"
 weight: 7
 date: 2024-09-23
-images: ["/docs/qwer/algorithms_blossom/algorithms_blossom.jpg"]
+images: ["/docs/qwer/algorithms-blossom/algorithms-blossom.jpg"]
 composition: "이동혁, 김혜정"
 lyric: "이동혁, Elum, GESTURE, 한아영"
 arrangement: "이동혁, 한아영, 김승준"
