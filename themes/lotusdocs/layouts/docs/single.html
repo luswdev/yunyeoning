@@ -2,21 +2,47 @@
     <!-- override Prism's default copy messages to 'empty'. Required by CSS styling.
          see: https://prismjs.com/plugins/copy-to-clipboard/#styling -->
 
+    {{ $classMap := dict
+        "홍지혜"   "q_part"
+        "마젠타"   "w_part"
+        "HINA"    "e_part"
+        "이시연"   "r_part"
+    }}
+
+    {{ $lyrics := split .Params.lyric ", " }}
+    {{ $compositions := split .Params.composition ", " }}
+    {{ $arrangements := split .Params.arrangement ", " }}
+
     {{ if eq .Params.layout "song-view" | default false -}}
         <div class="song-meta">
             <table class="table table-borderless">
                 <tbody>
                 <tr>
                     <th scope="row">作詞</th>
-                    <td>{{ .Params.lyric }}</td>
+                    <td>
+                        {{- range $i, $name := $lyrics -}}
+                        {{- if gt $i 0 }}, {{ end -}}
+                            <span class="{{ index $classMap $name }}">{{ $name }}</span>
+                        {{- end}}
+                    </td>
                 </tr>
                 <tr>
                     <th scope="row">作曲</th>
-                    <td>{{ .Params.composition }}</td>
+                    <td>
+                        {{- range $i, $name := $compositions -}}
+                        {{- if gt $i 0 }}, {{ end -}}
+                            <span class="{{ index $classMap $name }}">{{ $name }}</span>
+                        {{- end}}
+                    </td>
                 </tr>
                 <tr>
                     <th scope="row">編曲</th>
-                    <td>{{ .Params.arrangement }}</td>
+                    <td>
+                        {{- range $i, $name := $arrangements -}}
+                        {{- if gt $i 0 }}, {{ end -}}
+                            <span class="{{ index $classMap $name }}">{{ $name }}</span>
+                        {{- end}}
+                    </td>
                 </tr>
                 </tbody>
             </table>
