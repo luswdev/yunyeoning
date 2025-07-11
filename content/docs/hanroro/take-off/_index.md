@@ -5,5 +5,5 @@ description: "1st EP"
 icon: library_music
 weight: 1
 date: 2023-08-29
-images: ["/docs/qwer/take-off/take-off.jpg"]
+images: ["/docs/hanroro/take-off/take-off.jpg"]
 ---
