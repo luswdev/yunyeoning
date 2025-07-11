@@ -5,7 +5,7 @@ subtitle: "Landing in Love"
 icon: "genres"
 weight: 1
 date: 2023-08-29
-images: ["/docs/others/take-off.jpg"]
+images: ["/docs/hanroro/take-off.jpg"]
 composition: "한로로"
 lyric: "한로로"
 arrangement: "이새"
