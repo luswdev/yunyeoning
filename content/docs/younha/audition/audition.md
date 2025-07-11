@@ -122,12 +122,3 @@ Let It Go 用只屬於我的鋼琴旋律
 
 수많은 꿈들 속에서 빛나고 말 거야  
 在無數的夢裡 一定會發光的  
-
-### 註
-
-**...고 말 거야**: 有「一定要/會...」的意思。
-
-#### 參考資料
-- [金老師的韓語](https://www.threads.net/@kims.korean/post/DBBurOJziKB?hl=ko)
-- [r/Korean](https://www.reddit.com/r/Korean/comments/gx5dqz/what_%EB%A7%90_%EA%B1%B0%EC%95%BC_means_in_this_sentence/)
-- [Tom Lee](https://youtu.be/olmYOV3UMfk?si=ux3yeI8pfTzVR1zL)
