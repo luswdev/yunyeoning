@@ -37,9 +37,9 @@ youtube: "HBV_hwwMnuI?si=3X_DSnQ0jimniLau"
 <br>
 
 Time2Rock Ready Go 햇살이 따스해  
-Time2Rock Ready Go 陽光如此溫暖  
+Time2Rock Ready Go 陽光是如此的溫暖  
 
-오늘 컨디션도 너무 좋은 걸 
+오늘 컨디션도 너무 좋은 걸  
 今天狀態也非常的好  
 
 두근대는 마음은  
