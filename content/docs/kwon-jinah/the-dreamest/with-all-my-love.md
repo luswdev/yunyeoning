@@ -29,6 +29,8 @@ youtube: "BxJ1nrBEcPE?si=stKePig4HZN7qEjp"
 이젠 사랑하는 게 겁이 나  
 現在連去愛都變得害怕  
 
+<br>
+
 그랬던 내게 너는 다가와  
 而你卻你走近了這樣的我  
 
@@ -40,6 +42,8 @@ youtube: "BxJ1nrBEcPE?si=stKePig4HZN7qEjp"
 
 내가 뭐라고 같이 울어줘  
 我算什麼 卻能讓你陪我一起落淚  
+
+<br>
 
 널 만나려고  
 為了與你相見  
@@ -69,6 +73,8 @@ youtube: "BxJ1nrBEcPE?si=stKePig4HZN7qEjp"
 
 내가 뭐라고 그렇게나 예쁘게 미소 짓고 있는 거니  
 我算什麼 竟能讓你那樣燦爛地微笑  
+
+<br>
 
 널 만나려고  
 為了與你相見  
