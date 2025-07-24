@@ -67,7 +67,7 @@ Are you ready for this
 這首歌將會整夜流淌  
 
 Don't forget who you are  
-不要忘記你是誰  
+不要忘記你的初心  
 
 </br>
 
@@ -130,7 +130,7 @@ Are you ready for this
 這首歌將會整夜流淌  
 
 Don't forget who you are  
-不要忘記你是誰  
+不要忘記你的初心  
 
 </br>
 
@@ -184,4 +184,4 @@ So I always win at the end of the night
 你也一定要牢記  
 
 Don't forget who you are   
-不要忘記你是誰  
+不要忘記你的初心  
