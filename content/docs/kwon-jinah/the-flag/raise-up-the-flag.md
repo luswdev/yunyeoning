@@ -167,7 +167,7 @@ We are ready for this
 就算偶爾變得模糊  
 
 반드시 넌 기억해  
-你也一定要牢記  
+你也一定要牢記著  
 
 Raise up the flag  
 舉起旗子吧  
@@ -181,7 +181,7 @@ So I always win at the end of the night
 所以在那黑夜的盡頭 我終將獲勝
 
 반드시 넌 기억해  
-你也一定要牢記  
+你也一定要牢記著  
 
 Don't forget who you are   
 不要忘記你的初心  
