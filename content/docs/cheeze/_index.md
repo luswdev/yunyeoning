@@ -5,5 +5,5 @@ description:
 icon: artist
 weight: 3
 date: 2011-12-16
-images: ["/docs/cheeze/cheeze.png"]
+images: ["/docs/cheeze/cheeze.svg"]
 ---
