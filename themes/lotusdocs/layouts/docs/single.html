@@ -12,6 +12,7 @@
     {{ $lyrics := split .Params.lyric ", " }}
     {{ $compositions := split .Params.composition ", " }}
     {{ $arrangements := split .Params.arrangement ", " }}
+    {{ $published_time := .Date }}
 
     {{ if eq .Params.layout "song-view" | default false -}}
         <div class="song-meta">
@@ -42,6 +43,12 @@
                         {{- if gt $i 0 }}, {{ end -}}
                             <span class="{{ index $classMap $name }}">{{ $name }}</span>
                         {{- end}}
+                    </td>
+                </tr>
+                <tr>
+                    <th scope="row">發行日</th>
+                    <td>
+                        <span>{{ $published_time.Format "2006-01-02" }}</span>
                     </td>
                 </tr>
                 </tbody>
