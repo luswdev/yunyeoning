@@ -435,3 +435,10 @@ i {
     background-clip: text;
     color: transparent;
 }
+
+.docs-content .kwonjinah-written {
+    display: inline-block;
+    background: linear-gradient(to right, var(--kwonjinah-1), var(--kwonjinah-2));
+    background-clip: text;
+    color: transparent;
+}
