@@ -108,6 +108,17 @@ $btn-link-hover-color:        var(--#{$prefix}link-hover-color);
     --yholics-100-hsl: 203, 100%, 97%;
     --yholics-50-hsl: 203, 100%, 98%;
 
+    --jinahon-900-hsl: 322, 45%, 20%;
+    --jinahon-800-hsl: 322, 45%, 28%;
+    --jinahon-700-hsl: 322, 45%, 36%;
+    --jinahon-600-hsl: 322, 46%, 44%;
+    --jinahon-500-hsl: 321, 46%, 60%;
+    --jinahon-400-hsl: 320, 50%, 68%;
+    --jinahon-300-hsl: 319, 54%, 76%;
+    --jinahon-200-hsl: 318, 58%, 84%;
+    --jinahon-100-hsl: 317, 62%, 92%;
+    --jinahon-50-hsl: 316, 66%, 97%;
+
     --blue-900: hsl(var(--blue-900-hsl));
     --blue-800: hsl(var(--blue-800-hsl));
     --blue-700: hsl(var(--blue-700-hsl));
@@ -207,6 +218,17 @@ $btn-link-hover-color:        var(--#{$prefix}link-hover-color);
     --yholics-100: hsl(var(--yholics-100-hsl));
     --yholics-50: hsl(var(--yholics-50-hsl));
 
+    --jinahon-900: hsl(var(--jinahon-900-hsl));
+    --jinahon-800: hsl(var(--jinahon-800-hsl));
+    --jinahon-700: hsl(var(--jinahon-700-hsl));
+    --jinahon-600: hsl(var(--jinahon-600-hsl));
+    --jinahon-500: hsl(var(--jinahon-500-hsl));
+    --jinahon-400: hsl(var(--jinahon-400-hsl));
+    --jinahon-300: hsl(var(--jinahon-300-hsl));
+    --jinahon-200: hsl(var(--jinahon-200-hsl));
+    --jinahon-100: hsl(var(--jinahon-100-hsl));
+    --jinahon-50: hsl(var(--jinahon-50-hsl));
+
     --blue: var(--blue-500);
     --green: var(--green-500);
     --red: var(--red-500);
@@ -216,6 +238,8 @@ $btn-link-hover-color:        var(--#{$prefix}link-hover-color);
     --magenta: var(--magenta-500);
     --emerald: var(--emerald-500);
     --yholics: var(--yholics-500);
+    --jinahon: var(--jinahon-500);
+
     --qwer-q: #e0e0e0;
     --qwer-w: #ee83af;
     --qwer-e: #02b7e9;
@@ -223,7 +247,7 @@ $btn-link-hover-color:        var(--#{$prefix}link-hover-color);
     --kwonjinah-1: #e2ceaa;
     --kwonjinah-2: #d5b2d0;
     --kwonjinah-3: #7E2F63;
-    --kwonjinah-4: #C86BA8;
+    --kwonjinah-4: var(--jinahon);
 
     --secondary: var(--gray-600);
     --success: var(--green);
