@@ -38,8 +38,12 @@ enableRobotsTXT = true
     secondary_font  = "Lato, Noto Sans TC, Noto Sans KR"     # Default is System font
     mono_font       = "JetBrains Mono" # Default is System font
 
+    [params.social]
+        instagram = "yunyeoning"
+        twitter = "yunyeoning"
+
     [params.footer]
-        copyright = "All photos are property of their respective owners &copy; :YEAR: LuSkywalker"
+        copyright = "All photos are property of their respective owners. Lyric translation by &copy; :YEAR: LuSkywalker"
         version   = true
 
     [params.docs]
