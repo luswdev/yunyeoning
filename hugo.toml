@@ -42,6 +42,7 @@ enableRobotsTXT = true
         instagram = "yunyeoning"
         threads = "yunyeoning"
         twitter = "yunyeoning"
+        youtube = "@yunyeoning"
 
     [params.footer]
         copyright = "All photos are property of their respective owners. Lyric translation by &copy; :YEAR: LuSkywalker"
