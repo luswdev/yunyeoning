@@ -3,7 +3,7 @@ layout: "song-view"
 title: "KNOCK"
 subtitle: "With 박문치"
 icon: "genres"
-weight: 12
+weight: 11
 date: 2021-07-27
 images: ["/docs/kwon-jinah/single/knock.jpg"]
 composition: "권진아"
