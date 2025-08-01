@@ -41,7 +41,7 @@ enableRobotsTXT = true
     [params.social]
         instagram = "yunyeoning"
         threads = "yunyeoning"
-        twitter = "yunyeoning"
+        # twitter = "yunyeoning"
         youtube = "@yunyeoning"
 
     [params.footer]
