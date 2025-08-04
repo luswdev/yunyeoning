@@ -3,7 +3,7 @@ layout: "song-view"
 title: "Discord"
 subtitle:
 icon: "genres"
-weight: 1
+weight: 2
 date: 2023-10-18
 images: ["/docs/qwer/harmony-from-discord/harmony-from-discord.jpg"]
 composition: "이동혁, 홍훈기, Elum, GESTURE, 김승준, 홍지혜, 이시연"
