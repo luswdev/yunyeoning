@@ -10,6 +10,7 @@ composition: "이동혁, 홍훈기, Elum, GESTURE, 김승준, 홍지혜, 이시�
 lyric: "이동혁, GESTURE, Elum"
 arrangement: "이동혁, 홍훈기, BuildingOwner"
 youtube: "WGm2HmXeeRI"
+description: "title"
 ---
 
 ## 韓中歌詞

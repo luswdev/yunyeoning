@@ -10,6 +10,7 @@ composition: "이동혁, GESTURE, ONE.KI, Elum"
 lyric: "이동혁, 김혜정, 이시연, 마젠타, HINA, 홍지혜, GESTURE, Elum"
 arrangement: "이동혁, 홍훈기"
 youtube: "pifz9JH1Re8"
+description: "title"
 ---
 
 ## 韓中歌詞
