@@ -10,6 +10,7 @@ composition: "라디(Ra.D)"
 lyric: "유희열"
 arrangement: "윤석철"
 youtube: "sOgsp64fw0M"
+description: "title"
 ---
 
 ## 韓中歌詞

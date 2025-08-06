@@ -10,6 +10,7 @@ composition: "한로로, Ryo"
 lyric: "한로로"
 arrangement: "Ryo, HAH"
 youtube: "tKERw3_ked0"
+description: "title"
 ---
 
 ## 韓中歌詞

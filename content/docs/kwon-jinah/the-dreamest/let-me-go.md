@@ -10,6 +10,7 @@ composition: "권진아"
 lyric: "권진아"
 arrangement: "권영찬"
 youtube: "FPlOfqiKD64"
+description: "title"
 ---
 
 ## 韓中歌詞

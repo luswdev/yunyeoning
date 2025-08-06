@@ -10,6 +10,7 @@ composition: "한로로"
 lyric: "한로로"
 arrangement: "이새"
 youtube: "h0KIWaUEIgQ"
+description: "title"
 ---
 
 ## 韓中歌詞
