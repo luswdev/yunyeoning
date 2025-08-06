@@ -10,7 +10,7 @@ composition: "한로로, 진동욱"
 lyric: "한로로"
 arrangement: "진동욱, 이새, 배도협, 유병현, Steven"
 youtube: "U4-cz9NHQv4"
-description: "title"
+description: "主打歌"
 ---
 
 ## 韓中歌詞

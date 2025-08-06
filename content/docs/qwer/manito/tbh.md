@@ -10,7 +10,7 @@ composition: "이동혁, 홍훈기, Elum, GESTURE, 한아영"
 lyric: "이동혁, GESTURE, 김혜정, Elum, 마젠타"
 arrangement: "이동혁, 한아영"
 youtube: "ImuWa3SJulY"
-description: "title"
+description: "主打歌"
 ---
 
 ## 韓中歌詞

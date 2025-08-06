@@ -10,7 +10,7 @@ composition: "권진아"
 lyric: "권진아"
 arrangement: "박문치"
 youtube: "v5lkiuAcJQU"
-description: "title"
+description: "主打歌"
 ---
 
 ## 韓中歌詞
