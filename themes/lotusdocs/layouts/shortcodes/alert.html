@@ -6,7 +6,7 @@
   "default" "notifications"
   "primary" "info"
 }}
-<div class="alert alert-{{ with .Get "context" }}{{.}}{{ else }}default{{ end }} d-flex w-100 {{ if eq (.Get "centerText") "yes" }}text-center{{ end }}" role="alert">
+<div class="alert alert-{{ with .Get "context" }}{{.}}{{ else }}default{{ end }} d-flex {{ if eq (.Get "centerText") "yes" }}text-center{{ end }}" role="alert">
   <div class="flex-shrink-1 alert-icon">
   {{ with .Get "icon" }}
   {{ . }}
