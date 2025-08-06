@@ -3,9 +3,9 @@ layout: "song-view"
 title: "도망"
 subtitle: "Can I Be Me?"
 icon: "genres"
-weight: 10
+weight: 7
 date: 2025-07-06
-images: ["/docs/hanroro/single/can-i-be-me.webp"]
+images: ["/docs/hanroro/jamong-salgu-club/can-i-be-me.webp"]
 composition: "한로로, Ryo"
 lyric: "한로로"
 arrangement: "Ryo"
