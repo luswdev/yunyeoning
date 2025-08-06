@@ -10,7 +10,7 @@ composition: "한로로, Ryo"
 lyric: "한로로"
 arrangement: "Ryo"
 youtube: "nhntH2wn3m0"
-description: "pre-release"
+description: "先行曲"
 aliases: ["/docs/hanroro/single/can-i-be-me/"]
 ---
 

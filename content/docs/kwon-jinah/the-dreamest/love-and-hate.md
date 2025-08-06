@@ -10,7 +10,7 @@ composition: "권덕근(WSHL:ST), clovd, Young Chance, Ayelle, Hautboi Rich "
 lyric: "권진아"
 arrangement: "권덕근(WSHL:ST), clovd"
 youtube: "z5SZ38rhXIc?si=O2no-zZD9EF5nKE5"
-description: "pre-release"
+description: "先行曲"
 draft: true
 ---
 
