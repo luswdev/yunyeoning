@@ -34,7 +34,7 @@ enableRobotsTXT = true
         ["Noto Serif TC"," 300, 400, 600, 700"],
     ]
 
-    sans_serif_font = "Lato, Noto Serif TC, Noto Serif KR"     # Default is System font
+    sans_serif_font = "Noto Serif TC, Noto Serif KR"     # Default is System font
     secondary_font  = "Lato, Noto Sans TC, Noto Sans KR"     # Default is System font
     mono_font       = "JetBrains Mono" # Default is System font
 
