@@ -4,7 +4,7 @@ title: "시간을 달리네"
 subtitle: "Goodbye, My Summer"
 icon: "genres"
 weight: 6
-date: 2023-08-29
+date: 2025-08-04
 images: ["/docs/hanroro/jamong-salgu-club/jamong-salgu-club.jpg"]
 composition: "한로로, Ryo"
 lyric: "한로로"
