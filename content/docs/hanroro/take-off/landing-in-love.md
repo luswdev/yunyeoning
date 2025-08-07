@@ -3,7 +3,7 @@ layout: "song-view"
 title: "사랑하게 될 거야"
 subtitle: "Landing in Love"
 icon: "genres"
-weight: 1
+weight: 6
 date: 2023-08-29
 images: ["/docs/hanroro/take-off/take-off.jpg"]
 composition: "한로로"
