@@ -1,5 +1,5 @@
 baseURL = 'https://kr.lusw.dev/'
-languageCode = 'en-us'
+languageCode = 'zh-Hant'
 title = '우연히 유년잉'
 contentDir = 'content'
 enableEmoji = true
