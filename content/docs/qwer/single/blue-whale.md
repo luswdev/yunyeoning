@@ -5,7 +5,7 @@ subtitle: "Blue Whale"
 icon: "genres"
 weight: 2
 date: 2025-10-06
-images: ["/docs/qwer/single/blue_whale.jpg"]
+images: ["/docs/qwer/single/blue-whale.jpg"]
 composition: "허준, 윤도현"
 lyric: "윤도현"
 arrangement: "김승준, 이범훈"
