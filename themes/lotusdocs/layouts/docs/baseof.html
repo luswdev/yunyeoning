@@ -47,7 +47,7 @@
                                             <div class="mb-0 d-flex">
                                                 {{ if site.Params.docs.titleIcon | default false }}
                                                 {{ if .Params.images | default false }}
-                                                <img class="title-icon me-2" src="{{ index .Params.images 0 }}">
+                                                <img class="title-icon me-2" src="{{ index .Params.images 0 }}?v={{ now.Unix }}" alt="Title Icon">
                                                 {{ else }}
                                                 <i class="material-icons title-icon me-2">{{- .Params.icon | default "article" }}</i>
                                                 {{ end }}
