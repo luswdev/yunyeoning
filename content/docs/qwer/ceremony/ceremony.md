@@ -7,7 +7,7 @@ weight: 1
 date: 2026-04-27
 images: ["/docs/qwer/ceremony/ceremony.jpg"]
 composition: "이동혁, GESTURE"
-lyric: "이동혁, GESTURE, 김혜정, 히나, 마젠타, 홍지혜, 이시연"
+lyric: "이동혁, GESTURE, 김혜정, HINA, 마젠타, 홍지혜, 이시연"
 arrangement: "이동혁, 이범훈"
 youtube: "A8d2Gx91zwk"
 description: "主打歌"
@@ -201,8 +201,8 @@ I got the main character energy
 
 <br>
 
-혹시 이건 꿈의 Dejavu  
-難道這就是夢境中的即視感嗎  
+역시 이건 꿈의 Dejavu  
+果然這就是夢境中的即視感啊  
 
 봐 난 날아오를 거라구  
 看好了 我即將要展翅高飛了  
