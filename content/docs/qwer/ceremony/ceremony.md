@@ -15,10 +15,14 @@ description: "主打歌"
 
 ## 韓中歌詞
 
+{{< qwerinfo >}}
+
+
 One! Two! Q! W! E! R!  
 
 <br>
 
+{{< qwerly r >}}
 거울 속 Smile 진심 억지  
 鏡子裡的笑容 真是勉強的可以  
 
@@ -27,41 +31,57 @@ One! Two! Q! W! E! R!
 
 Who is she?  
 她是誰?  
+{{< /qwerly >}}
 
+{{< qwerly e >}}
 흠 뭐가 뭔지 모르겠어  
 哼 我實在分不清楚了  
 
 This is not me  
 這根本不是我啊  
+{{< /qwerly >}}
 
 <br>
 
+{{< qwerly r >}}
 무난 무난한 내 모습들이  
 平庸無奇的我那些模樣們  
 
 반전 따윈 없는 이 하루까지  
 連這種毫無波瀾的一天也是  
+{{< /qwerly >}}
 
+{{< qwerly e >}}
 So bored so bored  
 好乏味 真乏味啊  
+{{< /qwerly >}}
 
+{{< qwerly qe >}}
 백팔십도 다  
 現在全部  
+{{< /qwerly >}}
 
+{{< qwerly r >}}
 이젠 바꿔 바꿔 Let’s go  
 180度徹底大改變吧 Let’s go  
+{{< /qwerly >}}
 
 <br>
 
+{{< qwerly w >}}
 모두를 Peek-a-boo 놀래켜줄래?  
 要玩場躲貓貓 嚇大家一跳嗎?  
 
 까짓것 보여 줄게 나의 Highlights  
 這點小事 就讓大家看看我的厲害吧  
+{{< /qwerly >}}
 
+{{< qwerly q >}}
 두고 봐  
 等著吧  
+{{< /qwerly >}}
 
+{{< qwerly r >}}
 날 위한 승부를 한번 걸어볼까?  
 要不要為了我賭一把看看呢?  
 
@@ -95,15 +115,19 @@ Ceremony for me
 
 Ceremony for me  
 專屬於我的 Ceremony  
+{{< /qwerly >}}
 
 <br>
 
+{{< qwerly e >}}
 평범한 인사도 이젠 말야  
 即使是平凡的問候  
 
 꼭 응원의 말 같단 말야  
 現在也聽起來全都像是在為我應援啊  
+{{< /qwerly >}}
 
+{{< qwerly r >}}
 그렇다면 못할 거 없지  
 這樣的話 還有什麼好怕的呢  
 
@@ -117,26 +141,38 @@ Ceremony for me
 
 신이 나서 소리를 질러대지  
 正興奮的不停放聲吶喊呢  
+{{< /qwerly >}}
 
+{{< qwerly e >}} 
 So loud, so loud  
+{{< /qwerly >}}
 
+{{< qwerly qw >}}
 이제부터 다  
 現在開始  
+{{< /qwerly >}}
 
+{{< qwerly r >}}
 모두 외쳐 외쳐 Let’s go  
 大家一起盡情吶喊吧 Let’s go  
+{{< /qwerly >}}
 
 <br>
 
+{{< qwerly q >}}
 모두를 Peek-a-boo 놀래켜줄래?  
 要玩場躲貓貓 嚇大家一跳嗎?  
 
 한번 더 보여 줄게 나의 Highlights  
 就讓大家再看一次 我的厲害吧  
+{{< /qwerly >}}
 
+{{< qwerly w >}}
 지켜봐  
 看好了  
+{{< /qwerly >}}
 
+{{< qwerly r >}}
 날 위한 축제의 막을 열어볼까?  
 要不要為了我 揭開這慶典的序幕呢?  
 
@@ -170,23 +206,29 @@ Ceremony for me
 
 Ceremony for me  
 專屬於我的 Ceremony  
+{{< /qwerly >}}
 
 <br>
 
+{{< qwerly w >}}
 갸우뚱거리던 날들에  
 那些曾徬徨不安的日子裡  
 
 당당하게 더 Be myself  
 更加堂堂正正的 做回我自己吧  
+{{< /qwerly >}}
 
+{{< qwerly q >}}
 특별할 건 없대도  
 就算沒什麼特別的  
 
 함께해 줄래 My ceremony?  
 你也願意陪我一起嗎 My ceremony?  
+{{< /qwerly >}}
 
 <br>
 
+{{< qwerly r >}}
 I got the main character energy  
 我擁有了主角光環  
 
@@ -204,8 +246,8 @@ I got the main character energy
 역시 이건 꿈의 Dejavu  
 果然這就是夢境中的即視感啊  
 
-봐 난 날아오를 거라구  
-看好了 我即將要展翅高飛了  
+봐 난 날 수 있었다구  
+看啊 我能在空中翱翔呢  
 
 날 위해 부르는 최고의 선물  
 這是為了我獻上的最佳禮物  
@@ -218,3 +260,4 @@ Ceremony for me
 
 Ceremony for me  
 專屬於我的 Ceremony  
+{{< /qwerly >}}
