@@ -203,9 +203,6 @@ I got the main character energy
 
 Ceremony for me  
 專屬於我的 Ceremony  
-
-Ceremony for me  
-專屬於我的 Ceremony  
 {{< /qwerly >}}
 
 <br>
