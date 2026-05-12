@@ -209,3 +209,11 @@ body .toggle-light {
 button:not(:disabled) {
     outline: none;
 }
+
+.sponsor-container {
+    .kofi-button {
+        &:hover {
+            background-color: var(--primary) !important;
+        }
+    }
+}
