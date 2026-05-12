@@ -60,3 +60,6 @@ enableRobotsTXT = true
         toc = true
         tocMobile = true
         scrollSpy = true
+
+    [params.sponsor]
+        ko_fi = "luswdev"
