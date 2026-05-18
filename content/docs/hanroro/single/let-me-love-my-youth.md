@@ -5,7 +5,7 @@ subtitle: "Let Me Love My Youth"
 icon: "genres"
 weight: 1
 date: 2022-03-14
-images: ["/docs/hanroro/single/let_me_love_my_youth.webp"]
+images: ["/docs/hanroro/single/let-me-love-my-youth.webp"]
 composition: "한로로"
 lyric: "한로로"
 arrangement: "이새"
@@ -29,10 +29,10 @@ youtube: "pNi9PjmbUrI"
 <br>
 
 바삐 오가던 바람  
-來去匆匆的風  
+來去匆匆的風啊  
 
 여유 생겨 말하네요  
-得了片刻閒暇 便開口說  
+得了片刻閒暇 便開口說道  
 
 내가 기다린다는 봄  
 我所期待的春天  
@@ -46,7 +46,7 @@ youtube: "pNi9PjmbUrI"
 向那險險探出頭的我  
 
 첫 봄인사를 건네줘요  
-送上初春的問候吧  
+送上早春的問候吧  
 
 피울 수 있게 도와줘요  
 請幫助我開花結果吧  
@@ -57,10 +57,10 @@ youtube: "pNi9PjmbUrI"
 直到這份心意結束為止  
 
 푸른 낭만을 선물할게  
-會把藍色的浪漫當禮物送你的  
+會把青色浪漫作為禮物送你的  
 
 초라한 나를 꺾어가요  
-把淒涼的我折斷吧  
+就把淒涼的我折斷吧  
 
 <br>
 
@@ -68,7 +68,7 @@ youtube: "pNi9PjmbUrI"
 向那險險探出頭的我  
 
 첫 봄인사를 건네줘요  
-送上初春的問候吧  
+送上早春的問候吧  
 
 피울 수 있게 도와줘요  
 請幫助我開花結果吧  
@@ -79,7 +79,7 @@ youtube: "pNi9PjmbUrI"
 向那險險探出頭的我  
 
 첫 봄인사를 건네줘요  
-送上初春的問候吧  
+送上早春的問候吧  
 
 피울 수 있게 도와줘요  
 請幫助我開花結果吧  
@@ -90,10 +90,10 @@ youtube: "pNi9PjmbUrI"
 直到這份心意結束為止  
 
 푸른 낭만을 선물할게  
-會把藍色的浪漫當禮物送你的  
+會把青色浪漫作為禮物送你的  
 
 초라한 나를 꺾어가요  
-把淒涼的我折斷吧  
+就把淒涼的我折斷吧  
 
 <br>
 
