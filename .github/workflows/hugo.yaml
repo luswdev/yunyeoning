@@ -42,9 +42,9 @@ jobs:
       - name: Install Dart Sass
         run: |
           curl -sLJO "https://github.com/sass/dart-sass/releases/download/${DART_SASS_VERSION}/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
-          tar -C "${HOME}/.local" -xf "dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
-          rm "dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
-          echo "${HOME}/.local/dart-sass" >> "${GITHUB_PATH}"
+          tar -C "${{ runner.temp }}" -xf "dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
+          rm "$/dart-sass-${DART_SASS_VERSION}-linux-x64.tar.gz"
+          echo "${{ runner.temp }}/dart-sass" >> "${GITHUB_PATH}"
       - name: Checkout
         uses: actions/checkout@v4
         with:
