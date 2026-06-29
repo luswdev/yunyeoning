@@ -1,6 +1,6 @@
 ---
 title: "윤하"
-subtitle: "高潤荷"
+subtitle: "潤荷"
 description:
 icon: artist
 weight: 7
