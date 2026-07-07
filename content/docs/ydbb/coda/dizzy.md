@@ -1,6 +1,7 @@
 ---
 layout: "song-view"
 title: "어지러워"
+subtitle: "Dizzy"
 icon: "genres"
 weight: 2
 date: 2025-09-15
