@@ -49,11 +49,18 @@
 
 {{ $js := $slice | resources.Concat (printf "/%s/%s" ($.Scratch.Get "pathName") "js/bundle.js") -}}
 
-{{ $js := resources.Get (printf "/%s/%s" ($.Scratch.Get "pathName") "js/masonry.pkgd.min.js") }}
+{{- if not hugo.IsServer }}
+{{- $js := $js | minify | fingerprint "sha384" }}
+<script type="text/javascript" src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}" crossorigin="anonymous" defer></script>
+{{- else }}
+<script type="text/javascript" src="{{ $js.Permalink }}" defer></script>
+{{- end }}
+
+{{ $masonry := resources.Get (printf "/%s/%s" ($.Scratch.Get "pathName") "js/masonry.pkgd.min.js") }}
 
 {{- if not hugo.IsServer }}
-    {{- $js := $js | minify | fingerprint "sha384" }}
-    <script type="text/javascript" src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}" crossorigin="anonymous" defer></script>
+{{- $masonry := $masonry | minify | fingerprint "sha384" }}
+<script type="text/javascript" src="{{ $masonry.Permalink }}" integrity="{{ $masonry.Data.Integrity }}" crossorigin="anonymous" defer></script>
 {{- else }}
-    <script type="text/javascript" src="{{ $js.Permalink }}" defer></script>
+<script type="text/javascript" src="{{ $masonry.Permalink }}" defer></script>
 {{- end }}
