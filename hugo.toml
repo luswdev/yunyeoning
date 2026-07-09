@@ -63,6 +63,3 @@ enableRobotsTXT = true
 
     [params.sponsor]
         ko_fi = "luswdev"
-
-    [params.toc]
-        enable = false
