@@ -57,9 +57,10 @@ enableRobotsTXT = true
         pathName = "docs"
         themeColor = "jinahon"
         descriptions = true
-        toc = true
+        toc = false
         tocMobile = true
         scrollSpy = true
+        masonryRow = true
 
     [params.sponsor]
         ko_fi = "luswdev"
