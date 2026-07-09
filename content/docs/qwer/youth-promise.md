@@ -2,7 +2,7 @@
 layout: "song-view"
 title: "청춘서약"
 subtitle: "Youth Promise"
-description: "EP"
+description: "單曲"
 icon: "genres"
 weight: 901
 date: 2025-05-10

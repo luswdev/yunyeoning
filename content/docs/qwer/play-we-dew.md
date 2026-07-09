@@ -2,7 +2,7 @@
 layout: "song-view"
 title: "PLAY, WE DEW"
 subtitle:
-description: "EP"
+description: "單曲"
 icon: "genres"
 weight: 905
 date: 2025-04-12
