@@ -2,8 +2,9 @@
 layout: "song-view"
 title: "흰수염고래"
 subtitle: "Blue Whale"
+description: "單曲"
 icon: "genres"
-weight: 2
+weight: 902
 date: 2025-10-06
 images: ["/docs/qwer/single/blue-whale.jpg"]
 composition: "허준, 윤도현"

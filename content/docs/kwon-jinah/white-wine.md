@@ -2,8 +2,9 @@
 layout: "song-view"
 title: "White Wine"
 subtitle:
+description: "單曲"
 icon: "genres"
-weight: 16
+weight: 916
 date: 2025-08-13
 images: ["/docs/kwon-jinah/single/white-wine.jpg"]
 composition: "권진아"

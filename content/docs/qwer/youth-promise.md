@@ -2,8 +2,9 @@
 layout: "song-view"
 title: "청춘서약"
 subtitle: "Youth Promise"
+description: "EP"
 icon: "genres"
-weight: 1
+weight: 901
 date: 2025-05-10
 images: ["/docs/qwer/single/youth-promise.jpg"]
 composition: "홍지혜, 마젠타, HINA, 이시연"

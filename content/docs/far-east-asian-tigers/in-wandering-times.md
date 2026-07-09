@@ -2,8 +2,9 @@
 layout: "song-view"
 title: "흔들리는 시간속에"
 subtitle: "In Wandering Times"
+description: "單曲"
 icon: "genres"
-weight: 10
+weight: 910
 date: 2025-06-02
 images: ["/docs/far-east-asian-tigers/single/in-wandering-times.jpg"]
 composition: "명지수"

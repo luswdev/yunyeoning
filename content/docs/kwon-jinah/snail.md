@@ -2,8 +2,9 @@
 layout: "song-view"
 title: "달팽이"
 subtitle: "Snail"
+description: "單曲"
 icon: "genres"
-weight: 15
+weight: 915
 date: 2025-07-12
 images: ["/docs/kwon-jinah/single/snail.jpg"]
 composition: "이적"

@@ -2,8 +2,9 @@
 layout: "song-view"
 title: "Traveler"
 subtitle:
+description: "單曲"
 icon: "genres"
-weight: 2
+weight: 902
 date: 2026-02-24
 images: ["/docs/yebit/single/traveler.jpg"]
 composition: "예빛"

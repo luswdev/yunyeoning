@@ -2,8 +2,9 @@
 layout: "song-view"
 title: "GET LUCKY!"
 subtitle:
+description: "單曲"
 icon: "genres"
-weight: 2
+weight: 902
 date: 2025-05-18
 images: ["/docs/ydbb/single/get-lucky.jpg"]
 composition: "이준형, 유다빈, 유명종"

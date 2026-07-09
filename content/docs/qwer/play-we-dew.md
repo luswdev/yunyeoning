@@ -2,8 +2,9 @@
 layout: "song-view"
 title: "PLAY, WE DEW"
 subtitle:
+description: "EP"
 icon: "genres"
-weight: 5
+weight: 905
 date: 2025-04-12
 images: ["/docs/qwer/single/play-we-dew.jpg"]
 composition: "-"
