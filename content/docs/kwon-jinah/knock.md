@@ -6,7 +6,7 @@ description: "單曲"
 icon: "genres"
 weight: 911
 date: 2021-07-27
-images: ["/docs/kwon-jinah/single/knock.jpg"]
+images: ["/docs/kwon-jinah/knock.jpg"]
 composition: "권진아"
 lyric: "권진아"
 arrangement: "박문치"

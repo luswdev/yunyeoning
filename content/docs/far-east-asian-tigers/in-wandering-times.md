@@ -6,7 +6,7 @@ description: "單曲"
 icon: "genres"
 weight: 910
 date: 2025-06-02
-images: ["/docs/far-east-asian-tigers/single/in-wandering-times.jpg"]
+images: ["/docs/far-east-asian-tigers/in-wandering-times.jpg"]
 composition: "명지수"
 lyric: "명지수"
 arrangement: "명지수, 공격, 연광모, 강용혁, 김하나"

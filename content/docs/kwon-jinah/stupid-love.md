@@ -6,7 +6,7 @@ description: "單曲"
 icon: "genres"
 weight: 912
 date: 2022-10-13
-images: ["/docs/kwon-jinah/single/stupid-love.jpg"]
+images: ["/docs/kwon-jinah/stupid-love.jpg"]
 composition: "권진아"
 lyric: "권진아"
 arrangement: "홍소진, 권영찬"

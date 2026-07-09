@@ -6,7 +6,7 @@ description: "單曲"
 icon: "genres"
 weight: 913
 date: 2023-08-10
-images: ["/docs/kwon-jinah/single/love-me-love-me.jpg"]
+images: ["/docs/kwon-jinah/love-me-love-me.jpg"]
 composition: "권진아, 밍지션 (minGtion)"
 lyric: "권진아"
 arrangement: "밍지션 (minGtion)"

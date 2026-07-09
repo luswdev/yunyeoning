@@ -11,7 +11,7 @@ lyric: "한로로"
 arrangement: "진동욱, 이새, 배도협, 유병현"
 youtube: "4HZ8wh2MMpQ"
 description: "先行曲"
-aliases: ["/docs/hanroro/single/system-error/"]
+aliases: ["/docs/hanroro/system-error/"]
 ---
 
 ## 韓中歌詞

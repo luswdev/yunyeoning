@@ -6,7 +6,7 @@ description: "單曲"
 icon: "genres"
 weight: 916
 date: 2025-08-13
-images: ["/docs/kwon-jinah/single/white-wine.jpg"]
+images: ["/docs/kwon-jinah/white-wine.jpg"]
 composition: "권진아"
 lyric: "권진아"
 arrangement: "덩크 (DUNK)"

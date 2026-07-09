@@ -6,7 +6,7 @@ description: "OST"
 icon: "genres"
 weight: 813
 date: 2018-02-02
-images: ["/docs/kwon-jinah/ost/behind-the-page.jpg"]
+images: ["/docs/kwon-jinah/behind-the-page.jpg"]
 composition: "권순관"
 lyric: "서지음"
 arrangement: "권영찬, 권순관"

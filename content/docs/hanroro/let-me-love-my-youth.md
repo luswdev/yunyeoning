@@ -6,7 +6,7 @@ description: "單曲"
 icon: "genres"
 weight: 901
 date: 2022-03-14
-images: ["/docs/hanroro/single/let-me-love-my-youth.webp"]
+images: ["/docs/hanroro/let-me-love-my-youth.webp"]
 composition: "한로로"
 lyric: "한로로"
 arrangement: "이새"

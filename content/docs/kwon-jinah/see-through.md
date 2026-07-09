@@ -6,7 +6,7 @@ description: "單曲"
 icon: "genres"
 weight: 901
 date: 2014-03-03
-images: ["/docs/kwon-jinah/single/see-through.jpg"]
+images: ["/docs/kwon-jinah/see-through.jpg"]
 composition: "Zion.T, 개코"
 lyric: "프라이머리, Zion.T"
 arrangement: "MELODESIGN"

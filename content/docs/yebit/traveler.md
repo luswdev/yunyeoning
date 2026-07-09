@@ -6,7 +6,7 @@ description: "單曲"
 icon: "genres"
 weight: 902
 date: 2026-02-24
-images: ["/docs/yebit/single/traveler.jpg"]
+images: ["/docs/yebit/traveler.jpg"]
 composition: "예빛"
 lyric: "예빛"
 arrangement: "구름"

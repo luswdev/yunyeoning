@@ -6,7 +6,7 @@ description: "單曲"
 icon: "genres"
 weight: 902
 date: 2025-05-18
-images: ["/docs/ydbb/single/get-lucky.jpg"]
+images: ["/docs/ydbb/get-lucky.jpg"]
 composition: "이준형, 유다빈, 유명종"
 lyric: "유다빈"
 arrangement: "유다빈밴드"

@@ -6,7 +6,7 @@ description: "OST"
 icon: "genres"
 weight: 815
 date: 2023-03-02
-images: ["/docs/kwon-jinah/ost/consolation.jpg"]
+images: ["/docs/kwon-jinah/consolation.jpg"]
 composition: "헨(Hen)"
 lyric: "헨(Hen)"
 arrangement: "헨(Hen)"

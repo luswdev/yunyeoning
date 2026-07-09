@@ -6,7 +6,7 @@ description: "EP"
 icon: "genres"
 weight: 905
 date: 2025-04-12
-images: ["/docs/qwer/single/play-we-dew.jpg"]
+images: ["/docs/qwer/play-we-dew.jpg"]
 composition: "-"
 lyric: "-"
 arrangement: "-"

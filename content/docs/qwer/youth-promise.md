@@ -6,7 +6,7 @@ description: "EP"
 icon: "genres"
 weight: 901
 date: 2025-05-10
-images: ["/docs/qwer/single/youth-promise.jpg"]
+images: ["/docs/qwer/youth-promise.jpg"]
 composition: "홍지혜, 마젠타, HINA, 이시연"
 lyric: "홍지혜, 마젠타, HINA, 이시연"
 arrangement: "-"

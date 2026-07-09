@@ -6,7 +6,7 @@ description: "單曲"
 icon: "genres"
 weight: 915
 date: 2025-07-12
-images: ["/docs/kwon-jinah/single/snail.jpg"]
+images: ["/docs/kwon-jinah/snail.jpg"]
 composition: "이적"
 lyric: "이적"
 arrangement: "이적"

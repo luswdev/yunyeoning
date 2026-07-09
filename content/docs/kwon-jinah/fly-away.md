@@ -6,7 +6,7 @@ description: "單曲"
 icon: "genres"
 weight: 902
 date: 2017-05-02
-images: ["/docs/kwon-jinah/single/fly-away.jpg"]
+images: ["/docs/kwon-jinah/fly-away.jpg"]
 composition: "권진아, 윤석철"
 lyric: "권진아, 유희열"
 arrangement: "유희열"
