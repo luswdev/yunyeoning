@@ -114,7 +114,7 @@ $btn-link-hover-color:        var(--#{$prefix}link-hover-color);
     --jinahon-600-hsl: 322, 46%, 44%;
     --jinahon-500-hsl: 321, 46%, 60%;
     --jinahon-400-hsl: 320, 50%, 68%;
-    --jinahon-300-hsl: 319, 54%, 76%;
+    --jinahon-300-hsl: 319 54% 76%;
     --jinahon-200-hsl: 318, 58%, 84%;
     --jinahon-100-hsl: 317, 62%, 92%;
     --jinahon-50-hsl: 316, 66%, 97%;
@@ -224,6 +224,7 @@ $btn-link-hover-color:        var(--#{$prefix}link-hover-color);
     --jinahon-600: hsl(var(--jinahon-600-hsl));
     --jinahon-500: hsl(var(--jinahon-500-hsl));
     --jinahon-400: hsl(var(--jinahon-400-hsl));
+    --jinahon-300-15: hsl(var(--jinahon-300-hsl) / 15%);
     --jinahon-300: hsl(var(--jinahon-300-hsl));
     --jinahon-200: hsl(var(--jinahon-200-hsl));
     --jinahon-100: hsl(var(--jinahon-100-hsl));
@@ -309,6 +310,7 @@ $btn-link-hover-color:        var(--#{$prefix}link-hover-color);
     --shadow: 0 0 3px rgba(var(--dark), .15);
     --shadow-md: 0 5px 13px rgba(var(--dark), .2);
     --shadow-lg: 0 10px 25px rgba(var(--dark), 0.15);
+    --shadow-lg-primary: 0 10px 25px var(--primary-300-15);
 
     // Overlay
     --overlay: rgba(var(--dark), 0.7);
@@ -355,7 +357,7 @@ $btn-link-hover-color:        var(--#{$prefix}link-hover-color);
     // Cards
     --card-bg: var(--white);
     --card-border-color: var(--gray-400);
-    --card-border-hover-color: var(--primary);
+    --card-border-hover-color: var(--primary-300);
 
     // Sidebar
     --sidebar-primary: var(--primary);

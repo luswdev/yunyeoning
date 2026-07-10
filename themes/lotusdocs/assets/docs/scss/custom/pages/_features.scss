@@ -9,8 +9,8 @@
 }
 
 [data-dark-mode] {
-    --feature-icon-color: var(--primary-300);
-    --feature-icon-faint: var(--gray-900);
+    --feature-icon-color: var(--gray-600);
+    --feature-icon-faint: var(--gray-600);
     --feature-link-hover-bg-color: var(--gray-900);
 }
 
@@ -156,13 +156,13 @@
             font-size: 180px;
         }
         &:hover {
-            box-shadow: var--(shadow-lg);
-            color: var(--white) !important;
+            box-shadow: var(--shadow-lg-primary);
+            color: rgba(var(--white), 0.15) !important;
             .icon-color i,
             .badge,
             .para {
-                color: var(--white) !important;
-                opacity: 0.5;
+                color: var(--primary-300) !important;
+                opacity: 1;
             }
             .content,
             .icon-color {
