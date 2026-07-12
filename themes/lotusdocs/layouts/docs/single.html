@@ -14,12 +14,24 @@
     {{ $lyrics := split .Params.lyric ", " }}
     {{ $compositions := split .Params.composition ", " }}
     {{ $arrangements := split .Params.arrangement ", " }}
+    {{ $original := split .Params.original ", " }}
     {{ $published_time := .Date }}
 
     {{ if eq .Params.layout "song-view" | default false -}}
         <div class="song-meta">
             <table class="table table-borderless">
                 <tbody>
+                {{ if .Params.original }}
+                <tr>
+                    <th scope="row">原唱</th>
+                    <td>
+                        {{- range $i, $name := $original -}}
+                        {{- if gt $i 0 }}, {{ end -}}
+                            <span class="{{ index $classMap $name }}">{{ $name }}</span>
+                        {{- end}}
+                    </td>
+                </tr>
+                {{ end -}}
                 <tr>
                     <th scope="row">作詞</th>
                     <td>
