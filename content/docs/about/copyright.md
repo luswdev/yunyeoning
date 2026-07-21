@@ -1,6 +1,6 @@
 ---
 title: "版權聲明"
-subtitle:
+subtitle: "저작권안내"
 description: ""
 icon: "article"
 weight: 99
