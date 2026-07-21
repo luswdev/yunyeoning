@@ -9,7 +9,7 @@ images: ["/docs/younha/unstable-mindset/unstable-mindset.jpg"]
 composition: "윤하"
 lyric: "윤하"
 arrangement: "DOKO, 이태욱"
-youtube: "HNUnIwx7iqs?si=tHMABl8DXzzSCD9O"
+youtube: "HNUnIwx7iqs"
 ---
 
 ## 韓中歌詞

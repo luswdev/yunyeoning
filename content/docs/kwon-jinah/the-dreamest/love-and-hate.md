@@ -9,7 +9,7 @@ images: ["/docs/kwon-jinah/the-dreamest/the-dreamest.jpg"]
 composition: "권덕근(WSHL:ST), clovd, Young Chance, Ayelle, Hautboi Rich "
 lyric: "권진아"
 arrangement: "권덕근(WSHL:ST), clovd"
-youtube: "z5SZ38rhXIc?si=O2no-zZD9EF5nKE5"
+youtube: "z5SZ38rhXIc"
 description: "先行曲"
 draft: true
 ---

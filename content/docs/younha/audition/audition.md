@@ -9,7 +9,7 @@ images: ["/docs/younha/audition/audition.jpg"]
 composition: "양경주"
 lyric: "이애경"
 arrangement: "양경주"
-youtube: "HBV_hwwMnuI?si=3X_DSnQ0jimniLau"
+youtube: "HBV_hwwMnuI"
 ---
 
 ## 韓中歌詞

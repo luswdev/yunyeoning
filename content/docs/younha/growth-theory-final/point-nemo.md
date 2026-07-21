@@ -9,7 +9,7 @@ images: ["/docs/younha/growth-theory-final/growth-theory-final.jpg"]
 composition: "JEWNO, 윤하"
 lyric: "윤하"
 arrangement: "JEWNO"
-youtube: "GCKSrC6XVOk?si=uH2RKyLof7mh5L_9"
+youtube: "GCKSrC6XVOk"
 ---
 
 ## 韓中歌詞
