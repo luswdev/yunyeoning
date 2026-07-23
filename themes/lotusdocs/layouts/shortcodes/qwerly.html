@@ -1,9 +1,17 @@
 {{ $owner := .Get 0 }}
 {{ $inline := .Get 1 | default false }}
 {{ if not $inline }}
-<div class="{{$owner}}_part">
-    {{ $.Inner  | .Page.RenderString (dict "display" "block") }}
-</div>
+    {{ if gt (len $owner) 1 }}
+    <div>
+        <div class="{{$owner}}_part">
+            {{ $.Inner  | .Page.RenderString (dict "display" "block") }}
+        </div>
+    </div>
+    {{ else }}
+    <div class="{{$owner}}_part">
+        {{ $.Inner  | .Page.RenderString (dict "display" "block") }}
+    </div>
+    {{ end }}
 {{ else }}
 <span class="{{$owner}}_part inline">
     {{ $.Inner  | .Page.RenderString (dict "display" "inline") }}
