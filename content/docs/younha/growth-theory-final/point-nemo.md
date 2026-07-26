@@ -10,6 +10,7 @@ composition: "JEWNO, 윤하"
 lyric: "윤하"
 arrangement: "JEWNO"
 youtube: "GCKSrC6XVOk"
+description: "主打歌"
 ---
 
 ## 韓中歌詞

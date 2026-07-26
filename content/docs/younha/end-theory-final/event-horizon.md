@@ -9,6 +9,7 @@ composition: "윤하, JEWNO"
 lyric: "윤하"
 arrangement: "JEWNO, SHAUN"
 youtube: "BBdC1rl5sKY"
+description: "主打歌"
 ---
 
 ## 韓中歌詞

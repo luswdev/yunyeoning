@@ -4,11 +4,11 @@ title: "좋니"
 subtitle: "Like it"
 description: "LISTEN 10"
 icon: "genres"
-weight: 902
+weight: 901
 date: 2026-02-24
 images: ["/docs/yoon-jung-shin/like-it.jpg"]
-composition: "윤종신"
-lyric: "포스티노"
+composition: "포스티노"
+lyric: "윤종신"
 arrangement: "포스티노"
 youtube: "97iF07jxJRg"
 ---

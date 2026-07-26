@@ -10,6 +10,7 @@ composition: "양경주"
 lyric: "이애경"
 arrangement: "양경주"
 youtube: "HBV_hwwMnuI"
+description: "主打歌"
 ---
 
 ## 韓中歌詞
