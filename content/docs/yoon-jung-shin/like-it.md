@@ -5,7 +5,7 @@ subtitle: "Like it"
 description: "LISTEN 10"
 icon: "genres"
 weight: 901
-date: 2026-02-24
+date: 2017-06-22
 images: ["/docs/yoon-jung-shin/like-it.jpg"]
 composition: "포스티노"
 lyric: "윤종신"
