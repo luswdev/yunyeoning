@@ -11,7 +11,6 @@ lyric: "한로로"
 arrangement: "Ryo"
 youtube: "nhntH2wn3m0"
 description: "先行單曲"
-aliases: ["/docs/hanroro/can-i-be-me/"]
 url: "docs/hanroro/jamong-salgu-club/can-i-be-me/"
 ---
 
