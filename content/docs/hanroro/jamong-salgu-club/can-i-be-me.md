@@ -11,7 +11,6 @@ lyric: "한로로"
 arrangement: "Ryo"
 youtube: "nhntH2wn3m0"
 description: "先行曲"
-aliases: ["/docs/hanroro/can-i-be-me/"]
 ---
 
 ## 韓中歌詞
