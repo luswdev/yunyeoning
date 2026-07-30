@@ -60,7 +60,7 @@ enableRobotsTXT = true
         themeColor = "jinahon"
         descriptions = true
         toc = false
-        tocMobile = true
+        tocMobile = false
         scrollSpy = true
         masonryRow = true
 
