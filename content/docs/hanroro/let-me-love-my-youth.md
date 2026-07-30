@@ -2,7 +2,7 @@
 layout: "song-view"
 title: "입춘"
 subtitle: "Let Me Love My Youth"
-description: "單曲"
+description: "出道單曲"
 icon: "genres"
 weight: 901
 date: 2022-03-14
