@@ -53,7 +53,7 @@
     {{- with .Description | default ($.Param "description") }}
     <meta name="description" content="{{ . }}">
     {{- end }}
-    <meta name="keywords" content="홀릭스, Y.HOLICS, Younha, 윤하, 潤荷, 高潤荷, 中字, 繁中歌詞, 韓中歌詞, 中文歌詞, Lyrics" />
+    <meta name="keywords" content="{{ .Site.Params.keywords }}" />
     <meta name="author" content="LuSkywalker" />
     <meta name="email" content="info@lusw.dev" />
     <meta name="website" content="https://kr.lusw.dev" />
