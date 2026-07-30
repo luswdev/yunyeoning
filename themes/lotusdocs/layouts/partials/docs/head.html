@@ -11,10 +11,36 @@
                 {{- if eq .Title .Site.Title }}
                     {{- .Title }}
                 {{- else }}
-                    {{- if .Params.subtitle }}
-                        {{- .Title }} ({{- .Params.subtitle}}) | {{ .Site.Params.docs.Title | default (.Site.Title) }}
-                    {{- else }}
-                        {{- .Title }} | {{ .Site.Params.docs.Title | default (.Site.Title) }}
+                    {{- if eq .Params.layout "song-view" }}
+                    [中文歌詞]&nbsp;
+                    {{- end -}}
+                    {{- if or (eq .Params.layout "song-view") (eq .Params.icon "library_music")  }}
+                        {{- $artist := "" -}}
+                        {{- $Title := "" -}}
+                        {{- if eq .Parent.Params.icon "artist"}}
+                            {{- if .Parent.Params.subtitle }}
+                                {{- $artist = printf "%s (%s)" .Parent.Title .Parent.Params.subtitle }}
+                            {{- else }}
+                                {{- $artist = .Parent.Title }}
+                            {{- end -}}
+                        {{- else }}
+                            {{- if .Parent.Parent.Params.subtitle }}
+                                {{- $artist = printf "%s (%s)" .Parent.Parent.Title .Parent.Parent.Params.subtitle }}
+                            {{- else }}
+                                {{- $artist = .Parent.Parent.Title }}
+                            {{- end -}}
+                        {{- end -}}
+                        {{- if .Params.subtitle }}
+                            {{- .Title }} ({{- .Params.subtitle}}) - {{ $artist }} | {{ .Site.Params.docs.Title | default (.Site.Title) }}
+                        {{- else }}
+                            {{- .Title }} - {{ $artist }} | {{ .Site.Params.docs.Title | default (.Site.Title) }}
+                        {{- end }}
+                    {{- else -}}
+                        {{- if .Params.subtitle }}
+                            {{- .Title }} ({{- .Params.subtitle}}) | {{ .Site.Params.docs.Title | default (.Site.Title) }}
+                        {{- else }}
+                            {{- .Title }} | {{ .Site.Params.docs.Title | default (.Site.Title) }}
+                        {{- end }}
                     {{- end }}
                 {{- end }}
             {{- end }}
