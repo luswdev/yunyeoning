@@ -68,5 +68,8 @@ enableRobotsTXT = true
     [params.fuzzysort]
         enabled = true
 
+    [params.flexsearch]
+        enabled = false
+
     [params.sponsor]
         ko_fi = "luswdev"
