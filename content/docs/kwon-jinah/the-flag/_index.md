@@ -5,5 +5,5 @@ description: "EP"
 icon: library_music
 weight: 5
 date: 2023-03-02
-images: ["/docs/kwon-jinah/the-flag/the-flag.webp"]
+images: ["/docs/kwon-jinah/the-flag/the-flag.jpg"]
 ---

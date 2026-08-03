@@ -5,7 +5,7 @@ subtitle: "Can I Be Me?"
 icon: "genres"
 weight: 7
 date: 2025-07-06
-images: ["/docs/hanroro/jamong-salgu-club/can-i-be-me.webp"]
+images: ["/docs/hanroro/jamong-salgu-club/can-i-be-me.jpg"]
 composition: "한로로, Ryo"
 lyric: "한로로"
 arrangement: "Ryo"
