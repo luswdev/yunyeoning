@@ -1,4 +1,11 @@
 {{ define "main" }}
+
+    {{ if .Site.Params.docs.indexWithContent | default false -}}
+    <div data-prismjs-copy="" data-prismjs-copy-success="" data-prismjs-copy-error="">
+        {{ .Content }}
+    </div>
+    {{ end -}}
+
     {{ if .Site.Params.docs.masonryRow | default false -}}
     <div class="row flex-xl-wrap" data-masonry='{"percentPosition": true }'>
     {{ else -}}

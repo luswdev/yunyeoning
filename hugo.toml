@@ -63,6 +63,7 @@ enableRobotsTXT = true
         tocMobile = false
         scrollSpy = true
         masonryRow = true
+        indexWithContent = true
 
     [params.fuzzysort]
         enabled = true
