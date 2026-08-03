@@ -8,8 +8,8 @@ weight: 25
 date: 2026-07-30
 images: ["/docs/hanroro/zankokuna-tenshino-teeze.jpg"]
 composition: "佐藤英敏"
-lyric: "及川眠子"
-arrangement: ""
+lyric: "임성현, Nubi"
+arrangement: "임성현, 김무정, 김태형"
 youtube: "MFo78DzVtr8"
 ---
 
