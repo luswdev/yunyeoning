@@ -4,7 +4,7 @@ title: "입춘"
 subtitle: "Let Me Love My Youth"
 description: "出道單曲"
 icon: "genres"
-weight: 901
+weight: 1
 date: 2022-03-14
 images: ["/docs/hanroro/let-me-love-my-youth.jpg"]
 composition: "한로로"

@@ -4,7 +4,7 @@ title: "하루살이"
 subtitle: "Mayfly"
 description: "單曲"
 icon: "genres"
-weight: 905
+weight: 11
 date: 2023-12-26
 images: ["/docs/hanroro/mayfly.jpg"]
 composition: "한로로"

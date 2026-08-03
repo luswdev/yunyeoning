@@ -4,7 +4,7 @@ title: "잔혹한 천사의 테제"
 subtitle: "Zankokuna Tenshino Teeze"
 description: "J-POP REMAKE Vol.2"
 icon: "genres"
-weight: 909
+weight: 25
 date: 2026-07-30
 images: ["/docs/hanroro/zankokuna-tenshino-teeze.jpg"]
 composition: "佐藤英敏"

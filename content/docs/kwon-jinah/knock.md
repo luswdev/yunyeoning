@@ -4,7 +4,7 @@ title: "KNOCK"
 subtitle: "With 박문치"
 description: "單曲"
 icon: "genres"
-weight: 911
+weight: 51
 date: 2021-07-27
 images: ["/docs/kwon-jinah/knock.jpg"]
 composition: "권진아"

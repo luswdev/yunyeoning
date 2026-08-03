@@ -4,7 +4,7 @@ title: "좋니"
 subtitle: "Like it"
 description: "LISTEN 10"
 icon: "genres"
-weight: 901
+weight: 101
 date: 2017-06-22
 images: ["/docs/yoon-jung-shin/like-it.jpg"]
 composition: "포스티노"

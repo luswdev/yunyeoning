@@ -4,7 +4,7 @@ title: "Become"
 subtitle:
 description: "單曲"
 icon: "genres"
-weight: 902
+weight: 4
 date: 2026-01-22
 images: ["/docs/hebi/become.jpg"]
 composition: "신용수, Mollo, Uday"

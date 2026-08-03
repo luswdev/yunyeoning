@@ -2,9 +2,9 @@
 layout: "song-view"
 title: "PLAY, WE DEW"
 subtitle:
-description: "單曲"
+description: "合作單曲"
 icon: "genres"
-weight: 905
+weight: 10
 date: 2025-04-12
 images: ["/docs/qwer/play-we-dew.jpg"]
 composition: "-"

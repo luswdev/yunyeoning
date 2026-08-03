@@ -4,7 +4,7 @@ title: "씨스루"
 subtitle: "See-through"
 description: "單曲"
 icon: "genres"
-weight: 901
+weight: 1
 date: 2014-03-03
 images: ["/docs/kwon-jinah/see-through.jpg"]
 composition: "Zion.T, 개코"

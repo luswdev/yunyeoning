@@ -4,7 +4,7 @@ title: "나침반"
 subtitle: "The Compass"
 description: "單曲"
 icon: "genres"
-weight: 906
+weight: 16
 date: 2024-10-29
 images: ["/docs/hanroro/the-compass.jpg"]
 composition: "한로로"

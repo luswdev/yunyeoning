@@ -4,7 +4,7 @@ title: "위로"
 subtitle: "Consolation"
 description: "OST"
 icon: "genres"
-weight: 815
+weight: 27
 date: 2023-03-02
 images: ["/docs/kwon-jinah/consolation.jpg"]
 composition: "헨(Hen)"

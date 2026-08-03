@@ -4,7 +4,7 @@ title: "Love Me Love Me"
 subtitle:
 description: "單曲"
 icon: "genres"
-weight: 913
+weight: 63
 date: 2023-08-10
 images: ["/docs/kwon-jinah/love-me-love-me.jpg"]
 composition: "권진아, 밍지션 (minGtion)"

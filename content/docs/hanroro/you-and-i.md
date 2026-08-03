@@ -4,7 +4,7 @@ title: "너와 나"
 subtitle: "You and I"
 description: "單曲"
 icon: "genres"
-weight: 908
+weight: 24
 date: 2026-07-09
 images: ["/docs/hanroro/you-and-i.jpg"]
 composition: "한로로, 다운 (Dvwn), Ryo"

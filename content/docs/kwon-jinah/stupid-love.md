@@ -4,7 +4,7 @@ title: "진심이었던 사람만 바보가 돼"
 subtitle: "Stupid Love"
 description: "單曲"
 icon: "genres"
-weight: 912
+weight: 57
 date: 2022-10-13
 images: ["/docs/kwon-jinah/stupid-love.jpg"]
 composition: "권진아"

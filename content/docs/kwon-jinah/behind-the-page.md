@@ -4,7 +4,7 @@ title: "이별 뒷면"
 subtitle: "Behind the Page"
 description: "OST"
 icon: "genres"
-weight: 813
+weight: 23
 date: 2018-02-02
 images: ["/docs/kwon-jinah/behind-the-page.jpg"]
 composition: "권순관"

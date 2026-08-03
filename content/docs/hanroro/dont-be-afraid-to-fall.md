@@ -4,7 +4,7 @@ title: "비틀비틀 짝짜꿍"
 subtitle: "Don't be afraid to fall"
 description: "單曲"
 icon: "genres"
-weight: 903
+weight: 5
 date: 2022-09-14
 images: ["/docs/hanroro/dont-be-afraid-to-fall.jpg"]
 composition: "한로로"

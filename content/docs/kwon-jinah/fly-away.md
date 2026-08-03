@@ -4,7 +4,7 @@ title: "Fly away"
 subtitle:
 description: "單曲"
 icon: "genres"
-weight: 902
+weight: 22
 date: 2017-05-02
 images: ["/docs/kwon-jinah/fly-away.jpg"]
 composition: "권진아, 윤석철"

@@ -2,9 +2,9 @@
 layout: "song-view"
 title: "Highlight"
 subtitle:
-description: "ETC"
+description: "GSI"
 icon: "genres"
-weight: 910
+weight: 8
 date: 2022-08-18
 images: ["/docs/touched/highlight.jpg"]
 composition: "채도현, 윤민"
