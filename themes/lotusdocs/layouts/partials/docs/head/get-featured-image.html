@@ -3,7 +3,8 @@
 {{ if not $featured }}{{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" }}{{ end }}
 {{ if not $featured }}
     {{ $featured = resources.Get "/opengraph/card-base-2.png" }}
-    {{ $font := resources.Get "/opengraph/poppins-bold.ttf" }}
+    {{ $fontTC := resources.Get "/opengraph/NotoSansTC-Bold.ttf" }}
+    {{ $fontKR := resources.Get "/opengraph/NotoSansKR-Bold.ttf" }}
     {{ $descPadding := 0 }}
 
     {{ $title := $.LinkTitle }}
@@ -20,7 +21,7 @@
         "size" $sizeTitle
         "lineSpacing" 10
         "x" 65 "y" 180
-        "font" $font
+        "font" $fontTC ", " $fontKR
     }}
 
     {{ $filters := slice (images.Text $textTitle $textTitleOptions) }}
@@ -48,7 +49,7 @@
             "size" $sizeDesc
             "lineSpacing" 10
             "x" 65 "y" (add 290 $descPadding)
-            "font" $font
+            "font" $fontTC ", " $fontKR
         }}
         {{ $descFilter := (images.Text $textDesc $textDescOptions) }}
         {{ $filters = $filters | append $descFilter }}
@@ -61,7 +62,7 @@
             "size" 35
             "lineSpacing" 10
             "x" 65 "y" 550
-            "font" $font
+            "font" $fontTC ", " $fontKR
         }}
         {{ $siteTitleFilter := (images.Text $textSiteTitle $textSiteTitleOptions)}}
         {{ $filters = $filters | append $siteTitleFilter }}
