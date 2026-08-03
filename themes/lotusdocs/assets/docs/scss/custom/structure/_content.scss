@@ -178,6 +178,18 @@ i {
             padding-bottom: 56.25%;
         }
     }
+
+    .site-meta {
+        tr, td {
+            color: var(--gray-500) !important;
+        }
+        .summary-row {
+            tr, td {
+                font-weight: bold;
+                color: var(--primary) !important;
+            }
+        }
+    }
 }
 
 // Unordered List Styling
