@@ -13,8 +13,6 @@ arrangement: "Mollo, Uday"
 youtube: "XPqXU3SfxdU"
 ---
 
-## 韓中歌詞
-
 조용히 스며든 바람  
 靜靜滲入的風啊  
 

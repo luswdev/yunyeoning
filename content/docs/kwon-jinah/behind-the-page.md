@@ -13,8 +13,6 @@ arrangement: "권영찬, 권순관"
 youtube: "BLUOsTosCsA"
 ---
 
-## 韓中歌詞
-
 좁은 골목길은 또 하염없이 멀어져  
 在狹窄的巷弄裡 也漸行漸遠  
 

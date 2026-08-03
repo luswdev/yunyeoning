@@ -13,8 +13,6 @@ youtube: "gC2zA8NRzXk"
 description: "主打歌"
 ---
 
-## 韓中歌詞
-
 난 나의 어둠을 변명하려  
 我想為了我自身的黑暗辯解  
 

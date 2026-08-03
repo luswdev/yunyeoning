@@ -12,8 +12,6 @@ arrangement: "터치드(Touched)"
 youtube: "_lVhucVnMGY"
 ---
 
-## 韓中歌詞
-
 음 지루한  
 那無聊的  
 

@@ -12,8 +12,6 @@ arrangement: "최선율, 이도형(AUG), 황수훈"
 youtube: "kAb9_6DVwnQ"
 ---
 
-## 韓中歌詞
-
 유난히 높게 느껴진 하늘  
 顯得格外高遠的天空  
 

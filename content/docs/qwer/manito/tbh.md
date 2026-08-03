@@ -13,8 +13,6 @@ youtube: "ImuWa3SJulY"
 description: "主打歌"
 ---
 
-## 韓中歌詞
-
 One! Two! Q! W! E! R!  
 
 어떤 인사가 괜찮을까 천 번쯤 상상해 봤어  

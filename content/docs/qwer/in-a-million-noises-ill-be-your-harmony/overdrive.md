@@ -12,8 +12,6 @@ arrangement: "이동혁, Jin Rico"
 youtube: "kdPfMUAzmSo"
 ---
 
-## 韓中歌詞
-
 저기 태양의 막이 오르고  
 那太陽拉開了序幕  
 

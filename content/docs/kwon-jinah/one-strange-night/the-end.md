@@ -13,8 +13,6 @@ youtube: "sOgsp64fw0M"
 description: "主打歌"
 ---
 
-## 韓中歌詞
-
 한참을 아무 말도 없었다  
 沉默了好一陣子  
 

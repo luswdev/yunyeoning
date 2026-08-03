@@ -13,8 +13,6 @@ youtube: "WGm2HmXeeRI"
 description: "主打歌"
 ---
 
-## 韓中歌詞
-
 딱 하나만 물어볼게 넌  
 我只會問你一個問題  
 

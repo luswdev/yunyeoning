@@ -13,8 +13,6 @@ arrangement: "MELODESIGN"
 youtube: "GmU9BUNnkVk"
 ---
 
-## 韓中歌詞
-
 Party time  
 派對時光  
 

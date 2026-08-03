@@ -13,8 +13,6 @@ youtube: "g20sz4HZ5Qc"
 description: "主打歌"
 ---
 
-## 韓中歌詞
-
 하고픈 건 다  
 想做的事 通通都要實現  
 

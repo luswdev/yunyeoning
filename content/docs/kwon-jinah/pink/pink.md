@@ -13,8 +13,6 @@ youtube: "v5lkiuAcJQU"
 description: "主打歌"
 ---
 
-## 韓中歌詞
-
 자꾸 생각이 나  
 總是不斷的想起你  
 

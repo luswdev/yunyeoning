@@ -13,8 +13,6 @@ arrangement: "구름"
 youtube: "U-G3tZXWgiY"
 ---
 
-## 韓中歌詞
-
 덜컹이는 소리  
 那哐噹作響的聲音  
 

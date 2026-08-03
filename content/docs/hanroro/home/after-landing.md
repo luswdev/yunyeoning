@@ -12,8 +12,6 @@ arrangement: "진동욱, 이새, 배도협, 유병현, Steven"
 youtube: "VQPnYg1a3hk"
 ---
 
-## 韓中歌詞
-
 돌아온 나의 집엔  
 回到了我的家  
 

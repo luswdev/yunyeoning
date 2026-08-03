@@ -13,8 +13,6 @@ youtube: "A8d2Gx91zwk"
 description: "主打歌"
 ---
 
-## 韓中歌詞
-
 {{< qwerinfo >}}
 
 

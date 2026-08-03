@@ -13,8 +13,6 @@ youtube: "UOlTw3gZuCo"
 description: "主打歌"
 ---
 
-## 韓中歌詞
-
 사라져 가네  
 漸漸消逝了  
 

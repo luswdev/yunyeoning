@@ -13,8 +13,6 @@ youtube: "FPlOfqiKD64"
 description: "主打歌"
 ---
 
-## 韓中歌詞
-
 고요히 고요히 더  
 靜靜地 靜靜地  
 

@@ -12,8 +12,6 @@ arrangement: "유다빈밴드"
 youtube: "c-QKXFDbrUY"
 ---
 
-## 韓中歌詞
-
 사뿐사뿐 지나갈 순 없을 거야  
 終究還是無法就這樣輕盈度過的啊  
 

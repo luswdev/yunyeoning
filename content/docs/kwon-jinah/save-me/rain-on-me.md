@@ -13,8 +13,6 @@ youtube: "krszz0q45oA"
 description: "先行曲"
 ---
 
-## 韓中歌詞
-
 이 사랑은 너의 발밑에  
 這段愛情本是從  
 

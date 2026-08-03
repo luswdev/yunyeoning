@@ -12,8 +12,6 @@ arrangement: "이새"
 youtube: "h0KIWaUEIgQ"
 ---
 
-## 韓中歌詞
-
 영원을 꿈꾸던 널 떠나보내고  
 離開了那只會夢想著永遠的你  
 

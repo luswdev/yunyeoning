@@ -13,8 +13,6 @@ arrangement: "유희열"
 youtube: "OARgsIKS8VU"
 ---
 
-## 韓中歌詞
-
 하루 종일 엉망이었었어  
 這一整天真的是糟透了  
 

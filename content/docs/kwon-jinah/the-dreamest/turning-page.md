@@ -12,8 +12,6 @@ arrangement: "Brian Cho"
 youtube: "cOLt3C_mFJ8"
 ---
 
-## 韓中歌詞
-
 발걸음이 멈춰 선  
 暫時停下腳步  
 

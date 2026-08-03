@@ -12,8 +12,6 @@ arrangement: "이새"
 youtube: "tFaVjhyGuqM"
 ---
 
-## 韓中歌詞
-
 바다 위를 떠도는 나도  
 在海上漂泊的我  
 

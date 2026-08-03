@@ -13,8 +13,6 @@ arrangement: "-"
 youtube: "8IMPpF2tIWI"
 ---
 
-## 韓中歌詞
-
 3, 2, 1, yeah!  
 
 Oh, oh, yeah, yeah, yeah, yeah  

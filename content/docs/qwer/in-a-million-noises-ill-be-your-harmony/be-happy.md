@@ -12,8 +12,6 @@ arrangement: "이동혁, 김승준"
 youtube: "PRH8JkIe0Ho"
 ---
 
-## 韓中歌詞
-
 {{< qwerinfo >}}
 
 {{< qwerly r >}}

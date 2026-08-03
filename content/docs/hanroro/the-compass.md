@@ -13,8 +13,6 @@ arrangement: "Ryo"
 youtube: "4JwkYsfKRKM"
 ---
 
-## 韓中歌詞
-
 모르겠어  
 我也不懂  
 

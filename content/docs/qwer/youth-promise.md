@@ -13,8 +13,6 @@ arrangement: "-"
 youtube: "CGvqj7bzCVY"
 ---
 
-## 韓中歌詞
-
 {{< qwerinfo >}}
 
 {{< qwerly r >}}

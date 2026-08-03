@@ -13,8 +13,6 @@ arrangement: "터치드(Touched)"
 youtube: "PXJob1OaGkc"
 ---
 
-## 韓中歌詞
-
 저 멀리 기다리는  
 在那遙遠前方等待著的  
 

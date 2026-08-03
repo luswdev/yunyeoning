@@ -13,8 +13,6 @@ arrangement: "박문치"
 youtube: "Nshj8Gc1cVs"
 ---
 
-## 韓中歌詞
-
 아무리 생각해도 그때 우린  
 無論怎麼回想 當時的我們之間  
 

@@ -12,8 +12,6 @@ arrangement: "한로로, Ryo"
 youtube: "qrzKsS-4lZo"
 ---
 
-## 韓中歌詞
-
 모두가 쉬운 마음으로  
 即使大家都輕易的  
 

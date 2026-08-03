@@ -14,8 +14,6 @@ description: "先行曲"
 aliases: ["/docs/hanroro/system-error/"]
 ---
 
-## 韓中歌詞
-
 바삐 떠돌아다니는 언어는  
 那些匆忙流轉的言語啊  
 

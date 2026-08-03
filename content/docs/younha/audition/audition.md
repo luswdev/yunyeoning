@@ -13,8 +13,6 @@ youtube: "HBV_hwwMnuI"
 description: "主打歌"
 ---
 
-## 韓中歌詞
-
 평범한 척 조용히  
 假裝平凡 安靜的活著  
 

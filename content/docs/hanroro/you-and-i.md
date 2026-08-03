@@ -13,8 +13,6 @@ arrangement: "Ryo"
 youtube: "Tos8R9Tcem8"
 ---
 
-## 韓中歌詞
-
 깊은 숨을 뱉으면  
 當深深的吐出一口氣  
 

@@ -12,8 +12,6 @@ arrangement: "권진아"
 youtube: "ittiKeNjxPs"
 ---
 
-## 韓中歌詞
-
 난 여행가가 될 거야  
 我要成為旅行家  
 

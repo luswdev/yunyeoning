@@ -13,8 +13,6 @@ youtube: "C77DJ8nySoo"
 description: "主打歌"
 ---
 
-## 韓中歌詞
-
 날아가지 못하고  
 無法化作灰燼飛散  
 

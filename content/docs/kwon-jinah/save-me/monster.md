@@ -13,8 +13,6 @@ youtube: "2Wk4vsz65jo"
 description: "主打歌"
 ---
 
-## 韓中歌詞
-
 매일 아침 그랬지  
 每天早上不停反覆著  
 

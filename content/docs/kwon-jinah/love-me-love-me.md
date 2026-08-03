@@ -13,8 +13,6 @@ arrangement: "밍지션 (minGtion)"
 youtube: "0GB5z74x-bg"
 ---
 
-## 韓中歌詞
-
 너는 날 알면서  
 明明你是了解我的  
 

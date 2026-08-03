@@ -13,8 +13,6 @@ arrangement: "이새"
 youtube: "ss_WdwNGawM"
 ---
 
-## 韓中歌詞
-
 우린 마치 겨울 향기  
 我們就像被冬日的香氣  
 

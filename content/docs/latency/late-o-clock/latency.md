@@ -13,8 +13,6 @@ youtube: "qPWlHgx_Oc0"
 description: "主打歌"
 ---
 
-## 韓中歌詞
-
 시선에 익숙해져  
 早已習慣了大眾的目光  
 

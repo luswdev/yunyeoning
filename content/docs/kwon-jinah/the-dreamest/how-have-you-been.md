@@ -13,8 +13,6 @@ youtube: "jvcyi1qqMCo"
 description: "主打歌"
 ---
 
-## 韓中歌詞
-
 어떻게 지냈어  
 最近過的如何  
 

@@ -12,8 +12,6 @@ arrangement: "임헌일"
 youtube: "o21cd8nXvsQ"
 ---
 
-## 韓中歌詞
-
 서둘러 시간이 흘러  
 動起來 時間不等人  
 

@@ -12,8 +12,6 @@ youtube: "BBdC1rl5sKY"
 description: "主打歌"
 ---
 
-## 韓中歌詞
-
 생각이 많은 건 말이야  
 肯定會有很多想法的  
 

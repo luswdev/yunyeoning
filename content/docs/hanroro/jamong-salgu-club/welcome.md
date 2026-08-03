@@ -12,8 +12,6 @@ arrangement: "Ryo"
 youtube: "cp0eesd7h_w"
 ---
 
-## 韓中歌詞
-
 {{% alert icon=" " context="primary" centerText="yes" %}}
 
 당신은 무엇 때문에 죽고 싶나요?  

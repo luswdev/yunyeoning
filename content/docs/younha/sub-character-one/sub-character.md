@@ -13,8 +13,6 @@ arrangement: "All day one"
 youtube: "4TRS7y4qdWs"
 ---
 
-## 韓中歌詞
-
 언제나처럼  
 就像往常一樣  
 

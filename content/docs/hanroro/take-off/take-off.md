@@ -12,8 +12,6 @@ arrangement: "이새"
 youtube: "OmHl_zuoD1k"
 ---
 
-## 韓中歌詞
-
 나도 참 단순해요  
 我也真是單純呢  
 

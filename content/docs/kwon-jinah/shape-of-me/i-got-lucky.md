@@ -12,8 +12,6 @@ arrangement: "적재"
 youtube: "CLR9dytvnmM"
 ---
 
-## 韓中歌詞
-
 나는 운이 좋았지  
 我運氣真好啊  
 

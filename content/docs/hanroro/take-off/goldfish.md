@@ -13,8 +13,6 @@ youtube: "dAgY7zUqd8E"
 description: "主打歌"
 ---
 
-## 韓中歌詞
-
 날 부쉈다  
 把我擊垮了  
 

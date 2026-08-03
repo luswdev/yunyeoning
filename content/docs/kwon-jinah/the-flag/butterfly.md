@@ -12,8 +12,6 @@ arrangement: "홍소진"
 youtube: "ipJl896q7IM"
 ---
 
-## 韓中歌詞
-
 가두려 하면 할수록  
 越是試圖將其囚禁  
 

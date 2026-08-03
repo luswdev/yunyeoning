@@ -12,8 +12,6 @@ arrangement: "DOKO, 이태욱"
 youtube: "HNUnIwx7iqs"
 ---
 
-## 韓中歌詞
-
 안녕 오랜만이야  
 嗨 好久不見  
 

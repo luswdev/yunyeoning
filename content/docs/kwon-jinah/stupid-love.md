@@ -13,8 +13,6 @@ arrangement: "홍소진, 권영찬"
 youtube: "APYhSUUdayQ"
 ---
 
-## 韓中歌詞
-
 괜한 생각을 했었나 봐  
 或許是我曾經多想了  
 

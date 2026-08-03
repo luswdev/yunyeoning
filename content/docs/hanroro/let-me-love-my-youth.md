@@ -13,8 +13,6 @@ arrangement: "이새"
 youtube: "pNi9PjmbUrI"
 ---
 
-## 韓中歌詞
-
 얼어붙은 마음에  
 冰冷凍結的心啊  
 

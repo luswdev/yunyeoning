@@ -13,8 +13,6 @@ arrangement: "이새"
 youtube: "eERmo7trq4k"
 ---
 
-## 韓中歌詞
-
 빙글빙글 돌아가는 세상 속에서  
 在這不停旋轉的世界裡  
 

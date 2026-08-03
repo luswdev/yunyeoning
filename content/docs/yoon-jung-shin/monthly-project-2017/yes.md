@@ -14,8 +14,6 @@ youtube: "OmROfO8VGdk"
 description: "月刊 11月號"
 ---
 
-## 韓中歌詞
-
 이제 괜찮니  
 如今有好點了嗎  
 

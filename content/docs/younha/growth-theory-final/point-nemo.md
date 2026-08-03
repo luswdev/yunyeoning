@@ -13,8 +13,6 @@ youtube: "GCKSrC6XVOk"
 description: "主打歌"
 ---
 
-## 韓中歌詞
-
 마음을 좀 편히 먹어도 될걸  
 可以放鬆一點也沒關係  
 

@@ -12,8 +12,6 @@ arrangement: "이동혁, 한아영"
 youtube: "On6Pm4M-dQQ"
 ---
 
-## 韓中歌詞
-
 조용하게 비춘 별 하나  
 一顆靜靜閃耀的星星  
 

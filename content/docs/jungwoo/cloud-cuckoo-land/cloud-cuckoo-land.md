@@ -13,8 +13,6 @@ youtube: "f6vPwqA0lUY"
 description: "主打歌"
 ---
 
-## 韓中歌詞
-
 다 의미 없어  
 全都沒有意義了  
 

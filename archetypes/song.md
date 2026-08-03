@@ -11,5 +11,3 @@ lyric:
 arrangement:
 youtube:
 ---
-
-## 韓中歌詞

@@ -14,8 +14,6 @@ description: "先行曲"
 aliases: ["/docs/hanroro/can-i-be-me/"]
 ---
 
-## 韓中歌詞
-
 기우는 새벽에 매달린 채 밝아온 천국  
 傾斜的清晨裡 垂掛著天國的光芒  
 

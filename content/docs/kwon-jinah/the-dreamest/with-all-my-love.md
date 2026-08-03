@@ -12,8 +12,6 @@ arrangement: "권진아 , 홍소진"
 youtube: "BxJ1nrBEcPE"
 ---
 
-## 韓中歌詞
-
 툭툭 털고 일어나  
 輕拍身上的灰塵 再次站起來  
 

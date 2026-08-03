@@ -12,8 +12,6 @@ arrangement: "구름"
 youtube: "NgNSGF0KcpY"
 ---
 
-## 韓中歌詞
-
 아주 아주 많이 낡았으니까  
 畢竟已經真的真的太過陳舊了  
 

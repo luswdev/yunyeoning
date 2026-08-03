@@ -12,8 +12,6 @@ arrangement: "이동혁, 이범훈, 홍훈기"
 youtube: "YCaTtV9zu6A"
 ---
 
-## 韓中歌詞
-
 볼을 꼬집어 봤어  
 我捏了捏臉頰  
 

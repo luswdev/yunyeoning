@@ -12,8 +12,6 @@ arrangement: "밍지션 (minGition)"
 youtube: "4l8DlIQ8O7g"
 ---
 
-## 韓中歌詞
-
 아직 잠들기에는 너무나도 일러  
 說現在要入睡還為時過早  
 
