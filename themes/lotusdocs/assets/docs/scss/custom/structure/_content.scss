@@ -208,7 +208,8 @@ h4 {
         .summary-row {
             tr, td {
                 font-weight: bold;
-                color: var(--primary) !important;
+                color: var(--primary-300) !important;
+                font-size: 1.125rem;
             }
         }
     }
