@@ -27,7 +27,7 @@ enableRobotsTXT = true
     # Google Fonts
     google_fonts = [
         ["Lato", "300, 400, 600, 700"],
-        ["JetBrains Mono", "300, 400, 600, 700"],
+        ["Space Mono", "300, 400, 600, 700"],
         ["Noto Sans KR", "300, 400, 600, 700"],
         ["Noto Sans TC", "300, 400, 600, 700"],
         ["Noto Serif KR", "300, 400, 600, 700"],
@@ -36,7 +36,7 @@ enableRobotsTXT = true
 
     sans_serif_font = "Noto Serif TC, Noto Serif KR"     # Default is System font
     secondary_font  = "Lato, Noto Sans TC, Noto Sans KR"     # Default is System font
-    mono_font       = "JetBrains Mono" # Default is System font
+    mono_font       = "Space Mono" # Default is System font
 
     keywords = '中字, 繁中歌詞, 韓中歌詞, 中文歌詞, Lyrics, Mandarin Lyrics'
 
