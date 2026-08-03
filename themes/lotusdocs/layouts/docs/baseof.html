@@ -107,5 +107,10 @@
                 {{- partialCached (printf "%s/%s" ($.Scratch.Get "pathName") "footer/flexsearch.html") . -}}
             {{ end }}
         {{ end }}
+
+        <!-- fuzzysort Config -->
+        {{ if eq .Site.Params.fuzzysort.enabled true -}}
+            {{- partialCached (printf "%s/%s" ($.Scratch.Get "pathName") "footer/fuzzysort.html") . -}}
+        {{ end }}
     </body>
 </html>

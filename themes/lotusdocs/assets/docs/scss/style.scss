@@ -65,7 +65,14 @@ $code-block-padding-top: {{ if eq .Site.Params.docs.prism true -}}0{{ else }}1.2
 {{- end -}}
 
 // FlexSearch
-{{ if or (not (isset .Site.Params.flexsearch "enabled")) (eq .Site.Params.flexsearch.enabled true) -}}@import "custom/plugins/flexsearch/flexsearch";{{ end }}
+{{ if or (not (isset .Site.Params.flexsearch "enabled")) (eq .Site.Params.flexsearch.enabled true) -}}
+@import "custom/plugins/flexsearch/flexsearch";
+{{ end }}
+
+// fuzzysort
+{{ if eq .Site.Params.fuzzysort.enabled true -}}
+@import "custom/plugins/flexsearch/flexsearch";
+{{ end }}
 
 // Feedback Widget
 {{ if .Site.Params.feedback.enabled | default false -}}@import "custom/plugins/feedback/feedback";{{ end}}

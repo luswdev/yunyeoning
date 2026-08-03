@@ -64,5 +64,8 @@ enableRobotsTXT = true
         scrollSpy = true
         masonryRow = true
 
+    [params.fuzzysort]
+        enabled = true
+
     [params.sponsor]
         ko_fi = "luswdev"

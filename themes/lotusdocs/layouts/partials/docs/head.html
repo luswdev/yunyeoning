@@ -108,6 +108,16 @@
             {{ end }}
         {{ end }}
     {{ end }}
+    <!-- fuzzysort -->
+    {{ if eq .Site.Params.fuzzysort.enabled true -}}
+        {{ $fuzzySearch := resources.Get (printf "/%s/%s" ($.Scratch.Get "pathName") "js/fuzzysort.min.js") }}
+        {{- if not hugo.IsServer }}
+            {{ $fuzzySearch := $fuzzySearch | minify | fingerprint "sha384" }}
+            <script type="text/javascript" src="{{ $fuzzySearch.Permalink }}" integrity="{{ $fuzzySearch.Data.Integrity }}" crossorigin="anonymous"></script>
+            {{ else }}
+            <script type="text/javascript" src="{{ $fuzzySearch.Permalink }}"></script>
+        {{ end }}
+    {{ end }}
     <!-- Google Fonts -->
     {{- partialCached "google-fonts" . }}
     <!-- Custom CSS -->
