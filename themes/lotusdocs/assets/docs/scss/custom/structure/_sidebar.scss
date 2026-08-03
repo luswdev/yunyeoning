@@ -68,6 +68,13 @@
             background: var(--sidebar-scrollbar-thumb-color);
         }
         .sidebar-brand {
+            .sidebar-brand-title {
+                vertical-align: middle;
+                font-weight: 700;
+                align-self: center;
+                font-family: Noto Serif TC, Noto Serif KR;
+                font-size: 1.5rem;
+            }
             background: var(--sidebar-bg);
             padding: 10px 20px;
             border-bottom: 1px solid var(--sidebar-border-color);

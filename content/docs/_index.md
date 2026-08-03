@@ -1,8 +1,8 @@
 ---
-title: "YN 歌詞翻譯站"
+title: "歌手/樂團"
 subtitle:
 description:
-icon: menu_book
+icon: folder_shared
 weight: 1
 date: 2025-02-26
 images: []
