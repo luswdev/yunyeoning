@@ -1,8 +1,0 @@
-{{ $flag := .Get 0 }}
-{{ $resize := .Get 1 | default "24x24" }}
-{{ $class := .Get 2 | default "" }}
-{{ with resources.Get (printf "images/flags/%s.svg" $flag) }}
-    {{ $content := .Content }}
-    {{ $content = replace $content "<svg" (printf "<svg style=\"width:%s;\" class=\"%s\"" $resize $class) }}
-    {{ $content | safeHTML }}
-{{ end }}

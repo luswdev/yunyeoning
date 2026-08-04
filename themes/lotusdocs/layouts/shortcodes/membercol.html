@@ -1,0 +1,15 @@
+{{ $name := .Get "name" }}
+{{ $ruby := .Get "ruby" }}
+{{ $real := .Get "real" }}
+{{ $global := .Get "global" }}
+{{ $theme := .Get "theme" | default "inherit" }}
+{{ $pic := .Get "pic" }}
+{{ $nation := .Get "nation" }}
+{{ $birth := .Get "birth" }}
+{{ $rotation := .Get "rotation" }}
+{{ $leader := .Get "leader" }}
+
+{{ with .Parent }}
+  {{ $member := dict "name" $name "ruby" $ruby "real" $real "global" $global "theme" $theme "pic" $pic "nation" $nation "birth" $birth "rotation" $rotation "leader" $leader }}
+  {{ .Scratch.Add "members" (slice $member) }}
+{{ end }}

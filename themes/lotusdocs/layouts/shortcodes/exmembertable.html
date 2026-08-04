@@ -1,0 +1,60 @@
+{{ $scratch := .Inner | strings.TrimSpace }}
+{{ $members := .Scratch.Get "members" }}
+
+<h4>前成員</h4>
+<table class="text-center align-middle table table-bordered table-rounded mt-3 rounded-0 table-responsive">
+    <thead>
+        <tr>
+            <th scope="col" style="background-color: var(--gray-900);">姓名</th>
+            <th scope="col" style="background-color: var(--gray-900);">生日</th>
+            <th scope="col" style="background-color: var(--gray-900);">國籍</th>
+            <th scope="col" style="background-color: var(--gray-900);">角色</th>
+            <th scope="col" style="background-color: var(--gray-900);">退團日</th>
+        </tr>
+    </thead>
+    <tbody>
+        {{ range $members }}
+            <tr>
+                <td class="px-4">
+                    {{ .name }}
+                    {{ if .global }}
+                        <br>
+                        <span>{{ .global }}</span>
+                    {{ end }}
+                    {{ if .real }}
+                        <br>
+                        <span class="text-muted">{{ .real }}</span>
+                    {{ end }}
+                </td>
+                {{ $birth := time.AsTime .birth }}
+                {{ $age := div (sub time.Now.Unix $birth.Unix) (mul 86400 365) }}
+                <td class="px-4">
+                    <span class="pb-1">{{ $birth.Format "2006.01.02" }} ({{ $age | safeHTML }} 歲)</span>
+                </td>
+                <td class="px-4">
+                    {{ with resources.Get (printf "images/flags/%s.svg" .nation) }}
+                    {{ $content := .Content }}
+                    {{ $content = replace $content "<svg" "<svg style=\"width:1.75rem;\" class=\"align-baseline pt-1\"" }}
+                    {{ $content | safeHTML }}
+                    {{ end }}
+                </td>
+                <td class="px-4">
+                    {{ if .leader }}
+                        <strong>隊長</strong><br>
+                    {{ end }}
+                    {{ $rots := split .rotation "," }}
+                    {{ range $i, $rot := $rots }}
+                        {{ if lt $i (sub (len $rots) 1) }}
+                            <span>{{ $rot }}</span><br>
+                        {{ else }}
+                            <span>{{ $rot }}</span>
+                        {{ end }}
+                    {{ end }}
+                </td>
+                <td class="px-4">
+                    {{ .leave }}
+                </td>
+            </tr>
+        {{ end }}
+    </tbody>
+</table>

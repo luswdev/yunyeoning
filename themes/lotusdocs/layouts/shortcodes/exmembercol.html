@@ -1,0 +1,13 @@
+{{ $name := .Get "name" }}
+{{ $real := .Get "real" }}
+{{ $global := .Get "global" }}
+{{ $nation := .Get "nation" }}
+{{ $birth := .Get "birth" }}
+{{ $rotation := .Get "rotation" }}
+{{ $leader := .Get "leader" }}
+{{ $leave := .Get "leave" }}
+
+{{ with .Parent }}
+  {{ $member := dict "name" $name "real" $real "global" $global "nation" $nation "birth" $birth "rotation" $rotation "leader" $leader "leave" $leave }}
+  {{ .Scratch.Add "members" (slice $member) }}
+{{ end }}
