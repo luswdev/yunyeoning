@@ -23,7 +23,7 @@ images: ["/docs/touched/touched.webp"]
     rotation="鼓手" leader=true
 %}}
 {{% membercol 
-    name="존비킴" global="John B. Kim" real="김병무 (Kim Byungmoo)"
+    name="존비킴 John B. Kim" real="김병무 (Kim Byungmoo)"
     nation="kr" birth="1993-11-10" pic="/docs/touched/john-b-kim.png" 
     rotation="貝斯"
 %}}

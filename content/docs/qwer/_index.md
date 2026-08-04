@@ -59,7 +59,7 @@ milestones:
       remark: "首次登上音樂季 <Pantaport> 主舞台"
 ---
 
-{{< membertable >}}
+{{< membertable theme="#2fa1c2" >}}
 {{% membercol 
     name="초단 Chodan" real="홍지혜 洪智惠" ruby="Q" theme="#fffff"
     nation="kr" birth="1998-10-30" pic="/docs/qwer/q.png" 
