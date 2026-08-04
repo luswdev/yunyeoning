@@ -12,3 +12,10 @@ fandom: JinahON (진아온)
 fandomTheme: "#e2ceaa, #d5b2d0, #d5b2d0"
 images: ["/docs/kwon-jinah/kwon-jinah.png"]
 ---
+
+{{< membertable title=false theme="var(--jinahon)" >}}
+{{% membercol 
+    name="권진아" global="權珍雅" pic="/docs/kwon-jinah/artist-cover.png"
+    nation="kr" birth="1997-07-18"
+%}}
+{{< /membertable >}}

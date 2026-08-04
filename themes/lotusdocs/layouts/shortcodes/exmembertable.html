@@ -26,10 +26,14 @@
                         <span class="text-muted">{{ .real }}</span>
                     {{ end }}
                 </td>
-                {{ $birth := time.AsTime .birth }}
-                {{ $age := div (sub time.Now.Unix $birth.Unix) (mul 86400 365) }}
                 <td class="px-4">
-                    <span class="pb-1">{{ $birth.Format "2006.01.02" }} ({{ $age | safeHTML }} 歲)</span>
+                {{ if .birth }}
+                    {{ $birth := time.AsTime .birth }}
+                    {{ $age := div (sub time.Now.Unix $birth.Unix) (mul 86400 365) }}
+                        <span class="pb-1">{{ $birth.Format "2006.01.02" }} ({{ $age | safeHTML }} 歲)</span>
+                    {{ else }}
+                        <span class="pb-1">-</span>
+                    {{ end }}
                 </td>
                 <td class="px-4">
                     {{ with resources.Get (printf "images/flags/%s.svg" .nation) }}

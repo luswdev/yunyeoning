@@ -1,8 +1,16 @@
 {{ $scratch := .Inner | strings.TrimSpace }}
 {{ $members := .Scratch.Get "members" }}
 
+{{ $needTitle := .Get "title" | default true }}
+{{ if $needTitle }}
 <h2>成員介紹</h2>
+{{ end }}
+{{ if .Get "theme" }}
+<table class="text-center align-middle table table-bordered mt-3 rounded-0 table-responsive"
+    style="--bs-table-border-outer-color: {{ .Get "theme" | safeCSS }};">
+{{ else }}
 <table class="text-center align-middle table table-bordered mt-3 rounded-0 table-responsive">
+{{ end }}
     <tbody>
         <tr>
             {{ range $members }}
@@ -45,6 +53,7 @@
                 </td>
             {{ end }}
         </tr>
+        {{ if (index $members 0).rotation }}
         <tr>
             {{ range $members }}
                 <td>
@@ -62,5 +71,6 @@
                 </td>
             {{ end }}
         </tr>
+        {{ end }}
     </tbody>
 </table>

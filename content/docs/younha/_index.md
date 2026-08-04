@@ -12,3 +12,10 @@ fandom: Y.HOLICS (홀릭스)
 fandomTheme: "#b8f9fb"
 images: ["/docs/younha/y-holics.png"]
 ---
+
+{{< membertable title=false theme="var(--yholics)" >}}
+{{% membercol 
+    name="윤하 YOUNHA" global="고윤하 高潤荷" pic="/docs/younha/artist-cover.png"
+    nation="kr" birth="1988-04-29"
+%}}
+{{< /membertable >}}

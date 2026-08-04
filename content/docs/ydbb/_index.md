@@ -10,7 +10,7 @@ entertainment: 엠피엠지뮤직 (MPMG Music)
 images: ["/docs/ydbb/ydbb.svg"]
 ---
 
-{{< membertable >}}
+{{< membertable theme="#f88131" >}}
 {{% membercol 
     name="조영윤" global="CHO YOUNG YUN" pic="/docs/ydbb/cho-young-yun.png"
     nation="kr" birth="1998-02-06"

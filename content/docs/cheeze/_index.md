@@ -10,4 +10,27 @@ entertainment: MoodMingle
 images: ["/docs/cheeze/cheeze.svg"]
 ---
 
+{{< membertable title=false theme="#997300" >}}
+{{% membercol 
+    name="달총 DALCHONG" real="임혜경" pic="/docs/cheeze/artist-cover.png"
+    nation="kr" birth="1991-08-19"
+%}}
+{{< /membertable >}}
 
+{{< exmembertable >}}
+{{% exmembercol 
+    name="구름 Cloud" real="고형석"
+    nation="kr" birth="1991-04-06"
+    rotation="製作人" leave="2017"
+%}}
+{{% exmembercol 
+    name="몰로 Molo"
+    nation="kr"
+    rotation="製作人" leave="-"
+%}}
+{{% exmembercol 
+    name="무디 Mudi"
+    nation="kr"
+    rotation="Rap" leave="-"
+%}}
+{{< /exmembertable >}}
