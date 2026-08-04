@@ -1,0 +1,3 @@
+{{ $birth := time.AsTime (.Get 0) }}
+{{ $age := div (sub time.Now.Unix $birth.Unix) (mul 86400 365) }}
+<span>{{ $age | safeHTML }}</span>

@@ -172,6 +172,12 @@ h4 {
         max-width: 100%;
         height: auto;
     }
+    table {
+        img,
+        svg {
+            max-width: unset;
+        }
+    }
     // External link icon
     a svg {
         vertical-align: middle;
@@ -361,6 +367,7 @@ h4 {
         }
 
         td {
+            border: 0;
             color: var(--gray-600);
         }
 
