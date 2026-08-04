@@ -1,4 +1,5 @@
 ---
+layout: "artist-view"
 title: "유다빈밴드"
 subtitle: "YdBB"
 description:

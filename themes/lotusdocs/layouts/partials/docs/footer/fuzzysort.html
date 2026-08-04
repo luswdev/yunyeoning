@@ -85,9 +85,9 @@
     {{ $len := (len $list) -}}
 
     {{ range $index, $element := $list -}}
-        {{- if or (eq $element.Params.layout "song-view") (eq $element.Params.icon "library_music") }}
+        {{- if or (eq $element.Params.layout "song-view") (eq $element.Params.layout "album-view") }}
             {{ $artist := "" }}
-            {{- if eq .Parent.Params.icon "artist"}}
+            {{- if eq .Parent.Params.layout "artist-view"}}
                 {{- if .Parent.Params.subtitle }}
                     {{- $artist = printf "%s (%s)" .Parent.Title .Parent.Params.subtitle }}
                 {{- else }}

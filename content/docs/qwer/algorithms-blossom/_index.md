@@ -1,4 +1,5 @@
 ---
+layout: "album-view"
 title: "Algorithm's Blossom"
 subtitle:
 description: "迷你 2 輯"

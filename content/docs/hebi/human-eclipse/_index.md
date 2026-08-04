@@ -1,4 +1,5 @@
 ---
+layout: "album-view"
 title: "Human Eclipse"
 subtitle:
 description: "迷你 2 輯"

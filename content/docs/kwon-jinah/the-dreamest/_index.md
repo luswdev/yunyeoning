@@ -1,4 +1,5 @@
 ---
+layout: "album-view"
 title: "The Dreamest"
 subtitle:
 description: "正規 3 輯"

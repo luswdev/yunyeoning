@@ -1,4 +1,5 @@
 ---
+layout: "album-view"
 title: "Harmony from Discord"
 subtitle:
 description: "單曲 1 輯"

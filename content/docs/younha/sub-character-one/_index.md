@@ -1,4 +1,5 @@
 ---
+layout: "album-view"
 title: "써브캐릭터 원"
 subtitle: "SUB CHARACTER"
 description: "重製 1 輯"

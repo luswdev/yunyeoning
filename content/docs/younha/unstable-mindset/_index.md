@@ -1,4 +1,5 @@
 ---
+layout: "album-view"
 title: "Unstable Mindset"
 subtitle:
 description: "迷你 5 輯"

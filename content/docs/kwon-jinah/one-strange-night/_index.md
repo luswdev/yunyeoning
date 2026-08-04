@@ -1,4 +1,5 @@
 ---
+layout: "album-view"
 title: "웃긴 밤"
 subtitle: "One Strange Night"
 description: "正規 1 輯"

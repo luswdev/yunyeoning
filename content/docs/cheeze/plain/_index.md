@@ -1,4 +1,5 @@
 ---
+layout: "album-view"
 title: "PLAIN"
 subtitle:
 description: "正規 1.5 輯"

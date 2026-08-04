@@ -1,4 +1,5 @@
 ---
+layout: "artist-view"
 title: "헤비"
 subtitle: "Hebi."
 description:

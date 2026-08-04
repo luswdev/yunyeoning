@@ -1,4 +1,5 @@
 ---
+layout: "album-view"
 title: "END THEORY (Final Edition)"
 subtitle:
 description: "正規 6 輯 Repackage"

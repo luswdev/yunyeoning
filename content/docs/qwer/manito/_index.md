@@ -1,4 +1,5 @@
 ---
+layout: "album-view"
 title: "MANITO"
 subtitle:
 description: "迷你 1 輯"

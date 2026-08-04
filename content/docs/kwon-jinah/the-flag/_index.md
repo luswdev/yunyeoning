@@ -1,4 +1,5 @@
 ---
+layout: "album-view"
 title: "The Flag"
 subtitle:
 description: "EP"

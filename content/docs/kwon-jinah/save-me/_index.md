@@ -1,4 +1,5 @@
 ---
+layout: "album-view"
 title: "SAVE ME"
 subtitle:
 description: "EP"

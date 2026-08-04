@@ -1,4 +1,5 @@
 ---
+layout: "artist-view"
 title: "권진아"
 subtitle: "權珍雅"
 description:

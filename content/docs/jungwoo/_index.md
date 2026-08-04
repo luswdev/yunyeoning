@@ -1,4 +1,5 @@
 ---
+layout: "artist-view"
 title: "정우"
 subtitle: "JUNGWOO"
 description:

@@ -1,4 +1,5 @@
 ---
+layout: "album-view"
 title: "Audition"
 subtitle: "Time2Rock"
 description: "單曲 1 輯"

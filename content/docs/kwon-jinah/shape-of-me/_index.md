@@ -1,4 +1,5 @@
 ---
+layout: "album-view"
 title: "나의 모양"
 subtitle:
 description: "正規 2 輯"

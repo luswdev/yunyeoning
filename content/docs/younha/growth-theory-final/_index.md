@@ -1,4 +1,5 @@
 ---
+layout: "album-view"
 title: "GROWTH THEORY (Final Edition)"
 subtitle:
 description: "正規 7 輯 Repackage"

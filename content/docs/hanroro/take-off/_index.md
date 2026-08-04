@@ -1,4 +1,5 @@
 ---
+layout: "album-view"
 title: "이상비행"
 subtitle: "理想飛行"
 description: "1st EP"

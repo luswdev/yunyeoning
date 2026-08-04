@@ -14,22 +14,24 @@
                     {{- if eq .Params.layout "song-view" }}
                     [中文歌詞]&nbsp;
                     {{- end -}}
-                    {{- if or (eq .Params.layout "song-view") (eq .Params.icon "library_music")  }}
+
+                    {{- if or (eq .Params.layout "song-view") (eq .Params.layout "album-view")  }}
+                        {{- $artistPage := .Parent -}}
                         {{- $artist := "" -}}
                         {{- $Title := "" -}}
-                        {{- if eq .Parent.Params.icon "artist"}}
-                            {{- if .Parent.Params.subtitle }}
-                                {{- $artist = printf "%s (%s)" .Parent.Title .Parent.Params.subtitle }}
-                            {{- else }}
-                                {{- $artist = .Parent.Title }}
-                            {{- end -}}
+
+                        {{- if eq .Parent.Params.layout "artist-view"}}
+                            {{- $artistPage = .Parent -}}
                         {{- else }}
-                            {{- if .Parent.Parent.Params.subtitle }}
-                                {{- $artist = printf "%s (%s)" .Parent.Parent.Title .Parent.Parent.Params.subtitle }}
-                            {{- else }}
-                                {{- $artist = .Parent.Parent.Title }}
-                            {{- end -}}
+                            {{- $artistPage = .Parent.Parent -}}
                         {{- end -}}
+
+                        {{- if $artistPage.Params.subtitle }}
+                            {{- $artist = printf "%s (%s)" $artistPage.Title $artistPage.Params.subtitle }}
+                        {{- else }}
+                            {{- $artist = $artistPage.Title }}
+                        {{- end -}}
+
                         {{- if .Params.subtitle }}
                             {{- .Title }} ({{- .Params.subtitle}}) - {{ $artist }} | {{ .Site.Params.docs.Title | default (.Site.Title) }}
                         {{- else }}
@@ -53,13 +55,14 @@
     {{- with .Description | default ($.Param "description") }}
     <meta name="description" content="{{ . }}">
     {{- end }}
+
     {{- $artists := "" }}
     {{ $currentPage := . -}}
     {{ $section := $currentPage.Section -}}
     {{ range (where .Site.Sections.ByWeight "Section" "in" $section) }}
         {{ $child_pages := union .Sections .Pages }}
         {{ range $child_pages.ByWeight }}
-            {{- if eq .Params.icon "artist" }}
+            {{- if eq .Params.layout "artist-view" }}
                 {{- if $artists }}
                     {{- if .Params.subtitle }}
                         {{- $artists = printf "%s, %s, %s" $artists .Title .Params.subtitle }}

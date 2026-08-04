@@ -1,4 +1,5 @@
 ---
+layout: "album-view"
 title: "Yellow Supernova Remnant"
 subtitle:
 description: "EP 2 輯"

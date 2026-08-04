@@ -1,4 +1,5 @@
 ---
+layout: "artist-view"
 title: "LATENCY"
 subtitle: 
 description:

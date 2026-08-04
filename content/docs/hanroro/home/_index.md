@@ -1,4 +1,5 @@
 ---
+layout: "album-view"
 title: "집"
 subtitle: "HOME"
 description: "2st EP"

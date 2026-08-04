@@ -1,4 +1,5 @@
 ---
+layout: "album-view"
 title: "우리의 방식"
 subtitle: "The Way For Us"
 description: "EP"

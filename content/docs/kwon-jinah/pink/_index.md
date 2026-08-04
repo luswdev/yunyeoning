@@ -1,4 +1,5 @@
 ---
+layout: "album-view"
 title: "Pink!"
 subtitle:
 description: "單曲"

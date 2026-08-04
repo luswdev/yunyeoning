@@ -1,4 +1,5 @@
 ---
+layout: "artist-view"
 title: "QWER"
 subtitle:
 description:

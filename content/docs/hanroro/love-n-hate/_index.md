@@ -1,4 +1,5 @@
 ---
+layout: "album-view"
 title: "애증"
 subtitle: "LOVE&HATE"
 description: "單曲"

@@ -68,58 +68,7 @@
                                             <div id="content" class="main-content" {{ if eq .Site.Params.docs.toc true -}}data-bs-spy="scroll" data-bs-root-margin="0px 0px -65%" data-bs-target="#toc-mobile"{{ end }}>
                                                 {{ block "main" . }}{{ end }}
                                                 {{ if eq .Title .FirstSection.Title }}
-                                                    <div class="site-meta pt-5">
-                                                        <h4>
-                                                            <i class="material-icons next-title-icon">leaderboard</i>
-                                                            <span class="next-title">本站總翻譯歌曲數</span>
-                                                        </h4>
-                                                        <table class="table table-borderless">
-                                                            <thead>
-                                                                <tr>
-                                                                    <th scope="col">歌手/樂團</th>
-                                                                    <th scope="col">歌曲數</th>
-                                                                </tr>
-                                                            </thead>
-                                                            <tbody>
-                                                                {{ $totalLen := 0 }}
-                                                                {{ $metaItem := slice }}
-                                                                {{ range .Pages }}
-                                                                    {{ if eq .Params.icon "artist"}}
-                                                                        {{ $songs := .Pages.Len }}
-                                                                        {{ $songs = sub $songs (where .Pages ".Params.icon" "library_music").Len }}
-                                                                        {{ range .Pages }}
-                                                                            {{ if eq .Params.icon "library_music"}}
-                                                                                {{ $songs = add $songs .Pages.Len }}
-                                                                            {{ end }}
-                                                                        {{ end }}
-                                                                        {{ if $metaItem }}
-                                                                            {{ $metaItem = $metaItem | append (dict "title" .Title "subtitle" .Params.subtitle "songs" $songs) }}
-                                                                        {{ else }}
-                                                                            {{ $metaItem = slice (dict "title" .Title "subtitle" .Params.subtitle "songs" $songs) }}
-                                                                        {{ end }}
-                                                                        {{ $totalLen = add $totalLen $songs }}
-                                                                    {{ end }}
-                                                                {{ end }}
-                                                                {{ range sort $metaItem "songs" "desc" }}
-                                                                    <tr>
-                                                                        <td>
-                                                                            {{ .title }}
-                                                                            {{- if .subtitle }}
-                                                                                ({{ .subtitle }})
-                                                                            {{- end }}
-                                                                        </td>
-                                                                        <td class="font-monospace">
-                                                                            {{ .songs }}
-                                                                        </td>
-                                                                    </tr>
-                                                                {{ end }}
-                                                                <tr class="summary-row">
-                                                                    <td>總計</td>
-                                                                    <td class="font-monospace">{{ $totalLen }}</td>
-                                                                </tr>
-                                                            </tbody>
-                                                        </table>
-                                                    </div>
+                                                    {{ partial (printf "%s/%s" ($.Scratch.Get "pathName") "site-meta") . }}
                                                 {{ end }}
                                             </div>
                                             <div>

@@ -1,4 +1,5 @@
 ---
+layout: "artist-view"
 title: "치즈"
 subtitle: "CHEEZE"
 description:

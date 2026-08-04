@@ -1,4 +1,5 @@
 ---
+layout: "artist-view"
 title: "윤하"
 subtitle: "潤荷"
 description:

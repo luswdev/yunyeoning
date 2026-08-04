@@ -1,4 +1,5 @@
 ---
+layout: "artist-view"
 title: "예빛"
 subtitle: "Yebit"
 description:

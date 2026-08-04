@@ -1,4 +1,5 @@
 ---
+layout: "artist-view"
 title: "터치드"
 subtitle: "Touched"
 description:

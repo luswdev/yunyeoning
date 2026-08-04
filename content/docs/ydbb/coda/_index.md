@@ -1,4 +1,5 @@
 ---
+layout: "album-view"
 title: "CODA"
 subtitle:
 description: "正規 2 輯"

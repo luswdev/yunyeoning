@@ -1,4 +1,5 @@
 ---
+layout: "album-view"
 title: "CEREMONY"
 subtitle:
 description: "迷你 4 輯"

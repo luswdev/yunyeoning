@@ -1,4 +1,5 @@
 ---
+layout: "album-view"
 title: "자몽살구클럽"
 subtitle: "JAMONG SALGU CLUB"
 description: "3st EP"

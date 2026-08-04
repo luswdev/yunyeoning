@@ -1,4 +1,5 @@
 ---
+layout: "artist-view"
 title: "한로로"
 subtitle: "HANRORO"
 description:
