@@ -12,6 +12,19 @@ entertainment: 쓰리와이코프레이션 (3Y CORPORATION)
 fandom: 바위게 (BAWIGE)
 fandomTheme: "#2fa1c2"
 images: ["/docs/qwer/qwer.svg"]
+milestones:
+    - when: 2023-07-02
+      remark: "金雞蛋與 Chodan 透過 YouTube 影片 <최애의 아이들 我推的孩子們> 正式宣佈 QWER 成軍"
+    - when: 2023-10-18
+      remark: "以單曲 <Harmony from Discord> 正式出道"
+    - when: 2024-10-29
+      remark: "<내 이름 맑음 My Name is Malguem> 在音樂節目 <쇼챔피언 SHOW CHAMPION> 首次獲得一位"
+    - when: 2025-07-18
+      remark: "宣布進行第一次世界巡演 <ROCKATION>"
+    - when: 2026-01-16
+      remark: "預告將為動畫 <盗掘王> 演唱 OP <SHOW DOWN>"
+    - when: 2026-07-08
+      remark: "以動畫 <盗掘王> OP <SHOW DOWN> 正式於日本出道"
 ---
 
 {{< membertable >}}

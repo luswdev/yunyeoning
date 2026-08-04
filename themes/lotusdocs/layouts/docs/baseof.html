@@ -77,6 +77,9 @@
                                                 {{ if eq .Title .FirstSection.Title }}
                                                     {{ partial (printf "%s/%s" ($.Scratch.Get "pathName") "site-meta") . }}
                                                 {{ end }}
+                                                {{ if eq .Params.layout "artist-view" }}
+                                                    {{ partial (printf "%s/%s" ($.Scratch.Get "pathName") "milestones") . }}
+                                                {{ end -}}
                                             </div>
                                             <div>
                                                 {{- partial (printf "%s/%s" ($.Scratch.Get "pathName") "doc-nav.html") . -}}

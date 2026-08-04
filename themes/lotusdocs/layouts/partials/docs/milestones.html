@@ -1,0 +1,13 @@
+{{ if .Params.milestones }}
+{{ $milestones := .Params.milestones }}
+<h3 class="mt-5">里程碑</h3>
+<table class="table table-borderless">
+    {{ range $milestones }}
+        {{ $when := time.AsTime .when }}
+        <tr>
+            <th>{{ $when.Format "2006-01-02" }}</th>
+            <td>{{ .remark }}</td>
+        </tr>
+    {{ end }}
+</table>
+{{ end }}
