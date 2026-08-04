@@ -47,7 +47,11 @@
                                             <div class="mb-0 d-flex">
                                                 {{ if site.Params.docs.titleIcon | default false }}
                                                 {{ if .Params.images | default false }}
-                                                <img class="title-icon me-2" src="{{ index .Params.images 0 }}?v={{ now.Unix }}" alt="Title Icon">
+                                                    {{ if or (eq .Params.layout "album-view") (eq .Params.layout "song-view") }}
+                                                    <img class="title-icon album-icon me-2" src="{{ index .Params.images 0 }}?v={{ now.Unix }}" alt="Title Icon">
+                                                    {{ else }}
+                                                    <img class="title-icon me-2" src="{{ index .Params.images 0 }}?v={{ now.Unix }}" alt="Title Icon">
+                                                    {{ end }}
                                                 {{ else }}
                                                 <i class="material-icons title-icon me-2">{{- .Params.icon | default "article" }}</i>
                                                 {{ end }}
