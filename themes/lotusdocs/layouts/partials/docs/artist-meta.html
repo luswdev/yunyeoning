@@ -1,0 +1,90 @@
+{{ $exentertainment := split .Params.exentertainment ", " }}
+
+<div class="artist-meta">
+    <table class="table table-borderless">
+        <tbody>
+        {{ if .Params.organize }}
+            {{ $organize := time.AsTime .Params.organize }}
+        <tr>
+            <th scope="row">成立日</th>
+            <td colspan="2">
+                <span>{{ $organize.Format "2006-01-02" }}</span><br>
+                <span class="debut-counter">(+{{ div (sub time.Now.Unix $organize.Unix) 86400 }} 天, {{ div (sub time.Now.Unix $organize.Unix) (mul 86400 365) }}週年)</span>
+            </td>
+        </tr>
+        {{ end -}}
+        {{ if and .Params.debutKR .Params.debutJP }}
+            {{ $debutKR := time.AsTime .Params.debutKR }}
+            {{ $debutJP := time.AsTime .Params.debutJP }}
+            <tr>
+                <th scope="row" rowspan="2">出道日</th>
+                <td class="debut-nation-flag">
+                    {{ with resources.Get "images/flags/kr.svg" }}
+                        {{ .Content | safeHTML }}
+                    {{ end }}
+                </td>
+                <td>
+                    <span>{{ $debutKR.Format "2006-01-02" }}</span><br>
+                    <span class="debut-counter">(+{{ div (sub time.Now.Unix $debutKR.Unix) 86400 }} 天, {{ div (sub time.Now.Unix $debutKR.Unix) (mul 86400 365) }}週年)</span>
+                </td>
+            </tr>
+            <tr>
+                <td class="debut-nation-flag">
+                    {{ with resources.Get "images/flags/jp.svg" }}
+                        {{ .Content | safeHTML }}
+                    {{ end }}
+                </td>
+                <td>
+                    <span>{{ $debutJP.Format "2006-01-02" }}</span><br>
+                    <span class="debut-counter">(+{{ div (sub time.Now.Unix $debutJP.Unix) 86400 }} 天, {{ div (sub time.Now.Unix $debutJP.Unix) (mul 86400 365) }}週年)</span>
+                </td>
+            </tr>
+            {{ else }}
+            <tr>
+                <th scope="row">出道日</th>
+                <td colspan="2">
+                    <span>{{ .Date.Format "2006-01-02" }}</span><br>
+                    <span class="debut-counter">(+{{ div (sub time.Now.Unix .Date.Unix) 86400 }} 天, {{ div (sub time.Now.Unix .Date.Unix) (mul 86400 365) }}週年)</span>
+                </td>
+            </tr>
+            {{ end -}}
+        {{ if .Params.entertainment }}
+        <tr>
+            <th scope="row">所屬社</th>
+            <td colspan="2">
+                <span>{{ .Params.entertainment }}</span>
+            </td>
+        </tr>
+        {{ end -}}
+        {{ if .Params.exentertainment }}
+        <tr>
+            <th scope="row">前所屬社</th>
+            <td colspan="2">
+                {{- range $i, $name := $exentertainment -}}
+                {{- if gt $i 0 }}, {{ end -}}
+                    <span>{{ $name }}</span>
+                {{- end}}
+            </td>
+        </tr>
+        {{ end -}}
+        {{ if .Params.fandom }}
+        <tr>
+            <th scope="row">粉絲名稱</th>
+            <td colspan="2" class="fandom-cell">
+                {{ if .Params.fandomTheme }}
+                    {{ $fandomTheme := split .Params.fandomTheme ", " }}
+                    {{ $fandomThemeStyle := "background-image: linear-gradient(to right" }}
+                    {{- range $fandomTheme -}}
+                        {{ $fandomThemeStyle = printf "%s, %s" $fandomThemeStyle . -}}
+                    {{- end}}
+                    {{ $fandomThemeStyle = printf "%s); color: contrast-color(%s)" $fandomThemeStyle (index $fandomTheme 0) -}}
+                    <span class="p-1 rounded-3" style="{{ $fandomThemeStyle | safeCSS }}">{{ .Params.fandom }}</span>
+                {{ else }}
+                    <span>{{ .Params.fandom }}</span>
+                {{ end }}
+            </td>
+        </tr>
+        {{ end -}}
+        </tbody>
+    </table>
+</div>

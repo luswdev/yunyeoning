@@ -353,8 +353,29 @@ h4 {
     }
 }
 
-.docs-content .song-meta td {
-    color: var(--gray-600);
+.docs-content {
+    .artist-meta,
+    .song-meta {
+        tr {
+            vertical-align: middle;
+        }
+
+        td {
+            color: var(--gray-600);
+        }
+
+        .debut-counter {
+            font-size: 0.75rem;
+        }
+
+        .debut-nation-flag {
+            vertical-align: middle;
+
+            svg {
+                width: 1.375rem;
+            }
+        }
+    }
 }
 
 // QWER part highlight

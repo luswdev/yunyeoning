@@ -6,5 +6,6 @@ description:
 icon: artist
 weight: 15
 date: 2019-01-24
+fandom: 극단이
 images: ["/docs/far-east-asian-tigers/far-east-asian-tigers.webp"]
 ---

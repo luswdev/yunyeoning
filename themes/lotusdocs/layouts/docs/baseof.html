@@ -66,6 +66,11 @@
                                                 <p class="lead mb-3">{{ $currentPage.Description | markdownify }}</p>
                                             {{ end }}
                                             <div id="content" class="main-content" {{ if eq .Site.Params.docs.toc true -}}data-bs-spy="scroll" data-bs-root-margin="0px 0px -65%" data-bs-target="#toc-mobile"{{ end }}>
+                                                {{ if eq .Params.layout "song-view" }}
+                                                    {{ partial (printf "%s/%s" ($.Scratch.Get "pathName") "song-meta") . }}
+                                                {{ else if eq .Params.layout "artist-view" }}
+                                                    {{ partial (printf "%s/%s" ($.Scratch.Get "pathName") "artist-meta") . }}
+                                                {{ end -}}
                                                 {{ block "main" . }}{{ end }}
                                                 {{ if eq .Title .FirstSection.Title }}
                                                     {{ partial (printf "%s/%s" ($.Scratch.Get "pathName") "site-meta") . }}
