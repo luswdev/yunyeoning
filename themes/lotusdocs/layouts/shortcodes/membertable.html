@@ -6,10 +6,10 @@
 <h2>成員介紹</h2>
 {{ end }}
 {{ if .Get "theme" }}
-<table class="text-center align-middle table table-bordered mt-3 rounded-0 table-responsive"
+<table class="text-center align-middle table table-bordered table-bordered-outline mt-3 table-responsive"
     style="--bs-table-border-outer-color: {{ .Get "theme" | safeCSS }};">
 {{ else }}
-<table class="text-center align-middle table table-bordered mt-3 rounded-0 table-responsive">
+<table class="text-center align-middle table table-bordered mt-3 table-responsive">
 {{ end }}
     <tbody>
         <tr>

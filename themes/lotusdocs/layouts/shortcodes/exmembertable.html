@@ -15,7 +15,7 @@
     <tbody>
         {{ range $members }}
             <tr>
-                <td class="px-4">
+                <td class="px-4 text-nowrap">
                     {{ .name }}
                     {{ if .global }}
                         <br>
@@ -26,7 +26,7 @@
                         <span class="text-muted">{{ .real }}</span>
                     {{ end }}
                 </td>
-                <td class="px-4">
+                <td class="px-4 text-nowrap">
                 {{ if .birth }}
                     {{ $birth := time.AsTime .birth }}
                     {{ $age := div (sub time.Now.Unix $birth.Unix) (mul 86400 365) }}
@@ -35,14 +35,14 @@
                         <span class="pb-1">-</span>
                     {{ end }}
                 </td>
-                <td class="px-4">
+                <td class="px-4 text-nowrap">
                     {{ with resources.Get (printf "images/flags/%s.svg" .nation) }}
                     {{ $content := .Content }}
                     {{ $content = replace $content "<svg" "<svg style=\"width:1.75rem;\" class=\"align-baseline pt-1\"" }}
                     {{ $content | safeHTML }}
                     {{ end }}
                 </td>
-                <td class="px-4">
+                <td class="px-4 text-nowrap">
                     {{ if .leader }}
                         <strong>隊長</strong><br>
                     {{ end }}
@@ -55,7 +55,7 @@
                         {{ end }}
                     {{ end }}
                 </td>
-                <td class="px-4">
+                <td class="px-4 text-nowrap">
                     {{ .leave }}
                 </td>
             </tr>

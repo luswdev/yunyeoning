@@ -2,14 +2,6 @@
 // _table.scss
 //
 
-:root {
-    --table-hover-bg: rgba(0, 0, 0, 0.075);
-}
-
-[data-dark-mode] {
-    --table-hover-bg: rgba(255, 255, 255, 0.075);
-}
-
 .table {
     --bs-table-color: var(--text-default);
     --bs-table-bg: transparent;
@@ -24,11 +16,8 @@
     color: var(--text-default);
     font-size: 0.875rem;
     border-spacing: 0;
+    border-collapse: separate;
     width: auto;
-
-    thead, tbody, tfoot, tr, td, th {
-        border-color: var(--bs-table-border-color);
-    }
 
     &.table-bordered {
         thead th {
@@ -39,16 +28,20 @@
             thead {
                 th {
                     border-top-color: var(--bs-table-border-outer-color);
-                    border-top-width: 2px;
+                    border-left-width: 0;
+                    border-right-width: 1px;
+                    border-top-width: 1px;
+                    border-bottom-width: 0;
 
                     &:first-child {
-                        border-left-color: var(--bs-table-border-outer-color);
-                        border-left-width: 2px;
+                        border-left-width: 1px;
+                        border-top-left-radius: 6px;
+                        overflow: hidden;
                     }
 
                     &:last-child {
-                        border-right-color: var(--bs-table-border-outer-color);
-                        border-right-width: 2px;
+                        border-top-right-radius: 6px;
+                        overflow: hidden;
                     }
                 }
             }
@@ -57,9 +50,16 @@
         &:not(:has(thead)) {
             tbody {
                 tr {
-                    &:first-child td {
-                        border-top-color: var(--bs-table-border-outer-color);
-                        border-top-width: 2px;
+                    &:first-child {
+                        td:first-child {
+                            border-top-left-radius: 6px;
+                            overflow: hidden;
+                        }
+
+                        td:last-child {
+                            border-top-right-radius: 6px;
+                            overflow: hidden;
+                        }
                     }
                 }
             }
@@ -67,19 +67,84 @@
 
         tbody {
             tr {
-                td:first-child {
-                    border-left-color: var(--bs-table-border-outer-color);
-                    border-left-width: 2px;
+                td {
+                    border-left-width: 0;
+                    border-right-width: 1px;
+                    border-top-width: 1px;
+                    border-bottom-width: 0;
                 }
 
-                td:last-child {
-                    border-right-color: var(--bs-table-border-outer-color);
-                    border-right-width: 2px;
+                td:first-child {
+                    border-left-width: 1px;
                 }
 
                 &:last-child td {
-                    border-bottom-color: var(--bs-table-border-outer-color);
-                    border-bottom-width: 2px;
+                    border-bottom-width: 1px;
+                }
+            }
+
+            tr:last-child {
+                td:first-child {
+                    border-bottom-left-radius: 6px;
+                    overflow: hidden;
+                }
+
+                td:last-child {
+                    border-bottom-right-radius: 6px;
+                    overflow: hidden;
+                }
+            }
+        }
+
+        &.table-bordered-outline {
+            &:has(thead) {
+                thead {
+                    th {
+                        border-top-width: 2px;
+                        border-bottom-width: 0;
+
+                        &:first-child {
+                            border-left-color: var(--bs-table-border-outer-color);
+                            border-left-width: 2px;
+                        }
+
+                        &:last-child {
+                            border-right-color: var(--bs-table-border-outer-color);
+                            border-right-width: 2px;
+                        }
+                    }
+                }
+            }
+
+            &:not(:has(thead)) {
+                tbody {
+                    tr {
+                        &:first-child {
+                            td {
+                                border-top-color: var(--bs-table-border-outer-color);
+                                border-top-width: 2px;
+                            }
+                        }
+                    }
+                }
+            }
+
+            tbody {
+                tr {
+                    td:first-child {
+                        border-left-color: var(--bs-table-border-outer-color);
+                        border-left-width: 2px;
+                    }
+
+                    td:last-child {
+                        border-right-color: var(--bs-table-border-outer-color);
+                        border-right-width: 2px;
+                    }
+
+                    &:last-child td {
+                        border-bottom-color: var(--bs-table-border-outer-color);
+                        border-bottom-width: 2px;
+                    }
                 }
             }
         }
@@ -96,5 +161,4 @@
         width: 100%;
         overflow-x: auto;
     }
-
 }
