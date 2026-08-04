@@ -6,5 +6,7 @@ description: "正規 2 輯"
 icon: "library_music"
 weight: 1
 date: 2023-11-09
+entertainment: 정우 (JUNGWOO)
+publisher: 포크라노스 (POCLANOS)
 images: ["/docs/jungwoo/cloud-cuckoo-land/cloud-cuckoo-land.jpg"]
 ---

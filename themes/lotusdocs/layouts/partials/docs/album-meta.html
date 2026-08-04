@@ -1,0 +1,26 @@
+{{ $exentertainment := split .Params.exentertainment ", " }}
+
+<div class="artist-meta">
+    <table class="table table-borderless">
+        <tbody>
+        <tr>
+            <th scope="row">發行日期</th>
+            <td>
+                <span>{{ .Date.Format "2006-01-02" }}</span>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">所屬社</th>
+            <td>
+                <span>{{ .Params.entertainment }}</span>
+            </td>
+        </tr>
+        <tr>
+            <th scope="row">發行社</th>
+            <td>
+                <span>{{ .Params.publisher }}</span>
+            </td>
+        </tr>
+        </tbody>
+    </table>
+</div>
