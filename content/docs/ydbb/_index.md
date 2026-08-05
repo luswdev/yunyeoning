@@ -7,10 +7,10 @@ icon: artist
 weight: 12
 date: 2021-03-09
 entertainment: 엠피엠지뮤직 (MPMG Music)
-images: ["/docs/ydbb/ydbb.svg"]
+images: ["/docs/ydbb/ydbb-circle.svg"]
 ---
 
-{{< membertable theme="#f88131" >}}
+{{< membertable theme="#f88131" titlePic="/docs/ydbb/ydbb.svg" >}}
 {{% membercol 
     name="조영윤" global="CHO YOUNG YUN" pic="/docs/ydbb/cho-young-yun.png"
     nation="kr" birth="1998-02-06"

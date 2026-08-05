@@ -6,12 +6,33 @@
 <h2>成員介紹</h2>
 {{ end }}
 {{ if .Get "theme" }}
+{{ $theme := split (.Get "theme") "," }}
 <table class="text-center align-middle table table-bordered table-bordered-outline mt-3 table-responsive"
-    style="--bs-table-border-outer-color: {{ .Get "theme" | safeCSS }};">
+    style="--bs-table-border-outer-color: {{ index $theme 0| safeCSS }};">
 {{ else }}
 <table class="text-center align-middle table table-bordered mt-3 table-responsive">
 {{ end }}
     <tbody>
+        {{ if or (.Get "titlePic") (.Get "title") }}
+            <tr>
+                <td colspan="{{ len $members }}" class="p-0">
+                    {{ $theme := split (.Get "theme") ", " }}
+                    {{ $themeStyle := "background-image: linear-gradient(to right" }}
+                    {{- range $theme -}}
+                        {{ $themeStyle = printf "%s, %s" $themeStyle . -}}
+                    {{- end}}
+                    <div class="d-flex justify-content-center gap-3 p-2" style="{{ $themeStyle | safeCSS }}">
+                        {{ if .Get "titlePic"}}
+                            <img src="{{ .Get "titlePic" }}" class="d-inline" style="max-height: 40px;" />
+                        {{ end }}
+                        {{ if .Get "title"}}
+                            <span class="fs-4 text-white fw-bold">{{ .Get "title" }}</span>
+                        {{ end }}
+                    </div>
+
+                </td>
+            </tr>
+        {{ end }}
         <tr>
             {{ range $members }}
                 <td class="p-0" rowspan="1">

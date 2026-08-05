@@ -10,7 +10,7 @@ fandom: 극단이
 images: ["/docs/far-east-asian-tigers/far-east-asian-tigers.webp"]
 ---
 
-{{< membertable theme="#ff8c00" >}}
+{{< membertable theme="#000" titlePic="/docs/far-east-asian-tigers/far-east-asian-tigers-long.webp"  >}}
 {{% membercol 
     name="명지수" global="Myoung Jisu" pic="/docs/far-east-asian-tigers/myoung-jisu.png"
     nation="kr" birth="1989-03-01"

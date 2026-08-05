@@ -11,7 +11,7 @@ entertainment: 엠피엠지뮤직 (MPMG Music)
 images: ["/docs/touched/touched.webp"]
 ---
 
-{{< membertable theme="#810000" >}}
+{{< membertable theme="#810000,#1a1a1a" titlePic="/docs/touched/touched.webp" >}}
 {{% membercol 
     name="윤민 YUNMIN" real="조윤민 趙玧旻"
     nation="kr" birth="1996-09-13" pic="/docs/touched/yunmin.png" 
