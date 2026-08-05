@@ -5,7 +5,7 @@ subtitle:
 description: "單曲"
 icon: "genres"
 weight: 7
-date: 2025-06-02
+date: 2022-07-31
 images: ["/docs/far-east-asian-tigers/hello.jpg"]
 composition: "명지수"
 lyric: "명지수"
