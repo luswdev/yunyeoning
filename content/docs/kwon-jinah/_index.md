@@ -15,7 +15,7 @@ images: ["/docs/kwon-jinah/kwon-jinah.png"]
 
 {{< membertable title=false theme="var(--jinahon)" >}}
 {{% membercol 
-    name="권진아" global="權珍雅" pic="/docs/kwon-jinah/artist-cover.png"
+    name="권진아" global="權珍雅" pic="/docs/kwon-jinah/artist-cover.jpg"
     nation="kr" birth="1997-07-18"
 %}}
 {{< /membertable >}}
