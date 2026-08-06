@@ -3,7 +3,7 @@ layout: "song-view"
 title: "__에게"
 subtitle: "To. __"
 icon: "genres"
-weight: 4
+weight: 5
 date: 2025-08-04
 images: ["/docs/hanroro/jamong-salgu-club/jamong-salgu-club.jpg"]
 composition: "한로로"
