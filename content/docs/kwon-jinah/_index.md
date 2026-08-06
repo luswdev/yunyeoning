@@ -13,7 +13,7 @@ fandomTheme: "#e2ceaa, #d5b2d0, #d5b2d0"
 images: ["/docs/kwon-jinah/kwon-jinah.png"]
 ---
 
-{{< membertable title=false theme="var(--jinahon)" >}}
+{{< membertable title=false theme="var(--jinahon)" titlePic="/docs/kwon-jinah/kwon-jinah-title.png" >}}
 {{% membercol 
     name="권진아" global="權珍雅" pic="/docs/kwon-jinah/artist-cover.jpg"
     nation="kr" birth="1997-07-18"

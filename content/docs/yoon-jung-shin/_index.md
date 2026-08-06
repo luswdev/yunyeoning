@@ -10,7 +10,7 @@ entertainment: 미스틱스토리 (MYSTIC STORY)
 images: ["/docs/yoon-jung-shin/yoon-jung-shin.svg"]
 ---
 
-{{< membertable title=false theme="#fff" >}}
+{{< membertable title=false theme="#2d2f34,#373a3c,#000" titlePic="/docs/yoon-jung-shin/yoon-jung-shin.svg" >}}
 {{% membercol 
     name="윤종신" global="尹鍾信" pic="/docs/yoon-jung-shin/artist-cover.png"
     nation="kr" birth="1969-10-15"
