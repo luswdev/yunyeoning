@@ -10,7 +10,7 @@ entertainment: 오디너리 레코즈 (Oddinary Records)
 images: ["/docs/latency/latency.svg"]
 ---
 
-{{< membertable theme="#b51d22" >}}
+{{< membertable theme="#b51d22" titlePic="/docs/latency/latency-white.svg" >}}
 {{% membercol 
     name="희연 Hee Yeon" real="김희연"
     nation="kr" birth="1998-11-17" pic="/docs/latency/hee-yeon.png" 
