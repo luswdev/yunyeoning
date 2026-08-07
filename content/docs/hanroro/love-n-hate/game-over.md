@@ -3,6 +3,7 @@ layout: "song-view"
 title: "게임 오버 ?"
 subtitle: "GAME OVER ?"
 icon: "genres"
+description: "主打歌"
 weight: 1
 date: 2026-04-02
 images: ["/docs/hanroro/love-n-hate/love-n-hate.jpg"]
