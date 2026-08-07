@@ -3,7 +3,7 @@ layout: "song-view"
 title: "하강기류"
 subtitle: "Gravity in the Wind"
 icon: "genres"
-weight: 2
+weight: 5
 date: 2025-10-20
 images: ["/docs/hebi/human-eclipse/human-eclipse.jpg"]
 composition: "최선율, 최운율, 이도형(AUG)"
