@@ -12,11 +12,23 @@
 {{ $arrangements := split .Params.arrangement ", " }}
 {{ $original := split .Params.original ", " }}
 {{ $vocal := split .Params.vocal ", " }}
+{{ $featuring := split .Params.featuring ", " }}
 {{ $published_time := .Date }}
 
 <div class="song-meta">
     <table class="table table-borderless">
         <tbody>
+        {{ if .Params.featuring }}
+        <tr>
+            <th scope="row">合作演出</th>
+            <td>
+                {{- range $i, $name := $featuring -}}
+                {{- if gt $i 0 }}, {{ end -}}
+                    <span class="{{ index $classMap $name }}">{{ $name }}</span>
+                {{- end}}
+            </td>
+        </tr>
+        {{ end -}}
         {{ if .Params.original }}
         <tr>
             <th scope="row">原唱</th>
