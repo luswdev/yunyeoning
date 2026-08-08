@@ -9,7 +9,7 @@ images: ["/docs/hebi/allergy/allergy.jpg"]
 composition: "PAPRIKAA, BrotherSu, 임정우"
 lyric: "FLAME, nodresscode"
 arrangement: "임정우, PAPRIKAA"
-youtube: "dA-_wyToXhE&start=180"
+youtube: "dA-_wyToXhE?si=Qs0IlYFO14APKcuY&start=180"
 ---
 
 <!-- 같은 말을 몇 번이고 스스로에게 되뇌며 -->
