@@ -25,7 +25,7 @@
     &.active,
     &.focus {
         // background-color: var(--primary) !important;
-        background: var(--btn-soft-bg);
+        background: var(--btn-soft--hover-bg);
         border-color: var(--btn-soft-border) !important;
         color: var(--btn-soft-color) !important;
     }
@@ -212,8 +212,11 @@ button:not(:disabled) {
 
 .sponsor-container {
     .kofi-button {
+        border: 1px solid var(--card-border-color) !important;
+
         &:hover {
             background-color: var(--primary) !important;
+            border-color: var(--primary) !important;
         }
     }
 }
