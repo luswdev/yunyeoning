@@ -4,7 +4,7 @@ title: "Catalepsy"
 subtitle: "カナシバリ"
 description: "Alternative Universe: ERROR 02"
 icon: "genres"
-weight: 7
+weight: 502
 date: 2026-06-02
 images: ["/docs/hebi/catalepsy.jpg"]
 composition: "秋浦智裕"
