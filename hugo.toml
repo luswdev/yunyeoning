@@ -29,13 +29,15 @@ enableRobotsTXT = true
         ["Lato", "300, 400, 600, 700"],
         ["Space Mono", "300, 400, 600, 700"],
         ["Noto Sans KR", "300, 400, 600, 700"],
+        ["Noto Sans JP", "300, 400, 600, 700"],
         ["Noto Sans TC", "300, 400, 600, 700"],
         ["Noto Serif KR", "300, 400, 600, 700"],
+        ["Noto Serif JP", "300, 400, 600, 700"],
         ["Noto Serif TC"," 300, 400, 600, 700"],
     ]
 
-    sans_serif_font = "Noto Serif TC, Noto Serif KR"     # Default is System font
-    secondary_font  = "Lato, Noto Sans TC, Noto Sans KR"     # Default is System font
+    sans_serif_font = "Noto Serif TC, Noto Serif KR, Noto Serif JP"     # Default is System font
+    secondary_font  = "Lato, Noto Sans TC, Noto Sans KR, Noto Sans JP"     # Default is System font
     mono_font       = "Space Mono" # Default is System font
 
     keywords = '中字, 繁中歌詞, 韓中歌詞, 中文歌詞, Lyrics, Mandarin Lyrics'
