@@ -2,7 +2,7 @@
 layout: "song-view"
 title: "PLAY, WE DEW"
 subtitle:
-description: "合作單曲"
+description: "Mountain Due 合作曲"
 icon: "genres"
 weight: 10
 date: 2025-04-12
