@@ -1,6 +1,24 @@
+{{ $only := lower (.Get "only" | default "qwer") }}
+{{ $show := slice }}
+{{ range $index, $item := seq 4 }}
+    {{ if strings.Contains $only (index (slice "q" "w" "e" "r") $index) }}
+        {{ $show = $show | append true }}
+    {{ else }}
+        {{ $show = $show | append false }}
+    {{ end }}
+{{ end }}
+
 <div class="part_info">
-    <span class="q_part">Q. Chodan</span>
-    <span class="w_part">W. Magenta</span>
-    <span class="e_part">E. Hina</span>
-    <span class="r_part">R. Siyeon</span>
+    {{ if index $show 0 }}
+        <span class="q_part">Q. Chodan</span>
+    {{ end }}
+    {{ if index $show 1 }}
+        <span class="w_part">W. Magenta</span>
+    {{ end }}
+    {{ if index $show 2 }}
+        <span class="e_part">E. Hina</span>
+    {{ end }}
+    {{ if index $show 3 }}
+        <span class="r_part">R. Siyeon</span>
+    {{ end }}
 </div>
