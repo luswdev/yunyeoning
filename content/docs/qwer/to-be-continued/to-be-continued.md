@@ -69,7 +69,7 @@ youtube: vSLLDiOZPz8
 
 <!-- 이야기는 끝나지 않아 -->
 {{< ruby base="物語" ruby="ものがたり" >}}は{{< ruby base="終" ruby="お" >}}わらない  
-這故事不會就此落幕的  
+這故事仍將未完待續  
 
 <br>
 
@@ -141,7 +141,7 @@ youtube: vSLLDiOZPz8
 
 <!-- 이야기는 끝나지 않아 -->
 {{< ruby base="物語" ruby="ものがたり" >}}は{{< ruby base="終" ruby="お" >}}わらない  
-這故事不會就此落幕的  
+這故事仍將未完待續  
 
 <br>
 
@@ -181,4 +181,4 @@ youtube: vSLLDiOZPz8
 
 <!-- 이야기는 끝나지 않아 -->
 {{< ruby base="物語" ruby="ものがたり" >}}は{{< ruby base="終" ruby="お" >}}わらない  
-這故事不會就此落幕的  
+這故事仍將未完待續  
