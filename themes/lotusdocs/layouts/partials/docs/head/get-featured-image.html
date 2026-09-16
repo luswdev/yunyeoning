@@ -14,7 +14,7 @@
     {{ $sizeTitle := 80 }}
     {{ $sizeDesc := 50 }}
 
-    {{ if gt (len $title) 23 }}
+    {{ if gt (strings.RuneCount $title) 23 }}
         {{ $sizeTitle = 60 }}
     {{ end }}
 
