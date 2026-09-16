@@ -38,7 +38,7 @@
 
     {{ if gt ($title | strings.RuneCount) 23 }}
     {{ $descPadding = -30 }}
-        {{ if gt ($title | strings.RuneCount) 40 }}
+        {{ if gt ($title | strings.RuneCount) 30 }}
             {{ $descPadding = 40 }}
         {{ end }}
         {{ $sizeDesc = 45 }}
