@@ -8,6 +8,9 @@
     {{ $descPadding := 0 }}
 
     {{ $title := $.LinkTitle }}
+    {{ with $.Params.subtitle }}
+        {{ $title = printf "%s (%s)" $title $.Params.subtitle }}
+    {{ end }}
     {{ $sizeTitle := 80 }}
     {{ $sizeDesc := 50 }}
 
