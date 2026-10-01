@@ -1,7 +1,7 @@
 ---
 layout: "album-view"
-title: "To Be Continued"
-subtitle:
+title: "소년만화 & 피카레스크"
+subtitle: "Dreamer & Picaresque"
 description: "特別單曲"
 icon: library_music
 weight: 20
