@@ -12,6 +12,9 @@ arrangement: "이동혁, 한아영"
 youtube: "On6Pm4M-dQQ"
 ---
 
+{{< qwerinfo only="qr" >}}
+
+{{< qwerly r >}}
 조용하게 비춘 별 하나  
 一顆靜靜閃耀的星星  
 
@@ -118,9 +121,11 @@ youtube: "On6Pm4M-dQQ"
 
 빛나는 별처럼  
 就像閃耀的星星吧  
+{{< /qwerly >}}
 
 <br>
 
+{{< qwerly q >}}
 내 맘을 다 아는 듯이  
 彷彿完全了解我的心  
 
@@ -129,9 +134,11 @@ youtube: "On6Pm4M-dQQ"
 
 푸른 새벽 같아서  
 就像是同藍色的清晨啊  
+{{< /qwerly >}}
 
 <br>
 
+{{< qwerly r >}}
 뭐든 가능할 것 같아  
 感覺所有事都能迎刃而解  
 
@@ -177,3 +184,4 @@ youtube: "On6Pm4M-dQQ"
 
 저 빛나는 별처럼  
 就像那閃耀的星星吧  
+{{< /qwerly >}}
