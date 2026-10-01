@@ -12,24 +12,51 @@ arrangement: "이동혁, Jin Rico"
 youtube: "kdPfMUAzmSo"
 ---
 
+{{< qwerinfo only="wr" >}}
+
+{{< qwerly r >}}
 저기 태양의 막이 오르고  
 那太陽拉開了序幕  
 
 차갑던 달빛을 걷어내면  
 若是撥開那冰冷的月光  
 
-마음 한켠에 (Oh)  
-在內心深處 (Oh)  
+마음 한켠에  
+在內心深處  
+{{< /qwerly >}}
 
-불꽃이 피어나 (Oh)  
-火花悄然綻放 (Oh)  
+{{< qwerly w >}}
+(Oh)  
+{{< /qwerly >}}
 
-뜨거워진 심장과 (워오오)  
-炙熱的心臟 (嗚喔喔)  
+{{< qwerly r >}}
+불꽃이 피어나  
+火花悄然綻放  
+{{< /qwerly >}}
 
-두 손에 퍼진 떨림 (워오오)  
-雙手瀰漫著顫抖 (嗚喔喔)  
+{{< qwerly w >}}
+(Oh)  
+{{< /qwerly >}}
 
+{{< qwerly r >}}
+뜨거워진 심장과  
+炙熱的心臟  
+{{< /qwerly >}}
+
+{{< qwerly w >}}
+(嗚喔喔)  
+{{< /qwerly >}}
+
+{{< qwerly r >}}
+두 손에 퍼진 떨림  
+雙手瀰漫著顫抖  
+{{< /qwerly >}}
+
+{{< qwerly w >}}
+(嗚喔喔)  
+{{< /qwerly >}}
+
+{{< qwerly r >}}
 오늘을 기다려 왔다는 듯  
 彷彿為今天而  
 
@@ -38,11 +65,15 @@ youtube: "kdPfMUAzmSo"
 
 들려 들려 들려  
 聽吧 聽吧 聽吧  
+{{< /qwerly >}}
 
+{{< qwerly w >}}
 (Can’t You Hear?)  
+{{< /qwerly >}}
 
 <br>
 
+{{< qwerly r >}}
 고요 속의 나지막한 이 호흡은  
 在寂靜中 那微弱的呼吸聲  
 
@@ -53,37 +84,65 @@ youtube: "kdPfMUAzmSo"
 沒錯 現在我的狀態是 OVERDRIVE  
 
 (Ready)  
+{{< /qwerly >}}
 
 <br>
 
-부숴! Break the Limit  
-擊破吧！Break the Limit  
+{{< qwerly w >}}
+부숴!  
+擊破吧！  
+{{< /qwerly >}}
 
-외쳐! Burn the Silence  
-吶喊吧！Burn the Silence  
+{{< qwerly r >}}
+Break the Limit  
+{{< /qwerly >}}
+
+{{< qwerly w >}}
+외쳐!  
+吶喊吧！  
+{{< /qwerly >}}
+
+{{< qwerly r >}}
+Burn the Silence  
 
 타오르는 심장박동  
 燃燒的心跳  
 
 한껏 느껴 이 전율  
 盡情感受這份悸動  
+{{< /qwerly >}}
 
-부숴! Break the Limit  
-擊破吧！Break the Limit  
+{{< qwerly w >}}
+부숴!  
+擊破吧！  
+{{< /qwerly >}}
 
-외쳐! Burn the Silence  
-吶喊吧！Burn the Silence  
+{{< qwerly r >}}
+Break the Limit  
+{{< /qwerly >}}
+
+{{< qwerly w >}}
+외쳐!  
+吶喊吧！  
+{{< /qwerly >}}
+
+{{< qwerly r >}}
+Burn the Silence  
 
 타오르는 태양 너머  
 跨越那燃燒的太陽  
 
 더 높이 날아갈 수 있게  
 能再飛得更高  
+{{< /qwerly >}}
 
 <br>
 
+{{< qwerly w >}}
 (Woo~ Woo~)  
+{{< /qwerly >}}
 
+{{< qwerly r >}}
 Yeah We Never Give Up  
 
 과열된 심장이  
@@ -91,15 +150,29 @@ Yeah We Never Give Up
 
 타올라 번질 때까지  
 燃燒蔓延為止  
+{{< /qwerly >}}
 
 <br>
 
-커져가는 박동과 (워오오)  
-越來越劇烈的脈動 (嗚喔喔)  
+{{< qwerly r >}}
+커져가는 박동과  
+越來越劇烈的脈動  
+{{< /qwerly >}}
 
-두 손의 이 떨림도(워오오)  
-以及雙手的顫抖 (嗚喔喔)  
+{{< qwerly w >}}
+(嗚喔喔)  
+{{< /qwerly >}}
 
+{{< qwerly r >}}
+두 손의 이 떨림도  
+以及雙手的顫抖  
+{{< /qwerly >}}
+
+{{< qwerly w >}}
+(嗚喔喔)  
+{{< /qwerly >}}
+
+{{< qwerly r >}}
 더 이상 기다릴 수 없다고  
 再也無法等待了  
 
@@ -108,7 +181,9 @@ Yeah We Never Give Up
 
 울려 울려 울려  
 迴盪吧 迴盪吧 迴盪吧  
+{{< /qwerly >}}
 
+{{< qwerly w >}}
 (Can’t You Hear?)  
 
 <br>
@@ -123,26 +198,50 @@ Yeah We Never Give Up
 就是現在 踩下油門 OVERDRIVE  
 
 (Ready)  
+{{< /qwerly >}}
 
 <br>
 
-부숴! Break the Limit  
-擊破吧！Break the Limit  
+{{< qwerly w >}}
+부숴!  
+擊破吧！  
+{{< /qwerly >}}
 
-외쳐! Burn the Silence  
-吶喊吧！Burn the Silence  
+{{< qwerly r >}}
+Break the Limit  
+{{< /qwerly >}}
+
+{{< qwerly w >}}
+외쳐!  
+吶喊吧！  
+{{< /qwerly >}}
+
+{{< qwerly r >}}
+Burn the Silence  
 
 타오르는 심장박동  
 燃燒的心跳  
 
 한껏 느껴 이 전율  
 盡情感受這份悸動  
+{{< /qwerly >}}
 
-부숴! Break the Limit  
-擊破吧！Break the Limit  
+{{< qwerly w >}}
+부숴!  
+擊破吧！  
+{{< /qwerly >}}
 
-외쳐! Burn the Silence  
-吶喊吧！Burn the Silence  
+{{< qwerly r >}}
+Break the Limit  
+{{< /qwerly >}}
+
+{{< qwerly w >}}
+외쳐!  
+吶喊吧！  
+{{< /qwerly >}}
+
+{{< qwerly r >}}
+Burn the Silence  
 
 타오르는 태양 너머  
 跨過那燃燒的太陽  
@@ -160,9 +259,11 @@ Yeah We Never Give Up
 
 망설이지 말고 일어나  
 別再猶豫 站起來吧  
+{{< /qwerly >}}
 
 <br>
 
+{{< qwerly w >}}
 (We Never Give Up)  
 
 (We Never Give Up)  
@@ -172,7 +273,9 @@ Yeah We Never Give Up
 <br>
 
 (Woo~ Woo~)  
+{{< /qwerly >}}
 
+{{< qwerly r >}}
 Yeah We Never Give Up  
 
 더 세게 페달을 밟아  
@@ -180,9 +283,13 @@ Yeah We Never Give Up
 
 거침없이 달려  
 無所畏懼的衝吧  
+{{< /qwerly >}}
 
+{{< qwerly w >}}
 (Woo~ Woo~)  
+{{< /qwerly >}}
 
+{{< qwerly r >}}
 Yeah We Never Give Up  
 
 과열된 심장이  
@@ -190,3 +297,4 @@ Yeah We Never Give Up
 
 타올라 번질 때까지  
 燃燒蔓延為止  
+{{< /qwerly >}}
