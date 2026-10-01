@@ -11,6 +11,7 @@ composition: "이동혁, 홍훈기, GESTURE, ONE.KI"
 lyric: "이동혁, GESTURE, 김혜정, 김도하"
 arrangement: "이동혁, 홍훈기"
 youtube: "91YrsgWQcEo"
+aliases: ["/docs/qwer/shounenmanga/"]
 ---
 
 {{< qwerinfo >}}
