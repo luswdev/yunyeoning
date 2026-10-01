@@ -13,8 +13,13 @@ youtube: "ImuWa3SJulY"
 description: "主打歌"
 ---
 
-One! Two! Q! W! E! R!  
+{{< qwerinfo only="wr" >}}
 
+{{< qwerly qwer >}}
+One! Two! Q! W! E! R!  
+{{< /qwerly >}}
+
+{{< qwerly r >}}
 어떤 인사가 괜찮을까 천 번쯤 상상해 봤어  
 該如何向你開口才好 我真的想了千百遍  
 
@@ -80,9 +85,11 @@ One! Two! Q! W! E! R!
 
 너를 고민고민해도 좋은 걸  
 無論我如何苦惱 結論還是喜歡你  
+{{< /qwerly >}}
 
 <br>
 
+{{< qwerly w >}}
 이러지도 저러지도 못하는데  
 這個也不對 那個也不好  
 
@@ -93,10 +100,12 @@ One! Two! Q! W! E! R!
 都已經走到這一步了 難道還不明白嗎  
 
 날 봐달라구요!  
-拜託快看看我啊!  
+我說你快看看我啊!  
+{{< /qwerly >}}
 
 <br>
 
+{{< qwerly r >}}
 좋아한다 너를 좋아한다 좋아해  
 我喜歡你 我說 我喜歡你啊  
 
@@ -116,3 +125,4 @@ One! Two! Q! W! E! R!
 
 좋아해  
 我喜歡你  
+{{< /qwerly >}}
