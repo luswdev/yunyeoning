@@ -1,16 +1,16 @@
 ---
 layout: "song-view"
 title: "소년만화"
-subtitle: "少年漫畫"
-description: "尚未發表"
+subtitle: "Dreamer"
+description:
 icon: "genres"
-weight: 99
-date: 2026-09-06
-images: []
-composition:
-lyric:
-arrangement:
-youtube: "V8nqj9-VXxs"
+weight: 1
+date: 2026-09-21
+images: ["/docs/qwer/dreamer-n-picaresque/dreamer-n-picaresque.jpg"]
+composition: "이동혁, 홍훈기, GESTURE, ONE.KI"
+lyric: "이동혁, GESTURE, 김혜정, 김도하"
+arrangement: "이동혁, 홍훈기"
+youtube: "91YrsgWQcEo"
 ---
 
 {{< qwerinfo >}}
@@ -37,7 +37,7 @@ youtube: "V8nqj9-VXxs"
 혹시 나도 그런 걸까?  
 難道我也正是如此?  
 
-기대를 해봤어  
+기대를 해 봤어  
 我曾這樣期待過了  
 {{< /qwerly >}}
 
@@ -55,7 +55,7 @@ youtube: "V8nqj9-VXxs"
 후 숨 고르고  
 呼 調整好呼吸  
 
-한 번 더 앞으로 달려나가  
+한 번 더 앞으로 달려 나가  
 再次向著前方邁步奔跑吧  
 
 ​<br>
@@ -78,7 +78,7 @@ youtube: "V8nqj9-VXxs"
 밝게 빛을 낼 거야  
 必將綻放出耀眼光芒的  
 
-분명 수많은 밤을 견딘 마음은  
+분명, 수많은 밤을 견딘 마음은  
 相信那熬過無數夜晚的心  
 
 활짝 피어나  
@@ -89,11 +89,11 @@ youtube: "V8nqj9-VXxs"
 갑자기 빨개진 볼  
 突然泛紅的雙頰  
 
-생각나 결국 지운 실수들  
-想起了好不容易抹去的失誤  
+생각나 허둥지둥 실수들  
+想起了手忙腳亂產生的失誤  
 
-다 어제는 어제일 뿐  
-反正昨天的事就全讓它留在昨日吧  
+뭐 어제는 어제일 뿐  
+反正昨天的事就讓它留在昨日吧  
 
 또 해내면 되잖아  
 下次重新把它做好就好了嘛
@@ -107,7 +107,7 @@ youtube: "V8nqj9-VXxs"
 비가 와르르  
 就嘩啦啦的下起雨了  
 
-다급한 맘에  
+다급한 마음에  
 即使急得心煩意亂  
 
 발 동동 구르고 있어도  
@@ -125,10 +125,10 @@ youtube: "V8nqj9-VXxs"
 {{< /qwerly >}}
 
 {{< qwerly r >}}
-또 한 걸음 더 나아가  
+또 한 걸음 더 나아간  
 就再次邁步向前行吧  
 
-내일이 될테니까  
+내일이 될 테니까  
 畢竟明天還在等待我們嘛  
 
 ​<br>
@@ -151,7 +151,7 @@ youtube: "V8nqj9-VXxs"
 밝게 빛을 낼 거야  
 必將綻放出耀眼光芒的  
 
-분명 수많은 밤을 견딘 마음은  
+분명, 수많은 밤을 견딘 마음은  
 相信那熬過無數夜晚的心  
 
 활짝 피어나  
@@ -175,7 +175,7 @@ youtube: "V8nqj9-VXxs"
 {{< /qwerly >}}
 
 {{< qwerly r >}}
-몇번을 더 어긋난데도  
+몇 번을 더 어긋난데도  
 哪怕一次又一次的擦身而過  
 
 또 다시 일어설 수 있다면  
@@ -210,7 +210,7 @@ youtube: "V8nqj9-VXxs"
 반짝일 거야  
 必將綻放光芒的  
 
-끝내 소중히 지켜왔던 마음은  
+끝내, 소중히 지켜왔던 마음은  
 這一路走來無比珍惜死守著的心意  
 
 환하게 빛나  
