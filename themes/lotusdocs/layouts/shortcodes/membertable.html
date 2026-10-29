@@ -7,8 +7,12 @@
 {{ end }}
 {{ if .Get "theme" }}
 {{ $theme := split (.Get "theme") "," }}
+{{ $primaryTheme := index $theme 0 }}
+{{ if .Get "primaryTheme" }}
+{{ $primaryTheme = .Get "primaryTheme" }}
+{{ end }}
 <table class="text-center align-middle table table-bordered table-bordered-outline mt-3 table-responsive"
-    style="--bs-table-border-outer-color: {{ index $theme 0| safeCSS }};">
+    style="--bs-table-border-outer-color: {{ $primaryTheme | safeCSS }};">
 {{ else }}
 <table class="text-center align-middle table table-bordered mt-3 table-responsive">
 {{ end }}
