@@ -89,6 +89,7 @@ var searchFunc = function (path, searchInputID, contentID, collapseID, closeBtn,
                 link: entry.querySelector('url')?.textContent || '',
                 artist: entry.querySelector('author')?.textContent || '',
                 icon: entry.querySelector('icon')?.textContent || '',
+                breadcrumb: entry.querySelector('breadcrumb')?.textContent || '',
             }))
 
             searchInput.addEventListener('input', function () {
@@ -149,13 +150,13 @@ var searchFunc = function (path, searchInputID, contentID, collapseID, closeBtn,
                         icon.classList.add('material-icons')
                         a.appendChild(icon)
 
-                        const title = document.createElement('span')
-                        title.textContent = entry.title
-                        title.classList.add('suggestion__title')
-                        a.appendChild(title)
+                        // const title = document.createElement('span')
+                        // title.textContent = entry.title
+                        // title.classList.add('suggestion__title')
+                        // a.appendChild(title)
 
                         const description = document.createElement('span')
-                        description.textContent = entry.artist
+                        description.textContent = entry.breadcrumb
                         description.classList.add('suggestion__description')
                         a.appendChild(description)
 

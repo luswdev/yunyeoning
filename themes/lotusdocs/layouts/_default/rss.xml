@@ -10,6 +10,16 @@
                     {{ printf " (%s)" (delimit . " | ") }}
                 {{- end -}}
             </title>
+            <breadcrumb>
+                {{- $titles := slice -}}
+                {{- range .Ancestors.Reverse -}}
+                    {{- if and (not (eq .RelPermalink "/")) (not (eq .RelPermalink (printf "/%s/" (.Site.Params.docs.pathName | default "docs")))) }}
+                        {{- $titles = $titles | append .Title -}}
+                    {{- end -}}
+                {{- end -}}
+                {{- $titles = $titles | append .Title -}}
+                {{- delimit $titles " / " -}}
+            </breadcrumb>
             <content>{{ .Content | htmlEscape | replaceRE "\r?\n" "&#xA;" | safeHTML }}</content>
             <url>{{ .Permalink }}</url>
             <icon>{{ .Params.icon }}</icon>
