@@ -1,0 +1,12 @@
+{{- $page := . -}}
+{{- $list := slice $page.Title -}}
+
+{{- with $page.Params.subtitle -}}
+    {{- $list = $list | append . -}}
+{{- end -}}
+
+{{- with $page.Params.keywords -}}
+    {{- $list = $list | append . -}}
+{{- end -}}
+
+{{- return $list -}}

@@ -55,28 +55,33 @@
     {{- with .Description | default ($.Param "description") }}
     <meta name="description" content="{{ . }}">
     {{- end }}
-
-    {{ $currentPage := . -}}
-    {{ $artistInfoList := slice }}
-    {{ $section := $currentPage.Section -}}
-    {{ range (where .Site.Sections.ByWeight "Section" "in" $section) }}
-        {{ $child_pages := union .Sections .Pages }}
-        {{ range $child_pages.ByWeight }}
+    {{ $keywordList := slice }}
+    {{ if eq .RelPermalink "/docs/" }}
+        {{ range .Pages.ByWeight }}
             {{- if eq .Params.layout "artist-view" }}
-                {{- $artistInfoList = $artistInfoList | append .Title }}
-
-                {{- with .Params.subtitle }}
-                    {{- $artistInfoList = $artistInfoList | append . }}
-                {{- end }}
-
-                {{- with .Params.keywords }}
-                    {{- $artistInfoList = $artistInfoList | append . }}
-                {{- end }}
+                {{- $keywordList = $keywordList | append (partial (printf "%s/%s" ($.Scratch.Get "pathName") "keywords") .) -}}
             {{- end -}}
         {{- end -}}
-    {{- end -}}
-    {{- $artists := delimit $artistInfoList ", " }}
-    <meta name="keywords" content="{{ .Site.Params.keywords }}, {{ $artists }}, {{ .Title }}{{ with .Params.subtitle }}, {{ delimit . ", " }} {{ end }}" />
+    {{ else if eq .Params.layout "artist-view" }}
+        {{- $keywordList = $keywordList | append (partial (printf "%s/%s" ($.Scratch.Get "pathName") "keywords") .) -}}
+        {{ range .Pages.ByWeight }}
+            {{- $keywordList = $keywordList | append (partial (printf "%s/%s" ($.Scratch.Get "pathName") "keywords") .) -}}
+        {{- end -}}
+    {{ else if eq .Params.layout "album-view" }}
+        {{- $keywordList = $keywordList | append (partial (printf "%s/%s" ($.Scratch.Get "pathName") "keywords") .Parent) -}}
+        {{- $keywordList = $keywordList | append (partial (printf "%s/%s" ($.Scratch.Get "pathName") "keywords") .) -}}
+        {{ range .Pages.ByWeight }}
+            {{- $keywordList = $keywordList | append (partial (printf "%s/%s" ($.Scratch.Get "pathName") "keywords") .) -}}
+        {{- end -}}
+    {{ else if eq .Params.layout "song-view" }}
+        {{ if eq .Parent.Params.layout "album-view" }}
+            {{- $keywordList = $keywordList | append (partial (printf "%s/%s" ($.Scratch.Get "pathName") "keywords") .Parent.Parent) -}}
+        {{ end }}
+        {{- $keywordList = $keywordList | append (partial (printf "%s/%s" ($.Scratch.Get "pathName") "keywords") .Parent) -}}
+        {{- $keywordList = $keywordList | append (partial (printf "%s/%s" ($.Scratch.Get "pathName") "keywords") .) -}}
+    {{ end }}
+    {{- $keywords := delimit $keywordList ", " }}
+    <meta name="keywords" content="{{ .Site.Params.keywords }}, {{ $keywords }}"/>
     <meta name="author" content="LuSkywalker" />
     <meta name="email" content="info@lusw.dev" />
     <meta name="website" content="https://kr.lusw.dev" />
