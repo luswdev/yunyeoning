@@ -147,8 +147,8 @@
 <!-- LocalSearch Input Start -->
 {{ if eq .Site.Params.localSearch.enabled true -}}
     <div class="modal fade" id="LocalSearchCollapse" tabindex="-1" aria-hidden="true">
-        <div class="modal-dialog modal-lg">
-            <div class="flexsearch-container modal-content p-0 rounded-3">
+        <div class="modal-dialog modal-lg modal-fullscreen-md-down">
+            <div class="flexsearch-container modal-content p-0">
                 <div class="modal-header border-0 pb-0">
                     <div class="flexsearch-keymap">
                         <li>
@@ -168,13 +168,18 @@
                 </div>
                 <div class="modal-body pt-0">
                     <form class="flexsearch position-relative flex-grow-1">
-                        <div class="flexsearch-input-group d-flex flex-row align-items-center gap-2 px-3 py-2">
-                            <label class="flexsearch-search-label" for="flexsearch" id="docsearch-label">
-                                <span class="material-icons size-20 menu-icon align-middle">search</span>
-                            </label>
-                            <input id="flexsearch" class="form-control" type="search" placeholder="{{ i18n "search_title" }}" aria-label="{{ i18n "search_title" }}" autocomplete="off">
-                            <button id="hideFlexsearch" type="button" class="btn p-0 text-muted d-none">
-                                <span class="material-icons size-20 menu-icon align-middle">close</span>
+                        <div class="d-flex">
+                            <div class="flexsearch-input-group d-flex flex-row align-items-center gap-2 px-3 py-2 flex-fill ">
+                                <label class="flexsearch-search-label" for="flexsearch" id="docsearch-label">
+                                    <span class="material-icons size-20 menu-icon align-middle">search</span>
+                                </label>
+                                <input id="flexsearch" class="form-control flex-fill " type="search" placeholder="{{ i18n "search_title" }}" aria-label="{{ i18n "search_title" }}" autocomplete="off">
+                                <button id="hideFlexsearch" type="button" class="btn p-0 text-muted d-none">
+                                    <span class="material-icons size-20 menu-icon align-middle">close</span>
+                                </button>
+                            </div>
+                            <button id="closeModal" type="button" class="btn p-0 ms-2">
+                                <span class="text-nowrap ">{{ i18n "search_cancel" }}</span>
                             </button>
                         </div>
                         <div id="suggestions" class="shadow rounded-1 d-none"></div>

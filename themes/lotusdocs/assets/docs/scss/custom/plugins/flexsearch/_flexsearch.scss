@@ -90,6 +90,21 @@
     }
 }
 
+@media (min-width: 768px) {
+    .flexsearch-container {
+        border-radius: 0.5rem;
+    }
+
+    #closeModal {
+        display: none;
+    }
+}
+
+#closeModal {
+    color: var(--primary);
+    font-weight: normal;
+}
+
 .flexsearch-key-label {
     color: var(--form-control-placeholder-color);
     font-size: 0.75em;

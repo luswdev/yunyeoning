@@ -1,3 +1,3 @@
 <script type="module">
-    searchFunc('/index.xml' , 'flexsearch', 'suggestions', 'LocalSearchCollapse', 'hideFlexsearch', {{ i18n "search_no_results" | default "No results for" }}, {{ .Site.Params.localSearch.maxResult | default 5}});
+    searchFunc('/index.xml' , 'flexsearch', 'suggestions', 'LocalSearchCollapse', 'hideFlexsearch', 'closeModal', {{ .Site.Params.localSearch.maxResult | default 5}});
 </script>

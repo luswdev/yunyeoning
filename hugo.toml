@@ -62,6 +62,7 @@ defaultContentLanguage = 'zh'
     [params.docs]
         darkMode = true
         sidebarIcons = true
+        sidebarIconNest = false
         titleIcon = true
         backToTop = true
         logoLinkURL = "/docs/"

@@ -1,6 +1,6 @@
 'use strict'
 
-var searchFunc = function (path, searchInputID, contentID, collapseID, closeBtn, noResultStr, maxResult) {
+var searchFunc = function (path, searchInputID, contentID, collapseID, clearBtn, closeBtn, maxResult) {
     fetch(path)
         .then(response => {
             if (!response.ok) {
@@ -32,10 +32,16 @@ var searchFunc = function (path, searchInputID, contentID, collapseID, closeBtn,
                 })
             }
 
-            const hideSearchBtn = document.getElementById(closeBtn)
+            const hideSearchBtn = document.getElementById(clearBtn)
             hideSearchBtn.addEventListener('click', () => {
                 searchInput.value = ''
                 hideSearchBtn.classList.add('d-none')
+            })
+
+            const closeSearchBtn = document.getElementById(closeBtn)
+            closeSearchBtn.addEventListener('click', () => {
+                searchInput.value = ''
+                searchContainerCollapse.hide()
             })
 
             function inputFocus (e) {
@@ -44,6 +50,7 @@ var searchFunc = function (path, searchInputID, contentID, collapseID, closeBtn,
                     searchContainerCollapse.toggle()
                 }
                 if (e.key === 'Escape' ) {
+                    searchInput.value = ''
                     searchInput.blur()
                     searchContainerCollapse.hide()
                 }
