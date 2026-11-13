@@ -6,9 +6,9 @@ icon: "genres"
 weight: 2
 date: 2025-10-20
 images: ["/docs/hebi/human-eclipse/human-eclipse.jpg"]
-composition: "최선율, 최운율, 이도형(AUG)"
-lyric: "최운율, 최선율"
-arrangement: "최선율, 이도형(AUG), 황수훈"
+composition: ["최선율", "최운율", "이도형(AUG)"]
+lyric: ["최운율", "최선율"]
+arrangement: ["최선율", "이도형(AUG)", "황수훈"]
 youtube: "kAb9_6DVwnQ"
 ---
 

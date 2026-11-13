@@ -6,9 +6,9 @@ icon: "genres"
 weight: 2
 date: 2026-07-29
 images: ["/docs/qwer/to-be-continued/to-be-continued.jpg"]
-composition: "이동혁, 이범훈, GESTURE, Elum"
-lyric: "이동혁, 샤넌 배(Shannon Bae), 김혜정, 솔희(sohlhee)"
-arrangement: "이범훈, 이동혁"
+composition: ["이동혁", "이범훈", "GESTURE", "Elum"]
+lyric: ["이동혁", "샤넌 배(Shannon Bae)", "김혜정", "솔희"]
+arrangement: ["이범훈", "이동혁"]
 youtube: "xaCqxwuYa8k"
 ---
 

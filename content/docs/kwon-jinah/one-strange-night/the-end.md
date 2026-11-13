@@ -6,9 +6,9 @@ icon: "genres"
 weight: 2
 date: 2016-09-19
 images: ["/docs/kwon-jinah/one-strange-night/one-strange-night.jpg"]
-composition: "라디(Ra.D)"
-lyric: "유희열"
-arrangement: "윤석철"
+composition: ["라디(Ra.D)"]
+lyric: ["유희열"]
+arrangement: ["윤석철"]
 youtube: "sOgsp64fw0M"
 description: "主打歌"
 ---

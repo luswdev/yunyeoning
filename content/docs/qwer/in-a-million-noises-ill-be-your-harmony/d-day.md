@@ -6,9 +6,9 @@ icon: "genres"
 weight: 5
 date: 2025-06-09
 images: ["/docs/qwer/in-a-million-noises-ill-be-your-harmony/in-a-million-noises-ill-be-your-harmony.jpg"]
-composition: "이동혁, 홍훈기, GESTURE, ONE.KI, 마젠타"
-lyric: "이동혁, ONE.KI, GESTURE"
-arrangement: "이동혁, 이범훈, 홍훈기"
+composition: ["이동혁", "홍훈기", "GESTURE", "ONE.KI", "마젠타"]
+lyric: ["이동혁", "ONE.KI", "GESTURE"]
+arrangement: ["이동혁", "이범훈", "홍훈기"]
 youtube: "YCaTtV9zu6A"
 ---
 

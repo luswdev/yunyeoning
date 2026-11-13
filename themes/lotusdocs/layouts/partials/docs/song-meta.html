@@ -7,18 +7,18 @@
     "권진아"   "kwonjinah-written"
 }}
 
-{{ $lyrics := split .Params.lyric ", " }}
-{{ $compositions := split .Params.composition ", " }}
-{{ $arrangements := split .Params.arrangement ", " }}
-{{ $original := split .Params.original ", " }}
-{{ $vocal := split .Params.vocal ", " }}
-{{ $featuring := split .Params.featuring ", " }}
+{{ $lyrics := .Params.lyric | default (slice "-") }}
+{{ $compositions := .Params.composition | default (slice "-") }}
+{{ $arrangements := .Params.arrangement | default (slice "-") }}
+{{ $original := .Params.original }}
+{{ $vocal := .Params.vocal }}
+{{ $featuring := .Params.featuring }}
 {{ $published_time := .Date }}
 
 <div class="song-meta">
     <table class="table table-borderless">
         <tbody>
-        {{ if .Params.featuring }}
+        {{ if $featuring }}
         <tr>
             <th scope="row">合作演出</th>
             <td>
@@ -29,7 +29,7 @@
             </td>
         </tr>
         {{ end -}}
-        {{ if .Params.original }}
+        {{ if $original }}
         <tr>
             <th scope="row">原唱</th>
             <td>
@@ -40,7 +40,7 @@
             </td>
         </tr>
         {{ end -}}
-        {{ if .Params.vocal }}
+        {{ if $vocal }}
         <tr>
             <th scope="row">主唱</th>
             <td>
@@ -55,8 +55,9 @@
             <th scope="row">作詞</th>
             <td>
                 {{- range $i, $name := $lyrics -}}
+                {{- $name = $name | default "-" -}}
                 {{- if gt $i 0 }}, {{ end -}}
-                    <span class="{{ index $classMap $name }}">{{ $name }}</span>
+                    <a href="/lyric/{{$name}}/index.xml" class="{{ index $classMap $name }}">{{ $name }}</a>
                 {{- end}}
             </td>
         </tr>
@@ -64,8 +65,9 @@
             <th scope="row">作曲</th>
             <td>
                 {{- range $i, $name := $compositions -}}
+                {{- $name = $name | default "-" -}}
                 {{- if gt $i 0 }}, {{ end -}}
-                    <span class="{{ index $classMap $name }}">{{ $name }}</span>
+                    <a href="/composition/{{$name}}/index.xml" class="{{ index $classMap $name }}">{{ $name }}</a>
                 {{- end}}
             </td>
         </tr>
@@ -73,8 +75,9 @@
             <th scope="row">編曲</th>
             <td>
                 {{- range $i, $name := $arrangements -}}
+                {{- $name = $name | default "-" -}}
                 {{- if gt $i 0 }}, {{ end -}}
-                    <span class="{{ index $classMap $name }}">{{ $name }}</span>
+                    <a href="/arrangement/{{$name}}/index.xml" class="{{ index $classMap $name }}">{{ $name }}</a>
                 {{- end}}
             </td>
         </tr>

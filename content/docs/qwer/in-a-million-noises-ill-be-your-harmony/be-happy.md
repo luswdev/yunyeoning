@@ -6,9 +6,9 @@ icon: "genres"
 weight: 2
 date: 2025-06-09
 images: ["/docs/qwer/in-a-million-noises-ill-be-your-harmony/in-a-million-noises-ill-be-your-harmony.jpg"]
-composition: "이동혁, 김승준, GESTURE, 샤넌 배 (Shannon Bae), 홍지혜"
-lyric: "이동혁, 김혜정, GESTURE, 샤넌 배 (Shannon Bae), Elum"
-arrangement: "이동혁, 김승준"
+composition: ["이동혁", "김승준", "GESTURE", "샤넌 배 (Shannon Bae)", "홍지혜"]
+lyric: ["이동혁", "김혜정", "GESTURE", "샤넌 배 (Shannon Bae)", "Elum"]
+arrangement: ["이동혁", "김승준"]
 youtube: "PRH8JkIe0Ho"
 ---
 

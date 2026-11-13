@@ -7,9 +7,9 @@ icon: "genres"
 weight: 1
 date: 2014-03-03
 images: ["/docs/kwon-jinah/see-through.jpg"]
-composition: "Zion.T, 개코"
-lyric: "프라이머리, Zion.T"
-arrangement: "MELODESIGN"
+composition: ["Zion.T", "개코"]
+lyric: ["프라이머리", "Zion.T"]
+arrangement: ["MELODESIGN"]
 youtube: "GmU9BUNnkVk"
 ---
 

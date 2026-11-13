@@ -6,9 +6,9 @@ icon: "genres"
 weight: 4
 date: 2024-04-01
 images: ["/docs/qwer/manito/manito.jpg"]
-composition: "이동혁, 김승준, GESTURE, Elum, 홍지혜"
-lyric: "이동혁, GESTURE, Elum, 마젠타, 홍지혜, 이시연, HINA"
-arrangement: "이동혁, 김승준"
+composition: ["이동혁", "김승준", "GESTURE", "Elum", "홍지혜"]
+lyric: ["이동혁", "GESTURE", "Elum", "마젠타", "홍지혜", "이시연", "HINA"]
+arrangement: ["이동혁", "김승준"]
 youtube: "a0OkChjJWl8"
 ---
 

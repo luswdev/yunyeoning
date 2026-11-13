@@ -6,9 +6,9 @@ icon: "genres"
 weight: 6
 date: 2025-08-04
 images: ["/docs/hanroro/jamong-salgu-club/jamong-salgu-club.jpg"]
-composition: "한로로, Ryo"
-lyric: "한로로"
-arrangement: "Ryo, HAH"
+composition: ["한로로", "Ryo"]
+lyric: ["한로로"]
+arrangement: ["Ryo", "HAH"]
 youtube: "tKERw3_ked0"
 description: "主打歌"
 ---

@@ -6,9 +6,9 @@ icon: "genres"
 weight: 2
 date: 2022-03-31
 images: ["/docs/kwon-jinah/pink/pink.jpg"]
-composition: "권진아"
-lyric: "권진아"
-arrangement: "박문치"
+composition: ["권진아"]
+lyric: ["권진아"]
+arrangement: ["박문치"]
 youtube: "v5lkiuAcJQU"
 description: "主打歌"
 ---

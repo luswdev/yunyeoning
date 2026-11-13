@@ -6,9 +6,9 @@ icon: "genres"
 weight: 5
 date: 2026-04-27
 images: ["/docs/qwer/ceremony/ceremony.jpg"]
-composition: "이동혁, N MORE, HEON SEO, ONE.KI"
-lyric: "이동혁, GESTURE, 김혜정, 마젠타, ONE.KI"
-arrangement: "이동혁, N MORE"
+composition: ["이동혁", "N MORE", "HEON SEO", "ONE.KI"]
+lyric: ["이동혁", "GESTURE", "김혜정", "마젠타", "ONE.KI"]
+arrangement: ["이동혁", "N MORE"]
 youtube: "bHdGm2cO4s0"
 ---
 

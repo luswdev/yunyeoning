@@ -6,9 +6,9 @@ icon: "genres"
 weight: 6
 date: 2024-04-01
 images: ["/docs/qwer/manito/manito.jpg"]
-composition: "이동혁, 홍훈기, Anchor, GESTURE, Elum"
-lyric: "이동혁, 김혜정"
-arrangement: "이동혁"
+composition: ["이동혁", "홍훈기", "Anchor", "GESTURE", "Elum"]
+lyric: ["이동혁", "김혜정"]
+arrangement: ["이동혁"]
 youtube: "H7K9NuM2TTc"
 ---
 

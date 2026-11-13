@@ -5,6 +5,11 @@ contentDir = 'content'
 enableEmoji = true
 enableRobotsTXT = true
 
+[taxonomies]
+    composition = "composition"
+    lyric = "lyric"
+    arrangement = "arrangement"
+
 [module]
     replacements = "github.com/colinwilson/lotusdocs -> lotusdocs"
     [[module.imports]]

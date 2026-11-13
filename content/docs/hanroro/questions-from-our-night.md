@@ -7,10 +7,10 @@ icon: "genres"
 weight: 6
 date: 2022-10-25
 images: ["/docs/hanroro/questions-from-our-night.jpg"]
-featuring: "숨비 Soombee"
-composition: "한로로"
-lyric: "한로로"
-arrangement: "진동욱"
+featuring: ["숨비 Soombee"]
+composition: ["한로로"]
+lyric: ["한로로"]
+arrangement: ["진동욱"]
 youtube: "tFEe3pwlQgE"
 ---
 

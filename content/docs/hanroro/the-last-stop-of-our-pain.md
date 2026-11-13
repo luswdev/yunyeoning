@@ -7,9 +7,9 @@ icon: "genres"
 weight: 7
 date: 2023-01-04
 images: ["/docs/hanroro/the-last-stop-of-our-pain.jpg"]
-composition: "한로로"
-lyric: "한로로"
-arrangement: "이새"
+composition: ["한로로"]
+lyric: ["한로로"]
+arrangement: ["이새"]
 youtube: "4SrrieLwsOI"
 ---
 

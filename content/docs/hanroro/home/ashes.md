@@ -6,9 +6,9 @@ icon: "genres"
 weight: 2
 date: 2024-05-28
 images: ["/docs/hanroro/home/home.jpg"]
-composition: "한로로, 진동욱"
-lyric: "한로로"
-arrangement: "진동욱, 이새, 배도협, 유병현"
+composition: ["한로로", "진동욱"]
+lyric: ["한로로"]
+arrangement: ["진동욱", "이새", "배도협", "유병현"]
 youtube: "C77DJ8nySoo"
 description: "主打歌"
 ---

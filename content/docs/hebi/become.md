@@ -7,9 +7,9 @@ icon: "genres"
 weight: 4
 date: 2026-01-22
 images: ["/docs/hebi/become.jpg"]
-composition: "신용수, Mollo, Uday"
-lyric: "신용수, 한중월야"
-arrangement: "Mollo, Uday"
+composition: ["신용수", "Mollo", "Uday"]
+lyric: ["신용수", "한중월야"]
+arrangement: ["Mollo", "Uday"]
 youtube: "XPqXU3SfxdU"
 ---
 

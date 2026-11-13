@@ -6,9 +6,9 @@ icon: "genres"
 weight: 1
 date: 2024-04-01
 images: ["/docs/qwer/manito/manito.jpg"]
-composition: "이동혁, 홍훈기, Elum, GESTURE, 한아영"
-lyric: "이동혁, GESTURE, 김혜정, Elum, 마젠타"
-arrangement: "이동혁, 한아영"
+composition: ["이동혁", "홍훈기", "Elum", "GESTURE", "한아영"]
+lyric: ["이동혁", "GESTURE", "김혜정", "Elum", "마젠타"]
+arrangement: ["이동혁", "한아영"]
 youtube: "ImuWa3SJulY"
 description: "主打歌"
 ---

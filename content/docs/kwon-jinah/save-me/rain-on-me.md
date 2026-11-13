@@ -6,9 +6,9 @@ icon: "genres"
 weight: 3
 date: 2026-07-15
 images: ["/docs/kwon-jinah/save-me/save-me.jpg"]
-composition: "권진아"
-lyric: "권진아"
-arrangement: "권진아, 홍소진"
+composition: ["권진아"]
+lyric: ["권진아"]
+arrangement: ["권진아", "홍소진"]
 youtube: "krszz0q45oA"
 description: "先行曲"
 ---

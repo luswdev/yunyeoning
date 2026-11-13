@@ -6,9 +6,9 @@ icon: "genres"
 weight: 4
 date: 2025-04-22
 images: ["/docs/hebi/chroma/chroma.jpg"]
-composition: "조원상, EUGENE (HIGHBRID), 이도훈, 최영훈"
-lyric: "조원상"
-arrangement: "EUGENE (HIGHBRID), 이도훈, 최영훈"
+composition: ["조원상", "EUGENE (HIGHBRID)", "이도훈", "최영훈"]
+lyric: ["조원상"]
+arrangement: ["EUGENE (HIGHBRID)", "이도훈", "최영훈"]
 youtube: "cF6AjcJPmLE"
 ---
 

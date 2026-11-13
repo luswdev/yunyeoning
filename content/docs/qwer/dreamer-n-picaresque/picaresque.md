@@ -7,9 +7,9 @@ icon: "genres"
 weight: 2
 date: 2026-09-21
 images: ["/docs/qwer/dreamer-n-picaresque/dreamer-n-picaresque.jpg"]
-composition: "이동혁, 김승준, GESTURE, ONE.KI, IRIS (MonoTree)"
-lyric: "이동혁, 서효진, GESTURE, 김혜정, ONE.KI"
-arrangement: "이동혁, 김승준"
+composition: ["이동혁", "김승준", "GESTURE", "ONE.KI", "IRIS (MonoTree)"]
+lyric: ["이동혁", "서효진", "GESTURE", "김혜정", "ONE.KI"]
+arrangement: ["이동혁", "김승준"]
 youtube: "ehsLHCltE6Q"
 ---
 

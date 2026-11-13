@@ -7,9 +7,10 @@ icon: "genres"
 weight: 75
 date: 2025-07-12
 images: ["/docs/kwon-jinah/snail.jpg"]
-composition: "이적"
-lyric: "이적"
-arrangement: "이적"
+original: ["이적"]
+composition: ["이적"]
+lyric: ["이적"]
+arrangement: ["이적"]
 youtube: "HASYkDA5ttU"
 ---
 

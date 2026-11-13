@@ -7,9 +7,9 @@ weight: 2
 description: "先行曲"
 date: 2025-03-28
 images: ["/docs/hebi/chroma/ever.jpg"]
-composition: "조원상, EUGENE (HIGHBRID), 이도훈, O.YEON, 최영훈"
-lyric: "조원상, 이도훈, Hebi."
-arrangement: "조원상, EUGENE (HIGHBRID), 이도훈, O.YEON, 최영훈"
+composition: ["조원상", "EUGENE (HIGHBRID)", "이도훈", "O.YEON", "최영훈"]
+lyric: ["조원상", "이도훈", "Hebi"]
+arrangement: ["조원상", "EUGENE (HIGHBRID)", "이도훈", "O.YEON", "최영훈"]
 youtube: "_0f5FjEQzsg"
 ---
 

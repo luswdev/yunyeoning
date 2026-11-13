@@ -6,9 +6,9 @@ icon: "genres"
 weight: 5
 date: 2023-03-02
 images: ["/docs/kwon-jinah/the-flag/the-flag.jpg"]
-composition: "권진아"
-lyric: "권진아"
-arrangement: "홍소진"
+composition: ["권진아"]
+lyric: ["권진아"]
+arrangement: ["홍소진"]
 youtube: "ipJl896q7IM"
 ---
 

@@ -7,9 +7,9 @@ icon: "genres"
 weight: 51
 date: 2021-07-27
 images: ["/docs/kwon-jinah/knock.jpg"]
-composition: "권진아"
-lyric: "권진아"
-arrangement: "박문치"
+composition: ["권진아"]
+lyric: ["권진아"]
+arrangement: ["박문치"]
 youtube: "Nshj8Gc1cVs"
 ---
 

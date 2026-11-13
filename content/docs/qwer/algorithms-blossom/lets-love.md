@@ -6,9 +6,9 @@ icon: "genres"
 weight: 4
 date: 2024-09-23
 images: ["/docs/qwer/algorithms-blossom/algorithms-blossom.jpg"]
-composition: "이동혁, 홍훈기, Elum, GESTURE, Shannon, 홍지혜"
-lyric: "이동혁, 김혜정, 이시연, GESTURE"
-arrangement: "이동혁, 홍훈기"
+composition: ["이동혁", "홍훈기", "Elum", "GESTURE", "Shannon", "홍지혜"]
+lyric: ["이동혁", "김혜정", "이시연", "GESTURE"]
+arrangement: ["이동혁", "홍훈기"]
 youtube: "XSQctvZ0Hks"
 ---
 

@@ -7,9 +7,9 @@ icon: "genres"
 weight: 63
 date: 2023-08-10
 images: ["/docs/kwon-jinah/love-me-love-me.jpg"]
-composition: "권진아, 밍지션 (minGtion)"
-lyric: "권진아"
-arrangement: "밍지션 (minGtion)"
+composition: ["권진아", "밍지션 (minGtion)"]
+lyric: ["권진아"]
+arrangement: ["밍지션 (minGtion)"]
 youtube: "0GB5z74x-bg"
 ---
 

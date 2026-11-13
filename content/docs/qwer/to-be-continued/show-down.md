@@ -7,9 +7,9 @@ weight: 3
 description: "日本出道單曲"
 date: 2026-07-08
 images: [/docs/qwer/to-be-continued/show-down.jpg]
-composition: 이동혁, 김승준, GESTURE, 샤넌 배(Shannon Bae), Elum, ONE.KI
-lyric: 이동혁, GESTURE, 김혜정
-arrangement: 김승준, 이동혁
+composition: ["이동혁", "김승준", "GESTURE", "샤넌 배(Shannon Bae)", "Elum", "ONE.KI"]
+lyric: ["이동혁", "GESTURE", "김혜정"]
+arrangement: ["김승준", "이동혁"]
 youtube: TcMV9YeT9Sw
 ---
 

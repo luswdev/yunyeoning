@@ -6,9 +6,9 @@ icon: "genres"
 weight: 5
 date: 2023-04-21
 images: ["/docs/hanroro/take-off/even-if-you-leave.jpg"]
-composition: "한로로"
-lyric: "한로로"
-arrangement: "이새"
+composition: ["한로로"]
+lyric: ["한로로"]
+arrangement: ["이새"]
 youtube: "JyoltvsJ9Fw"
 description: "先行單曲"
 ---

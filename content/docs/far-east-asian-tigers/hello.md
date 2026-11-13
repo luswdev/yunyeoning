@@ -7,9 +7,9 @@ icon: "genres"
 weight: 7
 date: 2022-07-31
 images: ["/docs/far-east-asian-tigers/hello.jpg"]
-composition: "명지수"
-lyric: "명지수"
-arrangement: "명지수, 공동민, 장지훈, 연광모"
+composition: ["명지수"]
+lyric: ["명지수"]
+arrangement: ["명지수", "공동민", "장지훈", "연광모"]
 youtube: "p3sFASELuac"
 ---
 

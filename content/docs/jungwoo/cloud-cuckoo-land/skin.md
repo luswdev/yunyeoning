@@ -6,9 +6,9 @@ icon: "genres"
 weight: 1
 date: 2023-11-09
 images: ["/docs/jungwoo/cloud-cuckoo-land/cloud-cuckoo-land.jpg"]
-composition: "정우"
-lyric: "정우"
-arrangement: "구름"
+composition: ["정우"]
+lyric: ["정우"]
+arrangement: ["구름"]
 youtube: "NgNSGF0KcpY"
 ---
 

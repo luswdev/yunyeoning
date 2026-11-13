@@ -6,9 +6,9 @@ icon: "genres"
 weight: 1
 date: 2021-02-18
 images: ["/docs/kwon-jinah/the-way-for-us/the-way-for-us.jpg"]
-composition: "권진아"
-lyric: "권진아"
-arrangement: "임헌일"
+composition: ["권진아"]
+lyric: ["권진아"]
+arrangement: ["임헌일"]
 youtube: "o21cd8nXvsQ"
 ---
 

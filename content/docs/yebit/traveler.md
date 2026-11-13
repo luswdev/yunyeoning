@@ -7,9 +7,9 @@ icon: "genres"
 weight: 20
 date: 2026-02-24
 images: ["/docs/yebit/traveler.jpg"]
-composition: "예빛"
-lyric: "예빛"
-arrangement: "구름"
+composition: ["예빛"]
+lyric: ["예빛"]
+arrangement: ["구름"]
 youtube: "U-G3tZXWgiY"
 ---
 

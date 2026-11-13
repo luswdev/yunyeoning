@@ -6,9 +6,9 @@ icon: "genres"
 weight: 1
 date: 2023-09-26
 images: ["/docs/touched/yellow-supernova-remnant/yellow-supernova-remnant.jpg"]
-composition: "채도현, 윤민, D.on"
-lyric: "윤민, 채도현"
-arrangement: "터치드(Touched)"
+composition: ["채도현", "윤민", "D.on"]
+lyric: ["윤민", "채도현"]
+arrangement: ["터치드"]
 youtube: "_lVhucVnMGY"
 ---
 

@@ -6,9 +6,9 @@ icon: "genres"
 weight: 7
 date: 2025-04-25
 images: ["/docs/kwon-jinah/the-dreamest/the-dreamest.jpg"]
-composition: "밍지션 (minGition), Sophia Pae"
-lyric: "권진아"
-arrangement: "밍지션 (minGition)"
+composition: ["밍지션 (minGition)", "Sophia Pae"]
+lyric: ["권진아"]
+arrangement: ["밍지션 (minGition)"]
 youtube: "4l8DlIQ8O7g"
 ---
 

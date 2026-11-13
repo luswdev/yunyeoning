@@ -7,10 +7,10 @@ icon: "genres"
 weight: 2
 date: 2026-01-22
 images: ["/docs/hebi/stigmatized.jpg"]
-original: "임재범" 
-composition: "김종천, 최철호"
-lyric: "김종천"
-arrangement: "이도형(AUG), 편준원(AUG)"
+original: ["임재범"]
+composition: ["김종천", "최철호"]
+lyric: ["김종천"]
+arrangement: ["이도형(AUG)", "편준원(AUG)"]
 youtube: "3KwLAoWdJWc"
 ---
 

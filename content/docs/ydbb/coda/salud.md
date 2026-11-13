@@ -6,9 +6,9 @@ icon: "genres"
 weight: 8
 date: 2025-09-15
 images: ["/docs/ydbb/coda/coda.jpg"]
-composition: "유다빈"
-lyric: "이준형, 유다빈, 유명종"
-arrangement: "유다빈밴드"
+composition: ["유다빈"]
+lyric: ["이준형", "유다빈", "유명종"]
+arrangement: ["유다빈밴드"]
 youtube: "5RuPF0UV7U4"
 ---
 

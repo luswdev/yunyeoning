@@ -7,9 +7,9 @@ icon: "genres"
 weight: 8
 date: 2022-08-18
 images: ["/docs/touched/highlight.jpg"]
-composition: "채도현, 윤민"
-lyric: "윤민, 채도현"
-arrangement: "터치드(Touched)"
+composition: ["채도현", "윤민"]
+lyric: ["윤민", "채도현"]
+arrangement: ["터치드"]
 youtube: "PXJob1OaGkc"
 ---
 

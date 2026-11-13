@@ -6,9 +6,9 @@ icon: "genres"
 weight: 4
 date: 2026-10-01
 images: ["/docs/aiweo/be-my-hug/be-my-hug.jpg"]
-composition: "현수"
-lyric: "현수"
-arrangement: "현수, Ryo"
+composition: ["현수"]
+lyric: ["현수"]
+arrangement: ["현수", "Ryo"]
 youtube: "awlTdqgNRf0"
 description: "主打歌"
 ---

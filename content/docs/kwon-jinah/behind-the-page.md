@@ -7,9 +7,9 @@ icon: "genres"
 weight: 23
 date: 2018-02-02
 images: ["/docs/kwon-jinah/behind-the-page.jpg"]
-composition: "권순관"
-lyric: "서지음"
-arrangement: "권영찬, 권순관"
+composition: ["권순관"]
+lyric: ["서지음"]
+arrangement: ["권영찬", "권순관"]
 youtube: "BLUOsTosCsA"
 ---
 

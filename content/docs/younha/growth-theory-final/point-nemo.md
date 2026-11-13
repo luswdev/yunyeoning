@@ -6,9 +6,9 @@ icon: "genres"
 weight: 8
 date: 2024-11-14
 images: ["/docs/younha/growth-theory-final/growth-theory-final.jpg"]
-composition: "JEWNO, 윤하"
-lyric: "윤하"
-arrangement: "JEWNO"
+composition: ["JEWNO", "윤하"]
+lyric: ["윤하"]
+arrangement: ["JEWNO"]
 youtube: "GCKSrC6XVOk"
 description: "主打歌"
 ---

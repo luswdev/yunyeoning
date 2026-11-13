@@ -7,10 +7,10 @@ icon: "genres"
 weight: 15
 date: 2025-10-06
 images: ["/docs/qwer/blue-whale.jpg"]
-original: "YB"
-composition: "허준, 윤도현"
-lyric: "윤도현"
-arrangement: "김승준, 이범훈"
+original: ["YB"]
+composition: ["허준", "윤도현"]
+lyric: ["윤도현"]
+arrangement: ["김승준", "이범훈"]
 youtube: "h_S_Un3YoFo"
 ---
 

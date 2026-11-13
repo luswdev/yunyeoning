@@ -6,9 +6,9 @@ icon: "genres"
 weight: 8
 date: 2025-04-25
 images: ["/docs/kwon-jinah/the-dreamest/the-dreamest.jpg"]
-composition: "권덕근(WSHL:ST), clovd, Young Chance, Ayelle, Hautboi Rich "
-lyric: "권진아"
-arrangement: "권덕근(WSHL:ST), clovd"
+composition: ["권덕근(WSHL:ST)", "clovd", "Young Chance", "Ayelle", "Hautboi Rich"]
+lyric: ["권진아"]
+arrangement: ["권덕근(WSHL:ST)", "clovd"]
 youtube: "z5SZ38rhXIc"
 description: "先行曲"
 draft: true

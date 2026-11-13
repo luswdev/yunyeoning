@@ -6,9 +6,9 @@ icon: "genres"
 weight: 3
 date: 2023-08-29
 images: ["/docs/hanroro/take-off/take-off.jpg"]
-composition: "한로로"
-lyric: "한로로"
-arrangement: "이새"
+composition: ["한로로"]
+lyric: ["한로로"]
+arrangement: ["이새"]
 youtube: "dAgY7zUqd8E"
 description: "主打歌"
 ---

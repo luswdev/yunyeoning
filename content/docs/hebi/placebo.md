@@ -7,9 +7,9 @@ icon: "genres"
 weight: 503
 date: 2026-08-03
 images: ["/docs/hebi/placebo.jpg"]
-composition: "희장(Coke paris), 김기산, 김명관"
-lyric: "FLAME"
-arrangement: "희장(Coke paris)"
+composition: ["희장(Coke paris)", "김기산", "김명관"]
+lyric: ["FLAME"]
+arrangement: ["희장(Coke paris)"]
 youtube: "xOWY1_JYeGI"
 ---
 

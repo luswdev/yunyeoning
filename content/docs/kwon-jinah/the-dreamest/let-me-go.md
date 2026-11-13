@@ -6,9 +6,9 @@ icon: "genres"
 weight: 3
 date: 2025-04-25
 images: ["/docs/kwon-jinah/the-dreamest/the-dreamest.jpg"]
-composition: "권진아"
-lyric: "권진아"
-arrangement: "권영찬"
+composition: ["권진아"]
+lyric: ["권진아"]
+arrangement: ["권영찬"]
 youtube: "FPlOfqiKD64"
 description: "主打歌"
 ---

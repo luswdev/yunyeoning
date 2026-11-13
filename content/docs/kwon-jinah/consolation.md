@@ -7,9 +7,9 @@ icon: "genres"
 weight: 27
 date: 2023-03-02
 images: ["/docs/kwon-jinah/consolation.jpg"]
-composition: "헨(Hen)"
-lyric: "헨(Hen)"
-arrangement: "헨(Hen)"
+composition: ["헨"]
+lyric: ["헨"]
+arrangement: ["헨"]
 youtube: "4PachJQanJc"
 ---
 

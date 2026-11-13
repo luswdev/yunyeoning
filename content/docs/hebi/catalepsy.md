@@ -7,9 +7,9 @@ icon: "genres"
 weight: 502
 date: 2026-06-02
 images: ["/docs/hebi/catalepsy.jpg"]
-composition: "秋浦智裕"
-lyric: "柴山太朗"
-arrangement: "秋浦智裕"
+composition: ["秋浦智裕"]
+lyric: ["柴山太朗"]
+arrangement: ["秋浦智裕"]
 youtube: "rO1_2oN-0lA"
 ---
 

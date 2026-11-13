@@ -6,9 +6,9 @@ icon: "genres"
 weight: 4
 date: 2026-04-27
 images: ["/docs/qwer/ceremony/ceremony.jpg"]
-composition: "이동혁, 김승준, GESTURE"
-lyric: "이동혁, 김혜정"
-arrangement: "이동혁, 김승준"
+composition: ["이동혁", "김승준", "GESTURE"]
+lyric: ["이동혁", "김혜정"]
+arrangement: ["이동혁", "김승준"]
 youtube: "FifVV3t38Vk"
 ---
 

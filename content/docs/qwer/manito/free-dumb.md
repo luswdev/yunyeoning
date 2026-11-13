@@ -6,9 +6,9 @@ icon: "genres"
 weight: 3
 date: 2024-04-01
 images: ["/docs/qwer/manito/manito.jpg"]
-composition: "이동혁, 홍훈기, 김승준, Elum"
-lyric: "이동혁, Elum"
-arrangement: "이동혁, 김승준"
+composition: ["이동혁", "홍훈기", "김승준", "Elum"]
+lyric: ["이동혁", "Elum"]
+arrangement: ["이동혁", "김승준"]
 youtube: "Tor2ElSVEAk"
 ---
 

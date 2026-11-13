@@ -7,9 +7,9 @@ weight: 2
 description: "先行曲"
 date: 2024-09-02
 images: ["/docs/qwer/algorithms-blossom/fake-idol.jpg"]
-composition: "이동혁, GESTURE, Hey Farmer, Ayushy (THE HUB), 권애진 (MonoTree)"
-lyric: "이동혁, 마젠타, HINA, 김혜정, GESTURE, Elum"
-arrangement: "이동혁, 홍훈기"
+composition: ["이동혁", "GESTURE", "Hey Farmer", "Ayushy (THE HUB)", "권애진 (MonoTree)"]
+lyric: ["이동혁", "마젠타", "HINA", "김혜정", "GESTURE", "Elum"]
+arrangement: ["이동혁", "홍훈기"]
 youtube: "JFGRPgYeu38"
 ---
 

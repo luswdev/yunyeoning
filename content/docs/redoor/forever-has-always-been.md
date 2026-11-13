@@ -7,9 +7,9 @@ icon: "genres"
 weight: 1
 date: 2021-01-09
 images: ["/docs/redoor/forever-has-always-been.jpg"]
-composition: "이등대"
-lyric: "이등대"
-arrangement: "리도어"
+composition: ["이등대"]
+lyric: ["이등대"]
+arrangement: ["리도어"]
 youtube: "1d3EGLknYSM"
 ---
 

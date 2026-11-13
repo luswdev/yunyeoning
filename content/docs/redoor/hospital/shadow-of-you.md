@@ -6,9 +6,9 @@ icon: "genres"
 weight: 4
 date: 2025-06-11
 images: ["/docs/redoor/hospital/hospital.jpg"]
-composition: "이등대"
-lyric: "이등대"
-arrangement: "리도어"
+composition: ["이등대"]
+lyric: ["이등대"]
+arrangement: ["리도어"]
 youtube: "aU9p-IeKAJw"
 ---
 

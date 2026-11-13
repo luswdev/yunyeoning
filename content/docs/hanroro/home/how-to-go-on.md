@@ -7,9 +7,9 @@ weight: 6
 description: "先行曲"
 date: 2024-05-16
 images: ["/docs/hanroro/home/how-to-go-on.jpg"]
-composition: "한로로, 진동욱"
-lyric: "한로로"
-arrangement: "진동욱, 이새, 배도협, 유병현, Steven"
+composition: ["한로로", "진동욱"]
+lyric: ["한로로"]
+arrangement: ["진동욱", "이새", "배도협", "유병현", "Steven"]
 youtube: "puw1hdSnSX0"
 ---
 

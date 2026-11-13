@@ -7,9 +7,9 @@ icon: "genres"
 weight: 24
 date: 2025-05-18
 images: ["/docs/ydbb/get-lucky.jpg"]
-composition: "이준형, 유다빈, 유명종"
-lyric: "유다빈"
-arrangement: "유다빈밴드"
+composition: ["이준형", "유다빈", "유명종"]
+lyric: ["유다빈"]
+arrangement: ["유다빈밴드"]
 youtube: "5d5C3rKUb2E"
 ---
 

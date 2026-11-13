@@ -6,9 +6,9 @@ icon: "genres"
 weight: 1
 date: 2025-04-25
 images: ["/docs/kwon-jinah/the-dreamest/the-dreamest.jpg"]
-composition: "Brian Cho, Willemijin May"
-lyric: "권진아"
-arrangement: "Brian Cho"
+composition: ["Brian Cho", "Willemijin May"]
+lyric: ["권진아"]
+arrangement: ["Brian Cho"]
 youtube: "cOLt3C_mFJ8"
 ---
 

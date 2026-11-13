@@ -6,9 +6,9 @@ icon: "genres"
 weight: 5
 date: 2025-08-04
 images: ["/docs/hanroro/jamong-salgu-club/jamong-salgu-club.jpg"]
-composition: "한로로"
-lyric: "한로로"
-arrangement: "HAH"
+composition: ["한로로"]
+lyric: ["한로로"]
+arrangement: ["HAH"]
 youtube: "RuwWXZiR3AU"
 ---
 

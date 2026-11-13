@@ -6,9 +6,9 @@ icon: "genres"
 weight: 2
 date: 2026-07-15
 images: ["/docs/kwon-jinah/save-me/save-me.jpg"]
-composition: "권진아"
-lyric: "권진아"
-arrangement: "황현조"
+composition: ["권진아"]
+lyric: ["권진아"]
+arrangement: ["황현조"]
 youtube: "2Wk4vsz65jo"
 description: "主打歌"
 ---

@@ -6,9 +6,9 @@ icon: "genres"
 weight: 1
 date: 2006-12-04
 images: ["/docs/younha/audition/audition.jpg"]
-composition: "양경주"
-lyric: "이애경"
-arrangement: "양경주"
+composition: ["양경주"]
+lyric: ["이애경"]
+arrangement: ["양경주"]
 youtube: "HBV_hwwMnuI"
 description: "主打歌"
 ---

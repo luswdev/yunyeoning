@@ -6,9 +6,9 @@ icon: "genres"
 weight: 4
 date: 2025-10-20
 images: ["/docs/hebi/human-eclipse/human-eclipse.jpg"]
-composition: "조원상, EUGENE (HIGHBRID), 이도훈, O.YEON, 최영훈"
-lyric: "조원상, 이도훈"
-arrangement: "조원상, EUGENE (HIGHBRID), 이도훈, O.YEON, 최영훈, 정수완"
+composition: ["조원상", "EUGENE (HIGHBRID)", "이도훈", "O.YEON", "최영훈"]
+lyric: ["조원상", "이도훈"]
+arrangement: ["조원상", "EUGENE (HIGHBRID)", "이도훈", "O.YEON", "최영훈", "정수완"]
 youtube: "UOlTw3gZuCo"
 description: "主打歌"
 ---

@@ -6,9 +6,9 @@ icon: "genres"
 weight: 3
 date: 2025-10-20
 images: ["/docs/hebi/human-eclipse/human-eclipse.jpg"]
-composition: "박성일"
-lyric: "이주엽"
-arrangement: "엉클샘"
+composition: ["박성일"]
+lyric: ["이주엽"]
+arrangement: ["엉클샘"]
 youtube: "PVKCsYOk8ts"
 ---
 

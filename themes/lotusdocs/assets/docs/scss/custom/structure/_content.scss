@@ -381,6 +381,16 @@ h4 {
             color: var(--gray-600);
         }
 
+        td a {
+            font-weight: normal;
+            border: 0;
+            color: var(--gray-600);
+
+            &:hover  {
+                color: var(--primary-200);
+            }
+        }
+
         .debut-counter {
             font-size: 0.75rem;
         }

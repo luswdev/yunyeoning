@@ -7,9 +7,9 @@ icon: "genres"
 weight: 22
 date: 2017-05-02
 images: ["/docs/kwon-jinah/fly-away.jpg"]
-composition: "권진아, 윤석철"
-lyric: "권진아, 유희열"
-arrangement: "유희열"
+composition: ["권진아", "윤석철"]
+lyric: ["권진아", "유희열"]
+arrangement: ["유희열"]
 youtube: "OARgsIKS8VU"
 ---
 

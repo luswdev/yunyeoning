@@ -6,9 +6,9 @@ description: "主打歌"
 weight: 2
 date: 2026-04-06
 images: ["/docs/hebi/allergy/allergy.jpg"]
-composition: "PAPRIKAA, BrotherSu, 임정우"
-lyric: "FLAME, nodresscode"
-arrangement: "임정우, PAPRIKAA"
+composition: ["PAPRIKAA", "BrotherSu", "임정우"]
+lyric: ["FLAME", "nodresscode"]
+arrangement: ["임정우", "PAPRIKAA"]
 youtube: "dA-_wyToXhE?si=Qs0IlYFO14APKcuY&start=180"
 ---
 

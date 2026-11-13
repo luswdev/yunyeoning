@@ -7,9 +7,9 @@ icon: "genres"
 weight: 76
 date: 2025-08-13
 images: ["/docs/kwon-jinah/white-wine.jpg"]
-composition: "권진아"
-lyric: "권진아"
-arrangement: "덩크 (DUNK)"
+composition: ["권진아"]
+lyric: ["권진아"]
+arrangement: ["덩크"]
 youtube: "pI8ivNejRHo"
 ---
 

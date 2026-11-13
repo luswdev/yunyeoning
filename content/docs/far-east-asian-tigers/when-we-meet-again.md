@@ -7,9 +7,9 @@ icon: "genres"
 weight: 14
 date: 2025-12-02
 images: ["/docs/far-east-asian-tigers/when-we-meet-again.jpg"]
-composition: "명지수"
-lyric: "명지수"
-arrangement: "명지수, 공격, 연광모, 강용혁, 김하나"
+composition: ["명지수"]
+lyric: ["명지수"]
+arrangement: ["명지수", "공격", "연광모", "강용혁", "김하나"]
 youtube: "9mrICEntyYs"
 ---
 

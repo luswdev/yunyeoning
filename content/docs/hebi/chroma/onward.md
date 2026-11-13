@@ -7,9 +7,9 @@ weight: 3
 description: "主打歌"
 date: 2025-04-22
 images: ["/docs/hebi/chroma/chroma.jpg"]
-composition: "조원상, EUGENE (HIGHBRID), 이도훈, O.YEON, 최영훈"
-lyric: "조원상, 이도훈"
-arrangement: "조원상, EUGENE (HIGHBRID), 이도훈, O.YEON, 최영훈"
+composition: ["조원상", "EUGENE (HIGHBRID)", "이도훈", "O.YEON", "최영훈"]
+lyric: ["조원상", "이도훈"]
+arrangement: ["조원상", "EUGENE (HIGHBRID)", "이도훈", "O.YEON", "최영훈"]
 youtube: "yomKWG44odg"
 ---
 

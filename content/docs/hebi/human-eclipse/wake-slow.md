@@ -6,9 +6,9 @@ icon: "genres"
 weight: 5
 date: 2025-10-20
 images: ["/docs/hebi/human-eclipse/human-eclipse.jpg"]
-composition: "Hey Farmer, 샤넌 배(Shannon Bae), GESTURE"
-lyric: "샤넌 배(Shannon Bae), Hey Farmer"
-arrangement: "Hey Farmer"
+composition: ["Hey Farmer", "샤넌 배(Shannon Bae)", "GESTURE"]
+lyric: ["샤넌 배(Shannon Bae)", "Hey Farmer"]
+arrangement: ["Hey Farmer"]
 youtube: "87Impwz_sQ4"
 ---
 

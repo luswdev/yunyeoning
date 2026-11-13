@@ -6,9 +6,9 @@ icon: "genres"
 weight: 1
 date: 2019-09-19
 images: ["/docs/kwon-jinah/shape-of-me/shape-of-me.jpg"]
-composition: "권진아"
-lyric: "권진아"
-arrangement: "적재"
+composition: ["권진아"]
+lyric: ["권진아"]
+arrangement: ["적재"]
 youtube: "CLR9dytvnmM"
 ---
 

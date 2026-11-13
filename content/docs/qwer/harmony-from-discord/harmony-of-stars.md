@@ -6,9 +6,9 @@ icon: "genres"
 weight: 1
 date: 2023-10-18
 images: ["/docs/qwer/harmony-from-discord/harmony-from-discord.jpg"]
-composition: "이동혁, GESTURE, Elum, 홍지혜, 이시연"
-lyric: "김혜정, 이동혁"
-arrangement: "이동혁, 한아영"
+composition: ["이동혁", "GESTURE", "Elum", "홍지혜", "이시연"]
+lyric: ["김혜정", "이동혁"]
+arrangement: ["이동혁", "한아영"]
 youtube: "On6Pm4M-dQQ"
 ---
 

@@ -7,9 +7,9 @@ icon: "genres"
 weight: 15
 date: 2026-03-29
 images: ["/docs/far-east-asian-tigers/godspeed.jpg"]
-composition: "명지수"
-lyric: "명지수"
-arrangement: "명지수, 공격, 연광모, 강용혁, 김하나"
+composition: ["명지수"]
+lyric: ["명지수"]
+arrangement: ["명지수", "공격", "연광모", "강용혁", "김하나"]
 youtube: "-1BxHUDkxxA"
 ---
 

@@ -6,9 +6,9 @@ icon: "genres"
 weight: 4
 date: 2023-11-09
 images: ["/docs/jungwoo/cloud-cuckoo-land/cloud-cuckoo-land.jpg"]
-composition: "정우, 안다영"
-lyric: "정우"
-arrangement: "안다영"
+composition: ["정우", "안다영"]
+lyric: ["정우"]
+arrangement: ["안다영"]
 youtube: "f6vPwqA0lUY"
 description: "主打歌"
 ---

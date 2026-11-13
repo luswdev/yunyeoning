@@ -7,9 +7,9 @@ description: "主打歌"
 weight: 1
 date: 2026-04-02
 images: ["/docs/hanroro/love-n-hate/love-n-hate.jpg"]
-composition: "한로로, Ryo"
-lyric: "한로로"
-arrangement: "한로로, Ryo"
+composition: ["한로로", "Ryo"]
+lyric: ["한로로"]
+arrangement: ["한로로", "Ryo"]
 youtube: "qrzKsS-4lZo"
 ---
 

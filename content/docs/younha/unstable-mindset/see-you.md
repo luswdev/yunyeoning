@@ -6,9 +6,9 @@ icon: "genres"
 weight: 3
 date: 2020-01-06
 images: ["/docs/younha/unstable-mindset/unstable-mindset.jpg"]
-composition: "윤하"
-lyric: "윤하"
-arrangement: "DOKO, 이태욱"
+composition: ["윤하"]
+lyric: ["윤하"]
+arrangement: ["DOKO", "이태욱"]
 youtube: "HNUnIwx7iqs"
 ---
 

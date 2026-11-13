@@ -7,9 +7,9 @@ icon: "genres"
 weight: 15
 date: 2024-10-22
 images: ["/docs/hanroro/so-nice.jpg"]
-composition: "이원석 (of 데이브레이크)"
-lyric: "김장원, 김선일"
-arrangement: "진동욱"
+composition: ["이원석 (of 데이브레이크)"]
+lyric: ["김장원", "김선일"]
+arrangement: ["진동욱"]
 youtube: "sVCslmpfZrc"
 ---
 

@@ -7,9 +7,9 @@ icon: "genres"
 weight: 1
 date: 2022-03-14
 images: ["/docs/hanroro/let-me-love-my-youth.jpg"]
-composition: "한로로"
-lyric: "한로로"
-arrangement: "이새"
+composition: ["한로로"]
+lyric: ["한로로"]
+arrangement: ["이새"]
 youtube: "pNi9PjmbUrI"
 ---
 

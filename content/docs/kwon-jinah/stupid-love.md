@@ -7,9 +7,9 @@ icon: "genres"
 weight: 57
 date: 2022-10-13
 images: ["/docs/kwon-jinah/stupid-love.jpg"]
-composition: "권진아"
-lyric: "권진아"
-arrangement: "홍소진, 권영찬"
+composition: ["권진아"]
+lyric: ["권진아"]
+arrangement: ["홍소진", "권영찬"]
 youtube: "APYhSUUdayQ"
 ---
 

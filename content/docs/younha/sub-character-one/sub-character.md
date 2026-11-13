@@ -6,10 +6,10 @@ icon: "genres"
 weight: 2
 date: 2026-03-09
 images: ["/docs/younha/sub-character-one/sub-character-one.jpg"]
-original: "wizu"
-composition: "wizu"
-lyric: "wizu"
-arrangement: "All day one"
+original: ["wizu"]
+composition: ["wizu"]
+lyric: ["wizu"]
+arrangement: ["All day one"]
 youtube: "4TRS7y4qdWs"
 ---
 

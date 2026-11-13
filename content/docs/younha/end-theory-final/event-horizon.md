@@ -5,9 +5,9 @@ subtitle: ["Event Horizon"]
 weight: 11
 date: 2022-03-20
 images: ["/docs/younha/end-theory-final/end-theory-final.jpg"]
-composition: "윤하, JEWNO"
-lyric: "윤하"
-arrangement: "JEWNO, SHAUN"
+composition: ["윤하", "JEWNO"]
+lyric: ["윤하"]
+arrangement: ["JEWNO", "SHAUN"]
 youtube: "BBdC1rl5sKY"
 description: "主打歌"
 ---

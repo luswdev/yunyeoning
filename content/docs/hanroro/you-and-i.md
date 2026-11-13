@@ -7,9 +7,9 @@ icon: "genres"
 weight: 24
 date: 2026-07-09
 images: ["/docs/hanroro/you-and-i.jpg"]
-composition: "한로로, 다운 (Dvwn), Ryo"
-lyric: "한로로"
-arrangement: "Ryo"
+composition: ["한로로", "다운 (Dvwn)", "Ryo"]
+lyric: ["한로로"]
+arrangement: ["Ryo"]
 youtube: "Tos8R9Tcem8"
 ---
 

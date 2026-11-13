@@ -5,9 +5,9 @@ icon: "genres"
 weight: 1
 date: 2026-04-06
 images: ["/docs/hebi/allergy/allergy.jpg"]
-composition: "柴山太朗"
-lyric: "柴山太朗"
-arrangement: "柴山太朗"
+composition: ["柴山太朗"]
+lyric: ["柴山太朗"]
+arrangement: ["柴山太朗"]
 youtube: "dA-_wyToXhE"
 ---
 

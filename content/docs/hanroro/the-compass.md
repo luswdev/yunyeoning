@@ -7,9 +7,9 @@ icon: "genres"
 weight: 16
 date: 2024-10-29
 images: ["/docs/hanroro/the-compass.jpg"]
-composition: "한로로"
-lyric: "한로로"
-arrangement: "Ryo"
+composition: ["한로로"]
+lyric: ["한로로"]
+arrangement: ["Ryo"]
 youtube: "4JwkYsfKRKM"
 ---
 

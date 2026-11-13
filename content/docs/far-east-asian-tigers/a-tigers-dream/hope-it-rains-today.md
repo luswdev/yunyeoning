@@ -6,9 +6,9 @@ icon: "genres"
 weight: 2
 date: 2024-11-10
 images: ["/docs/far-east-asian-tigers/a-tigers-dream/a-tigers-dream.jpg"]
-composition: "명지수"
-lyric: "명지수"
-arrangement: "극동아시아타이거즈"
+composition: ["명지수"]
+lyric: ["명지수"]
+arrangement: ["극동아시아타이거즈"]
 youtube: "W2moOcV1Dx0"
 ---
 

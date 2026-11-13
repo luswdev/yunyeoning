@@ -7,9 +7,9 @@ icon: "genres"
 weight: 101
 date: 2017-06-22
 images: ["/docs/yoon-jung-shin/like-it.jpg"]
-composition: "포스티노"
-lyric: "윤종신"
-arrangement: "포스티노"
+composition: ["포스티노"]
+lyric: ["윤종신"]
+arrangement: ["포스티노"]
 youtube: "97iF07jxJRg"
 ---
 

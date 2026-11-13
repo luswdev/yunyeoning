@@ -7,9 +7,9 @@ icon: "genres"
 weight: 6
 date: 2020-03-01
 images: ["/docs/aro/why-did-you-answer.jpg"]
-composition: "정아로, 310"
-lyric: "정아로"
-arrangement: "T.032"
+composition: ["정아로", "310"]
+lyric: ["정아로"]
+arrangement: ["T.032"]
 youtube: "RvRmvPTJ_Do"
 ---
 

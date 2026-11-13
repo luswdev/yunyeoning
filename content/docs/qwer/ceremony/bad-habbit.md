@@ -6,9 +6,9 @@ icon: "genres"
 weight: 2
 date: 2026-04-27
 images: ["/docs/qwer/ceremony/ceremony.jpg"]
-composition: "이동혁, 홍훈기, NOMASGOOD(BADX), GESTURE, AYUSHY(THE HUB), FRANKIE DAY(THE HUB), ELUM"
-lyric: "이동혁, 김혜정, GESTURE, NOMASGOOD(BADX), 마젠타, 이시연, 히나, 홍지혜"
-arrangement: "이동혁"
+composition: ["이동혁", "홍훈기", "NOMASGOOD(BADX)", "GESTURE", "AYUSHY(THE HUB)", "FRANKIE DAY(THE HUB)", "ELUM"]
+lyric: ["이동혁", "김혜정", "GESTURE", "NOMASGOOD(BADX)", "마젠타", "이시연", "히나", "홍지혜"]
+arrangement: ["이동혁"]
 youtube: "g20sz4HZ5Qc"
 ---
 

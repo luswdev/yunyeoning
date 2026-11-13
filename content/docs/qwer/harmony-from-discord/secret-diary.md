@@ -6,9 +6,9 @@ icon: "genres"
 weight: 3
 date: 2023-10-18
 images: ["/docs/qwer/harmony-from-discord/harmony-from-discord.jpg"]
-composition: "이동혁, GESTURE"
-lyric: "이동혁, GESTURE, Elum"
-arrangement: "이동혁"
+composition: ["이동혁", "GESTURE"]
+lyric: ["이동혁", "GESTURE", "Elum"]
+arrangement: ["이동혁"]
 youtube: "MPK7oP1--4s"
 ---
 

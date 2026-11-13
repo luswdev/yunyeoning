@@ -6,9 +6,9 @@ icon: "genres"
 weight: 1
 date: 2015-05-13
 images: ["/docs/cheeze/plain/plain.jpg"]
-composition: "구름, 달총"
-lyric: "구름, 달총"
-arrangement: "구름"
+composition: ["구름", "달총"]
+lyric: ["구름", "달총"]
+arrangement: ["구름"]
 youtube: "0FgA_tn9f6c"
 ---
 

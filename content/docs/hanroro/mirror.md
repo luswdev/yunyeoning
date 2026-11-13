@@ -7,9 +7,9 @@ icon: "genres"
 weight: 2
 date: 2022-07-18
 images: ["/docs/hanroro/mirror.jpg"]
-composition: "한로로"
-lyric: "한로로"
-arrangement: "이새"
+composition: ["한로로"]
+lyric: ["한로로"]
+arrangement: ["이새"]
 youtube: "_TnsZ71zaxU"
 ---
 

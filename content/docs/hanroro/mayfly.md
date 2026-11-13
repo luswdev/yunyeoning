@@ -7,9 +7,9 @@ icon: "genres"
 weight: 11
 date: 2023-12-26
 images: ["/docs/hanroro/mayfly.jpg"]
-composition: "한로로"
-lyric: "한로로"
-arrangement: "이새"
+composition: ["한로로"]
+lyric: ["한로로"]
+arrangement: ["이새"]
 youtube: "ss_WdwNGawM"
 ---
 

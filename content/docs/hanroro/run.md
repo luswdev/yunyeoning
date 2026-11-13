@@ -7,9 +7,9 @@ icon: "genres"
 weight: 20
 date: 2025-11-01
 images: ["/docs/hanroro/run.jpg"]
-composition: "Jamie Silence"
-lyric: "Jamie Silence"
-arrangement: "Jamie Silence"
+composition: ["Jamie Silence"]
+lyric: ["Jamie Silence"]
+arrangement: ["Jamie Silence"]
 youtube: "wzd3oLw2uqA"
 ---
 
