@@ -2,6 +2,7 @@
 layout: "artist-view"
 title: "윤종신"
 subtitle: ["尹鍾信", "Yoon Jung Shin"]
+keywords: ["월간윤종신", "Monthly Project", "月刊尹鍾信"]
 description:
 icon: artist
 weight: 24

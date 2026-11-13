@@ -2,6 +2,7 @@
 layout: "artist-view"
 title: "유다빈밴드"
 subtitle: ["YdBB"]
+keywords: ["조영윤", "CHO YOUNG YUN", "유다빈", "柳茶彬", "YU DABIN", "이상운", "LEE SANG WOON", "이준형", "李俊炯", "LEE JUN HYUNG", "유명종", "YOU MYEONG JONG"]
 description:
 icon: artist
 weight: 12

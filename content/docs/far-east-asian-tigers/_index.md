@@ -2,7 +2,7 @@
 layout: "artist-view"
 title: "극동아시아타이거즈"
 subtitle: ["Far East Asian Tigers"]
-description:
+description: ["명지수", "Myoung Jisu", "공격", "Attack", "공동민", "연광모", "Yeon Gwangmo", "Luke Kang", "강용혁"]
 icon: artist
 weight: 15
 date: 2019-01-24

@@ -2,6 +2,7 @@
 layout: "artist-view"
 title: "터치드"
 subtitle: ["Touched"]
+keywords: ["윤민", "YUNMIN", "조윤민", "趙玧旻", "김승빈", "Kim Seungbin", "존비킴", "John B. Kim", "김병무", "Kim Byungmoo", "채도현", "蔡道賢"]
 description:
 icon: artist
 weight: 13

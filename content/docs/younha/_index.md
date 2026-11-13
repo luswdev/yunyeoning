@@ -2,6 +2,7 @@
 layout: "artist-view"
 title: "윤하"
 subtitle: ["潤荷", "Younha"]
+keywords: ["고윤하", "高潤荷"]
 description:
 icon: artist
 weight: 5

@@ -2,6 +2,7 @@
 layout: "artist-view"
 title: "치즈"
 subtitle: ["CHEEZE"]
+keywords: ["달총", "DALCHONG"]
 description:
 icon: artist
 weight: 22

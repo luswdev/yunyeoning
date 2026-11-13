@@ -2,6 +2,7 @@
 layout: "artist-view"
 title: "LATENCY"
 subtitle: 
+keywords: ["희연", "Hee Yeon"]
 description:
 icon: artist
 weight: 17

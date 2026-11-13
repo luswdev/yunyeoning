@@ -2,6 +2,7 @@
 layout: "artist-view"
 title: "한로로"
 subtitle: ["HANRORO"]
+keywords: ["한지수", "로켓단", "火箭隊"]
 description:
 icon: artist
 weight: 3

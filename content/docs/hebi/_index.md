@@ -2,6 +2,7 @@
 layout: "artist-view"
 title: "헤비"
 subtitle: ["Hebi."]
+keywords: ["へび", "뱀뱀이", "BAMBAM"]
 description:
 icon: artist
 weight: 11

@@ -2,6 +2,7 @@
 layout: "artist-view"
 title: "정우"
 subtitle: ["JUNGWOO"]
+keywords: ["박정우"]
 description:
 icon: artist
 weight: 14

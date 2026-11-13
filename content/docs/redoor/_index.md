@@ -2,6 +2,7 @@
 layout: "artist-view"
 title: "리도어"
 subtitle: ["Redoor"]
+keywords: ["이등대", "Lee Deungdae", "최승현", "Choi Seunghyun", "박세웅", "Park Sewoong", "주상욱", "Joo Sangwook"]
 description:
 icon: artist
 weight: 4

@@ -2,6 +2,7 @@
 layout: "artist-view"
 title: "아이우에오"
 subtitle: ["A I W E O"]
+keywords: ["드림", "DREAM", "다영", "DAYEONG", "현수", "HYUNSU", "서유", "SEOYU"]
 description:
 icon: artist
 weight: 18

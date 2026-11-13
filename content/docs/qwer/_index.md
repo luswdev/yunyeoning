@@ -3,6 +3,7 @@ layout: "artist-view"
 title: "QWER"
 subtitle:
 description:
+keywords: ["큐더블유이알", "큐떱", "Chodan", "초단", "홍지혜", "洪智惠", "마젠타", "Magenta", "이아희", "李雅熙", "히니", "Hina", "장나영", "張娜榮", "시연", "Siyeon", "이시연", "李始燕", "金雞蛋", "김계란", "바위게", "BAWIGE", "河蟹"]
 icon: artist
 weight: 2
 debutKR: 2023-10-18

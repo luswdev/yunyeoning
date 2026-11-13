@@ -56,30 +56,27 @@
     <meta name="description" content="{{ . }}">
     {{- end }}
 
-    {{- $artists := "" }}
     {{ $currentPage := . -}}
+    {{ $artistInfoList := slice }}
     {{ $section := $currentPage.Section -}}
     {{ range (where .Site.Sections.ByWeight "Section" "in" $section) }}
         {{ $child_pages := union .Sections .Pages }}
         {{ range $child_pages.ByWeight }}
             {{- if eq .Params.layout "artist-view" }}
-                {{- if $artists }}
-                    {{- if .Params.subtitle }}
-                        {{- $artists = printf "%s, %s, %s" $artists .Title (delimit .Params.subtitle ", ") }}
-                    {{- else }}
-                        {{- $artists = printf "%s, %s" $artists .Title }}
-                    {{- end -}}
-                {{- else }}
-                    {{- if .Params.subtitle }}
-                        {{- $artists = printf "%s, %s" .Title (delimit .Params.subtitle ", ") }}
-                    {{- else }}
-                        {{- $artists = .Title }}
-                    {{- end -}}
-                {{- end -}}
+                {{- $artistInfoList = $artistInfoList | append .Title }}
+
+                {{- with .Params.subtitle }}
+                    {{- $artistInfoList = $artistInfoList | append . }}
+                {{- end }}
+
+                {{- with .Params.keywords }}
+                    {{- $artistInfoList = $artistInfoList | append . }}
+                {{- end }}
             {{- end -}}
         {{- end -}}
     {{- end -}}
-    <meta name="keywords" content="{{ .Site.Params.keywords }}, {{ $artists }}, {{ .Title }} {{ with .Params.subtitle }}, {{ delimit . ", " }} {{ end }}" />
+    {{- $artists := delimit $artistInfoList ", " }}
+    <meta name="keywords" content="{{ .Site.Params.keywords }}, {{ $artists }}, {{ .Title }}{{ with .Params.subtitle }}, {{ delimit . ", " }} {{ end }}" />
     <meta name="author" content="LuSkywalker" />
     <meta name="email" content="info@lusw.dev" />
     <meta name="website" content="https://kr.lusw.dev" />
