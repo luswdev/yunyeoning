@@ -7,7 +7,9 @@
     const hideFlexsearchBtn = document.getElementById('hideFlexsearch');
 
     const configObject = { toggle: false }
-    const flexsearchContainerCollapse = new Collapse(flexsearchContainer, configObject) // initialized with no keyboard
+    const flexsearchContainerCollapse = new bootstrap.Modal(flexsearchContainer, configObject) // initialized with no keyboard
+
+    console.log("modal",flexsearchContainerCollapse)
 
     if (search !== null) {
         document.addEventListener('keydown', inputFocus);

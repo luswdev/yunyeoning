@@ -17,11 +17,11 @@ var searchFunc = function (path, searchInputID, contentID, collapseID, closeBtn,
             }
 
             const searchContainer = document.getElementById(collapseID)
-            const searchContainerCollapse = new Collapse(searchContainer, { toggle: false })
+            const searchContainerCollapse = new Modal(searchContainer, { toggle: false })
 
             if (searchInput !== null) {
                 document.addEventListener('keydown', inputFocus)
-                searchContainer.addEventListener('shown.bs.collapse', () => {
+                searchContainer.addEventListener('shown.bs.modal', () => {
                     searchInput.focus()
                 })
 
@@ -104,7 +104,6 @@ var searchFunc = function (path, searchInputID, contentID, collapseID, closeBtn,
                 resultContent.classList.remove('d-none')
 
                 if (this.value.trim().length <= 0) {
-                    resultContent.innerHTML = '<div class="search-empty text-center text-muted p-5"><i class="far fa-meh"></i></div>'
                     return
                 }
 
