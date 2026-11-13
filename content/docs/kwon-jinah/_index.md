@@ -1,6 +1,6 @@
 ---
 layout: "artist-view"
-title: ["권진아"]
+title: "권진아"
 subtitle: ["權珍雅", "Kwon Jinah"]
 description:
 icon: artist
