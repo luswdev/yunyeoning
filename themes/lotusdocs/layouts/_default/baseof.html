@@ -14,7 +14,7 @@
         <div class="content">
             <div class="page-wrapper toggled">
                 {{ $docsPage := site.GetPage ($.Scratch.Get "pathName") }}
-                {{- partial (printf "/%s/%s" ($.Scratch.Get "pathName") "sidebar.html") (dict "currentPage" $docsPage "currentPageReal" .) -}}
+                {{- partial (printf "%s/%s" ($.Scratch.Get "pathName") "sidebar.html") (dict "currentPage" $docsPage "currentPageReal" .) -}}
                     <!-- Start Page Content -->
                     <main class="page-content bg-transparent">
                         {{ if hugo.IsMultilingual }}
@@ -109,7 +109,7 @@
             <script>{{ $darkModeSwitch.Content | safeJS }}</script>
         {{ end -}}
 
-        {{- partialCached (printf "/%s/%s" ($.Scratch.Get "pathName") "footer/footer-scripts.html") . -}}
+        {{- partialCached (printf "%s/%s" ($.Scratch.Get "pathName") "footer/footer-scripts.html") . -}}
 
         <!-- DocSearch Config -->
         {{ if and (.Site.Params.docsearch.appID) (.Site.Params.docsearch.apiKey) -}}
@@ -126,7 +126,7 @@
 
         <!-- fuzzysort Config -->
         {{ if eq .Site.Params.fuzzysort.enabled true -}}
-            {{- partialCached (printf "/%s/%s" ($.Scratch.Get "pathName") "footer/fuzzysort.html") . -}}
+            {{- partialCached (printf "%s/%s" ($.Scratch.Get "pathName") "footer/fuzzysort.html") . -}}
         {{ end }}
     </body>
 </html>
