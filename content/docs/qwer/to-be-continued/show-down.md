@@ -1,6 +1,6 @@
 ---
-layout: song-view
-title: SHOW DOWN
+layout: "song-view"
+title: "SHOW DOWN"
 subtitle:
 icon: genres
 weight: 3

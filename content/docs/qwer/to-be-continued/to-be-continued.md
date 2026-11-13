@@ -1,6 +1,6 @@
 ---
-layout: song-view
-title: To Be Continued
+layout: "song-view"
+title: "To Be Continued"
 subtitle:
 icon: genres
 description: "主打歌"

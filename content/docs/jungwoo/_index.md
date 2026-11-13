@@ -6,7 +6,7 @@ description:
 icon: artist
 weight: 14
 date: 2019-09-05
-images: ["/docs/jungwoo/jungwoo.svg"]
+images:
 ---
 
 {{< membertable title=false theme="#505e6c" >}}

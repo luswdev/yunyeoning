@@ -1,7 +1,7 @@
 ---
 layout: "album-view"
 title: "행보 2017"
-subtitle: ["行步 2017"]
+subtitle: ["行步 2017", "Monthly Project 2017"]
 description:
 icon: library_music
 weight: 2017
