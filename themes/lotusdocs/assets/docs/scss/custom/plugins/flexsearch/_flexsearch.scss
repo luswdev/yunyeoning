@@ -37,7 +37,8 @@
     background-color: var(--flexsearch-container-bg-color);
     padding: 0.8rem;
     .form-control {
-        border: 2px solid var(--primary);
+        border: 0;
+        background: inherit;
         font-size: 1.2rem;
     }
 }
@@ -50,6 +51,16 @@
     .flexsearch {
         min-width: 500px;
         width: 500px;
+    }
+}
+
+.flexsearch-input-group {
+    box-shadow: inset 0 0 0 2px var(--primary);
+    background-color: var(--body-bg);
+    border-radius: 6px;
+
+    .flexsearch-search-label span {
+        color: var(--primary);
     }
 }
 
@@ -143,6 +154,20 @@
     }
 }
 
+#hideFlexsearch {
+    word-break: keep-all;
+    border: 0;
+
+    &:hover {
+        color: var(--primary) !important;
+    }
+
+    &:active,
+    &:focus {
+        border: 0;
+    }
+}
+
 @media (min-width: 992px) {
     .flexsearch::after {
         right: 0.5125rem
@@ -152,7 +177,9 @@
 #suggestions {
     position: absolute;
     background-color: var(--flexsearch-suggestion-bg-color);
-    left: 0;
+    left: -.8rem;
+    right: -.8rem;
+    width: auto;
     max-height: 70vh;
     overflow-y: auto;
     scrollbar-width: thin;
@@ -169,20 +196,8 @@
     }
     margin-top: 0.5rem;
     // width: calc(100vw - 0.3rem);
-    max-width: calc(100vw - 0.15rem);
+    // max-width: calc(100vw - 0.15rem);
     z-index: 999
-}
-
-@media (min-width: 768px) {
-    #suggestions {
-        // right: -2rem
-    }
-}
-
-@media (min-width: 992px) {
-    #suggestions {
-        left: 0
-    }
 }
 
 #suggestions a,
@@ -224,24 +239,47 @@
     font-size: 1rem
 }
 
-.suggestion__title {
-    font-weight: 700;
+.suggestion__icon {
+    align-self: center;
     color: var(--flexsearch-suggestion-title-color);
 }
 
-.suggestion__description,
-.suggestion__no-results {
+.suggestion__title {
+    font-weight: 700;
+    align-self: center;
+    color: var(--flexsearch-suggestion-title-color);
+}
+
+.suggestion__description{
+    align-self: center;
     color: var(--flexsearch-suggestion-desc-color);
 }
 
-@media (min-width: 992px) {
-    #suggestions {
-        width: 500px;
-        max-width: 500px
+.suggestion__no-results {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1rem;
+
+    .suggestion__no-results_icon {
+        font-family: $font-family-sans-serif;
+        font-weight: bold;
+        color: var(--secondary);
+        font-size: 5rem !important;
     }
 
+    strong {
+        color: var(--primary)
+    }
+}
+
+@media (min-width: 992px) {
     #suggestions a {
         display: flex
+    }
+
+    .suggestion__icon {
+        width: 2rem;
     }
 
     .suggestion__title {

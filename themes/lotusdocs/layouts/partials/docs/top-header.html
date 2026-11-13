@@ -162,11 +162,14 @@
                         <span class="flexsearch-key-label">{{ i18n "search_close" | default "to close" }}</span>
                     </li>
                 </div>
-                <form class="flexsearch position-relative flex-grow-1 ms-2 me-2">
-                    <div class="d-flex flex-row">
+                <form class="flexsearch position-relative flex-grow-1">
+                    <div class="flexsearch-input-group d-flex flex-row align-items-center gap-2 px-3 py-2">
+                        <label class="flexsearch-search-label" for="flexsearch" id="docsearch-label">
+                            <span class="material-icons size-20 menu-icon align-middle">search</span>
+                        </label>
                         <input id="flexsearch" class="form-control" type="search" placeholder="{{ i18n "search_title" }}" aria-label="{{ i18n "search_title" }}" autocomplete="off">
-                        <button id="hideFlexsearch" type="button" class="ms-2 btn btn-soft">
-                            {{ i18n "search_cancel" | default "cancel" }}
+                        <button id="hideFlexsearch" type="button" class="btn p-0 text-muted d-none">
+                            <span class="material-icons size-20 menu-icon align-middle">close</span>
                         </button>
                     </div>
                     <div id="suggestions" class="shadow rounded-1 d-none"></div>

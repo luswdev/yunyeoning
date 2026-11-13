@@ -115,7 +115,7 @@
     {{ end }}
     <!-- fuzzysort -->
     {{ if eq .Site.Params.fuzzysort.enabled true -}}
-        {{ $fuzzySearch := resources.Get (printf "/%s/%s" ($.Scratch.Get "pathName") "js/fuzzysort.min.js") }}
+        {{ $fuzzySearch := resources.Get (printf "/%s/%s" ($.Scratch.Get "pathName") "js/search.js") }}
         {{- if not hugo.IsServer }}
             {{ $fuzzySearch := $fuzzySearch | minify | fingerprint "sha384" }}
             <script type="text/javascript" src="{{ $fuzzySearch.Permalink }}" integrity="{{ $fuzzySearch.Data.Integrity }}" crossorigin="anonymous"></script>

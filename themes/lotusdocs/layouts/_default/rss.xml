@@ -1,0 +1,45 @@
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+{{ printf "<rss version=\"2.0\" xmlns:atom=\"http://www.w3.org/2005/Atom\">" | safeHTML }}
+    <channel>
+        {{- range site.Pages }}
+        {{- if .Params.layout }}
+        <item>
+            <title>
+                {{- .Title | htmlEscape }}
+                {{- with .Params.subtitle -}}
+                    {{ printf " (%s)" (delimit . " | ") }}
+                {{- end -}}
+            </title>
+            <content>{{ .Content | htmlEscape | replaceRE "\r?\n" "&#xA;" | safeHTML }}</content>
+            <url>{{ .Permalink }}</url>
+            <icon>{{ .Params.icon }}</icon>
+            <author>
+                {{- if eq .Params.layout "song-view" -}}
+                    {{- if eq .Parent.Params.layout "album-view" -}}
+                        {{- .Parent.Parent.Title }}
+                        {{- with .Parent.Parent.Params.subtitle -}}
+                            {{ printf " (%s)" (delimit . " | ") }}
+                        {{- end -}}
+                    {{- else -}}
+                        {{- .Parent.Title }}
+                        {{- with .Parent.Params.subtitle -}}
+                            {{ printf " (%s)" (delimit . " | ") }}
+                        {{- end -}}
+                    {{- end -}}
+                {{- else if eq .Params.layout "album-view" -}}
+                    {{- .Parent.Title }}
+                    {{- with .Parent.Params.subtitle -}}
+                        {{ printf " (%s)" (delimit . " | ") }}
+                    {{- end -}}
+                {{- else if eq .Params.layout "artist-view" -}}
+                    {{- .Title }}
+                    {{- with .Params.subtitle -}}
+                        {{ printf " (%s)" (delimit . " | ") }}
+                    {{- end -}}
+                {{- end -}}
+            </author>
+        </item>
+        {{- end }}
+        {{- end }}
+    </channel>
+</rss>

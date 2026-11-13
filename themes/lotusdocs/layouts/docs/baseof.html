@@ -137,7 +137,7 @@
 
         <!-- fuzzysort Config -->
         {{ if eq .Site.Params.fuzzysort.enabled true -}}
-            {{- partialCached (printf "%s/%s" ($.Scratch.Get "pathName") "footer/fuzzysort.html") . -}}
+            {{- partialCached (printf "%s/%s" ($.Scratch.Get "pathName") "footer/search.html") . -}}
         {{ end }}
     </body>
 </html>

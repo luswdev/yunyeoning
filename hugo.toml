@@ -5,6 +5,8 @@ contentDir = 'content'
 enableEmoji = true
 enableRobotsTXT = true
 
+defaultContentLanguage = 'zh'
+
 [taxonomies]
     composition = "composition"
     lyric = "lyric"
