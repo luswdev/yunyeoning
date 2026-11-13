@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "__에게"
-subtitle: "To. __"
+subtitle: ["To. __"]
 icon: "genres"
 weight: 5
 date: 2025-08-04

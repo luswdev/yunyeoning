@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "낙인"
-subtitle: "Stigmatized"
+subtitle: ["Stigmatized"]
 description: "怪力亂神 OST"
 icon: "genres"
 weight: 2

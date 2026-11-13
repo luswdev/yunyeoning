@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "축배"
-subtitle: "SALUD!"
+subtitle: ["SALUD!"]
 icon: "genres"
 weight: 8
 date: 2025-09-15

@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "지구정복"
-subtitle: "G9JB"
+subtitle: ["G9JB"]
 icon: "genres"
 weight: 4
 date: 2024-04-01

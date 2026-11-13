@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "보수공사"
-subtitle: "Restart!"
+subtitle: ["Restart!"]
 icon: "genres"
 weight: 7
 date: 2024-05-28

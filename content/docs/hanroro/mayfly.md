@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "하루살이"
-subtitle: "Mayfly"
+subtitle: ["Mayfly"]
 description: "單曲"
 icon: "genres"
 weight: 11

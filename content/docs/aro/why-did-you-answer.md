@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "서로"
-subtitle: "Why Did You Answer"
+subtitle: ["Why Did You Answer"]
 description: "單曲"
 icon: "genres"
 weight: 6

@@ -1,8 +1,8 @@
 ---
 layout: "album-view"
-title: "GROWTH THEORY (Final Edition)"
+title: "GROWTH THEORY"
 subtitle:
-description: "正規 7 輯 Repackage"
+description: "正規 7 輯"
 icon: "library_music"
 weight: 95
 date: 2024-11-14

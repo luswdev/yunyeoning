@@ -1,7 +1,7 @@
 ---
 layout: "artist-view"
 title: "윤하"
-subtitle: "潤荷"
+subtitle: ["潤荷", "Younha"]
 description:
 icon: artist
 weight: 5

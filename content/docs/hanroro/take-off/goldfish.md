@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "금붕어"
-subtitle: "Goldfish"
+subtitle: ["Goldfish"]
 icon: "genres"
 weight: 3
 date: 2023-08-29

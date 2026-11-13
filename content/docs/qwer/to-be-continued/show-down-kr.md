@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
-title: "SHOW DOWN"
-subtitle: "KR Version"
+title: "SHOW DOWN (KR Version)"
+subtitle:
 icon: "genres"
 weight: 4
 date: 2026-07-29

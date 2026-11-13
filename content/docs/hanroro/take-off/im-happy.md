@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "화해"
-subtitle: "I'm happy"
+subtitle: ["I'm happy"]
 icon: "genres"
 weight: 2
 date: 2023-08-29

@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "거울"
-subtitle: "MIRROR"
+subtitle: ["MIRROR"]
 description: "單曲"
 icon: "genres"
 weight: 2

@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "재"
-subtitle: "Ashes"
+subtitle: ["Ashes"]
 icon: "genres"
 weight: 2
 date: 2024-05-28

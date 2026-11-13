@@ -1,7 +1,7 @@
 ---
 layout: "album-view"
 title: "애증"
-subtitle: "LOVE&HATE"
+subtitle: ["LOVE&HATE"]
 description: "單曲"
 icon: library_music
 weight: 21

@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "검색어는 QWER"
-subtitle: "#QWER"
+subtitle: ["#QWER"]
 icon: "genres"
 weight: 3
 date: 2025-06-09

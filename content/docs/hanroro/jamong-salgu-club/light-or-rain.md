@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "갈림길"
-subtitle: "Light or Rain"
+subtitle: ["Light or Rain"]
 icon: "genres"
 weight: 3
 date: 2025-08-04

@@ -1,7 +1,7 @@
 ---
 layout: "artist-view"
 title: "아이우에오"
-subtitle: "A I W E O"
+subtitle: ["A I W E O"]
 description:
 icon: artist
 weight: 18

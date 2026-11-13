@@ -1,6 +1,6 @@
 ---
 title: "關於本站"
-subtitle: "사이트소개"
+subtitle: ["사이트소개"]
 description: ""
 icon: "article"
 weight: 1

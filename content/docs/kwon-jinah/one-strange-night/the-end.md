@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "끝"
-subtitle: "The End"
+subtitle: ["The End"]
 icon: "genres"
 weight: 2
 date: 2016-09-19

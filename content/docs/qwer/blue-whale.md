@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "흰수염고래"
-subtitle: "Blue Whale"
+subtitle: ["Blue Whale"]
 description: "單曲"
 icon: "genres"
 weight: 15

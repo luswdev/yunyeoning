@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "사건의 지평선"
-subtitle: "Event Horizon"
+subtitle: ["Event Horizon"]
 weight: 11
 date: 2022-03-20
 images: ["/docs/younha/end-theory-final/end-theory-final.jpg"]

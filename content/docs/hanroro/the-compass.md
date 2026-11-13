@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "나침반"
-subtitle: "The Compass"
+subtitle: ["The Compass"]
 description: "單曲"
 icon: "genres"
 weight: 16

@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "흔들리는 시간속에"
-subtitle: "In Wandering Times"
+subtitle: ["In Wandering Times"]
 description: "單曲"
 icon: "genres"
 weight: 12

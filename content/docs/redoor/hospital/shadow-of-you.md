@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "우리아픈이야기"
-subtitle: "Shadow of You"
+subtitle: ["Shadow of You"]
 icon: "genres"
 weight: 4
 date: 2025-06-11

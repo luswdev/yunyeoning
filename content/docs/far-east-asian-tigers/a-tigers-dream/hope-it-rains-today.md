@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "오늘은 비가 와도 좋을 것 같아"
-subtitle: "Hope It Rains Today"
+subtitle: ["Hope It Rains Today"]
 icon: "genres"
 weight: 2
 date: 2024-11-10

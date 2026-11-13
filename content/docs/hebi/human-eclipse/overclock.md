@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "오버클럭"
-subtitle: "OVERCLOCK"
+subtitle: ["OVERCLOCK"]
 icon: "genres"
 weight: 1
 date: 2025-10-20

@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "ㅈㅣㅂ"
-subtitle: "H O M E"
+subtitle: ["H O M E"]
 icon: "genres"
 weight: 2
 date: 2024-05-28

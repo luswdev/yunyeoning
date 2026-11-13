@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "자처"
-subtitle: "Even if you leave,"
+subtitle: ["Even if you leave,"]
 icon: "genres"
 weight: 5
 date: 2023-04-21

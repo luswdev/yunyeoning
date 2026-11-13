@@ -26,11 +26,21 @@
                         {{ end }}
                         <p class="fs-5 fw-semibold card-title mb-1">
                             {{ .Title }}
-                            {{- if .Params.subtitle }}
-                                ({{ .Params.subtitle }})
-                            {{- end }}
                         </p>
-                        <p class="para card-text mb-0">{{ .Description | truncate (.Site.Params.docs.listDescTrunc | default 100) | markdownify }}</p>
+                        {{- $subtitle := delimit (.Params.subtitle | default slice) " | " }}
+                        {{- $desc := .Description }}
+                        {{- if or $subtitle $desc }}
+                            <p class="para card-text mb-0">
+                                {{- with $subtitle }}
+                                    {{ . }}
+                                    {{- if $desc }} · {{ end }}
+                                {{- end }}
+                                {{- with $desc }}
+                                    <span class="text-secondary">{{ . | markdownify }}</span>
+                                {{- end }}
+                            </p>
+                        {{- end }}
+                        <!-- <p class="para card-text mb-0">{{ .Description | truncate (.Site.Params.docs.listDescTrunc | default 100) | markdownify }}</p> -->
                     </div>
                     <!-- <div class="position-absolute top-0 end-0">
                         <i class="material-icons opacity-05">{{- .Params.icon }}</i>

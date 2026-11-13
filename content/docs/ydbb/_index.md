@@ -1,7 +1,7 @@
 ---
 layout: "artist-view"
 title: "유다빈밴드"
-subtitle: "YdBB"
+subtitle: ["YdBB"]
 description:
 icon: artist
 weight: 12

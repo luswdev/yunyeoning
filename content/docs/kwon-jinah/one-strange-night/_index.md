@@ -1,7 +1,7 @@
 ---
 layout: "album-view"
 title: "웃긴 밤"
-subtitle: "One Strange Night"
+subtitle: ["One Strange Night"]
 description: "正規 1 輯"
 icon: library_music
 weight: 14

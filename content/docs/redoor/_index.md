@@ -1,7 +1,7 @@
 ---
 layout: "artist-view"
 title: "리도어"
-subtitle: "Redoor"
+subtitle: ["Redoor"]
 description:
 icon: artist
 weight: 4

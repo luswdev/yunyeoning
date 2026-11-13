@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "수수께끼 다이어리"
-subtitle: "Secret Diary"
+subtitle: ["Secret Diary"]
 icon: "genres"
 weight: 3
 date: 2023-10-18

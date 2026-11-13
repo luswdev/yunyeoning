@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "허물"
-subtitle: "Skin"
+subtitle: ["Skin"]
 icon: "genres"
 weight: 1
 date: 2023-11-09

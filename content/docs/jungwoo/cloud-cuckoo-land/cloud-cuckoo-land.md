@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "클라우드 쿠쿠 랜드"
-subtitle: "Cloud Cuckoo Land"
+subtitle: ["Cloud Cuckoo Land"]
 icon: "genres"
 weight: 4
 date: 2023-11-09

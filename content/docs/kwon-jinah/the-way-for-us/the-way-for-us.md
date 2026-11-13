@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "우리의 방식"
-subtitle: "The Way for Us"
+subtitle: ["The Way for Us"]
 icon: "genres"
 weight: 1
 date: 2021-02-18

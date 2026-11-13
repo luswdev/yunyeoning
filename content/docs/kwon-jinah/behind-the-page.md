@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "이별 뒷면"
-subtitle: "Behind the Page"
+subtitle: ["Behind the Page"]
 description: "OST"
 icon: "genres"
 weight: 23

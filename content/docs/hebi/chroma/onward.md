@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "지금부터"
-subtitle: "Onward"
+subtitle: ["Onward"]
 icon: "genres"
 weight: 3
 description: "主打歌"

@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "긴 꿈에서"
-subtitle: "In a Long Dream"
+subtitle: ["In a Long Dream"]
 icon: "genres"
 weight: 20
 description: "SHORT FILM 'Sequence #2'"

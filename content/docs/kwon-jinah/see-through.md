@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "씨스루"
-subtitle: "See-through"
+subtitle: ["See-through"]
 description: "單曲"
 icon: "genres"
 weight: 1

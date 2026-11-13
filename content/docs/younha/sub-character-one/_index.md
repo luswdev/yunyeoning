@@ -1,7 +1,7 @@
 ---
 layout: "album-view"
 title: "써브캐릭터 원"
-subtitle: "SUB CHARACTER"
+subtitle: ["SUB CHARACTER"]
 description: "重製 1 輯"
 icon: "library_music"
 weight: 97

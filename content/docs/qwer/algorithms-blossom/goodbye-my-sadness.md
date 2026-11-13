@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "안년, 나의 슬픔"
-subtitle: "Goodbye My Sadness"
+subtitle: ["Goodbye My Sadness"]
 icon: "genres"
 weight: 6
 date: 2024-09-23

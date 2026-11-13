@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "놀리터"
-subtitle: "Playground"
+subtitle: ["Playground"]
 icon: "genres"
 weight: 4
 date: 2024-05-28

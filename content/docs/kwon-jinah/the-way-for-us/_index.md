@@ -1,7 +1,7 @@
 ---
 layout: "album-view"
 title: "우리의 방식"
-subtitle: "The Way For Us"
+subtitle: ["The Way For Us"]
 description: "EP"
 icon: library_music
 weight: 43

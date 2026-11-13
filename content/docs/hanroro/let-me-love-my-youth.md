@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "입춘"
-subtitle: "Let Me Love My Youth"
+subtitle: ["Let Me Love My Youth"]
 description: "出道單曲"
 icon: "genres"
 weight: 1

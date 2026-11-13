@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "먹이사슬"
-subtitle: "System Error"
+subtitle: ["System Error"]
 icon: "genres"
 weight: 3
 date: 2024-04-30

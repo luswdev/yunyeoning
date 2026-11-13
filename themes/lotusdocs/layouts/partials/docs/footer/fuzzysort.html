@@ -89,13 +89,13 @@
             {{ $artist := "" }}
             {{- if eq .Parent.Params.layout "artist-view"}}
                 {{- if .Parent.Params.subtitle }}
-                    {{- $artist = printf "%s (%s)" .Parent.Title .Parent.Params.subtitle }}
+                    {{- $artist = printf "%s (%s)" .Parent.Title (delimit .Parent.Params.subtitle " | ") }}
                 {{- else }}
                     {{- $artist = .Parent.Title }}
                 {{- end -}}
             {{- else }}
                 {{- if .Parent.Parent.Params.subtitle }}
-                    {{- $artist = printf "%s (%s)" .Parent.Parent.Title .Parent.Parent.Params.subtitle }}
+                    {{- $artist = printf "%s (%s)" .Parent.Parent.Title (delimit .Parent.Parent.Params.subtitle " | ") }}
                 {{- else }}
                     {{- $artist = .Parent.Parent.Title }}
                 {{- end -}}
@@ -105,7 +105,7 @@
                     id: {{ $index }},
                     href: "{{ .RelPermalink }}",
                     {{- if $element.Params.subtitle }}
-                    title: "{{ .Title }} ({{ $element.Params.subtitle }})",
+                    title: "{{ .Title }} ({{ delimit $element.Params.subtitle " | " }})",
                     {{- else }}
                     title: "{{ .Title }}",
                     {{- end }}

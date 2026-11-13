@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "가짜아이돌"
-subtitle: "FAKE IDOL"
+subtitle: ["FAKE IDOL"]
 icon: "genres"
 weight: 2
 description: "先行曲"

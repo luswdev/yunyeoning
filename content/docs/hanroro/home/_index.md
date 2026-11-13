@@ -1,7 +1,7 @@
 ---
 layout: "album-view"
 title: "집"
-subtitle: "HOME"
+subtitle: ["HOME"]
 description: "2st EP"
 icon: library_music
 weight: 14

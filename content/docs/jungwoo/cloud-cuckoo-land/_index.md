@@ -1,7 +1,7 @@
 ---
 layout: "album-view"
 title: "클라우드 쿠쿠 랜드"
-subtitle: "Cloud Cuckoo Land"
+subtitle: ["Cloud Cuckoo Land"]
 description: "正規 2 輯"
 icon: "library_music"
 weight: 1

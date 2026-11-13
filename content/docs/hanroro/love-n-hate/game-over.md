@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "게임 오버 ?"
-subtitle: "GAME OVER ?"
+subtitle: ["GAME OVER ?"]
 icon: "genres"
 description: "主打歌"
 weight: 1

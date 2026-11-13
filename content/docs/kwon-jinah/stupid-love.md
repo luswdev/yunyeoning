@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "진심이었던 사람만 바보가 돼"
-subtitle: "Stupid Love"
+subtitle: ["Stupid Love"]
 description: "單曲"
 icon: "genres"
 weight: 57

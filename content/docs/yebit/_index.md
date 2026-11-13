@@ -1,7 +1,7 @@
 ---
 layout: "artist-view"
 title: "예빛"
-subtitle: "Yebit"
+subtitle: ["Yebit"]
 description:
 icon: artist
 weight: 21

@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "좋니"
-subtitle: "Like it"
+subtitle: ["Like it"]
 description: "LISTEN 10"
 icon: "genres"
 weight: 101

@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "귀가"
-subtitle: "After Landing"
+subtitle: ["After Landing"]
 icon: "genres"
 weight: 1
 date: 2024-05-28

@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "행복해져라"
-subtitle: "Be Happy"
+subtitle: ["Be Happy"]
 icon: "genres"
 weight: 2
 date: 2025-06-09

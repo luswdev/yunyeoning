@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "KNOCK"
-subtitle: "With 박문치"
+subtitle:
 description: "單曲"
 icon: "genres"
 weight: 51

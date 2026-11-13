@@ -1,7 +1,7 @@
 ---
 layout: "album-view"
 title: "나의 모양"
-subtitle:
+subtitle: ["Shape of me"]
 description: "正規 2 輯"
 icon: library_music
 weight: 28

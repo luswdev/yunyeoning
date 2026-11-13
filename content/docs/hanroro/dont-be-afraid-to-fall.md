@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "비틀비틀 짝짜꿍"
-subtitle: "Don't be afraid to fall"
+subtitle: ["Don't be afraid to fall"]
 description: "單曲"
 icon: "genres"
 weight: 5

@@ -1,7 +1,7 @@
 ---
 layout: "album-view"
 title: "몽유호원"
-subtitle: "A Tiger's Dream"
+subtitle: ["A Tiger's Dream"]
 description: "正規 1 輯"
 icon: library_music
 weight: 10

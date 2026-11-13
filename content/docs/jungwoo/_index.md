@@ -1,7 +1,7 @@
 ---
 layout: "artist-view"
 title: "정우"
-subtitle: "JUNGWOO"
+subtitle: ["JUNGWOO"]
 description:
 icon: artist
 weight: 14

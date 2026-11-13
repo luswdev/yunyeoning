@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "대관람차"
-subtitle: "Ferris Wheel"
+subtitle: ["Ferris Wheel"]
 icon: "genres"
 weight: 5
 date: 2024-04-01

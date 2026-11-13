@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "다음에 봐"
-subtitle: "See You"
+subtitle: ["See You"]
 icon: "genres"
 weight: 3
 date: 2020-01-06

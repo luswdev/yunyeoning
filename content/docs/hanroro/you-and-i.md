@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "너와 나"
-subtitle: "You and I"
+subtitle: ["You and I"]
 description: "單曲"
 icon: "genres"
 weight: 24

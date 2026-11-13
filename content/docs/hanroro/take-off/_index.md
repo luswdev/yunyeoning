@@ -1,7 +1,7 @@
 ---
 layout: "album-view"
 title: "이상비행"
-subtitle: "理想飛行"
+subtitle: ["理想飛行", "Take-off"]
 description: "1st EP"
 icon: library_music
 weight: 10

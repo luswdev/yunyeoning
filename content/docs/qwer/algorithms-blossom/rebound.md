@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "메아리"
-subtitle: "REBOUND"
+subtitle: ["REBOUND"]
 icon: "genres"
 weight: 7
 date: 2024-09-23

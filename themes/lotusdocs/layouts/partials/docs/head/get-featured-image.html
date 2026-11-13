@@ -9,7 +9,7 @@
 
     {{ $title := $.LinkTitle }}
     {{ with $.Params.subtitle }}
-        {{ $title = printf "%s (%s)" $title $.Params.subtitle }}
+        {{ $title = printf "%s (%s)" $title (delimit $.Params.subtitle " | ") }}
     {{ end }}
     {{ $sizeTitle := 80 }}
     {{ $sizeDesc := 50 }}

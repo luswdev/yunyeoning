@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "다시, 다시 만나"
-subtitle: "When we meet again"
+subtitle: ["When we meet again"]
 description: "單曲"
 icon: "genres"
 weight: 14

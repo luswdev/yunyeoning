@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "뛰어!"
-subtitle: "RUN!"
+subtitle: ["RUN!"]
 description: "我家妹妹是狗狗 OST"
 icon: "genres"
 weight: 20

@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "자유선어"
-subtitle: "Free-Dumb"
+subtitle: ["Free-Dumb"]
 icon: "genres"
 weight: 3
 date: 2024-04-01

@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "도망"
-subtitle: "Can I Be Me?"
+subtitle: ["Can I Be Me?"]
 icon: "genres"
 weight: 7
 date: 2025-07-06

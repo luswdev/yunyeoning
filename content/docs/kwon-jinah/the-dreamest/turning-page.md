@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "새 발자국"
-subtitle: "Turning Page"
+subtitle: ["Turning Page"]
 icon: "genres"
 weight: 1
 date: 2025-04-25

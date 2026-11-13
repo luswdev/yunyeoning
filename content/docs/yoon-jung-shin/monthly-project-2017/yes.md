@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "좋아"
-subtitle: "Yes"
+subtitle: ["Yes"]
 icon: "genres"
 weight: 11
 date: 2017-11-15

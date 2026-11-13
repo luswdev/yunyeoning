@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "달팽이"
-subtitle: "Snail"
+subtitle: ["Snail"]
 description: "單曲"
 icon: "genres"
 weight: 75

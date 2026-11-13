@@ -1,7 +1,7 @@
 ---
 layout: "artist-view"
 title: "치즈"
-subtitle: "CHEEZE"
+subtitle: ["CHEEZE"]
 description:
 icon: artist
 weight: 22

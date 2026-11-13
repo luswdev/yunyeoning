@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "고민중독"
-subtitle: "T.B.H"
+subtitle: ["T.B.H"]
 icon: "genres"
 weight: 1
 date: 2024-04-01

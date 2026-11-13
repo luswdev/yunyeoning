@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "생존법"
-subtitle: "How To Go On"
+subtitle: ["How To Go On"]
 icon: "genres"
 weight: 6
 description: "先行曲"

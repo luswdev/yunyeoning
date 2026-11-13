@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "소년만화"
-subtitle: "Dreamer"
+subtitle: ["少年漫畫", "Dreamer"]
 description:
 icon: "genres"
 weight: 1

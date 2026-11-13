@@ -1,7 +1,7 @@
 ---
 layout: "artist-view"
 title: "헤비"
-subtitle: "Hebi."
+subtitle: ["Hebi."]
 description:
 icon: artist
 weight: 11

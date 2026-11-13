@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "눈물참기"
-subtitle: "Dear"
+subtitle: ["忍住眼淚", "Dear"]
 icon: "genres"
 weight: 1
 date: 2025-06-09

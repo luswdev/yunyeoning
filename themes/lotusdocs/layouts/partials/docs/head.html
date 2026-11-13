@@ -27,19 +27,19 @@
                         {{- end -}}
 
                         {{- if $artistPage.Params.subtitle }}
-                            {{- $artist = printf "%s (%s)" $artistPage.Title $artistPage.Params.subtitle }}
+                            {{- $artist = printf "%s (%s)" $artistPage.Title (delimit $artistPage.Params.subtitle " | ") }}
                         {{- else }}
                             {{- $artist = $artistPage.Title }}
                         {{- end -}}
 
                         {{- if .Params.subtitle }}
-                            {{- .Title }} ({{- .Params.subtitle}}) - {{ $artist }} | {{ .Site.Params.docs.Title | default (.Site.Title) }}
+                            {{- .Title }} ({{- delimit .Params.subtitle " | "}}) - {{ $artist }} | {{ .Site.Params.docs.Title | default (.Site.Title) }}
                         {{- else }}
                             {{- .Title }} - {{ $artist }} | {{ .Site.Params.docs.Title | default (.Site.Title) }}
                         {{- end }}
                     {{- else -}}
                         {{- if .Params.subtitle }}
-                            {{- .Title }} ({{- .Params.subtitle}}) | {{ .Site.Params.docs.Title | default (.Site.Title) }}
+                            {{- .Title }} ({{- delimit .Params.subtitle " | "}}) | {{ .Site.Params.docs.Title | default (.Site.Title) }}
                         {{- else }}
                             {{- .Title }} | {{ .Site.Params.docs.Title | default (.Site.Title) }}
                         {{- end }}
@@ -65,13 +65,13 @@
             {{- if eq .Params.layout "artist-view" }}
                 {{- if $artists }}
                     {{- if .Params.subtitle }}
-                        {{- $artists = printf "%s, %s, %s" $artists .Title .Params.subtitle }}
+                        {{- $artists = printf "%s, %s, %s" $artists .Title (delimit .Params.subtitle ", ") }}
                     {{- else }}
                         {{- $artists = printf "%s, %s" $artists .Title }}
                     {{- end -}}
                 {{- else }}
                     {{- if .Params.subtitle }}
-                        {{- $artists = printf "%s, %s" .Title .Params.subtitle }}
+                        {{- $artists = printf "%s, %s" .Title (delimit .Params.subtitle ", ") }}
                     {{- else }}
                         {{- $artists = .Title }}
                     {{- end -}}
@@ -79,7 +79,7 @@
             {{- end -}}
         {{- end -}}
     {{- end -}}
-    <meta name="keywords" content="{{ .Site.Params.keywords }}, {{ $artists }}, {{ .Title }}, {{ .Params.subtitle }}" />
+    <meta name="keywords" content="{{ .Site.Params.keywords }}, {{ $artists }}, {{ .Title }} {{ with .Params.subtitle }}, {{ delimit . ", " }} {{ end }}" />
     <meta name="author" content="LuSkywalker" />
     <meta name="email" content="info@lusw.dev" />
     <meta name="website" content="https://kr.lusw.dev" />

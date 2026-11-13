@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "길"
-subtitle: "Godspeed"
+subtitle: ["Godspeed"]
 description: "單曲"
 icon: "genres"
 weight: 15

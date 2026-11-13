@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "아이우에오"
-subtitle: "A I W E O"
+subtitle: ["A I W E O"]
 icon: "genres"
 weight: 4
 date: 2026-10-01

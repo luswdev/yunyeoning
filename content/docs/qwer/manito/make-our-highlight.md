@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "불꽃놀이"
-subtitle: "Make Our Highlight"
+subtitle: ["Make Our Highlight"]
 icon: "genres"
 weight: 6
 date: 2024-04-01

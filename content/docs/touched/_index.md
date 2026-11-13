@@ -1,7 +1,7 @@
 ---
 layout: "artist-view"
 title: "터치드"
-subtitle: "Touched"
+subtitle: ["Touched"]
 description:
 icon: artist
 weight: 13

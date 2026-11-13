@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
-title: "Audition"
-subtitle: "Time2Rock"
+title: "Audition (Time2Rock)"
+subtitle:
 icon: "genres"
 weight: 1
 date: 2006-12-04

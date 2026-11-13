@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "운이 좋았지"
-subtitle: "I got lucky"
+subtitle: ["I got lucky"]
 icon: "genres"
 weight: 1
 date: 2019-09-19

@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "정류장"
-subtitle: "The last stop of our pain"
+subtitle: ["The last stop of our pain"]
 description: "單曲"
 icon: "genres"
 weight: 7

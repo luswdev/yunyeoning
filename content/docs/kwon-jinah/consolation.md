@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "위로"
-subtitle: "Consolation"
+subtitle: ["Consolation"]
 description: "OST"
 icon: "genres"
 weight: 27

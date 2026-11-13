@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "Catalepsy"
-subtitle: "カナシバリ"
+subtitle: ["カナシバリ"]
 description: "Alternative Universe: ERROR 02"
 icon: "genres"
 weight: 502

@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "포인트 니모"
-subtitle: "Point Nemo"
+subtitle: ["Point Nemo"]
 icon: "genres"
 weight: 8
 date: 2024-11-14

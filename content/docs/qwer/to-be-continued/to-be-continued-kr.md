@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
-title: "To Be Continued"
-subtitle: "KR Version"
+title: "To Be Continued (KR Version)"
+subtitle:
 icon: "genres"
 weight: 2
 date: 2026-07-29

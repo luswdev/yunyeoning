@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "여행가"
-subtitle: "The Dreamer"
+subtitle: ["The Dreamer"]
 icon: "genres"
 weight: 6
 date: 2021-02-18

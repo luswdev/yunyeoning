@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "이상비행"
-subtitle: "Take-off"
+subtitle: ["Take-off"]
 icon: "genres"
 weight: 1
 date: 2023-08-29

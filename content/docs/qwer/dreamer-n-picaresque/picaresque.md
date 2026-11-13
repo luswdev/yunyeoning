@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "피카레스크"
-subtitle: "Picaresque"
+subtitle: ["Picaresque"]
 description:
 icon: "genres"
 weight: 2

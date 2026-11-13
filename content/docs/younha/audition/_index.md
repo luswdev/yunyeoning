@@ -1,7 +1,7 @@
 ---
 layout: "album-view"
-title: "Audition"
-subtitle: "Time2Rock"
+title: "Audition (Time2Rock)"
+subtitle:
 description: "單曲 1 輯"
 icon: "library_music"
 weight: 1

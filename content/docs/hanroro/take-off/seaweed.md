@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "해초"
-subtitle: "Seaweed"
+subtitle: ["Seaweed"]
 icon: "genres"
 weight: 2
 date: 2023-08-29

@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "내일에서 온 티켓"
-subtitle: "Welcome!"
+subtitle: ["Welcome!"]
 icon: "genres"
 weight: 1
 date: 2025-08-04

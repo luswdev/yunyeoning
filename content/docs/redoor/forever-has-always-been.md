@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "영원은 그렇듯"
-subtitle: "Forever Has Always Been"
+subtitle: ["Forever Has Always Been"]
 description: "出道單曲"
 icon: "genres"
 weight: 1

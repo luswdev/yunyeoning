@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "용의자"
-subtitle: "The Suspect"
+subtitle: ["The Suspect"]
 icon: "genres"
 weight: 2
 date: 2025-08-04

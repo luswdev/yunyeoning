@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "재회"
-subtitle: "How have you been"
+subtitle: ["How have you been"]
 icon: "genres"
 weight: 2
 date: 2025-04-25

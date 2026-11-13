@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "하강기류"
-subtitle: "Gravity in the Wind"
+subtitle: ["Gravity in the Wind"]
 icon: "genres"
 weight: 2
 date: 2025-10-20

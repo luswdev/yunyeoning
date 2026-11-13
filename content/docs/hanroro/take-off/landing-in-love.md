@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "사랑하게 될 거야"
-subtitle: "Landing in Love"
+subtitle: ["Landing in Love"]
 icon: "genres"
 weight: 6
 date: 2023-08-29

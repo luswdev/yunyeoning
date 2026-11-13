@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "늘"
-subtitle: "EVER"
+subtitle: ["EVER"]
 icon: "genres"
 weight: 2
 description: "先行曲"

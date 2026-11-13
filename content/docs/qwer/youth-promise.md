@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "청춘서약"
-subtitle: "Youth Promise"
+subtitle: ["Youth Promise"]
 description: "單曲"
 icon: "genres"
 weight: 12

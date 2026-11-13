@@ -58,17 +58,24 @@
                                                 {{ end }}
                                                 <h1 class="content-title mb-0">
                                                     {{ $currentPage.Title }}
-                                                    {{- if .Params.subtitle }}
-                                                        ({{ .Params.subtitle }})
-                                                    {{- end }}
                                                     {{ if .Draft }}
                                                         <span class="badge bg-default fs-6 mb-1 align-middle">DRAFT</span>
                                                     {{ end }}
                                                 </h1>
                                             </div>
-                                            {{ if site.Params.docs.descriptions | default false }}
-                                                <p class="lead mb-3">{{ $currentPage.Description | markdownify }}</p>
-                                            {{ end }}
+                                            {{- $subtitle := delimit ($currentPage.Params.subtitle | default slice) " | " }}
+                                            {{- $desc := $currentPage.Description }}
+                                            {{- if or $subtitle $desc }}
+                                                <p class="lead mb-3">
+                                                    {{- with $subtitle }}
+                                                        {{ . }}
+                                                        {{- if $desc }} · {{ end }}
+                                                    {{- end }}
+                                                    {{- with $desc }}
+                                                        <span class="text-secondary">{{ . | markdownify }}</span>
+                                                    {{- end }}
+                                                </p>
+                                            {{- end }}
                                             <div id="content" class="main-content" {{ if eq .Site.Params.docs.toc true -}}data-bs-spy="scroll" data-bs-root-margin="0px 0px -65%" data-bs-target="#toc-mobile"{{ end }}>
                                                 {{ if eq .Params.layout "song-view" }}
                                                     {{ partial (printf "%s/%s" ($.Scratch.Get "pathName") "song-meta") . }}

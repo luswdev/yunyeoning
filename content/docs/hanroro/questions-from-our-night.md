@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "당신의 밤은 나의 밤과 같습니까"
-subtitle: "Questions from our night"
+subtitle: ["Questions from our night"]
 description: "單曲"
 icon: "genres"
 weight: 6

@@ -1,7 +1,7 @@
 ---
 layout: "artist-view"
 title: "정아로"
-subtitle: "ARO"
+subtitle: ["ARO"]
 description:
 icon: artist
 weight: 23

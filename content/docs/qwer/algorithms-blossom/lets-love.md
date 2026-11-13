@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "사랑하자"
-subtitle: "Let's Love"
+subtitle: ["Let's Love"]
 icon: "genres"
 weight: 4
 date: 2024-09-23

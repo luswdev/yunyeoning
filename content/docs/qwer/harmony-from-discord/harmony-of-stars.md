@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "별의 하모니"
-subtitle: "Harmony of Stars"
+subtitle: ["Harmony of Stars"]
 icon: "genres"
 weight: 1
 date: 2023-10-18

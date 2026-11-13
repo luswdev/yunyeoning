@@ -1,8 +1,8 @@
 ---
 layout: "album-view"
-title: "END THEORY (Final Edition)"
+title: "END THEORY"
 subtitle:
-description: "正規 6 輯 Repackage"
+description: "正規 6 輯"
 icon: "library_music"
 weight: 83
 date: 2022-03-20

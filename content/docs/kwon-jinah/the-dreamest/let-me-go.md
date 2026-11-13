@@ -1,7 +1,7 @@
 ---
 layout: "song-view"
 title: "놓아줘"
-subtitle: "Let Me Go"
+subtitle: ["Let Me Go"]
 icon: "genres"
 weight: 3
 date: 2025-04-25
