@@ -57,7 +57,7 @@
                 {{- range $i, $name := $lyrics -}}
                 {{- $name = $name | default "-" -}}
                 {{- if gt $i 0 }}, {{ end -}}
-                    <a href="/lyric/{{$name}}/index.xml" class="{{ index $classMap $name }}">{{ $name }}</a>
+                    <a href="{{ printf "/lyric/%s/" ($name | urlize) }}" class="{{ index $classMap $name }}">{{ $name }}</a>
                 {{- end}}
             </td>
         </tr>
@@ -67,7 +67,7 @@
                 {{- range $i, $name := $compositions -}}
                 {{- $name = $name | default "-" -}}
                 {{- if gt $i 0 }}, {{ end -}}
-                    <a href="/composition/{{$name}}/index.xml" class="{{ index $classMap $name }}">{{ $name }}</a>
+                    <a href="{{ printf "/composition/%s/" ($name | urlize) }}" class="{{ index $classMap $name }}">{{ $name }}</a>
                 {{- end}}
             </td>
         </tr>
@@ -77,7 +77,7 @@
                 {{- range $i, $name := $arrangements -}}
                 {{- $name = $name | default "-" -}}
                 {{- if gt $i 0 }}, {{ end -}}
-                    <a href="/arrangement/{{$name}}/index.xml" class="{{ index $classMap $name }}">{{ $name }}</a>
+                    <a href="{{ printf "/arrangement/%s/" ($name | urlize) }}" class="{{ index $classMap $name }}">{{ $name }}</a>
                 {{- end}}
             </td>
         </tr>

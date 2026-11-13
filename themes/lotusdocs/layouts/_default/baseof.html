@@ -1,5 +1,6 @@
 <!DOCTYPE html>
 {{ $.Scratch.Delete "social_list" }}
+{{ $.Scratch.Set "pathName" (printf "%s" (.Site.Params.docs.pathName | default "docs")) }}
 <!-- social_list -->
 {{ $social_params := slice "github" "twitter" "bluesky" "instagram" "threads" "youtube" "rss" }}
 {{ range $social_params }}
@@ -7,59 +8,125 @@
         {{ $.Scratch.Add "social_list" (slice .) }}
     {{ end }}
 {{ end }}
-
-<!--
-Is an image_compare landing page template enabled?
-If so, collect and consolidate the items config from each enabled instance
--->
-{{ $ic := newScratch }}
-{{ range $value := .Site.Data.landing }}
-    {{ $template := string (replaceRE `( |-{1,})` "_" $value.template) }}
-    {{ if eq $template "image_compare" }}
-        {{ if $value.enable }}
-        {{ $ic.Add "enabled" (slice $value.enable) }}
-            {{ range $value.items }}
-                {{ $ic.Add "config" (slice (.config | jsonify | safeJS)) }}
-            {{ end }}
-        {{ end }}
-    {{- end }}
-{{ end }}
-
-{{ $.Scratch.Set "image_compare_enabled" (in ($ic.Get "enabled") true) }}
-
-<html lang="{{ site.LanguageCode }}" dir="ltr">
+<html lang="{{ site.LanguageCode }}">
     {{- partial "head.html" . -}}
     <body>
-        <div>
-            {{- partial "header.html" . -}}
-        </div>
-        <div class="mb-4" id="content">
-            {{- block "main" . }}{{- end }}
-        </div>
-            {{- partial "footer.html" . -}}
+        <div class="content">
+            <div class="page-wrapper toggled">
+                {{ $docsPage := site.GetPage ($.Scratch.Get "pathName") }}
+                {{- partial (printf "/%s/%s" ($.Scratch.Get "pathName") "sidebar.html") (dict "currentPage" $docsPage "currentPageReal" .) -}}
+                    <!-- Start Page Content -->
+                    <main class="page-content bg-transparent">
+                        {{ if hugo.IsMultilingual }}
+                            {{- partial (printf "%s/%s" ($.Scratch.Get "pathName") "top-header.html") . -}}
+                        {{ else }}
+                            {{- partialCached (printf "%s/%s" ($.Scratch.Get "pathName") "top-header.html") . -}}
+                        {{ end }}
+                            <div class="container-fluid">
+                                <div class="layout-spacing">
+                                    {{ $currentPage := . -}}
+                                    {{ if site.Params.docs.breadcrumbs | default true }}
+                                        <div class="d-md-flex justify-content-between align-items-center">
+                                            {{- partial "breadcrumbs.html" . -}}
+                                        </div>
+                                    {{ end }}
+                                    <div class="row flex-xl-nowrap">
+                                        {{ if site.Params.docs.toc | default true }}
+                                        <div class="docs-toc col-xl-3 {{ if .IsNode }}visually-hidden{{ else }}{{end}} {{ if and (ne .Params.toc false) (ne .TableOfContents "<nav id=\"TableOfContents\"></nav>") }}{{ else }}visually-hidden{{ end }} {{ if site.Params.docs.toc | default true }}{{ else }}visually-hidden{{ end }} d-xl-block">
+                                            {{- partial (printf "%s/%s" ($.Scratch.Get "pathName") "toc.html") . -}}
+                                        </div>
+                                        {{ end }}
+                                        {{ if site.Params.docs.tocMobile | default true }}
+                                        <div class="docs-toc-mobile {{ if .IsNode }}visually-hidden{{ else }}{{end}} {{ if and (ne .Params.toc false) (ne .TableOfContents "<nav id=\"TableOfContents\"></nav>") }}{{ else }}visually-hidden{{ end }} {{ if site.Params.docs.tocMobile | default true }}{{ else }}visually-hidden{{ end }} d-print-none d-xl-none">
+                                            <button id="toc-dropdown-btn" class="btn-secondary dropdown-toggle" type="button" data-bs-toggle="dropdown" data-bs-offset="0,0" aria-expanded="false">
+                                                Table of Contents
+                                            </button>
+                                            {{- partial (printf "%s/%s" ($.Scratch.Get "pathName") "toc-mobile.html") . -}}
+                                        </div>
+                                        {{ end -}}
+                                        <div class="docs-content col-12 {{ if .IsNode }}{{ else }}{{ if site.Params.docs.toc | default true }}{{ if and (ne .Params.toc false) (ne .TableOfContents "<nav id=\"TableOfContents\"></nav>") }}col-xl-9{{else}}{{end}}{{ else }}{{ end }}{{ end }} mt-0">
+                                            <div class="mb-0 d-flex">
+                                                {{ if site.Params.docs.titleIcon | default false }}
+                                                {{ if .Params.images | default false }}
+                                                    {{ if or (eq .Params.layout "album-view") (eq .Params.layout "song-view") }}
+                                                    <img class="title-icon album-icon me-2" src="{{ index .Params.images 0 }}" alt="Title Icon">
+                                                    {{ else }}
+                                                    <img class="title-icon me-2" src="{{ index .Params.images 0 }}" alt="Title Icon">
+                                                    {{ end }}
+                                                {{ else }}
+                                                <i class="material-icons title-icon me-2">{{- .Params.icon | default "person" }}</i>
+                                                {{ end }}
+                                                {{ end }}
+                                                <h1 class="content-title mb-0">
+                                                    {{- $segments := split (strings.Trim .RelPermalink "/") "/" -}}
+                                                    {{- if not (eq (len $segments) 1) -}}
+                                                        {{ $currentPage.Parent.Title }}:
+                                                    {{ end }}
+                                                    {{ $currentPage.Title }}
+                                                    {{ if .Draft }}
+                                                        <span class="badge bg-default fs-6 mb-1 align-middle">DRAFT</span>
+                                                    {{ end }}
+                                                </h1>
+                                            </div>
+                                            {{- $subtitle := delimit ($currentPage.Params.subtitle | default slice) " | " }}
+                                            {{- $desc := $currentPage.Description }}
+                                            {{- if or $subtitle $desc }}
+                                                <p class="lead mb-3">
+                                                    {{- with $subtitle }}
+                                                        {{ . }}
+                                                        {{- if $desc }} · {{ end }}
+                                                    {{- end }}
+                                                    {{- with $desc }}
+                                                        <span class="text-secondary">{{ . | markdownify }}</span>
+                                                    {{- end }}
+                                                </p>
+                                            {{- end }}
+                                            <div id="content" class="main-content" {{ if eq .Site.Params.docs.toc true -}}data-bs-spy="scroll" data-bs-root-margin="0px 0px -65%" data-bs-target="#toc-mobile"{{ end }}>
+                                                {{ block "main" . }}{{ end }}
+                                            </div>
+                                            <div>
+                                                {{- partial (printf "%s/%s" ($.Scratch.Get "pathName") "doc-nav.html") . -}}
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+                            {{- partialCached (printf "%s/%s" ($.Scratch.Get "pathName") "footer.html") . -}}
 
-        <!-- Lotus Docs JS -->
-        {{ $app := resources.Get "/js/app.js" }}
-        {{- if not hugo.IsServer }}
-            {{- $js := (slice $app) | resources.Concat "/js/bundle.js" | minify | fingerprint "sha384" }}
-            <script type="text/javascript" src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}"></script>
-        {{- else }}
-            {{- $js := (slice $app) | resources.Concat "/js/bundle.js" }}
-            <script type="text/javascript" src="{{ $js.Permalink }}" {{ if hugo.IsProduction }}integrity="{{ $js.Data.Integrity }}"{{ end }}></script>
-        {{- end }}
+                    </main>
+            </div>
+        </div>
 
-        <!-- Image Compare Viewer Config -->
-        {{ if ($.Scratch.Get "image_compare_enabled") }}
-        <script>
-            const viewers = document.querySelectorAll(".image-compare");
-            let configs = [
-                {{ (delimit ($ic.Get `config`) `,`) | safeJS }}
-            ];
-            viewers.forEach((element, i) => {
-                let view = new ImageCompare(element, configs[i]).mount();
-            });
-        </script>
+        {{ if site.Params.docs.backToTop | default true }}
+        <!-- Back to top -->
+        <button onclick="topFunction()" id="back-to-top" aria-label="Back to Top Button" class="back-to-top fs-5"><svg width="24" height="24"><path d="M12,10.224l-6.3,6.3L4.32,15.152,12,7.472l7.68,7.68L18.3,16.528Z" style="fill:#fff"/></svg></button>
+        <!-- Back to top -->
         {{ end }}
 
+        <!-- Dark Mode Switch JS -->
+        {{ if eq .Site.Params.docs.darkMode true -}}
+            {{ $darkModeSwitch := resources.Get (printf "/%s/%s" ($.Scratch.Get "pathName") "js/darkmode-switch.js") | js.Build | minify }}
+            <script>{{ $darkModeSwitch.Content | safeJS }}</script>
+        {{ end -}}
+
+        {{- partialCached (printf "/%s/%s" ($.Scratch.Get "pathName") "footer/footer-scripts.html") . -}}
+
+        <!-- DocSearch Config -->
+        {{ if and (.Site.Params.docsearch.appID) (.Site.Params.docsearch.apiKey) -}}
+            {{- partialCached (printf "%s/%s" ($.Scratch.Get "pathName") "footer/docsearch.html") . -}}
+        {{ end }}
+
+        <!-- FlexSearch Config -->
+        {{ if or (not (isset .Site.Params.flexsearch "enabled")) (eq .Site.Params.flexsearch.enabled true) -}}
+            {{ if and (.Site.Params.docsearch.appID) (.Site.Params.docsearch.apiKey) -}}
+            {{ else }}
+                {{- partialCached (printf "%s/%s" ($.Scratch.Get "pathName") "footer/flexsearch.html") . -}}
+            {{ end }}
+        {{ end }}
+
+        <!-- fuzzysort Config -->
+        {{ if eq .Site.Params.fuzzysort.enabled true -}}
+            {{- partialCached (printf "/%s/%s" ($.Scratch.Get "pathName") "footer/fuzzysort.html") . -}}
+        {{ end }}
     </body>
 </html>

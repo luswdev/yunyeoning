@@ -1,7 +1,7 @@
 <!-- sidebar-wrapper -->
 <nav id="sidebar" class="sidebar-wrapper">
     <div class="sidebar-brand">
-        <a href='{{ with .Site.Params.docs.logoLinkURL }}{{ . }}{{ else }}{{ relLangURL "" }}{{ end }}' aria-label="HomePage" alt="HomePage">
+        <a href="{{ (printf "/%s" .currentPage.Site.Params.docs.pathName)}}" aria-label="HomePage" alt="HomePage">
             {{ with resources.Get "images/logos/logo.svg" }}
                 {{ .Content | safeHTML }}
             {{ end }}
@@ -10,13 +10,14 @@
     </div>
     <div class="sidebar-content" style="height: calc(100% - 131px);">
         <ul class="sidebar-menu">
-            {{ $currentPage := . -}}
+            {{- $currentPage := .currentPage -}}
+            {{- $currentPageReal := .currentPageReal -}}
             {{ $section := $currentPage.Section -}}
-            {{ range (where .Site.Sections.ByWeight "Section" "in" $section) }}
+            {{ range (where $currentPage.Site.Sections.ByWeight "Section" "in" $section) }}
                 {{ $child_pages := union .Sections .Pages }}
                 {{ range $child_pages.ByWeight }}
                     {{ if or (.Sections) (.Pages) }}
-                    {{ $active := in $currentPage.RelPermalink .RelPermalink }}
+                    {{ $active := in $currentPageReal.RelPermalink .RelPermalink }}
                         <li class="sidebar-dropdown {{ if eq .Site.Params.docs.sidebarIcons true -}}{{ else }}no-icon{{ end }} {{ if $active }}current active{{ end }}">
                             <button class="btn">
                                 {{ if eq .Site.Params.docs.sidebarIcons true -}}
@@ -45,7 +46,7 @@
                                                 <div class="sidebar-submenu {{ if $active }}d-block{{ end }}">
                                                     <ul>
                                                         {{ range .Pages }}
-                                                            {{ $active := in $currentPage.RelPermalink .RelPermalink }}
+                                                            {{ $active := in $currentPageReal.RelPermalink .RelPermalink }}
                                                             {{ if .IsSection }}
                                                                 <li class="sidebar-dropdown nested {{ if eq .Site.Params.docs.sidebarIcons true -}}{{ else }}no-icon{{ end }} {{ if $active }}current active{{ end }}">
                                                                     <button class="btn">
@@ -60,7 +61,7 @@
                                                                     <div class="sidebar-submenu {{ if $active }}d-block{{ end }}">
                                                                         <ul>
                                                                             {{ range .Pages }}
-                                                                                {{ $active := in $currentPage.RelPermalink .RelPermalink }}
+                                                                                {{ $active := in $currentPageReal.RelPermalink .RelPermalink }}
                                                                                 {{ if .IsSection }}
                                                                                     <li class="sidebar-dropdown nested {{ if eq .Site.Params.docs.sidebarIcons true -}}{{ else }}no-icon{{ end }} {{ if $active }}current active{{ end }}">
                                                                                         <button class="btn">
@@ -75,7 +76,7 @@
                                                                                         <div class="sidebar-submenu {{ if $active }}d-block{{ end }}">
                                                                                             <ul>
                                                                                                 {{ range .Pages }}
-                                                                                                    {{ $active := in $currentPage.RelPermalink .RelPermalink }}
+                                                                                                    {{ $active := in $currentPageReal.RelPermalink .RelPermalink }}
                                                                                                     <li class="{{ if $active }}current{{ end }} {{ if eq .Site.Params.docs.sidebarIcons true -}}{{ else }}no-icon{{ end }}">
                                                                                                         <a class="sidebar-nested-link" href="{{ .Permalink }}">
                                                                                                             {{ .Title }}
@@ -146,6 +147,39 @@
                     {{ end }}
                 {{ end }}
             {{ end }}
+            {{- range slice "composition" "lyric" "arrangement" }}
+                {{- $taxonomy := index site.Taxonomies . }}
+                {{- if $taxonomy }}
+                    {{- $taxonomyPage := site.GetPage (printf "/%s" .) }}
+                    {{ $active := in $currentPageReal.RelPermalink $taxonomyPage.RelPermalink }}
+                    <li class="sidebar-dropdown {{ if eq $currentPage.Site.Params.docs.sidebarIcons true -}}{{ else }}no-icon{{ end }} {{ if $active }}current active{{ end }}">
+                        <button class="btn">
+                            {{ if eq $currentPage.Site.Params.docs.sidebarIcons true -}}
+                                <i class="material-icons me-2">{{- $taxonomyPage.Params.icon | default "notes" }}</i>
+                            {{ end }}
+                            {{ $taxonomyPage.Title }}
+                        </button>
+
+                        <div class="sidebar-submenu {{ if $active }}d-block{{ end }}">
+                            <ul>
+                                {{- range $taxonomy }}
+                                    {{- $termPage := .Page }}
+                                    {{- $active := eq $currentPageReal.RelPermalink $termPage.RelPermalink }}
+
+                                    <li class="{{ if $active }}current{{ end }}">
+                                        <a class="sidebar-nested-link" href="{{ $termPage.RelPermalink }}">
+                                            {{ $termPage.Title }}
+                                            {{- with $termPage.Params.subtitle }}
+                                                ({{ delimit . " | " }})
+                                            {{- end }}
+                                        </a>
+                                    </li>
+                                {{- end }}
+                            </ul>
+                        </div>
+                    </li>
+                {{- end }}
+            {{- end }}
         </ul>
         <!-- sidebar-menu  -->
     </div>

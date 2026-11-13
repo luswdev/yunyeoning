@@ -13,7 +13,7 @@
     <body>
         <div class="content">
             <div class="page-wrapper toggled">
-                {{- partial (printf "%s/%s" ($.Scratch.Get "pathName") "sidebar.html") . -}}
+                {{- partial (printf "/%s/%s" ($.Scratch.Get "pathName") "sidebar.html") (dict "currentPage" . "currentPageReal" .) -}}
                     <!-- Start Page Content -->
                     <main class="page-content bg-transparent">
                         {{ if hugo.IsMultilingual }}
@@ -86,7 +86,10 @@
                                                 {{ end -}}
                                                 {{ block "main" . }}{{ end }}
                                                 {{ if eq .Title .FirstSection.Title }}
-                                                    {{ partial (printf "%s/%s" ($.Scratch.Get "pathName") "site-meta") . }}
+                                                    <div class="row gy-5 pt-5">
+                                                        {{ partial (printf "%s/%s" ($.Scratch.Get "pathName") "maker-list") . }}
+                                                        {{ partial (printf "%s/%s" ($.Scratch.Get "pathName") "site-meta") . }}
+                                                    </div>
                                                 {{ end }}
                                                 {{ if eq .Params.layout "artist-view" }}
                                                     {{ partial (printf "%s/%s" ($.Scratch.Get "pathName") "milestones") . }}

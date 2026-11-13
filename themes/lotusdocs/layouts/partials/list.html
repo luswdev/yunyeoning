@@ -1,0 +1,50 @@
+{{ if .Site.Params.docs.indexWithContent | default false -}}
+<div data-prismjs-copy="" data-prismjs-copy-success="" data-prismjs-copy-error="">
+    {{ .Content }}
+</div>
+{{ end -}}
+
+{{ if .Site.Params.docs.masonryRow | default false -}}
+<div class="row flex-xl-wrap" data-masonry='{"percentPosition": true }'>
+{{ else -}}
+<div class="row flex-xl-wrap">
+{{ end -}}
+    {{ range .Pages.ByWeight }}
+    <div id="list-item" class="col-md-4 col-12 mt-4 pt-2">
+        <a class="text-decoration-none text-reset" href="{{ .Permalink }}">
+            <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
+                <span class="icon-color d-flex my-3">
+                    <i class="material-icons align-middle">{{- .Params.icon | default "article" }}</i>
+                    {{ if .Draft }}<span class="badge bg-default ms-2 fs-6 align-middle">DRAFT</span>{{ end }}
+                    {{ if .IsSection }}<i class="material-icons icon-faint align-middle ms-auto" title="Directory">folder</i>{{ end }}
+                </span>
+                <div class="card-body p-0 content">
+                    {{ if .Params.images }}
+                        <img src="{{ index .Params.images 0 }}" alt="{{ .Title }}" class="float-end h-auto rounded-1 w-25">
+                    {{ end }}
+                    <p class="fs-5 fw-semibold card-title mb-1">
+                        {{ .Title }}
+                    </p>
+                    {{- $subtitle := delimit (.Params.subtitle | default slice) " | " }}
+                    {{- $desc := .Description }}
+                    {{- if or $subtitle $desc }}
+                        <p class="para card-text mb-0">
+                            {{- with $subtitle }}
+                                {{ . }}
+                                {{- if $desc }} · {{ end }}
+                            {{- end }}
+                            {{- with $desc }}
+                                <span class="text-secondary">{{ . | markdownify }}</span>
+                            {{- end }}
+                        </p>
+                    {{- end }}
+                    <!-- <p class="para card-text mb-0">{{ .Description | truncate (.Site.Params.docs.listDescTrunc | default 100) | markdownify }}</p> -->
+                </div>
+                <!-- <div class="position-absolute top-0 end-0">
+                    <i class="material-icons opacity-05">{{- .Params.icon }}</i>
+                </div> -->
+            </div>
+        </a>
+    </div><!--end col-->
+    {{ end }}
+</div>

@@ -1,57 +1,107 @@
 <head>
     <meta charset="utf-8" />
-    <title>{{- .Site.Title }}</title>
+    <title>
+        {{- $url := replace .Permalink ( printf "%s" .Site.BaseURL) "" }}
+        {{- $segments := split (strings.Trim .RelPermalink "/") "/" -}}
+        {{- if not (eq (len $segments) 1) -}}
+            {{ .Parent.Title }}:
+        {{ end }}
+        {{- if .Params.subtitle }}
+            {{- .Title }} ({{- delimit .Params.subtitle " | "}}) | {{ .Site.Params.docs.Title | default (.Site.Title) }}
+        {{- else }}
+            {{- .Title }} | {{ .Site.Params.docs.Title | default (.Site.Title) }}
+        {{ end }}
+    </title>
     {{- if not hugo.IsProduction }}
     <meta name="robots" content="noindex">
     {{- end }}
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <meta name="description" content="Y.HOLICS 台灣粉絲站" />
-    <meta name="keywords" content="홀릭스, Y.HOLICS, Younha, 윤하, 潤荷, 高潤荷, 中字, 繁中歌詞, 韓中歌詞, 中文歌詞, Lyrics" />
+    {{- with .Description | default ($.Param "description") }}
+    <meta name="description" content="{{ . }}">
+    {{- end }}
+    {{ $keywordList := slice }}
+    {{ if eq .RelPermalink "/docs/" }}
+        {{ range .Pages.ByWeight }}
+            {{- if eq .Params.layout "artist-view" }}
+                {{- $keywordList = $keywordList | append (partial (printf "%s/%s" ($.Scratch.Get "pathName") "keywords") .) -}}
+            {{- end -}}
+        {{- end -}}
+    {{ else if eq .Params.layout "artist-view" }}
+        {{- $keywordList = $keywordList | append (partial (printf "%s/%s" ($.Scratch.Get "pathName") "keywords") .) -}}
+        {{ range .Pages.ByWeight }}
+            {{- $keywordList = $keywordList | append (partial (printf "%s/%s" ($.Scratch.Get "pathName") "keywords") .) -}}
+        {{- end -}}
+    {{ else if eq .Params.layout "album-view" }}
+        {{- $keywordList = $keywordList | append (partial (printf "%s/%s" ($.Scratch.Get "pathName") "keywords") .Parent) -}}
+        {{- $keywordList = $keywordList | append (partial (printf "%s/%s" ($.Scratch.Get "pathName") "keywords") .) -}}
+        {{ range .Pages.ByWeight }}
+            {{- $keywordList = $keywordList | append (partial (printf "%s/%s" ($.Scratch.Get "pathName") "keywords") .) -}}
+        {{- end -}}
+    {{ else if eq .Params.layout "song-view" }}
+        {{ if eq .Parent.Params.layout "album-view" }}
+            {{- $keywordList = $keywordList | append (partial (printf "%s/%s" ($.Scratch.Get "pathName") "keywords") .Parent.Parent) -}}
+        {{ end }}
+        {{- $keywordList = $keywordList | append (partial (printf "%s/%s" ($.Scratch.Get "pathName") "keywords") .Parent) -}}
+        {{- $keywordList = $keywordList | append (partial (printf "%s/%s" ($.Scratch.Get "pathName") "keywords") .) -}}
+    {{ end }}
+    {{- $keywords := delimit $keywordList ", " }}
+    <meta name="keywords" content="{{ .Site.Params.keywords }}, {{ $keywords }}"/>
     <meta name="author" content="LuSkywalker" />
     <meta name="email" content="info@lusw.dev" />
     <meta name="website" content="https://kr.lusw.dev" />
     <meta name="Version" content="v25.02.25" />
     <meta name="theme-color" content="#181921" />
     <!-- favicon -->
-    {{ block "head/favicon" . }}{{ partialCached "head/favicon.html" . }}{{ end }}
+    {{ block "favicon" . }}{{ partialCached "head/favicon.html" . }}{{ end }}
+    <!-- Atom feed autodiscovery -->
+    {{- with .Site.Title }}
+        <link rel="alternate" type="application/atom+xml" title="Atom feed for {{ . }}" href="/index.xml" />
+    {{- end }}
+    <!-- Dark Mode -->
+    {{ if eq .Site.Params.docs.darkMode true -}}
+        {{ $darkModeInit := resources.Get (printf "/%s/%s" ($.Scratch.Get "pathName") "js/darkmode-init.js") | js.Build | minify -}}
+        <script>{{ $darkModeInit.Content | safeJS }}</script>
+    {{ end -}}
+    <!-- FlexSearch -->
+    {{ if or (not (isset .Site.Params.flexsearch "enabled")) (eq .Site.Params.flexsearch.enabled true) -}}
+        {{ if and (.Site.Params.docsearch.appID) (.Site.Params.docsearch.apiKey) -}}
+        {{ else }}
+            {{ $flexSearch := resources.Get (printf "/%s/%s" ($.Scratch.Get "pathName") "js/flexsearch.bundle.js") }}
+            {{- if not hugo.IsServer }}
+                {{ $flexSearch := $flexSearch | minify | fingerprint "sha384" }}
+                <script type="text/javascript" src="{{ $flexSearch.Permalink }}" integrity="{{ $flexSearch.Data.Integrity }}" crossorigin="anonymous"></script>
+                {{ else }}
+                <script type="text/javascript" src="{{ $flexSearch.Permalink }}"></script>
+            {{ end }}
+        {{ end }}
+    {{ end }}
+    <!-- fuzzysort -->
+    {{ if eq .Site.Params.fuzzysort.enabled true -}}
+        {{ $fuzzySearch := resources.Get (printf "/%s/%s" ($.Scratch.Get "pathName") "js/fuzzysort.min.js") }}
+        {{- if not hugo.IsServer }}
+            {{ $fuzzySearch := $fuzzySearch | minify | fingerprint "sha384" }}
+            <script type="text/javascript" src="{{ $fuzzySearch.Permalink }}" integrity="{{ $fuzzySearch.Data.Integrity }}" crossorigin="anonymous"></script>
+            {{ else }}
+            <script type="text/javascript" src="{{ $fuzzySearch.Permalink }}"></script>
+        {{ end }}
+    {{ end }}
     <!-- Google Fonts -->
-    {{- partial "google-fonts" . }}
+    {{- partialCached "google-fonts" . }}
     <!-- Custom CSS -->
     {{- $options := dict "enableSourceMap" true }}
     {{- if hugo.IsProduction}}
         {{- $options := dict "enableSourceMap" false "outputStyle" "compressed" }}
     {{- end }}
-    {{- $style := resources.Get "/scss/style.scss" }}
-    {{- $style = $style | resources.ExecuteAsTemplate "/scss/style.scss" . | css.Sass $options }}
+    {{- $style := resources.Get (printf "/%s/%s" ($.Scratch.Get "pathName") "scss/style.scss") }}
+    {{- $style = $style | resources.ExecuteAsTemplate (printf "/%s/%s" ($.Scratch.Get "pathName") "scss/style.scss") . | css.Sass $options }}
     {{- if hugo.IsProduction }}
         {{- $style = $style | minify | fingerprint "sha384" }}
     {{- end -}}
-    <link rel="stylesheet" href="{{ $style.RelPermalink }}" {{ if hugo.IsProduction }}integrity="{{ $style.Data.Integrity }}"{{ end -}}/>
-    <!-- Bootstrap JS -->
-    {{ $js := resources.Get "js/bootstrap.js" }}
-    {{ $params := dict }}
-    {{ $sourceMap := cond hugo.IsProduction "" "inline" }}
-    {{ $opts := dict "sourceMap" $sourceMap "minify" hugo.IsProduction "target" "es2018" "params" $params }}
-    {{ $js = $js | js.Build $opts }}
-    {{ if hugo.IsProduction }}
-        {{ $js = $js | fingerprint "sha384" }}
-    {{ end }}
-        <script src="{{ $js.RelPermalink }}" {{ if hugo.IsProduction }}integrity="{{ $js.Data.Integrity }}"{{ end -}} defer></script>
-    <!-- Image Compare Viewer -->
-    {{ if ($.Scratch.Get "image_compare_enabled") }}
-        {{ $imagecompare := resources.Get "js/image-compare-viewer.min.js" }}
-        {{- if not hugo.IsServer }}
-            {{- $js := (slice $imagecompare) | resources.Concat "/js/image-compare.js" | minify | fingerprint "sha384" }}
-            <script type="text/javascript" src="{{ $js.Permalink }}" integrity="{{ $js.Data.Integrity }}"></script>
-        {{- else }}
-            {{- $js := (slice $imagecompare) | resources.Concat "/js/image-compare.js" }}
-            <script type="text/javascript" src="{{ $js.Permalink }}" {{ if hugo.IsProduction }}integrity="{{ $js.Data.Integrity }}"{{ end }}></script>
-        {{- end }}
-    {{- end }}
+    <link rel="stylesheet" href="{{ $style.RelPermalink }}" {{ if hugo.IsProduction }}integrity="{{ $style.Data.Integrity }}"{{ end -}} crossorigin="anonymous">
     <!-- Plausible Analytics Config -->
     {{- if not hugo.IsServer }}
-    {{ if and (.Site.Params.plausible.scriptURL) (.Site.Params.plausible.dataDomain) -}}
-        {{- partialCached "head/plausible" . }}
+    {{ if and (.Site.Params.plausible.scriptURL | default "https://plausible.io") (.Site.Params.plausible.dataDomain) -}}
+        {{- partialCached (printf "%s/%s" ($.Scratch.Get "pathName") "head/plausible") . }}
     {{- end -}}
     {{- end -}}
     <!-- Google Analytics v4 Config -->
