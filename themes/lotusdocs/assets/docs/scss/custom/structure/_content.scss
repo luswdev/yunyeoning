@@ -408,19 +408,23 @@ h4 {
     margin: 1.5rem auto;
 }
 
-.docs-content .q_part {
+.docs-content .q_part,
+.docs-content td a.q_part {
     color: var(--qwer-q);
 }
 
-.docs-content .w_part {
+.docs-content .w_part,
+.docs-content td a.w_part {
     color: var(--qwer-w);
 }
 
-.docs-content .e_part {
+.docs-content .e_part,
+.docs-content td a.e_part {
     color: var(--qwer-e);
 }
 
-.docs-content .r_part {
+.docs-content .r_part,
+.docs-content td a.r_part {
     color: var(--qwer-r);
 }
 
@@ -515,10 +519,9 @@ h4 {
     color: transparent;
 }
 
-.docs-content .kwonjinah-written {
+.docs-content td a.kwonjinah-written {
     display: inline-block;
     background: linear-gradient(to right, var(--kwonjinah-1), var(--kwonjinah-2));
     background-clip: text;
     color: transparent;
-    font-weight: bold;
 }
