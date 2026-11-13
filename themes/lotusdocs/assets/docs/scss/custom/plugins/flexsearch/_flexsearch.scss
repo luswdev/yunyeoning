@@ -22,7 +22,7 @@
     --flexsearch-key-bg-color: hsl(var(--primary-hsl), 0.15);
     --flexsearch-key-color: var(--primary-200);
     --flexsearch-suggestion-bg-color: var(--dark-secondary);
-    --flexsearch-suggestion-link-hover-bg-color: var(--gray-800);
+    --flexsearch-suggestion-link-hover-bg-color: var(--primary);
     --flexsearch-suggestion-title-color: var(--primary-200);
     --flexsearch-suggestion-title-border-color: var(--gray-700);
     --flexsearch-suggestion-desc-color: var(--gray-300);
@@ -208,7 +208,10 @@
 
 #suggestions a {
     display: block;
-    text-decoration: none
+    text-decoration: none;
+    background: var(--body-bg);
+    border-radius: 4px;
+    margin-top: .375rem;
 }
 
 #suggestions a:focus {
@@ -229,9 +232,19 @@
     margin-bottom: 0.5rem
 }
 
-#suggestions a:hover {
+#suggestions a:hover,
+#suggestions a:focus {
     background: var(--flexsearch-suggestion-link-hover-bg-color);
-    border-radius: 4px;
+
+    .suggestion__icon,
+    .suggestion__title {
+        color: var(--white);
+        border-color: var(--white);
+    }
+
+    .suggestion__description {
+        color: var(--gray-400);
+    }
 }
 
 #suggestions span {
