@@ -75,8 +75,8 @@
             {{ end }}
         {{ end }}
     {{ end }}
-    <!-- fuzzysort -->
-    {{ if eq .Site.Params.fuzzysort.enabled true -}}
+    <!-- localSearch -->
+    {{ if eq .Site.Params.localSearch.enabled true -}}
         {{ $fuzzySearch := resources.Get (printf "/%s/%s" ($.Scratch.Get "pathName") "js/search.js") }}
         {{- if not hugo.IsServer }}
             {{ $fuzzySearch := $fuzzySearch | minify | fingerprint "sha384" }}

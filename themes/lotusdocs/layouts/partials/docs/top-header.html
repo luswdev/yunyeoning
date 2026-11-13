@@ -43,8 +43,8 @@
                     </button>
                 {{ end }}
             {{ end -}}
-            {{ if eq .Site.Params.fuzzysort.enabled true -}}
-                <button id="flexsearch-button" class="ms-3 btn btn-soft" data-bs-toggle="collapse" data-bs-target="#FlexSearchCollapse" aria-expanded="false" aria-controls="FlexSearchCollapse">
+            {{ if eq .Site.Params.localSearch.enabled true -}}
+                <button id="flexsearch-button" class="ms-3 btn btn-soft" data-bs-toggle="collapse" data-bs-target="#LocalSearchCollapse" aria-expanded="false" aria-controls="LocalSearchCollapse">
                     <span class="material-icons size-20 menu-icon align-middle">search</span>
                     <span class="flexsearch-button-placeholder ms-1 me-2 d-none d-sm-block">{{ i18n "search_title" }}</span>
                     <div class="d-none d-sm-block">
@@ -143,9 +143,9 @@
         {{ end }}
     {{ end }}
 
-    <!-- fuzzysort Input Start -->
-    {{ if eq .Site.Params.fuzzysort.enabled true -}}
-        <div class="collapse" id="FlexSearchCollapse">
+    <!-- LocalSearch Input Start -->
+    {{ if eq .Site.Params.localSearch.enabled true -}}
+        <div class="collapse" id="LocalSearchCollapse">
             <div class="flexsearch-container">
                 <div class="flexsearch-keymap">
                     <li>
@@ -177,6 +177,6 @@
             </div>
         </div>
     {{ end }}
-    <!-- fuzzysort Input End -->
+    <!-- LocalSearch Input End -->
 </div>
 <!-- Top Header -->

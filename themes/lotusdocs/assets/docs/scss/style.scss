@@ -69,8 +69,8 @@ $code-block-padding-top: {{ if eq .Site.Params.docs.prism true -}}0{{ else }}1.2
 @import "custom/plugins/flexsearch/flexsearch";
 {{ end }}
 
-// fuzzysort
-{{ if eq .Site.Params.fuzzysort.enabled true -}}
+// LocalSearch
+{{ if eq .Site.Params.localSearch.enabled true -}}
 @import "custom/plugins/flexsearch/flexsearch";
 {{ end }}
 

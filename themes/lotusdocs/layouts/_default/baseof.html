@@ -124,8 +124,8 @@
             {{ end }}
         {{ end }}
 
-        <!-- fuzzysort Config -->
-        {{ if eq .Site.Params.fuzzysort.enabled true -}}
+        <!-- LocalSearch Config -->
+        {{ if eq .Site.Params.localSearch.enabled true -}}
             {{- partialCached (printf "%s/%s" ($.Scratch.Get "pathName") "footer/search.html") . -}}
         {{ end }}
     </body>
