@@ -86,7 +86,7 @@ var searchFunc = function (path, searchInputID, contentID, collapseID, clearBtn,
             const searchEntries = Array.from(xmlResponse.querySelectorAll('item')).map(entry => ({
                 title: entry.querySelector('title')?.textContent || '',
                 content: entry.querySelector('content')?.textContent || '',
-                link: entry.querySelector('url')?.textContent || '',
+                link: entry.querySelector('link')?.textContent || '',
                 artist: entry.querySelector('author')?.textContent || '',
                 icon: entry.querySelector('icon')?.textContent || '',
                 breadcrumb: entry.querySelector('breadcrumb')?.textContent || '',
