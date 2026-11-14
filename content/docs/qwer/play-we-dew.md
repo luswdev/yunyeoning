@@ -7,8 +7,8 @@ icon: "genres"
 weight: 10
 date: 2025-04-12
 images: ["/docs/qwer/play-we-dew.jpg"]
-composition: ["이동혁", "징고 (ZINGO)", "김민혁", "샤넌 배 (Shannon Bae)", "GESTURE"]
-lyric: ["이동혁", "김혜정", "샤넌 배 (Shannon Bae)", "Mozee", "전예림"]
+composition: ["이동혁", "징고 (ZINGO)", "김민혁", "샤넌 배", "GESTURE"]
+lyric: ["이동혁", "김혜정", "샤넌 배", "Mozee", "전예림"]
 arrangement: ["징고 (ZINGO)", "김승준"]
 youtube: "8IMPpF2tIWI"
 ---

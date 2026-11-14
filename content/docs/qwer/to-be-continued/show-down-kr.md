@@ -6,8 +6,8 @@ icon: "genres"
 weight: 4
 date: 2026-07-29
 images: ["/docs/qwer/to-be-continued/to-be-continued.jpg"]
-composition: ["이동혁", "김승준", "GESTURE", "샤넌 배(Shannon Bae)", "Elum", "ONE.KI"]
-lyric: ["이동혁", "샤넌 배(Shannon Bae)", "김혜정", "솔희(sohlhee)"]
+composition: ["이동혁", "김승준", "GESTURE", "샤넌 배", "Elum", "ONE.KI"]
+lyric: ["이동혁", "샤넌 배", "김혜정", "솔희"]
 arrangement: ["김승준", "이동혁"]
 youtube: "uqPtMoO6POs"
 ---
