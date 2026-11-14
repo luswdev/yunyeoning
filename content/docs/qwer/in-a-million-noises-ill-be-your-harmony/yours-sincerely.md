@@ -6,8 +6,8 @@ icon: "genres"
 weight: 6
 date: 2025-06-09
 images: ["/docs/qwer/in-a-million-noises-ill-be-your-harmony/in-a-million-noises-ill-be-your-harmony.jpg"]
-composition: ["마젠타", "이시연", "홍지혜", "장나영", "이동혁", "전제니"]
-lyric: ["장나영", "이시연", "마젠타", "홍지혜", "이동혁"]
+composition: ["이아희", "이시연", "홍지혜", "장나영", "이동혁", "전제니"]
+lyric: ["장나영", "이시연", "이아희", "홍지혜", "이동혁"]
 arrangement: ["이동혁"]
 youtube: "-Fz2vfp4BdY"
 ---

@@ -7,7 +7,7 @@ weight: 1
 date: 2026-04-27
 images: ["/docs/qwer/ceremony/ceremony.jpg"]
 composition: ["이동혁", "GESTURE"]
-lyric: ["이동혁", "GESTURE", "김혜정", "장나영", "마젠타", "홍지혜", "이시연"]
+lyric: ["이동혁", "GESTURE", "김혜정", "장나영", "이아희", "홍지혜", "이시연"]
 arrangement: ["이동혁", "이범훈"]
 youtube: "A8d2Gx91zwk"
 description: "主打歌"

@@ -7,7 +7,7 @@ weight: 4
 date: 2025-06-09
 images: ["/docs/qwer/in-a-million-noises-ill-be-your-harmony/in-a-million-noises-ill-be-your-harmony.jpg"]
 composition: ["이동혁", "GESTURE", "샤넌 배 (Shannon Bae)", "ONE.KI", "Elum", "이시연"]
-lyric: ["이동혁", "GESTURE", "마젠타", "이시연", "홍지혜"]
+lyric: ["이동혁", "GESTURE", "이아희", "이시연", "홍지혜"]
 arrangement: ["이동혁", "Jin Rico"]
 youtube: "kdPfMUAzmSo"
 ---

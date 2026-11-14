@@ -7,7 +7,7 @@ weight: 6
 date: 2024-09-23
 images: ["/docs/qwer/algorithms-blossom/algorithms-blossom.jpg"]
 composition: ["이동혁", "한아영", "GESTURE", "Elum", "홍지혜"]
-lyric: ["이동혁", "김혜정", "GESTURE", "Elum", "마젠타", "이시연"]
+lyric: ["이동혁", "김혜정", "GESTURE", "Elum", "이아희", "이시연"]
 arrangement: ["이동혁", "한아영"]
 youtube: "5riuR07c8Dc"
 ---
