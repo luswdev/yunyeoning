@@ -8,7 +8,7 @@ description: "SHORT FILM 'Sequence #2'"
 date: 2018-01-26
 images: ["/docs/cheeze/in-a-long-dream.jpg"]
 composition: ["제휘"]
-lyric: ["치즈"]
+lyric: ["달총"]
 arrangement: ["제휘"]
 youtube: "6fOJkhs0jIU"
 ---
