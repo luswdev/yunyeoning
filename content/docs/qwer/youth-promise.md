@@ -7,8 +7,8 @@ icon: "genres"
 weight: 12
 date: 2025-05-10
 images: ["/docs/qwer/youth-promise.jpg"]
-composition: ["홍지혜", "마젠타", "HINA", "이시연"]
-lyric: ["홍지혜", "마젠타", "HINA", "이시연"]
+composition: ["홍지혜", "마젠타", "장나영", "이시연"]
+lyric: ["홍지혜", "마젠타", "장나영", "이시연"]
 arrangement:
 youtube: "CGvqj7bzCVY"
 ---

@@ -6,7 +6,7 @@ icon: "genres"
 weight: 3
 date: 2025-06-09
 images: ["/docs/qwer/in-a-million-noises-ill-be-your-harmony/in-a-million-noises-ill-be-your-harmony.jpg"]
-composition: ["이동혁", "이범훈", "Nobody But You", "Ayushy (THE HUB)", "IRIS (Monotree)", "Elum", "GESTURE", "HINA"]
+composition: ["이동혁", "이범훈", "Nobody But You", "Ayushy (THE HUB)", "IRIS (Monotree)", "Elum", "GESTURE", "장나영"]
 lyric: ["이동혁", "김혜정", "Ayushy (THE HUB)", "GESTURE", "Elum", "IRIS (Monotree)"]
 arrangement: ["이동혁", "이범훈"]
 youtube: "8-XjAXrS0bs"
