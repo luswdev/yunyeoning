@@ -26,6 +26,7 @@
     --flexsearch-suggestion-title-color: var(--primary-200);
     --flexsearch-suggestion-title-border-color: var(--gray-700);
     --flexsearch-suggestion-desc-color: var(--gray-300);
+    --flexsearch-suggestion-icon-color: var(--gray-600);
 }
 
 #LocalSearchCollapse {
@@ -253,6 +254,7 @@
 
     .suggestion__icon,
     .suggestion__title {
+        font-weight: normal;
         color: var(--white);
         border-color: var(--white);
     }
@@ -260,16 +262,27 @@
     .suggestion__description {
         color: var(--white);
     }
+
+    .suggestion__description__highlight {
+        color: var(--white);
+        text-decoration: underline;
+        font-weight: bold;
+    }
+
+    .suggestion__enter {
+        opacity: 100;
+    }
 }
 
 #suggestions span {
-    display: flex;
+    // display: flex;
     font-size: 1rem
 }
 
 .suggestion__icon {
     align-self: center;
-    color: var(--flexsearch-suggestion-title-color);
+    color: var(--flexsearch-suggestion-icon-color);
+    font-weight: 300;
 }
 
 .suggestion__title {
@@ -278,9 +291,31 @@
     color: var(--flexsearch-suggestion-title-color);
 }
 
-.suggestion__description{
-    align-self: center;
+.suggestion__description {
+    display: block;
+    min-width: 0;
+    white-space: normal;
+    word-break: normal;
+    overflow-wrap: normal;
+    flex: 1;
+    min-width: 0;
     color: var(--flexsearch-suggestion-desc-color);
+
+    &__normal,
+    &__highlight {
+        display: inline;
+        white-space: inherit;
+    }
+}
+
+.suggestion__description__highlight {
+    color: var(--primary);
+}
+
+.suggestion__enter {
+    color: var(--white);
+    opacity: 0;
+    font-weight: 300;
 }
 
 .suggestion__no-results {
@@ -303,7 +338,8 @@
 
 @media (min-width: 992px) {
     #suggestions a {
-        display: flex
+        display: flex;
+        align-items: center;
     }
 
     .suggestion__icon {
@@ -321,20 +357,5 @@
     .suggestion__description {
         width: 100%;
         padding-left: 1rem;
-
-        &::after {
-            content: "\e5d9" !important;
-            color: var(--white);
-            font-family: 'Material Symbols Outlined';
-            transition: all 0.3s ease;
-            opacity: 0;
-            font-weight: 300;
-            margin-left: auto;
-        }
-    }
-
-    #suggestions a:hover .suggestion__description::after,
-    #suggestions a:focus .suggestion__description::after {
-        opacity: 100;
     }
 }

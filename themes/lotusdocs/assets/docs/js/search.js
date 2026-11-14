@@ -118,27 +118,14 @@ var searchFunc = function (path, searchInputID, contentID, collapseID, clearBtn,
                 for (let entry of searchEntries) {
                     let isMatch = true
                     let indexTitle = -1
-                    let indexContent = -1
-                    let firstOccur = -1
 
                     const entryTitle = entry.title.trim().toLowerCase()
-                    const entryContent = entry.content.trim().replace(/<[^>]+>/g, '').toLowerCase()
 
-                    if (entryTitle !== '' || entryContent !== '') {
+                    if (entryTitle !== '') {
                         keywords.forEach((keyword, i) => {
                             indexTitle = entryTitle.toLowerCase().indexOf(keyword.toLowerCase())
-                            indexContent = entryContent.toLowerCase().indexOf(keyword.toLowerCase())
-
-                            if (indexTitle < 0 && indexContent < 0) {
+                            if (indexTitle < 0) {
                                 isMatch = false
-                            } else {
-                                if (indexContent < 0) {
-                                    indexContent = 0
-                                }
-
-                                if (i === 0) {
-                                    firstOccur = indexContent
-                                }
                             }
                         })
                     }
@@ -157,23 +144,33 @@ var searchFunc = function (path, searchInputID, contentID, collapseID, clearBtn,
                         icon.classList.add('material-icons')
                         a.appendChild(icon)
 
-                        // const title = document.createElement('span')
-                        // title.textContent = entry.title
-                        // title.classList.add('suggestion__title')
-                        // a.appendChild(title)
+                        let highlight = `<span class="suggestion__description__normal">${entry.breadcrumb}</span>`
+                        keywords.forEach(keyword => {
+                            const escaped = keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
+                            const regex = new RegExp(`(${escaped})`, 'gi')
+
+                            highlight = highlight.replace(
+                                regex,
+                                '</span><mark class="suggestion__description__highlight p-0 bg-transparent">$1</mark><span class="suggestion__description__normal">'
+                            )
+                        })
 
                         const description = document.createElement('span')
-                        description.textContent = entry.breadcrumb
+                        description.innerHTML = highlight
                         description.classList.add('suggestion__description')
                         a.appendChild(description)
+
+                        const enter = document.createElement('i')
+                        enter.textContent = 'subdirectory_arrow_left'
+                        enter.classList.add('suggestion__enter')
+                        enter.classList.add('material-icons')
+                        a.appendChild(enter)
 
                         if (resultContent.childElementCount == maxResult) {
                             break
                         }
                     }
                 }
-
-                console.log(resultContent.childElementCount)
 
                 if (resultContent.childElementCount == 0) {
                     const noResultEntry = document.createElement('div')

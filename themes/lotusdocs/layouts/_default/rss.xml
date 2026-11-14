@@ -14,11 +14,19 @@
                 {{- $titles := slice -}}
                 {{- range .Ancestors.Reverse -}}
                     {{- if and (not (eq .RelPermalink "/")) (not (eq .RelPermalink (printf "/%s/" (.Site.Params.docs.pathName | default "docs")))) }}
-                        {{- $titles = $titles | append .Title -}}
+                        {{- $title := .Title -}}
+                        {{- with .Params.subtitle -}}
+                            {{ $title = printf "%s (%s)" $title (delimit . " | ") }}
+                        {{- end -}}
+                        {{- $titles = $titles | append $title -}}
                     {{- end -}}
                 {{- end -}}
-                {{- $titles = $titles | append .Title -}}
-                {{- delimit $titles " / " -}}
+                {{- $title := .Title -}}
+                {{- with .Params.subtitle -}}
+                    {{ $title = printf "%s (%s)" $title (delimit . " | ") }}
+                {{- end -}}
+                {{- $titles = $titles | append $title -}}
+                {{- printf "/ %s" (delimit $titles " / ") -}}
             </breadcrumb>
             <content>{{ .Content | htmlEscape | replaceRE "\r?\n" "&#xA;" | safeHTML }}</content>
             <url>{{ .Permalink }}</url>
