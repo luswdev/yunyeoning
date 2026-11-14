@@ -144,20 +144,52 @@ var searchFunc = function (path, searchInputID, contentID, collapseID, clearBtn,
                         icon.classList.add('material-icons')
                         a.appendChild(icon)
 
-                        let highlight = `<span class="suggestion__description__normal">${entry.breadcrumb}</span>`
-                        keywords.forEach(keyword => {
-                            const escaped = keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&')
-                            const regex = new RegExp(`(${escaped})`, 'gi')
-
-                            highlight = highlight.replace(
-                                regex,
-                                '</span><mark class="suggestion__description__highlight p-0 bg-transparent">$1</mark><span class="suggestion__description__normal">'
-                            )
-                        })
-
                         const description = document.createElement('span')
-                        description.innerHTML = highlight
                         description.classList.add('suggestion__description')
+
+                        const keywordsRegex = new RegExp(
+                            keywords
+                                .filter(Boolean)
+                                .sort((a, b) => b.length - a.length)
+                                .map(keyword => keyword.replace(/[.*+?^${}()|[\]\\]/g, '\\$&'))
+                                .join('|'),
+                            'gi'
+                        )
+
+                        let lastIndex = 0
+
+                        for (const match of entry.breadcrumb.matchAll(keywordsRegex)) {
+                            const index = match.index
+
+                            // Normal text before the match
+                            if (index > lastIndex) {
+                                const normal = document.createElement('span')
+                                normal.classList.add('suggestion__description__normal')
+                                normal.textContent = entry.breadcrumb.slice(lastIndex, index)
+                                description.appendChild(normal)
+                            }
+
+                            // Highlight matched keyword
+                            const mark = document.createElement('mark')
+                            mark.classList.add(
+                                'suggestion__description__highlight',
+                                'p-0',
+                                'bg-transparent'
+                            )
+                            mark.textContent = match[0]
+                            description.appendChild(mark)
+
+                            lastIndex = index + match[0].length
+                        }
+
+                        // Remaining normal text
+                        if (lastIndex < entry.breadcrumb.length) {
+                            const normal = document.createElement('span')
+                            normal.classList.add('suggestion__description__normal')
+                            normal.textContent = entry.breadcrumb.slice(lastIndex)
+                            description.appendChild(normal)
+                        }
+
                         a.appendChild(description)
 
                         const enter = document.createElement('i')

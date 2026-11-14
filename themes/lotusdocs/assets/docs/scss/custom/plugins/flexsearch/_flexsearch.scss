@@ -86,8 +86,13 @@
 }
 
 @media (max-width: 768px) {
+    .suggestion__enter,
     .flexsearch-keymap {
         display: none;
+    }
+
+    #suggestions a {
+        gap: .5rem;
     }
 }
 
@@ -223,7 +228,8 @@
 }
 
 #suggestions a {
-    display: block;
+    display: flex;
+    align-items: center;
     text-decoration: none;
     background: var(--body-bg);
     border-radius: 4px;
@@ -337,10 +343,6 @@
 }
 
 @media (min-width: 992px) {
-    #suggestions a {
-        display: flex;
-        align-items: center;
-    }
 
     .suggestion__icon {
         width: 2rem;
@@ -356,6 +358,5 @@
 
     .suggestion__description {
         width: 100%;
-        padding-left: 1rem;
     }
 }
