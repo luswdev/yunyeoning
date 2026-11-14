@@ -15,7 +15,12 @@
                     {{- $data.Set "counter" $index }}
                     {{- $data.Add "counter" 1 }}
                     <a itemprop="item" href="{{ .RelPermalink }}">
-                        <span itemprop="name">{{ .Title }}</span>
+                        <span itemprop="name">
+                            {{- .Title -}}
+                            {{- with .Params.subtitle -}}
+                                {{- printf " (%s)" (delimit . " | ") -}}
+                            {{- end -}}
+                        </span>
                         <!-- <i class="material-icons size-20 align-text-bottom" itemprop="name">Home</i> -->
                     </a>
                     <meta itemprop="position" content='{{ $data.Get "counter"}}' />
@@ -24,7 +29,12 @@
                 <li class="breadcrumb-item text-capitalize" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
                     {{- $data.Add "counter" 1 }}
                     <a itemprop="item" href="{{ .RelPermalink }}">
-                        <span itemprop="name">{{ .Title }}</span>
+                        <span itemprop="name">
+                            {{- .Title -}}
+                            {{- with .Params.subtitle -}}
+                                {{- printf " (%s)" (delimit . " | ") -}}
+                            {{- end -}}
+                        </span>
                     </a>
                     <meta itemprop="position" content='{{ $data.Get "counter"}}' />
                 </li>
@@ -34,13 +44,23 @@
             <li class="breadcrumb-item text-capitalize active" aria-current="page" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
                 {{- $data.Add "counter" 1 }}
                 <!-- <i class="material-icons size-20 align-text-bottom" itemprop="name">Home</i> -->
-                <span itemprop="name">{{ .Title }}</span>
+                <span itemprop="name">
+                    {{- .Title -}}
+                    {{- with .Params.subtitle -}}
+                        {{- printf " (%s)" (delimit . " | ") -}}
+                    {{- end -}}
+                </span>
                 <meta itemprop="position" content='{{ $data.Get "counter"}}' />
             </li>
         {{ else }}
             <li class="breadcrumb-item text-capitalize active" itemprop="itemListElement" itemscope itemtype="https://schema.org/ListItem">
                 {{- $data.Add "counter" 1 }}
-                <span itemprop="name">{{ .Title }}</span>
+                <span itemprop="name">
+                    {{- .Title -}}
+                    {{- with .Params.subtitle -}}
+                        {{- printf " (%s)" (delimit . " | ") -}}
+                    {{- end -}}
+                </span>
                 <meta itemprop="position" content='{{ $data.Get "counter"}}' />
             </li>
         {{ end }}
