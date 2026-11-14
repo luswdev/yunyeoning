@@ -6,7 +6,7 @@ icon: "genres"
 weight: 2
 date: 2026-03-08
 images: ["/docs/latency/late-o-clock/late-o-clock.jpg"]
-composition: ["EUGENE (HIGHBRID)", "dohun", "이재호", "Wavycake", "지지원 (ZZONE)"]
+composition: ["EUGENE (HIGHBRID)", "dohun", "이재호", "Wavycake", "지지원"]
 lyric: ["dohun", "하은"]
 arrangement: ["EUGENE (HIGHBRID)", "dohun", "이재호"]
 youtube: "qPWlHgx_Oc0"
