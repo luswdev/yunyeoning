@@ -28,6 +28,7 @@ var searchFunc = function (path, searchInputID, contentID, collapseID, clearBtn,
 
                 searchContainer.addEventListener('hidden.bs.modal', () => {
                     searchInput.value = ''
+                    resultContent.innerHTML = ''
                 })
 
                 let topHeader = document.getElementById('top-header')
@@ -60,19 +61,7 @@ var searchFunc = function (path, searchInputID, contentID, collapseID, clearBtn,
                 }
             }
 
-            document.addEventListener('click', function(event) {
-                let isClickInsideElement = resultContent.contains(event.target)
-                if (!isClickInsideElement) {
-                    resultContent.classList.add('d-none')
-                }
-            })
-
             document.addEventListener('keydown', (e) => {
-                const suggestionsHidden = resultContent.classList.contains('d-none')
-                if (suggestionsHidden) {
-                    return
-                }
-
                 const focusableSuggestions = [...resultContent.querySelectorAll('a')]
                 if (focusableSuggestions.length === 0) {
                     return
