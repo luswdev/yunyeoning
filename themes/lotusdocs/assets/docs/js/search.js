@@ -23,6 +23,11 @@ var searchFunc = function (path, searchInputID, contentID, collapseID, clearBtn,
                 document.addEventListener('keydown', inputFocus)
                 searchContainer.addEventListener('shown.bs.modal', () => {
                     searchInput.focus()
+                    hideSearchBtn.classList.add('d-none')
+                })
+
+                searchContainer.addEventListener('hidden.bs.modal', () => {
+                    searchInput.value = ''
                 })
 
                 let topHeader = document.getElementById('top-header')
@@ -40,7 +45,6 @@ var searchFunc = function (path, searchInputID, contentID, collapseID, clearBtn,
 
             const closeSearchBtn = document.getElementById(closeBtn)
             closeSearchBtn.addEventListener('click', () => {
-                searchInput.value = ''
                 searchContainerCollapse.hide()
             })
 
@@ -135,6 +139,7 @@ var searchFunc = function (path, searchInputID, contentID, collapseID, clearBtn,
                         resultContent.appendChild(resEntry)
 
                         const a = document.createElement('a')
+                        a.classList.add('rounded-2')
                         a.href = entry.link
                         resEntry.appendChild(a)
 
