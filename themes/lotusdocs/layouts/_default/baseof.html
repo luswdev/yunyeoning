@@ -15,7 +15,7 @@
         <div class="page-wrapper toggled">
             {{- $docsPage := site.GetPage ($.Scratch.Get "pathName") -}}
             {{ partial (printf "%s/%s" ($.Scratch.Get "pathName") "sidebar.html") (dict "currentPage" $docsPage "currentPageReal" .) -}}
-                <!-- Start Page Content -->
+            {{ "<!-- Start Page Content -->" | safeHTML }}
                 <main class="page-content bg-transparent">
                     {{ if hugo.IsMultilingual }}
                         {{- partial (printf "%s/%s" ($.Scratch.Get "pathName") "top-header.html") . -}}

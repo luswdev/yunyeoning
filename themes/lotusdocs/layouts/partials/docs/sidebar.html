@@ -1,4 +1,4 @@
-<!-- sidebar-wrapper -->
+{{ "<!-- sidebar-wrapper  -->" | safeHTML }}
 <nav id="sidebar" class="sidebar-wrapper">
     <div class="sidebar-brand">
         <a href="{{ (printf "/%s" .currentPage.Site.Params.docs.pathName)}}" aria-label="HomePage" alt="HomePage">
@@ -17,7 +17,7 @@
                 {{- $child_pages := union .Sections .Pages -}}
                 {{- range $child_pages.ByWeight -}}
                     {{- if or (.Sections) (.Pages) -}}
-                    {{- $active := in $currentPageReal.RelPermalink .RelPermalink }}
+                    {{- $active := in $currentPageReal.RelPermalink .RelPermalink -}}
                         <li class="sidebar-dropdown {{ if eq .Site.Params.docs.sidebarIcons true -}}{{ else }}no-icon{{ end }} {{ if $active }}current active{{ end }}">
                             <button class="btn">
                                 {{- if eq .Site.Params.docs.sidebarIcons true -}}
@@ -75,8 +75,8 @@
                                                                                         </button>
                                                                                         <div class="sidebar-submenu {{ if $active }}d-block{{ end }}">
                                                                                             <ul>
-                                                                                                {{ range .Pages }}
-                                                                                                    {{ $active := in $currentPageReal.RelPermalink .RelPermalink }}
+                                                                                                {{- range .Pages -}}
+                                                                                                    {{- $active := in $currentPageReal.RelPermalink .RelPermalink }}
                                                                                                     <li class="{{ if $active }}current{{ end }} {{ if eq .Site.Params.docs.sidebarIcons true -}}{{ else }}no-icon{{ end }}">
                                                                                                         <a class="sidebar-nested-link" href="{{ .Permalink }}">
                                                                                                             {{- .Title -}}
@@ -85,11 +85,11 @@
                                                                                                             {{- end -}}
                                                                                                         </a>
                                                                                                     </li>
-                                                                                                {{ end }}
+                                                                                                {{- end }}
                                                                                             </ul>
                                                                                         </div>
                                                                                     </li>
-                                                                                {{ else }}
+                                                                                {{- else }}
                                                                                     <li class="{{ if $active }}current{{ end }} {{ if eq .Site.Params.docs.sidebarIcons true -}}{{ else }}no-icon{{ end }}">
                                                                                         <a class="sidebar-nested-link" href="{{ .Permalink }}">
                                                                                             {{- .Title -}}
@@ -98,12 +98,12 @@
                                                                                             {{- end -}}
                                                                                         </a>
                                                                                     </li>
-                                                                                {{ end }}
-                                                                            {{ end }}
+                                                                                {{- end -}}
+                                                                            {{- end }}
                                                                         </ul>
                                                                     </div>
                                                                 </li>
-                                                            {{ else -}}
+                                                            {{- else }}
                                                                 <li class="{{ if $active }}current{{ end }} {{ if eq .Site.Params.docs.sidebarIcons true -}}{{ else }}no-icon{{ end }}">
                                                                     <a class="sidebar-nested-link" href="{{ .Permalink }}">
                                                                         {{- .Title -}}
@@ -112,12 +112,12 @@
                                                                         {{- end -}}
                                                                     </a>
                                                                 </li>
-                                                            {{ end -}}
-                                                        {{ end -}}
+                                                            {{- end -}}
+                                                        {{- end }}
                                                     </ul>
                                                 </div>
                                             </li>
-                                        {{- else -}}
+                                        {{- else }}
                                             <li class="{{ if $active }}current{{ end }} {{ if eq .Site.Params.docs.sidebarIcons true -}}{{ else }}no-icon{{ end }}">
                                                 <a class="sidebar-nested-link" href="{{ .Permalink }}">
                                                     {{- .Title -}}
@@ -126,8 +126,8 @@
                                                     {{- end -}}
                                                 </a>
                                             </li>
-                                        {{- end }}
-                                    {{ end -}}
+                                        {{- end -}}
+                                    {{- end }}
                                 </ul>
                             </div>
                         </li>
@@ -135,23 +135,23 @@
                         {{ $active := in $currentPage.RelPermalink .RelPermalink -}}
                         <li class="{{ if $active }}current{{ end }}">
                             <a class="sidebar-root-link" href="{{ .Permalink }}">
-                                {{ if eq .Site.Params.docs.sidebarIcons true -}}
+                                {{- if eq .Site.Params.docs.sidebarIcons true -}}
                                     <i class="material-icons me-2">{{ .Params.icon }}</i>
-                                {{ end }}
-                                {{ .Title }}
+                                {{- end -}}
+                                {{- .Title -}}
                                 {{- if .Params.subtitle -}}
-                                    {{ printf " (%s)" (delimit .Params.subtitle " | ") }}
+                                    {{- printf " (%s)" (delimit .Params.subtitle " | ") -}}
                                 {{- end }}
                             </a>
                         </li>
-                    {{ end }}
-                {{ end }}
-            {{ end }}
-            {{- range slice "composition" "lyric" "arrangement" }}
-                {{- $taxonomy := index site.Taxonomies . }}
-                {{- if $taxonomy }}
-                    {{- $taxonomyPage := site.GetPage (printf "/%s" .) }}
-                    {{ $active := in $currentPageReal.RelPermalink $taxonomyPage.RelPermalink -}}
+                    {{- end -}}
+                {{- end -}}
+            {{- end -}}
+            {{- range slice "composition" "lyric" "arrangement" -}}
+                {{- $taxonomy := index site.Taxonomies . -}}
+                {{- if $taxonomy -}}
+                    {{- $taxonomyPage := site.GetPage (printf "/%s" .) -}}
+                    {{- $active := in $currentPageReal.RelPermalink $taxonomyPage.RelPermalink }}
                     <li class="sidebar-dropdown {{ if eq $currentPage.Site.Params.docs.sidebarIcons true -}}{{ else }}no-icon{{ end }} {{ if $active }}current active{{ end }}">
                         <button class="btn">
                             {{- if eq $currentPage.Site.Params.docs.sidebarIcons true -}}
@@ -159,11 +159,10 @@
                             {{- end -}}
                             {{- $taxonomyPage.Title -}}
                         </button>
-
                         <div class="sidebar-submenu {{ if $active }}d-block{{ end }}">
                             <ul>
-                                {{- range $taxonomy }}
-                                    {{- $termPage := .Page }}
+                                {{- range $taxonomy -}}
+                                    {{- $termPage := .Page -}}
                                     {{- $active := eq $currentPageReal.RelPermalink $termPage.RelPermalink }}
                                     <li class="{{ if $active }}current{{ end }}">
                                         <a class="sidebar-nested-link" href="{{ $termPage.RelPermalink }}">
@@ -177,17 +176,9 @@
                             </ul>
                         </div>
                     </li>
-                {{- end }}
+                {{- end -}}
             {{- end }}
         </ul>
-        <!-- sidebar-menu  -->
     </div>
-    <!-- Sidebar Footer -->
-        <ul class="sidebar-footer list-unstyled mb-0">
-            <!-- <li class="list-inline-item mb-0">
-                <a href="javascript:void(0)" data-bs-toggle="modal" data-bs-target="#lang-selector-popup" class="btn btn-primary m-1">Language</a>
-            </li> -->
-        </ul>
-    <!-- Sidebar Footer -->
 </nav>
-<!-- sidebar-wrapper  -->
+{{ "<!-- sidebar-wrapper  -->" | safeHTML}}

@@ -13,14 +13,14 @@
     <body>
         <div class="content">
             <div class="page-wrapper toggled">
-                {{- partial (printf "%s/%s" ($.Scratch.Get "pathName") "sidebar.html") (dict "currentPage" . "currentPageReal" .) -}}
-                    <!-- Start Page Content -->
+                {{ partial (printf "%s/%s" ($.Scratch.Get "pathName") "sidebar.html") (dict "currentPage" . "currentPageReal" .) }}
+                {{ "<!-- Start Page Content -->" | safeHTML }}
                     <main class="page-content bg-transparent">
-                        {{ if hugo.IsMultilingual }}
-                            {{- partial (printf "%s/%s" ($.Scratch.Get "pathName") "top-header.html") . -}}
-                        {{ else }}
-                            {{- partialCached (printf "%s/%s" ($.Scratch.Get "pathName") "top-header.html") . -}}
-                        {{ end }}
+                        {{- if hugo.IsMultilingual }}
+                            {{ partial (printf "%s/%s" ($.Scratch.Get "pathName") "top-header.html") . }}
+                        {{- else }}
+                            {{ partialCached (printf "%s/%s" ($.Scratch.Get "pathName") "top-header.html") . }}
+                        {{- end }}
                             <div class="container-fluid">
                                 <div class="layout-spacing">
                                     {{ $currentPage := . -}}
