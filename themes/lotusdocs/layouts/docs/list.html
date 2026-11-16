@@ -22,7 +22,7 @@
                     </span>
                     <div class="card-body p-0 content">
                         {{ if .Params.images }}
-                            <img src="{{ index .Params.images 0 }}" alt="{{ .Title }}" class="float-end h-auto rounded-1 w-25">
+                            <img src="{{ index .Params.images 0 }}" alt="{{ .Title }}" class="float-end h-auto {{ if or ( eq .Params.layout "album-view") (eq .Params.layout "song-view") }}rounded-1{{ end }} w-25">
                         {{ end }}
                         <p class="fs-5 fw-semibold card-title mb-1">
                             {{ .Title }}
