@@ -20,58 +20,58 @@
                     {{- $active := in $currentPageReal.RelPermalink .RelPermalink }}
                         <li class="sidebar-dropdown {{ if eq .Site.Params.docs.sidebarIcons true -}}{{ else }}no-icon{{ end }} {{ if $active }}current active{{ end }}">
                             <button class="btn">
-                                {{ if eq .Site.Params.docs.sidebarIcons true -}}
+                                {{- if eq .Site.Params.docs.sidebarIcons true -}}
                                     <i class="material-icons me-2">{{- .Params.icon | default "notes" }}</i>
-                                {{ end }}
-                                {{- .Title }}
+                                {{- end -}}
+                                {{- .Title -}}
                                 {{- if .Params.subtitle -}}
-                                    {{ printf " (%s)" (delimit .Params.subtitle " | ") }}
-                                {{- end }}
+                                    {{- printf " (%s)" (delimit .Params.subtitle " | ") -}}
+                                {{- end -}}
                             </button>
                             <div class="sidebar-submenu {{ if $active }}d-block{{ end }}">
                                 <ul>
                                     {{- range .Pages -}}
                                         {{- $active := in $currentPage.RelPermalink .RelPermalink -}}
-                                        {{- if .IsSection -}}
+                                        {{- if .IsSection }}
                                             <li class="sidebar-dropdown nested {{ if eq .Site.Params.docs.sidebarIcons true -}}{{ else }}no-icon{{ end }} {{ if $active }}current active{{ end }}">
                                                 <button class="btn">
                                                     {{- if eq .Site.Params.docs.sidebarIconNest true -}}
                                                         <span class="material-icons me-2">{{- .Params.icon }}</span>
-                                                    {{- end }}
-                                                    {{ .Title }}
+                                                    {{- end -}}
+                                                    {{- .Title -}}
                                                     {{- if .Params.subtitle -}}
-                                                        {{ printf " (%s)" (delimit .Params.subtitle " | ") }}
-                                                    {{- end }}
+                                                        {{- printf " (%s)" (delimit .Params.subtitle " | ") -}}
+                                                    {{- end -}}
                                                 </button>
                                                 <div class="sidebar-submenu {{ if $active }}d-block{{ end }}">
                                                     <ul>
                                                         {{- range .Pages -}}
                                                             {{- $active := in $currentPageReal.RelPermalink .RelPermalink -}}
-                                                            {{- if .IsSection -}}
+                                                            {{- if .IsSection }}
                                                                 <li class="sidebar-dropdown nested {{ if eq .Site.Params.docs.sidebarIconNest true -}}{{ else }}no-icon{{ end }} {{ if $active }}current active{{ end }}">
                                                                     <button class="btn">
-                                                                        {{ if eq .Site.Params.docs.sidebarIconNest true -}}
+                                                                        {{- if eq .Site.Params.docs.sidebarIconNest true -}}
                                                                             <span class="material-icons me-2">{{- .Params.icon }}</span>
-                                                                        {{ end }}
-                                                                        {{- .Title }}
+                                                                        {{- end -}}
+                                                                        {{- .Title -}}
                                                                         {{- if .Params.subtitle -}}
-                                                                            {{ printf " (%s)" (delimit .Params.subtitle " | ") }}
-                                                                        {{- end }}
+                                                                            {{- printf " (%s)" (delimit .Params.subtitle " | ") -}}
+                                                                        {{- end -}}
                                                                     </button>
                                                                     <div class="sidebar-submenu {{ if $active }}d-block{{ end }}">
                                                                         <ul>
                                                                             {{- range .Pages -}}
                                                                                 {{- $active := in $currentPageReal.RelPermalink .RelPermalink -}}
-                                                                                {{- if .IsSection -}}
+                                                                                {{- if .IsSection }}
                                                                                     <li class="sidebar-dropdown nested {{ if eq .Site.Params.docs.sidebarIconNest true -}}{{ else }}no-icon{{ end }} {{ if $active }}current active{{ end }}">
                                                                                         <button class="btn">
-                                                                                            {{ if eq .Site.Params.docs.sidebarIconNest true -}}
+                                                                                            {{- if eq .Site.Params.docs.sidebarIconNest true -}}
                                                                                                 <span class="material-icons me-2">{{- .Params.icon }}</span>
-                                                                                            {{ end }}
-                                                                                            {{- .Title }}
+                                                                                            {{- end -}}
+                                                                                            {{- .Title -}}
                                                                                             {{- if .Params.subtitle -}}
-                                                                                                {{ printf " (%s)" (delimit .Params.subtitle " | ") }}
-                                                                                            {{- end }}
+                                                                                                {{- printf " (%s)" (delimit .Params.subtitle " | ") -}}
+                                                                                            {{- end -}}
                                                                                         </button>
                                                                                         <div class="sidebar-submenu {{ if $active }}d-block{{ end }}">
                                                                                             <ul>
@@ -79,10 +79,10 @@
                                                                                                     {{ $active := in $currentPageReal.RelPermalink .RelPermalink }}
                                                                                                     <li class="{{ if $active }}current{{ end }} {{ if eq .Site.Params.docs.sidebarIcons true -}}{{ else }}no-icon{{ end }}">
                                                                                                         <a class="sidebar-nested-link" href="{{ .Permalink }}">
-                                                                                                            {{ .Title }}
+                                                                                                            {{- .Title -}}
                                                                                                             {{- if .Params.subtitle -}}
-                                                                                                                {{ printf " (%s)" (delimit .Params.subtitle " | ") }}
-                                                                                                            {{- end }}
+                                                                                                                {{- printf " (%s)" (delimit .Params.subtitle " | ") -}}
+                                                                                                            {{- end -}}
                                                                                                         </a>
                                                                                                     </li>
                                                                                                 {{ end }}
@@ -92,10 +92,10 @@
                                                                                 {{ else }}
                                                                                     <li class="{{ if $active }}current{{ end }} {{ if eq .Site.Params.docs.sidebarIcons true -}}{{ else }}no-icon{{ end }}">
                                                                                         <a class="sidebar-nested-link" href="{{ .Permalink }}">
-                                                                                            {{ .Title }}
+                                                                                            {{- .Title -}}
                                                                                             {{- if .Params.subtitle -}}
-                                                                                                {{ printf " (%s)" (delimit .Params.subtitle " | ") }}
-                                                                                            {{- end }}
+                                                                                                {{- printf " (%s)" (delimit .Params.subtitle " | ") -}}
+                                                                                            {{- end -}}
                                                                                         </a>
                                                                                     </li>
                                                                                 {{ end }}
@@ -106,10 +106,10 @@
                                                             {{ else -}}
                                                                 <li class="{{ if $active }}current{{ end }} {{ if eq .Site.Params.docs.sidebarIcons true -}}{{ else }}no-icon{{ end }}">
                                                                     <a class="sidebar-nested-link" href="{{ .Permalink }}">
-                                                                        {{ .Title }}
+                                                                        {{- .Title -}}
                                                                         {{- if .Params.subtitle -}}
-                                                                            {{ printf " (%s)" (delimit .Params.subtitle " | ") }}
-                                                                        {{- end }}
+                                                                            {{- printf " (%s)" (delimit .Params.subtitle " | ") -}}
+                                                                        {{- end -}}
                                                                     </a>
                                                                 </li>
                                                             {{ end -}}
@@ -120,10 +120,10 @@
                                         {{- else -}}
                                             <li class="{{ if $active }}current{{ end }} {{ if eq .Site.Params.docs.sidebarIcons true -}}{{ else }}no-icon{{ end }}">
                                                 <a class="sidebar-nested-link" href="{{ .Permalink }}">
-                                                    {{ .Title }}
+                                                    {{- .Title -}}
                                                     {{- if .Params.subtitle -}}
-                                                        {{ printf " (%s)" (delimit .Params.subtitle " | ") }}
-                                                    {{- end }}
+                                                        {{- printf " (%s)" (delimit .Params.subtitle " | ") -}}
+                                                    {{- end -}}
                                                 </a>
                                             </li>
                                         {{- end }}
@@ -154,10 +154,10 @@
                     {{ $active := in $currentPageReal.RelPermalink $taxonomyPage.RelPermalink -}}
                     <li class="sidebar-dropdown {{ if eq $currentPage.Site.Params.docs.sidebarIcons true -}}{{ else }}no-icon{{ end }} {{ if $active }}current active{{ end }}">
                         <button class="btn">
-                            {{ if eq $currentPage.Site.Params.docs.sidebarIcons true -}}
+                            {{- if eq $currentPage.Site.Params.docs.sidebarIcons true -}}
                                 <i class="material-icons me-2">{{- $taxonomyPage.Params.icon | default "notes" }}</i>
-                            {{ end }}
-                            {{ $taxonomyPage.Title }}
+                            {{- end -}}
+                            {{- $taxonomyPage.Title -}}
                         </button>
 
                         <div class="sidebar-submenu {{ if $active }}d-block{{ end }}">
@@ -165,13 +165,12 @@
                                 {{- range $taxonomy }}
                                     {{- $termPage := .Page }}
                                     {{- $active := eq $currentPageReal.RelPermalink $termPage.RelPermalink }}
-
                                     <li class="{{ if $active }}current{{ end }}">
                                         <a class="sidebar-nested-link" href="{{ $termPage.RelPermalink }}">
-                                            {{ $termPage.Title }}
-                                            {{- with $termPage.Params.subtitle }}
-                                                ({{ delimit . " | " }})
-                                            {{- end }}
+                                            {{- $termPage.Title -}}
+                                            {{- with $termPage.Params.subtitle -}}
+                                                {{- printf " (%s)" (delimit . " | ") -}}
+                                            {{- end -}}
                                         </a>
                                     </li>
                                 {{- end }}

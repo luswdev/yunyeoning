@@ -1,15 +1,15 @@
 <!DOCTYPE html>
-{{ $.Scratch.Delete "social_list" }}
-{{ $.Scratch.Set "pathName" (printf "%s" (.Site.Params.docs.pathName | default "docs")) }}
+{{- $.Scratch.Delete "social_list" -}}
+{{- $.Scratch.Set "pathName" (printf "%s" (.Site.Params.docs.pathName | default "docs")) -}}
 <!-- social_list -->
-{{ $social_params := slice "github" "twitter" "bluesky" "instagram" "threads" "youtube" "rss" }}
-{{ range $social_params }}
-    {{ if isset site.Params.social . }}
-        {{ $.Scratch.Add "social_list" (slice .) }}
-    {{ end }}
-{{ end }}
+{{- $social_params := slice "github" "twitter" "bluesky" "instagram" "threads" "youtube" "rss" -}}
+{{- range $social_params -}}
+    {{- if isset site.Params.social . -}}
+        {{- $.Scratch.Add "social_list" (slice .) -}}
+    {{- end -}}
+{{- end }}
 <html lang="{{ site.LanguageCode }}">
-    {{- partial (printf "%s/%s" ($.Scratch.Get "pathName") "head.html") . -}}
+    {{ partial (printf "%s/%s" ($.Scratch.Get "pathName") "head.html") . -}}
     <body>
         <div class="content">
             <div class="page-wrapper toggled">
@@ -42,58 +42,58 @@
                                             </button>
                                             {{- partial (printf "%s/%s" ($.Scratch.Get "pathName") "toc-mobile.html") . -}}
                                         </div>
-                                        {{ end -}}
+                                        {{- end -}}
                                         <div class="docs-content col-12 {{ if .IsNode }}{{ else }}{{ if site.Params.docs.toc | default true }}{{ if and (ne .Params.toc false) (ne .TableOfContents "<nav id=\"TableOfContents\"></nav>") }}col-xl-9{{else}}{{end}}{{ else }}{{ end }}{{ end }} mt-0">
                                             <div class="mb-0 d-flex">
-                                                {{ if site.Params.docs.titleIcon | default false }}
-                                                {{ if .Params.images | default false }}
-                                                    {{ if or (eq .Params.layout "album-view") (eq .Params.layout "song-view") }}
-                                                    <img class="title-icon album-icon me-2" src="{{ index .Params.images 0 }}" alt="Title Icon">
-                                                    {{ else }}
-                                                    <img class="title-icon me-2" src="{{ index .Params.images 0 }}" alt="Title Icon">
-                                                    {{ end }}
-                                                {{ else }}
-                                                <i class="material-icons title-icon me-2">{{- .Params.icon | default "article" }}</i>
-                                                {{ end }}
-                                                {{ end }}
+                                                {{- if site.Params.docs.titleIcon | default false -}}
+                                                    {{- if .Params.images | default false -}}
+                                                        {{- if or (eq .Params.layout "album-view") (eq .Params.layout "song-view") }}
+                                                        <img class="title-icon album-icon me-2" src="{{ index .Params.images 0 }}" alt="Title Icon">
+                                                        {{- else }}
+                                                        <img class="title-icon me-2" src="{{ index .Params.images 0 }}" alt="Title Icon">
+                                                        {{- end -}}
+                                                    {{- else }}
+                                                    <i class="material-icons title-icon me-2">{{- .Params.icon | default "article" }}</i>
+                                                    {{- end -}}
+                                                {{- end -}}
                                                 <h1 class="content-title mb-0">
-                                                    {{ $currentPage.Title }}
-                                                    {{ if .Draft }}
+                                                    {{- $currentPage.Title -}}
+                                                    {{- if .Draft -}}
                                                         <span class="badge bg-default fs-6 mb-1 align-middle">DRAFT</span>
-                                                    {{ end }}
+                                                    {{- end -}}
                                                 </h1>
                                             </div>
-                                            {{- $subtitle := delimit ($currentPage.Params.subtitle | default slice) " | " }}
-                                            {{- $desc := $currentPage.Description }}
+                                            {{- $subtitle := delimit ($currentPage.Params.subtitle | default slice) " | " -}}
+                                            {{- $desc := $currentPage.Description -}}
                                             {{- if or $subtitle $desc }}
                                                 <p class="lead mb-3">
-                                                    {{- with $subtitle }}
-                                                        {{ . }}
-                                                        {{- if $desc }} · {{ end }}
-                                                    {{- end }}
+                                                    {{- with $subtitle -}}
+                                                        {{ . -}}
+                                                        {{- if $desc -}} · {{ end -}}
+                                                    {{- end -}}
                                                     {{- with $desc }}
                                                         <span class="text-secondary">{{ . | markdownify }}</span>
-                                                    {{- end }}
+                                                    {{- end -}}
                                                 </p>
                                             {{- end }}
                                             <div id="content" class="main-content" {{ if eq .Site.Params.docs.toc true -}}data-bs-spy="scroll" data-bs-root-margin="0px 0px -65%" data-bs-target="#toc-mobile"{{ end }}>
-                                                {{ if eq .Params.layout "song-view" }}
+                                                {{- if eq .Params.layout "song-view" -}}
                                                     {{ partial (printf "%s/%s" ($.Scratch.Get "pathName") "song-meta") . }}
-                                                {{ else if eq .Params.layout "album-view" }}
-                                                    {{ partial (printf "%s/%s" ($.Scratch.Get "pathName") "album-meta") . }}
-                                                {{ else if eq .Params.layout "artist-view" }}
-                                                    {{ partial (printf "%s/%s" ($.Scratch.Get "pathName") "artist-meta") . }}
-                                                {{ end -}}
-                                                {{ block "main" . }}{{ end }}
-                                                {{ if eq .Title .FirstSection.Title }}
+                                                {{- else if eq .Params.layout "album-view" -}}
+                                                    {{- partial (printf "%s/%s" ($.Scratch.Get "pathName") "album-meta") . -}}
+                                                {{- else if eq .Params.layout "artist-view" -}}
+                                                    {{- partial (printf "%s/%s" ($.Scratch.Get "pathName") "artist-meta") . -}}
+                                                {{- end -}}
+                                                {{- block "main" . -}}{{- end -}}
+                                                {{- if eq .Title .FirstSection.Title -}}
                                                     <div class="row gy-5 pt-5">
-                                                        {{ partial (printf "%s/%s" ($.Scratch.Get "pathName") "maker-list") . }}
-                                                        {{ partial (printf "%s/%s" ($.Scratch.Get "pathName") "site-meta") . }}
+                                                        {{- partial (printf "%s/%s" ($.Scratch.Get "pathName") "maker-list") . -}}
+                                                        {{- partial (printf "%s/%s" ($.Scratch.Get "pathName") "site-meta") . -}}
                                                     </div>
-                                                {{ end }}
-                                                {{ if eq .Params.layout "artist-view" }}
-                                                    {{ partial (printf "%s/%s" ($.Scratch.Get "pathName") "milestones") . }}
-                                                {{ end -}}
+                                                {{- end -}}
+                                                {{- if eq .Params.layout "artist-view" -}}
+                                                    {{- partial (printf "%s/%s" ($.Scratch.Get "pathName") "milestones") . -}}
+                                                {{- end -}}
                                             </div>
                                             <div>
                                                 {{- partial (printf "%s/%s" ($.Scratch.Get "pathName") "doc-nav.html") . -}}
@@ -108,7 +108,7 @@
             </div>
         </div>
 
-        {{ if site.Params.docs.backToTop | default true }}
+        {{ if site.Params.docs.backToTop | default true -}}
         <!-- Back to top -->
         <button onclick="topFunction()" id="back-to-top" aria-label="Back to Top Button" class="back-to-top fs-5"><svg width="24" height="24"><path d="M12,10.224l-6.3,6.3L4.32,15.152,12,7.472l7.68,7.68L18.3,16.528Z" style="fill:#fff"/></svg></button>
         <!-- Back to top -->

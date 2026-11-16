@@ -1,18 +1,18 @@
-{{ $classMap := dict
+{{- $classMap := dict
     "홍지혜"   "q_part"
     "이아희"   "w_part"
     "장나영"    "e_part"
     "이시연"   "r_part"
     "권진아"   "kwonjinah-written"
-}}
+-}}
 
-{{ $lyrics := .Params.lyric | default (slice "-") }}
-{{ $compositions := .Params.composition | default (slice "-") }}
-{{ $arrangements := .Params.arrangement | default (slice "-") }}
-{{ $original := .Params.original }}
-{{ $vocal := .Params.vocal }}
-{{ $featuring := .Params.featuring }}
-{{ $published_time := .Date }}
+{{- $lyrics := .Params.lyric | default (slice "-") -}}
+{{- $compositions := .Params.composition | default (slice "-") -}}
+{{- $arrangements := .Params.arrangement | default (slice "-") -}}
+{{- $original := .Params.original -}}
+{{- $vocal := .Params.vocal -}}
+{{- $featuring := .Params.featuring -}}
+{{- $published_time := .Date }}
 
 <div class="song-meta">
     <table class="table table-borderless">

@@ -60,12 +60,12 @@
                                             <h1 class="content-title mb-0">
                                                 {{- $segments := split (strings.Trim .RelPermalink "/") "/" -}}
                                                 {{- if not (eq (len $segments) 1) -}}
-                                                    {{ $currentPage.Parent.Title }}:
-                                                {{ end }}
-                                                {{ $currentPage.Title }}
-                                                {{ if .Draft }}
+                                                    {{- $currentPage.Parent.Title -}}:
+                                                {{- end -}}
+                                                {{- $currentPage.Title -}}
+                                                {{- if .Draft -}}
                                                     <span class="badge bg-default fs-6 mb-1 align-middle">DRAFT</span>
-                                                {{ end }}
+                                                {{- end -}}
                                             </h1>
                                         </div>
                                         {{- $subtitle := delimit ($currentPage.Params.subtitle | default slice) " | " }}
@@ -74,7 +74,7 @@
                                             <p class="lead mb-3">
                                                 {{- with $subtitle }}
                                                     {{ . }}
-                                                    {{- if $desc }} · {{ end }}
+                                                    {{- if $desc -}} · {{- end -}}
                                                 {{- end }}
                                                 {{- with $desc }}
                                                     <span class="text-secondary">{{ . | markdownify }}</span>
