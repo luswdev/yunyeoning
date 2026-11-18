@@ -57,12 +57,14 @@
                                             <i class="material-icons title-icon me-2 rounded-1">{{- .Params.icon | default "person" }}</i>
                                             {{ end }}
                                             {{ end }}
+                                            {{- $totalMade := len .Pages -}}
                                             <h1 class="content-title">
                                                 {{- $segments := split (strings.Trim .RelPermalink "/") "/" -}}
                                                 {{- if not (eq (len $segments) 1) -}}
-                                                    {{- $currentPage.Parent.Title -}}:
-                                                {{- end -}}
+                                                    {{- printf "%s: %s [%d]" $currentPage.Parent.Title $currentPage.Title $totalMade -}}
+                                                {{- else -}}
                                                 {{- $currentPage.Title -}}
+                                                {{- end -}}
                                                 {{- if .Draft -}}
                                                     <span class="badge bg-default fs-6 mb-1 align-middle">DRAFT</span>
                                                 {{- end -}}
