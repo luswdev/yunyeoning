@@ -1,5 +1,5 @@
 ---
-title: "歌手/樂團"
+title: "歌手 · 樂團"
 subtitle:
 description:
 icon: folder_shared
