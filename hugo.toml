@@ -51,7 +51,7 @@ defaultContentLanguage = 'zh'
 
     [params.social]
         instagram = "yunyeoning"
-        threads = "yunyeoning"
+        # threads = "yunyeoning"
         # twitter = "yunyeoning"
         youtube = "@yunyeoning"
 
