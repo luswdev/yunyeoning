@@ -13,7 +13,7 @@ fandomTheme: "#adadf7, #caedfc, #d9c7ff"
 images: ["/docs/hebi/hebi.png"]
 ---
 
-{{< membertable title=false theme="rgb(141,170,206)" >}}
+{{< membertable title=false theme="#8daace" titlePic="/docs/hebi/hebi.png" >}}
 {{% membercol 
     name="Hebi" global="헤비 へび" pic="/docs/hebi/artist-cover.png"
     nation="kr" birth="2000-02-11"

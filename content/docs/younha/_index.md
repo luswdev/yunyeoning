@@ -15,7 +15,7 @@ fandomTheme: "#b8f9fb"
 images: ["/docs/younha/y-holics.png"]
 ---
 
-{{< membertable title=false theme="var(--yholics)" >}}
+{{< membertable title=false theme="#b8f9fb" titlePic="/docs/younha/younha.webp" >}}
 {{% membercol 
     name="윤하 YOUNHA" global="고윤하 高潤荷" pic="/docs/younha/artist-cover.png"
     nation="kr" birth="1988-04-29"

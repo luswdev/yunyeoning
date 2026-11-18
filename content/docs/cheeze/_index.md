@@ -11,7 +11,7 @@ entertainment: MoodMingle
 images: ["/docs/cheeze/cheeze.svg"]
 ---
 
-{{< membertable title=false theme="#997300" >}}
+{{< membertable title=false theme="#997300" titlePic="/docs/cheeze/cheeze-black.svg" >}}
 {{% membercol 
     name="달총 DALCHONG" real="임혜경" pic="/docs/cheeze/artist-cover.png"
     nation="kr" birth="1991-08-19"

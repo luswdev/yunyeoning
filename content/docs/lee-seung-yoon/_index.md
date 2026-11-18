@@ -12,7 +12,7 @@ fandomTheme: "#f8e8d0"
 images: ["/docs/lee-seung-yoon/lee-seung-yoon.png"]
 ---
 
-{{< membertable title=false theme="#f8e8d0" >}}
+{{< membertable title=false theme="#000" titlePic="/docs/lee-seung-yoon/lee-seung-yoon.webp" >}}
 {{% membercol 
     name="이승윤" global="李承允 | Lee Seung-yoon" pic="/docs/lee-seung-yoon/artist-cover.png"
     nation="kr" birth="1989-08-21"
