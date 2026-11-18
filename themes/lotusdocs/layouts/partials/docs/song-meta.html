@@ -12,7 +12,8 @@
 {{- $original := .Params.original -}}
 {{- $vocal := .Params.vocal -}}
 {{- $featuring := .Params.featuring -}}
-{{- $published_time := .Date }}
+{{- $published_time := .Date -}}
+{{- $first_published_time := time.AsTime .Params.firstRelease }}
 
 <div class="song-meta">
     <table class="table table-borderless">
@@ -86,6 +87,14 @@
                 <span>{{ $published_time.Format "2006-01-02" }}</span>
             </td>
         </tr>
+        {{- if $first_published_time -}}
+        <tr>
+            <th scope="row">首次發行日</th>
+            <td>
+                <span>{{ $first_published_time.Format "2006-01-02" }}</span>
+            </td>
+        </tr>
+        {{- end -}}
         </tbody>
     </table>
 </div>
