@@ -74,7 +74,7 @@
                                             <p class="lead mb-3">
                                                 {{- with $subtitle }}
                                                     {{ . }}
-                                                    {{- if $desc -}} · {{- end -}}
+                                                    {{- if $desc -}}{{ " · " | safeHTML }}{{- end -}}
                                                 {{- end }}
                                                 {{- with $desc }}
                                                     <span class="text-secondary">{{ . | markdownify }}</span>

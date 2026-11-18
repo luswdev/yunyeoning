@@ -25,7 +25,7 @@
                                         <p class="para card-text mb-0">
                                             {{- with $subtitle -}}
                                                 {{- . -}}
-                                                {{- if $desc }} · {{ end -}}
+                                                {{- if $desc -}}{{ " · " | safeHTML }}{{- end -}}
                                             {{- end -}}
                                             {{- with $desc -}}
                                                 <span class="text-secondary">{{ . | markdownify }}</span>
