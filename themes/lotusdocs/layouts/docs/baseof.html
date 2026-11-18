@@ -53,10 +53,10 @@
                                                         <img class="title-icon me-2" src="{{ index .Params.images 0 }}" alt="Title Icon">
                                                         {{- end -}}
                                                     {{- else }}
-                                                    <i class="material-icons title-icon me-2">{{- .Params.icon | default "article" }}</i>
+                                                    <i class="material-icons title-icon me-2 rounded-1">{{- .Params.icon | default "article" }}</i>
                                                     {{- end -}}
                                                 {{- end -}}
-                                                <h1 class="content-title mb-0">
+                                                <h1 class="content-title">
                                                     {{- $currentPage.Title -}}
                                                     {{- if .Draft -}}
                                                         <span class="badge bg-default fs-6 mb-1 align-middle">DRAFT</span>
