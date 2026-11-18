@@ -5,12 +5,12 @@
 {{ end -}}
 
 {{ if .Site.Params.docs.masonryRow | default false -}}
-<div class="row flex-xl-wrap" data-masonry='{"percentPosition": true }'>
+<div class="row flex-xl-wrap masonry-grid" data-masonry='{"percentPosition": true }'>
 {{ else -}}
 <div class="row flex-xl-wrap">
 {{ end -}}
     {{ range .Pages.ByTitle }}
-    <div id="list-item" class="col-md-4 col-12 mt-4 pt-2">
+    <div id="list-item" class="col-md-4 col-12 mt-4 pt-2 masonry-item">
         <a class="text-decoration-none text-reset" href="{{ .Permalink }}">
             <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
                 <span class="icon-color d-flex">

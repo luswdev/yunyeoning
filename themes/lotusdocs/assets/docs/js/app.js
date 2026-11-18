@@ -257,3 +257,29 @@ var sanitizeHTML = function (str) {
 		return '&#' + c.charCodeAt(0) + ';';
 	});
 };
+
+// reload masonry when images are all loaded
+async function waitForImages(container) {
+    const images = [...container.querySelectorAll('img')];
+
+    await Promise.all(images.map(img => {
+        if (img.complete) return Promise.resolve();
+
+        return new Promise(resolve => {
+            img.addEventListener('load', resolve, { once: true });
+            img.addEventListener('error', resolve, { once: true });
+        });
+    }));
+}
+
+const grid = document.querySelector('.masonry-grid');
+
+waitForImages(grid).then(() => {
+    const msnry = new Masonry(grid, {
+        itemSelector: '.masonry-item',
+        percentPosition: true
+    });
+    
+    msnry?.reloadItems();
+    msnry?.layout();
+})
