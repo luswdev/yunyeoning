@@ -9,7 +9,7 @@
             {{ with site.GetPage (printf "/%s" .) }}
                 <div id="list-item" class="col-md-8 col-12">
                     <a class="text-decoration-none text-reset" href="{{ .Permalink }}">
-                        <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1">
+                        <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1\">
                             <span class="icon-color d-flex">
                                 <i class="material-icons align-middle">{{- .Params.icon | default "article" }}</i>
                                 <i class="material-icons icon-faint align-middle ms-auto" title="Directory">folder</i>
