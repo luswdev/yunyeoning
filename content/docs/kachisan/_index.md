@@ -19,7 +19,7 @@ images: ["/docs/kachisan/kachisan.png"]
 {{% membercol 
     name="한태인" global="Han Tain"
     nation="kr" birth="1991-06-16" pic="/docs/kachisan/hantain.png" 
-    rotation="主唱, ![alt text](image.png)吉他"
+    rotation="主唱, 吉他"
 %}}
 {{% membercol 
     name="최선용" global="Choi Seonyong"
