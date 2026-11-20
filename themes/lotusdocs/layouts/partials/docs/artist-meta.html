@@ -207,6 +207,14 @@
                 </div>
             </a>
         {{- end -}}
+    {{- else if eq $type "bz" -}}
+        {{ with resources.Get "images/social/berriz-color.svg" -}}
+            <a href="https://link.berriz.in/web/main/{{ $value }}" target="_blank" class="{{ if $disabled }}disabled{{ end }}" title="{{ $desc }}">
+                <div class="btn btn-icon btn-landing border-0 btn-sm">
+                    {{ .Content | safeHTML }}
+                </div>
+            </a>
+        {{- end -}}
     {{- else if eq $type "pin" -}}
         {{ with resources.Get "images/social/pinterest-color.svg" -}}
             <a href="https://pinterest.com/{{ $value }}" target="_blank" class="{{ if $disabled }}disabled{{ end }}" title="{{ $desc }}">
@@ -223,6 +231,14 @@
                 </div>
             </a>
         {{- end -}}
+    {{- else if eq $type "ci" -}}
+        {{ with resources.Get "images/social/cime-color.svg" -}}
+            <a href="https://ci.me/{{ $value }}" target="_blank" class="{{ if $disabled }}disabled{{ end }}" title="{{ $desc }}">
+                <div class="btn btn-icon btn-landing border-0 btn-sm">
+                    {{ .Content | safeHTML }}
+                </div>
+            </a>
+        {{- end -}}
     {{- else if eq $type "bb" -}}
         {{ with resources.Get "images/social/bilibili-color.svg" -}}
             <a href="https://space.bilibili.com/{{ $value }}" target="_blank" class="{{ if $disabled }}disabled{{ end }}" title="{{ $desc }}">
@@ -234,6 +250,22 @@
     {{- else if eq $type "rn" -}}
         {{ with resources.Get "images/social/rednote-color.svg" -}}
             <a href="https://www.rednote.com/user/profile/{{ $value }}" target="_blank" class="{{ if $disabled }}disabled{{ end }}" title="{{ $desc }}">
+                <div class="btn btn-icon btn-landing border-0 btn-sm">
+                    {{ .Content | safeHTML }}
+                </div>
+            </a>
+        {{- end -}}
+    {{- else if eq $type "sc" -}}
+        {{ with resources.Get "images/social/soundcloud-color.svg" -}}
+            <a href="https://soundcloud.com/{{ $value }}" target="_blank" class="{{ if $disabled }}disabled{{ end }}" title="{{ $desc }}">
+                <div class="btn btn-icon btn-landing border-0 btn-sm">
+                    {{ .Content | safeHTML }}
+                </div>
+            </a>
+        {{- end -}}
+    {{- else if eq $type "lt" -}}
+        {{ with resources.Get "images/social/linktree-color.svg" -}}
+            <a href="https://linktr.ee/{{ $value }}" target="_blank" class="{{ if $disabled }}disabled{{ end }}" title="{{ $desc }}">
                 <div class="btn btn-icon btn-landing border-0 btn-sm">
                     {{ .Content | safeHTML }}
                 </div>

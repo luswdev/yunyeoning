@@ -212,6 +212,22 @@
                                     </div>
                                 </a>
                             {{- end -}}
+                        {{- else if eq $type "sc" -}}
+                            {{ with resources.Get "images/social/soundcloud-color.svg" -}}
+                                <a href="https://soundcloud.com/{{ $value }}" target="_blank" class="{{ if $disabled }}disabled{{ end }}" title="{{ $desc }}">
+                                    <div class="btn btn-icon btn-landing border-0 btn-sm">
+                                        {{ .Content | safeHTML }}
+                                    </div>
+                                </a>
+                            {{- end -}}
+                        {{- else if eq $type "nb" -}}
+                            {{ with resources.Get "images/social/naver-blog-color.svg" -}}
+                                <a href="https://blog.naver.com/{{ $value }}" target="_blank" class="{{ if $disabled }}disabled{{ end }}" title="{{ $desc }}">
+                                    <div class="btn btn-icon btn-landing border-0 btn-sm">
+                                        {{ .Content | safeHTML }}
+                                    </div>
+                                </a>
+                            {{- end -}}
                         {{- else -}}
                             <div class="w-100"></div>
                         {{- end -}}
