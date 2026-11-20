@@ -536,6 +536,72 @@ h4 {
     color: transparent;
 }
 
+.docs-content td a.leeseungyoon-written {
+    color: #f8e8d0;
+}
+
+.docs-content td a.jungwoo-written {
+    color: #839db7;
+}
+
+.docs-content td a.yebit-written {
+    color: #acc055;
+}
+
+.docs-content td a.fet-written {
+    color: #D47345;
+}
+
+.docs-content td a.aiweo-written {
+    color: #faf7f9;
+}
+
+.docs-content td a.redoor-written {
+    display: inline-block;
+    background: linear-gradient(to right, #fff, #4A7691);
+    background-clip: text;
+    color: transparent;
+}
+
+.docs-content td a.aro-written {
+    display: inline-block;
+    background: linear-gradient(to right, #B0DAB9, #FFAFBD);
+    background-clip: text;
+    color: transparent;
+}
+
+.docs-content td a.touched-written {
+    color: #810000;
+}
+
+.docs-content td a.hebi-written {
+    display: inline-block;
+    background: linear-gradient(to right, #adadf7, #caedfc, #d9c7ff);
+    background-clip: text;
+    color: transparent;
+}
+
+.docs-content td a.hanroro-written {
+    background: #fff;
+    color: #000;
+
+    &:hover {
+        background-color: var(--primary);
+        color: #fff;
+    }
+}
+
+.docs-content td a.kachisan-written {
+    display: inline-block;
+    background: linear-gradient(165deg, #00542f, #DCA454, );
+    background-clip: text;
+    color: transparent;
+}
+
+.docs-content td a.ydbb-written {
+    color: #f88131;
+}
+
 .docs-content .cheering-content {
     strong {
         color: var(--cheering-highlight-fg);
