@@ -8,8 +8,9 @@
 {{ $birth := .Get "birth" }}
 {{ $rotation := .Get "rotation" }}
 {{ $leader := .Get "leader" }}
+{{ $links := split (.Get "links") "," }}
 
 {{ with .Parent }}
-  {{ $member := dict "name" $name "ruby" $ruby "real" $real "global" $global "theme" $theme "pic" $pic "nation" $nation "birth" $birth "rotation" $rotation "leader" $leader }}
+  {{ $member := dict "name" $name "ruby" $ruby "real" $real "global" $global "theme" $theme "pic" $pic "nation" $nation "birth" $birth "rotation" $rotation "leader" $leader "links" $links }}
   {{ .Scratch.Add "members" (slice $member) }}
 {{ end }}
