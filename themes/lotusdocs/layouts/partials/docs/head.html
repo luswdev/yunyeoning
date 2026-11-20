@@ -79,6 +79,13 @@
         {{- end -}}
         {{- $keywordList = $keywordList | append (partial (printf "%s/%s" ($.Scratch.Get "pathName") "keywords") .Parent) -}}
         {{- $keywordList = $keywordList | append (partial (printf "%s/%s" ($.Scratch.Get "pathName") "keywords") .) -}}
+    {{- else if eq .Params.layout "cheering-view" -}}
+        {{- if eq .Parent.Params.layout "album-view" -}}
+            {{- $keywordList = $keywordList | append (partial (printf "%s/%s" ($.Scratch.Get "pathName") "keywords") .Parent.Parent.Parent) -}}
+        {{- end -}}
+        {{- $keywordList = $keywordList | append (partial (printf "%s/%s" ($.Scratch.Get "pathName") "keywords") .Parent) -}}
+        {{- $keywordList = $keywordList | append (partial (printf "%s/%s" ($.Scratch.Get "pathName") "keywords") .Parent.Parent) -}}
+        {{- $keywordList = $keywordList | append (partial (printf "%s/%s" ($.Scratch.Get "pathName") "keywords") .) -}}
     {{- end -}}
     {{- $keywords := delimit $keywordList ", " }}
     <meta name="keywords" content="{{ .Site.Params.keywords }}, {{ $keywords }}"/>
