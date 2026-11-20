@@ -8,6 +8,7 @@ icon: artist
 weight: 14
 date: 2019-09-05
 images:
+links: ["yt|@6th_saturday", "ig|6th_saturday", "xcom|6th_Saturday", "nb|notnct", ]
 ---
 
 {{< membertable title=false theme="#505e6c" >}}

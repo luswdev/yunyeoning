@@ -10,6 +10,8 @@ entertainment: "마름모 (MAREUMO)"
 fandom: "삐뚜루"
 fandomTheme: "#f8e8d0"
 images: ["/docs/lee-seung-yoon/lee-seung-yoon.png"]
+links: ["ig|bgsmsyl", "ig|leeseungyoon.official|官方", "yt|@leeseungyoon.official", "yt|@mareumo.official
+|工作室", "dac|LeeSeungYoon"]
 ---
 
 {{< membertable title=false theme="#000" titlePic="/docs/lee-seung-yoon/lee-seung-yoon.webp" >}}

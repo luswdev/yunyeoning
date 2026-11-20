@@ -9,12 +9,14 @@ weight: 22
 date: 2011-12-16
 entertainment: MoodMingle
 images: ["/docs/cheeze/cheeze.svg"]
+links: ["fb|cheezeofficial", "ig|cheeze__official", "yt|@CHEEZE_OFFICIAL"]
 ---
 
 {{< membertable title=false theme="#997300" titlePic="/docs/cheeze/cheeze-black.svg" >}}
 {{% membercol 
     name="달총 DALCHONG" real="임혜경" pic="/docs/cheeze/artist-cover.png"
     nation="kr" birth="1991-08-19"
+    links="ig|dalchong"
 %}}
 {{< /membertable >}}
 

@@ -9,6 +9,7 @@ weight: 24
 date: 1990-07-05
 entertainment: 미스틱스토리 (MYSTIC STORY)
 images: ["/docs/yoon-jung-shin/yoon-jung-shin.svg"]
+links: ["home|http://www.yoonjongshin.com/", "yt|@monthlymelody", "fb|pablo.yoon", "ig|yoonjongshin", "xcom|melodymonthly"]
 ---
 
 {{< membertable title=false theme="#2d2f34,#373a3c,#000" titlePic="/docs/yoon-jung-shin/yoon-jung-shin.svg" >}}

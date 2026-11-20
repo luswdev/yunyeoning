@@ -9,6 +9,7 @@ weight: 17
 date: 2026-01-08
 entertainment: 오디너리 레코즈 (Oddinary Records)
 images: ["/docs/latency/latency-v2.svg"]
+links: ["yt|@LATENCY_official", "ig|latency_official", "xcom|LATENCYOFFICIAL", "tk|@latency_official", "bz|latency"]
 ---
 
 {{< membertable theme="#b51d22" titlePic="/docs/latency/latency-white.svg" >}}
@@ -16,6 +17,7 @@ images: ["/docs/latency/latency-v2.svg"]
     name="희연 HEEYEON" real="김희연"
     nation="kr" birth="1998-11-17" pic="/docs/latency/hee-yeon.png" 
     rotation="主吉他,副唱"
+    links="yt|@fingerstylish0,ig|fingerstylish_,ig|tungtreamer|經紀人,tk|@fingerstylish,xcom|fingerstylish_,nc|tungchitangchi"
 %}}
 {{% membercol 
     name="수빈 SOOBIN"
