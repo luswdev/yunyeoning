@@ -136,6 +136,16 @@ i {
         border-radius: 5px;
         background-color: var(--content-icon-bg);
         vertical-align: bottom;
+
+        h3 & {
+            width: 2.25rem;
+            height: 2.25rem;
+        }
+
+        h2 & {
+            width: 2.5rem;
+            height: 2.5rem;
+        }
     }
 }
 
