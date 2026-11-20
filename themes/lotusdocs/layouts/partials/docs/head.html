@@ -87,6 +87,7 @@
         {{- $keywordList = $keywordList | append (partial (printf "%s/%s" ($.Scratch.Get "pathName") "keywords") .Parent.Parent) -}}
         {{- $keywordList = $keywordList | append (partial (printf "%s/%s" ($.Scratch.Get "pathName") "keywords") .) -}}
     {{- end -}}
+    {{- $keywordList = $keywordList | uniq -}}
     {{- $keywords := delimit $keywordList ", " }}
     <meta name="keywords" content="{{ .Site.Params.keywords }}, {{ $keywords }}"/>
     <meta name="author" content="LuSkywalker" />
