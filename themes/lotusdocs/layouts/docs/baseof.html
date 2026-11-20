@@ -91,9 +91,20 @@
                                                         {{- partial (printf "%s/%s" ($.Scratch.Get "pathName") "site-meta") . -}}
                                                     </div>
                                                 {{- end -}}
+                                                <div class="row gy-5 pt-5">
+                                                {{- $hasCheeringView := false -}}
+                                                {{- range .Pages -}}
+                                                    {{- if eq .Layout "cheering-view" -}}
+                                                        {{- $hasCheeringView = true -}}
+                                                    {{- end -}}
+                                                {{- end -}}
+                                                {{- if $hasCheeringView -}}
+                                                    {{- partial (printf "%s/%s" ($.Scratch.Get "pathName") "cheering-guide") . -}}
+                                                {{- end -}}
                                                 {{- if eq .Params.layout "artist-view" -}}
                                                     {{- partial (printf "%s/%s" ($.Scratch.Get "pathName") "milestones") . -}}
                                                 {{- end -}}
+                                                </div>
                                             </div>
                                             <div>
                                                 {{- partial (printf "%s/%s" ($.Scratch.Get "pathName") "doc-nav.html") . -}}

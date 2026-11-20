@@ -1,0 +1,46 @@
+<div class="col-12 col-md-4">
+<h3>
+    <i class="material-icons next-title-icon">cheer</i>
+    <span class="next-title">應援法 (空耳)</span>
+</h3>
+{{- range .Pages -}}
+{{- if eq .Layout "cheering-view" -}}
+    <div class="row g-4 pt-2">
+        <div id="list-item" class="col-12">
+            <a class="text-decoration-none text-reset" href="{{ .Permalink }}">
+                <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1\">
+                    <span class="icon-color d-flex">
+                        <i class="material-icons align-middle">{{- .Params.icon | default "article" }}</i>
+                        {{ if .Draft }}<span class="badge bg-default ms-2 fs-6 align-middle">DRAFT</span>{{ end }}
+                        {{ if .IsSection }}<i class="material-icons icon-faint align-middle ms-auto" title="Directory">folder</i>{{ end }}
+                    </span>
+                    <div class="card-body p-0 content d-flex justify-content-between align-items-center mt-3">
+                        <div>
+                            <p class="fs-5 fw-semibold card-title mb-1">
+                                {{- .Title -}}
+                            </p>
+                            {{ $subtitle := delimit (.Params.subtitle | default slice) " | " -}}
+                            {{ $desc := .Description -}}
+                            {{ if or $subtitle $desc -}}
+                                <p class="para card-text mb-0">
+                                    {{- with $subtitle -}}
+                                        {{- . -}}
+                                        {{- if $desc -}}{{ " · " | safeHTML }}{{- end -}}
+                                    {{- end -}}
+                                    {{- with $desc -}}
+                                        <span class="text-secondary">{{ . | markdownify }}</span>
+                                    {{- end -}}
+                                </p>
+                            {{- end }}
+                        </div>
+                        {{ if .Params.images -}}
+                            <img src="{{ index .Params.images 0 }}" alt="{{ .Title }}" class="h-auto {{ if or ( eq .Params.layout "album-view") (eq .Params.layout "song-view") }}rounded-1{{ end }} w-25">
+                        {{- end }}
+                    </div>
+                </div>
+            </a>
+        </div><!--end col-->
+    </div>
+{{- end -}}
+{{- end -}}
+</div>

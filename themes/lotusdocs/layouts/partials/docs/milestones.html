@@ -1,13 +1,18 @@
 {{ if .Params.milestones }}
 {{ $milestones := .Params.milestones }}
-<h3 class="mt-5">里程碑</h3>
-<table class="table table-borderless">
-    {{ range $milestones }}
-        {{ $when := time.AsTime .when }}
-        <tr>
-            <th>{{ $when.Format "2006-01-02" }}</th>
-            <td>{{ .remark }}</td>
-        </tr>
-    {{ end }}
-</table>
+<div class="col-12 col-md-8">
+    <h3>
+        <i class="material-icons next-title-icon">target_check</i>
+        <span class="next-title">里程碑</span>
+    </h3>
+    <table class="table table-borderless">
+        {{ range $milestones }}
+            {{ $when := time.AsTime .when }}
+            <tr>
+                <th>{{ $when.Format "2006-01-02" }}</th>
+                <td>{{ .remark }}</td>
+            </tr>
+        {{ end }}
+    </table>
+</div>
 {{ end }}

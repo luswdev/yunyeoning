@@ -3,7 +3,10 @@
 
 {{ $needTitle := .Get "title" | default true }}
 {{ if $needTitle }}
-<h2>成員介紹</h2>
+<h2>
+    <i class="material-icons next-title-icon">diversity_1</i>
+    <span class="next-title">成員介紹</span>
+</h2>
 {{ end }}
 {{ if .Get "theme" }}
 {{ $theme := split (.Get "theme") "," }}
