@@ -5,7 +5,7 @@ subtitle: ["G9JB"]
 icon: "genres"
 weight: 4
 images: ["/docs/qwer/manito/manito.jpg"]
-youtube: "xDTyCpZcStE?t=618"
+youtube: "xDTyCpZcStE?start=618"
 cheeringHighlightFg: "#2fa1c2"
 ---
 

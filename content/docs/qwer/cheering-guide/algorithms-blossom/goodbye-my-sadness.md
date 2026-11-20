@@ -5,7 +5,7 @@ subtitle: ["Goodbye My Sadness"]
 icon: "genres"
 weight: 6
 images: ["/docs/qwer/algorithms-blossom/algorithms-blossom.jpg"]
-youtube: "WXa3lPClJiA&t=1659"
+youtube: "WXa3lPClJiA?start=1659"
 cheeringHighlightFg: "#2fa1c2"
 ---
 

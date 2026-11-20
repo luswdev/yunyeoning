@@ -5,7 +5,7 @@ subtitle:
 icon: "genres"
 weight: 4
 images: ["/docs/qwer/in-a-million-noises-ill-be-your-harmony/in-a-million-noises-ill-be-your-harmony.jpg"]
-youtube: "KB4D1StGxKk?t=161"
+youtube: "KB4D1StGxKk?start=161"
 cheeringHighlightFg: "#2fa1c2"
 ---
 

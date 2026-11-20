@@ -5,7 +5,7 @@ subtitle: ["Harmony of Stars"]
 icon: "genres"
 weight: 1
 images: ["/docs/qwer/harmony-from-discord/harmony-from-discord.jpg"]
-youtube: "W_uXQ9i79E0&t=1809"
+youtube: "W_uXQ9i79E0?start=1809"
 cheeringHighlightFg: "#2fa1c2"
 ---
 

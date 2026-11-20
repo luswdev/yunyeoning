@@ -5,7 +5,7 @@ subtitle: ["Secret Diary"]
 icon: "genres"
 weight: 3
 images: ["/docs/qwer/harmony-from-discord/harmony-from-discord.jpg"]
-youtube: "WXa3lPClJiA&t=829"
+youtube: "WXa3lPClJiA?start=829"
 cheeringHighlightFg: "#2fa1c2"
 ---
 

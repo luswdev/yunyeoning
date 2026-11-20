@@ -5,7 +5,7 @@ subtitle: ["煩惱中毒", "T.B.H"]
 icon: "genres"
 weight: 1
 images: ["/docs/qwer/manito/manito.jpg"]
-youtube: "ImuWa3SJulY"
+youtube: "i2fkN1WX1n0"
 description: "官方應援法"
 cheeringHighlightFg: "#2fa1c2"
 ---

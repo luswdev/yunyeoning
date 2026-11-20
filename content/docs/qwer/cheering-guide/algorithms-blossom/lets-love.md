@@ -5,7 +5,7 @@ subtitle: ["Let's Love"]
 icon: "genres"
 weight: 4
 images: ["/docs/qwer/algorithms-blossom/algorithms-blossom.jpg"]
-youtube: "ui-32baYO1c&t=547"
+youtube: "ui-32baYO1c?start=547"
 cheeringHighlightFg: "#2fa1c2"
 ---
 

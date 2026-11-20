@@ -5,7 +5,7 @@ subtitle:
 icon: "genres"
 weight: 2
 images: ["/docs/qwer/harmony-from-discord/harmony-from-discord.jpg"]
-youtube: "WXa3lPClJiA&t=352"
+youtube: "WXa3lPClJiA?start=352"
 description: "官方應援法"
 cheeringHighlightFg: "#2fa1c2"
 ---
