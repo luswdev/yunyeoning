@@ -64,24 +64,28 @@ milestones:
 ---
 
 {{< membertable theme="#2fa1c2" >}}
-{{% membercol 
+{{< membercol 
     name="초단 Chodan" real="홍지혜 洪智惠" ruby="Q" theme="#fffff"
     nation="kr" birth="1998-10-30" pic="/docs/qwer/q.png" 
     rotation="鼓手" leader=true
-%}}
+    links="tw|chodan_,yt|@chodan_,nc|chodancafe,,ig|choda._.n,ig|hady.rony_cho|狗狗帳,tk|@chodan__"
+>}}
 {{% membercol 
     name="마젠타 Magenta" real="이아희 李雅熙" ruby="W" theme="#ef87b5"
     nation="kr" birth="1997-06-02" pic="/docs/qwer/w.png"
     rotation="貝斯"
+    links="tw|magenta62,yt|@마젠타,yt|@Aheesoxnote|貝斯練習帳,nc|magentacafe,,ig|magenta_6262,ig|masungta_6262,tk|@magenta6262,xcom|magentaof62"
 %}}
 {{% membercol 
     name="히나 Hina" ruby="E" real="장나영 張娜榮" theme="#c3d773"
     nation="kr" birth="2001-01-30" pic="/docs/qwer/e.png"
     rotation="吉他,鍵盤"
+    links="yt|@hapycb,bb|1876811292,nc|nyangworld,tk|@i_am_young22,dy|MS4wLjABAAAAXRm7NeAvw3twN0sbJ8Zn5a25ZjZ-vDm_YgYWqubkViDyb7oM2t_ui0lw0ct-Kpye|抖音,,ig|i_am_young22,ig|cosyounghere|cosplay,xcom|hapycb,xcom|hapyhina|副帳,,ig|i_am_jamnayoung,xcom|i_am_jamnayoung,thr|@i_am_jamnayoung,tk|@i_am_jamnayoung"
 %}}
 {{% membercol 
     name="시연 Siyeon" ruby="R" real="이시연 李始燕" theme="#06bded"
     nation="kr" birth="2000-05-16" pic="/docs/qwer/r.png"
     rotation="主唱"
+    links="ig|siyo.co.kr,xcom|siyo_min,tk|@siyoming___qwer"
 %}}
 {{< /membertable >}}
