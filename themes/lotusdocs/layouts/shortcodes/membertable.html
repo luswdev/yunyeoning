@@ -156,6 +156,14 @@
                                     </div>
                                 </a>
                             {{- end -}}
+                        {{- else if eq $type "dy" -}}
+                            {{ with resources.Get "images/social/tiktok-color.svg" -}}
+                                <a href="https://www.douyin.com/user/{{ $value }}" target="_blank" class="{{ if $disabled }}disabled{{ end }}" title="{{ $desc }}">
+                                    <div class="btn btn-icon btn-landing border-0 btn-sm">
+                                        {{ .Content | safeHTML }}
+                                    </div>
+                                </a>
+                            {{- end -}}
                         {{- else if eq $type "nc" -}}
                             {{ with resources.Get "images/social/naver-cafe-color.svg" -}}
                                 <a href="https://cafe.naver.com/{{ $value }}" target="_blank" class="{{ if $disabled }}disabled{{ end }}" title="{{ $desc }}">
@@ -191,6 +199,14 @@
                         {{- else if eq $type "tw" -}}
                             {{ with resources.Get "images/social/twitch-color.svg" -}}
                                 <a href="https://www.twitch.tv/{{ $value }}" target="_blank" class="{{ if $disabled }}disabled{{ end }}" title="{{ $desc }}">
+                                    <div class="btn btn-icon btn-landing border-0 btn-sm">
+                                        {{ .Content | safeHTML }}
+                                    </div>
+                                </a>
+                            {{- end -}}
+                        {{- else if eq $type "bb" -}}
+                            {{ with resources.Get "images/social/bilibili-color.svg" -}}
+                                <a href="https://space.bilibili.com/{{ $value }}" target="_blank" class="{{ if $disabled }}disabled{{ end }}" title="{{ $desc }}">
                                     <div class="btn btn-icon btn-landing border-0 btn-sm">
                                         {{ .Content | safeHTML }}
                                     </div>
