@@ -390,7 +390,7 @@ $btn-link-hover-color:        var(--#{$prefix}link-hover-color);
     --btn-soft-border: var(--gray-800);
 
     --btn-primary-color: var(--primary-200);
-    --btn-primary-bg: none;
+    --btn-primary-bg: var(--primary);
     --btn-primary-border: var(--gray-700);
 
     --btn-default-color: var(--text-default);

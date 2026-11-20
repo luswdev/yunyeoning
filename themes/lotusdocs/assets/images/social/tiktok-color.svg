@@ -2,11 +2,11 @@
     viewBox="0 0 1000 1000">
     <path
         d="M1000 750c0 138.068-111.932 250-250 250H250C111.929 1000 0 888.068 0 750V250C0 111.929 111.929 0 250 0h500c138.068 0 250 111.929 250 250v500z" />
-    <radialGradient id="a" cx="500" cy="500" r="500" gradientUnits="userSpaceOnUse">
+    <radialGradient id="tiktok-a" cx="500" cy="500" r="500" gradientUnits="userSpaceOnUse">
         <stop offset="0" style="stop-color:#fffff;stop-opacity:.2" />
         <stop offset="1" style="stop-color:#fffff;stop-opacity:.1" />
     </radialGradient>
-    <path fill="#000"
+    <path fill="url(#tiktok-a)"
         d="M1000 750c0 138.068-111.932 250-250 250H250C111.929 1000 0 888.068 0 750V250C0 111.929 111.929 0 250 0h500c138.068 0 250 111.929 250 250v500z" />
     <path fill="#25F4EE"
         d="m433.07 431.296-.112-30.802c-9.142-1.214-18.436-1.976-28.041-1.976-114.412-.157-207.51 93.015-207.51 207.696 0 70.287 35.041 132.498 88.678 170.166-7.696-28.08-52.916-86.598-52.916-141.183 0-112.998 87.766-201.306 199.901-203.901z" />

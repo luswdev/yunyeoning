@@ -1,10 +1,10 @@
 <svg xmlns="http://www.w3.org/2000/svg" width="312.5" height="312.5" viewBox="0 0 312.5 312.5">
     <defs>
-        <clipPath id="a" clipPathUnits="userSpaceOnUse">
+        <clipPath id="pinterest-a" clipPathUnits="userSpaceOnUse">
             <path d="M0 250h1023V0H0v250z" />
         </clipPath>
     </defs>
-    <g transform="matrix(1.25 0 0 -1.25 0 312.5)">
+    <g clip-path="url(#pinterest-a)" transform="matrix(1.25 0 0 -1.25 0 312.5)">
         <path fill="#fff"
             d="M246.992 125C246.992 57.626 192.374 3.008 125 3.008S3.008 57.626 3.008 125c0 67.375 54.618 121.992 121.992 121.992S246.992 192.375 246.992 125" />
         <path fill="#e60023"

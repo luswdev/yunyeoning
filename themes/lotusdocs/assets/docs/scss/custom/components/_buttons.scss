@@ -47,6 +47,10 @@
         border-color: var(--btn-primary-border) !important;
         color: var(--btn-primary-color) !important;
     }
+
+    &.btn-no-border {
+        border: none !important;
+    }
 }
 
 .btn-default {

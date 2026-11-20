@@ -127,6 +127,14 @@
                 </div>
             </a>
         {{- end -}}
+    {{- else if eq $type "fb" -}}
+        {{ with resources.Get "images/social/facebook-color.svg" -}}
+            <a href="https://www.facebook.com/{{ $value }}" target="_blank" class="{{ if $disabled }}disabled{{ end }}" title="{{ $desc }}">
+                <div class="btn btn-icon btn-landing border-0 btn-sm">
+                    {{ .Content | safeHTML }}
+                </div>
+            </a>
+        {{- end -}}
     {{- else if eq $type "tk" -}}
         {{ with resources.Get "images/social/tiktok-color.svg" -}}
             <a href="https://www.tiktok.com/{{ $value }}" target="_blank" class="{{ if $disabled }}disabled{{ end }}" title="{{ $desc }}">
@@ -143,9 +151,25 @@
                 </div>
             </a>
         {{- end -}}
+    {{- else if eq $type "dac" -}}
+        {{ with resources.Get "images/social/daum-cafe-color.svg" -}}
+            <a href="https://cafe.daum.net/{{ $value }}" target="_blank" class="{{ if $disabled }}disabled{{ end }}" title="{{ $desc }}">
+                <div class="btn btn-icon btn-landing border-0 btn-sm">
+                    {{ .Content | safeHTML }}
+                </div>
+            </a>
+        {{- end -}}
     {{- else if eq $type "nc" -}}
         {{ with resources.Get "images/social/naver-cafe-color.svg" -}}
             <a href="https://cafe.naver.com/{{ $value }}" target="_blank" class="{{ if $disabled }}disabled{{ end }}" title="{{ $desc }}">
+                <div class="btn btn-icon btn-landing border-0 btn-sm">
+                    {{ .Content | safeHTML }}
+                </div>
+            </a>
+        {{- end -}}
+    {{- else if eq $type "nb" -}}
+        {{ with resources.Get "images/social/naver-blog-color.svg" -}}
+            <a href="https://blog.naver.com/{{ $value }}" target="_blank" class="{{ if $disabled }}disabled{{ end }}" title="{{ $desc }}">
                 <div class="btn btn-icon btn-landing border-0 btn-sm">
                     {{ .Content | safeHTML }}
                 </div>
@@ -162,6 +186,22 @@
     {{- else if eq $type "wvs" -}}
         {{ with resources.Get "images/social/weverse-color.svg" -}}
             <a href="https://weverse.io/{{ $value }}" target="_blank" class="{{ if $disabled }}disabled{{ end }}" title="{{ $desc }}">
+                <div class="btn btn-icon btn-landing border-0 btn-sm">
+                    {{ .Content | safeHTML }}
+                </div>
+            </a>
+        {{- end -}}
+    {{- else if eq $type "bs" -}}
+        {{ with resources.Get "images/social/b-stage-color.svg" -}}
+            <a href="https://{{ $value }}.bstage.in/" target="_blank" class="{{ if $disabled }}disabled{{ end }}" title="{{ $desc }}">
+                <div class="btn btn-icon btn-landing border-0 btn-sm">
+                    {{ .Content | safeHTML }}
+                </div>
+            </a>
+        {{- end -}}
+    {{- else if eq $type "mnp" -}}
+        {{ with resources.Get "images/social/mnet-plus-color.svg" -}}
+            <a href="https://artist.mnetplus.world/main/stg/{{ $value }}" target="_blank" class="{{ if $disabled }}disabled{{ end }}" title="{{ $desc }}">
                 <div class="btn btn-icon btn-landing border-0 btn-sm">
                     {{ .Content | safeHTML }}
                 </div>
@@ -194,6 +234,14 @@
     {{- else if eq $type "rn" -}}
         {{ with resources.Get "images/social/rednote-color.svg" -}}
             <a href="https://www.rednote.com/user/profile/{{ $value }}" target="_blank" class="{{ if $disabled }}disabled{{ end }}" title="{{ $desc }}">
+                <div class="btn btn-icon btn-landing border-0 btn-sm">
+                    {{ .Content | safeHTML }}
+                </div>
+            </a>
+        {{- end -}}
+    {{- else if eq $type "home" -}}
+        {{ with resources.Get "images/social/home.svg" -}}
+            <a href="{{ $value }}" target="_blank" class="{{ if $disabled }}disabled{{ end }}" title="{{ $desc }}">
                 <div class="btn btn-icon btn-landing border-0 btn-sm">
                     {{ .Content | safeHTML }}
                 </div>
