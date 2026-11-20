@@ -13,10 +13,25 @@ entertainment: 쓰리와이코프레이션 (3Y CORPORATION)
 fandom: 바위게 (BAWIGE)
 fandomTheme: "#2fa1c2"
 images: ["/docs/qwer/qwer.svg"]
-links: ["yt|@QWER_Band_official", "yt|@QWER_5F|官方直拍", "xcom|official_QWER", "xcom|QWER_BAND_JP|日本官方", "xcom|QWER_BAND_81", "ig|qwerband_official", "thr|qwerband_official", "tk|@qwerband_official",
-    "nc|eggkim", "wvs|qwer", "spo|0XufO9nLOKNN0w0qNrDrZy", "pin|qwer_band_official",
-    "tw|tamago_production_|已停用|disabled", "", "bb|3546765252888824", "rn|67e21e02000000000e01d892", "",
-    "/docs/qwer/qwer-jp.webp|https://qwerjapan.com/", "/docs/qwer/qwer-shop.webp|https://qwershop.kr/index.html"]
+links: [
+    "/docs/qwer/qwer-shop.webp|https://qwershop.kr/index.html", "",
+    "yt|@QWER_Band_official",
+    "yt|@QWER_5F|官方直拍",
+    "xcom|official_QWER",
+    "ig|qwerband_official",
+    "thr|qwerband_official",
+    "tk|@qwerband_official",
+    "nc|eggkim",
+    "wvs|qwer",
+    "spo|0XufO9nLOKNN0w0qNrDrZy",
+    "pin|qwer_band_official",
+    "tw|tamago_production_|已停用|disabled", "",
+    "/docs/qwer/qwer-jp.webp|https://qwerjapan.com/",
+    "xcom|QWER_BAND_JP|日本官方",
+    "xcom|QWER_BAND_81", "",
+    "bb|3546765252888824",
+    "rn|67e21e02000000000e01d892"
+]
 milestones:
     - when: 2023-07-02
       remark: "金雞蛋與 Chodan 透過 YouTube 影片 <최애의 아이들 我推的孩子們> 正式宣佈 QWER 成軍"
