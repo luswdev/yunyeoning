@@ -11,7 +11,7 @@ debutJP: 2004-09-01
 entertainment: 無
 exentertainment: C9 엔터테인먼트 (C9 Entertainment)
 fandom: Y.HOLICS (홀릭스)
-fandomTheme: "#b8f9fb"
+fandomTheme: "#afe1ff"
 images: ["/docs/younha/y-holics.png"]
 links: ["ig|younha_holic", "xcom|younhaholic","yt|@younha.official", "",
 "ig|younha_official||disabled", "xcom|YOUNHAOfficial||disabled",  "fb|officialyounha||disabled", "yt|@YOUNHAOFFICIAL|歸屬 C9 ent.|disabled", "dac|Y-Holics||disabled", "",
