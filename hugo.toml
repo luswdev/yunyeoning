@@ -1,4 +1,4 @@
-baseURL = 'https://kr.lusw.dev/'
+baseURL = 'https://yunyeoning.co.kr/'
 languageCode = 'zh-Hant'
 title = 'YN 歌詞翻譯站'
 contentDir = 'content'
