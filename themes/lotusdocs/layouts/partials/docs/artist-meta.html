@@ -1,6 +1,6 @@
 {{- $exentertainment := split .Params.exentertainment ", " -}}
 
-<div class="artist-meta">
+<div class="artist-meta {{ if .Params.subtitle }}{{ else }}mt-1{{ end }}">
     <table class="table table-borderless {{ if .Params.links }}mb-2{{ end }}">
         <tbody>
         {{ if .Params.organize }}
