@@ -72,7 +72,7 @@
                 {{ $birth := time.AsTime .birth }}
                 {{ $age := div (sub time.Now.Unix $birth.Unix) (mul 86400 365) }}
                 <td>
-                    <span class="pb-1">{{ $birth.Format "2006.01.02" }} ({{ $age | safeHTML }} 歲)</span><br>
+                    <span class="pb-1 text-nowrap">{{ $birth.Format "2006.01.02" }} ({{ $age | safeHTML }} 歲)</span><br>
                     {{ with resources.Get (printf "images/flags/%s.svg" .nation) }}
                         {{ $content := .Content }}
                         {{ $content = replace $content "<svg" "<svg style=\"width:1.75rem;\" class=\"align-baseline pt-1\"" }}
