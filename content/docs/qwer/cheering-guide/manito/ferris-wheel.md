@@ -5,7 +5,7 @@ subtitle: ["Ferris Wheel"]
 icon: "genres"
 weight: 5
 images: ["/docs/qwer/manito/manito.jpg"]
-youtube: "4uodvtnc1rc"
+youtube: "gZWNmyizUTU?start=2225"
 cheeringHighlightFg: "#2fa1c2"
 ---
 
