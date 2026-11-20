@@ -73,7 +73,7 @@
                                         {{- $subtitle := delimit ($currentPage.Params.subtitle | default slice) " | " }}
                                         {{- $desc := $currentPage.Description }}
                                         {{- if or $subtitle $desc }}
-                                            <p class="lead mb-3">
+                                            <p class="lead mb-o">
                                                 {{- with $subtitle }}
                                                     {{ . }}
                                                     {{- if $desc -}}{{ " · " | safeHTML }}{{- end -}}
