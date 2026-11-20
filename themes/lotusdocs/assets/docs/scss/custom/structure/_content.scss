@@ -525,3 +525,33 @@ h4 {
     background-clip: text;
     color: transparent;
 }
+
+.docs-content .cheering-content {
+    strong {
+        color: var(--cheering-highlight-fg);
+    }
+}
+
+.docs-content {
+    a.btn.download-btn {
+        font-weight: normal;
+
+        i {
+            font-weight: 300;
+        }
+
+        &:hover {
+            font-weight: bold;
+            color: var(--white) !important;
+
+            i {
+                font-weight: normal;
+            }
+
+            background-color: var(--primary) !important;
+            border-color: var(--primary) !important;
+            text-decoration: none !important;
+        }
+
+    }
+}

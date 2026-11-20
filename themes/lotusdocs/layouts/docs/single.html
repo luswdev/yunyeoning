@@ -2,11 +2,26 @@
     <!-- override Prism's default copy messages to 'empty'. Required by CSS styling.
          see: https://prismjs.com/plugins/copy-to-clipboard/#styling -->
 
-    <div data-prismjs-copy="" data-prismjs-copy-success="" data-prismjs-copy-error="">
+    {{- if eq .Params.layout "cheering-view" }}
+    <style>
+        :root {
+            --cheering-highlight-fg: {{.Params.cheeringHighlightFg | default "var(--white)"}};
+        }
+    </style>
+    {{ end -}}
+
+    <div data-prismjs-copy="" data-prismjs-copy-success="" data-prismjs-copy-error="" class="{{ if eq .Params.layout "cheering-view" }}cheering-content{{ end }}">
         {{ .Content }}
     </div>
 
-    {{ if eq .Params.layout "song-view"}}
+    {{ if eq .Params.layout "cheering-view" }}
+        <a class="btn btn-soft mt-2 mb-4 download-btn" href="{{ .Parent.RelPermalink }}/{{ path.Base .RelPermalink }}.png" download="{{ path.Base .RelPermalink }}.png">
+            <i class="material-icons align-bottom">download</i>
+            <span>下載</span>
+        </a>
+    {{ end -}}
+
+    {{ if or (eq .Params.layout "song-view") (eq .Params.layout "cheering-view")}}
         {{ partial (printf "%s/%s" ($.Scratch.Get "pathName") "youtube-embedded") . }}
     {{ end -}}
 
