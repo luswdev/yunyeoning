@@ -6,7 +6,7 @@
         {{ if .Params.organize }}
             {{ $organize := time.AsTime .Params.organize }}
         
-            <th scope="row">成立日</th>
+            <th scope="row" class="text-nowrap">成立日</th>
             <td colspan="2">
                 <span>{{ $organize.Format "2006-01-02" }}</span><br>
                 <span class="debut-counter">(+{{ div (sub time.Now.Unix $organize.Unix) 86400 }} 天, {{ div (sub time.Now.Unix $organize.Unix) (mul 86400 365) }}週年)</span>
@@ -17,7 +17,7 @@
             {{ $debutKR := time.AsTime .Params.debutKR }}
             {{ $debutJP := time.AsTime .Params.debutJP }}
             
-                <th scope="row" rowspan="2">出道日</th>
+                <th scope="row" class="text-nowrap" rowspan="2">出道日</th>
                 <td class="debut-nation-flag">
                     {{ with resources.Get "images/flags/kr.svg" }}
                         {{ .Content | safeHTML }}
@@ -41,7 +41,7 @@
             </tr>
             {{ else }}
             
-                <th scope="row">出道日</th>
+                <th scope="row" class="text-nowrap">出道日</th>
                 <td colspan="2">
                     <span>{{ .Date.Format "2006-01-02" }}</span><br>
                     <span class="debut-counter">(+{{ div (sub time.Now.Unix .Date.Unix) 86400 }} 天, {{ div (sub time.Now.Unix .Date.Unix) (mul 86400 365) }}週年)</span>
@@ -50,7 +50,7 @@
             {{ end -}}
         {{ if .Params.entertainment }}
         
-            <th scope="row">所屬社</th>
+            <th scope="row" class="text-nowrap">所屬社</th>
             <td colspan="2">
                 <span>{{ .Params.entertainment }}</span>
             </td>
@@ -58,7 +58,7 @@
         {{ end -}}
         {{ if .Params.exentertainment }}
         
-            <th scope="row">前所屬社</th>
+            <th scope="row" class="text-nowrap">前所屬社</th>
             <td colspan="2">
                 {{- range $i, $name := $exentertainment -}}
                 {{- if gt $i 0 }}, {{ end -}}
@@ -69,7 +69,7 @@
         {{ end -}}
         {{ if .Params.fandom }}
         
-            <th scope="row">粉絲名</th>
+            <th scope="row" class="text-nowrap">粉絲名</th>
             <td colspan="2" class="fandom-cell">
                 {{ if .Params.fandomTheme }}
                     {{ $fandomTheme := split .Params.fandomTheme ", " }}

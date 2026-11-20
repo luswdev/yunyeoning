@@ -4,19 +4,19 @@
     <table class="table table-borderless">
         <tbody>
         <tr>
-            <th scope="row">發行日期</th>
+            <th scope="row" class="text-nowrap">發行日期</th>
             <td>
                 <span>{{ .Date.Format "2006-01-02" }}</span>
             </td>
         </tr>
         <tr>
-            <th scope="row">所屬社</th>
+            <th scope="row" class="text-nowrap">所屬社</th>
             <td>
                 <span>{{ .Params.entertainment }}</span>
             </td>
         </tr>
         <tr>
-            <th scope="row">發行社</th>
+            <th scope="row" class="text-nowrap">發行社</th>
             <td>
                 <span>{{ .Params.publisher }}</span>
             </td>

@@ -20,7 +20,7 @@
         <tbody>
         {{ if $featuring }}
         <tr>
-            <th scope="row">合作演出</th>
+            <th scope="row" class="text-nowrap">合作演出</th>
             <td>
                 {{- range $i, $name := $featuring -}}
                 {{- if gt $i 0 }}, {{ end -}}
@@ -31,7 +31,7 @@
         {{ end -}}
         {{ if $original }}
         <tr>
-            <th scope="row">原唱</th>
+            <th scope="row" class="text-nowrap">原唱</th>
             <td>
                 {{- range $i, $name := $original -}}
                 {{- if gt $i 0 }}, {{ end -}}
@@ -42,7 +42,7 @@
         {{ end -}}
         {{ if $vocal }}
         <tr>
-            <th scope="row">主唱</th>
+            <th scope="row" class="text-nowrap">主唱</th>
             <td>
                 {{- range $i, $name := $vocal -}}
                 {{- if gt $i 0 }}, {{ end -}}
@@ -52,7 +52,7 @@
         </tr>
         {{ end -}}
         <tr>
-            <th scope="row">作詞</th>
+            <th scope="row" class="text-nowrap">作詞</th>
             <td>
                 {{- range $i, $name := $lyrics -}}
                 {{- $name = $name | default "-" -}}
@@ -62,7 +62,7 @@
             </td>
         </tr>
         <tr>
-            <th scope="row">作曲</th>
+            <th scope="row" class="text-nowrap">作曲</th>
             <td>
                 {{- range $i, $name := $compositions -}}
                 {{- $name = $name | default "-" -}}
@@ -72,7 +72,7 @@
             </td>
         </tr>
         <tr>
-            <th scope="row">編曲</th>
+            <th scope="row" class="text-nowrap">編曲</th>
             <td>
                 {{- range $i, $name := $arrangements -}}
                 {{- $name = $name | default "-" -}}
@@ -82,14 +82,14 @@
             </td>
         </tr>
         <tr>
-            <th scope="row">發行日</th>
+            <th scope="row" class="text-nowrap">發行日</th>
             <td>
                 <span>{{ $published_time.Format "2006-01-02" }}</span>
             </td>
         </tr>
         {{- if $first_published_time -}}
         <tr>
-            <th scope="row">首次發行日</th>
+            <th scope="row" class="text-nowrap">首次發行日</th>
             <td>
                 <span>{{ (time.AsTime $first_published_time).Format "2006-01-02" }}</span>
             </td>
