@@ -13,6 +13,9 @@ exentertainment: C9 엔터테인먼트 (C9 Entertainment)
 fandom: Y.HOLICS (홀릭스)
 fandomTheme: "#b8f9fb"
 images: ["/docs/younha/y-holics.png"]
+links: ["ig|younha_holic", "xcom|younhaholic","yt|@younha.official", "",
+"ig|younha_official||disabled", "xcom|YOUNHAOfficial||disabled",  "fb|officialyounha||disabled", "yt|@YOUNHAOFFICIAL|歸屬 C9 ent.|disabled", "dac|Y-Holics||disabled", "",
+"xcom|younha_jp|日本活動用|disabled", "yt|@younhajapan|日本活動用|disabled"]
 ---
 
 {{< membertable title=false theme="#b8f9fb" titlePic="/docs/younha/younha.webp" >}}
