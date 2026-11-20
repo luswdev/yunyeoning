@@ -1,11 +1,11 @@
 {{- $exentertainment := split .Params.exentertainment ", " -}}
 
 <div class="artist-meta">
-    <table class="table table-borderless">
+    <table class="table table-borderless {{ if .Params.links }}mb-2{{ end }}">
         <tbody>
         {{ if .Params.organize }}
             {{ $organize := time.AsTime .Params.organize }}
-        <tr>
+        
             <th scope="row">成立日</th>
             <td colspan="2">
                 <span>{{ $organize.Format "2006-01-02" }}</span><br>
@@ -16,7 +16,7 @@
         {{ if and .Params.debutKR .Params.debutJP }}
             {{ $debutKR := time.AsTime .Params.debutKR }}
             {{ $debutJP := time.AsTime .Params.debutJP }}
-            <tr>
+            
                 <th scope="row" rowspan="2">出道日</th>
                 <td class="debut-nation-flag">
                     {{ with resources.Get "images/flags/kr.svg" }}
@@ -28,7 +28,7 @@
                     <span class="debut-counter">(+{{ div (sub time.Now.Unix $debutKR.Unix) 86400 }} 天, {{ div (sub time.Now.Unix $debutKR.Unix) (mul 86400 365) }}週年)</span>
                 </td>
             </tr>
-            <tr>
+            
                 <td class="debut-nation-flag">
                     {{ with resources.Get "images/flags/jp.svg" }}
                         {{ .Content | safeHTML }}
@@ -40,7 +40,7 @@
                 </td>
             </tr>
             {{ else }}
-            <tr>
+            
                 <th scope="row">出道日</th>
                 <td colspan="2">
                     <span>{{ .Date.Format "2006-01-02" }}</span><br>
@@ -49,7 +49,7 @@
             </tr>
             {{ end -}}
         {{ if .Params.entertainment }}
-        <tr>
+        
             <th scope="row">所屬社</th>
             <td colspan="2">
                 <span>{{ .Params.entertainment }}</span>
@@ -57,7 +57,7 @@
         </tr>
         {{ end -}}
         {{ if .Params.exentertainment }}
-        <tr>
+        
             <th scope="row">前所屬社</th>
             <td colspan="2">
                 {{- range $i, $name := $exentertainment -}}
@@ -68,7 +68,7 @@
         </tr>
         {{ end -}}
         {{ if .Params.fandom }}
-        <tr>
+        
             <th scope="row">粉絲名</th>
             <td colspan="2" class="fandom-cell">
                 {{ if .Params.fandomTheme }}
@@ -84,7 +84,100 @@
                 {{ end }}
             </td>
         </tr>
-        {{ end -}}
+        {{- end -}}
         </tbody>
     </table>
 </div>
+{{ with .Params.links -}}
+<div class="d-flex flex-row flex-wrap gap-1 mb-4">
+{{- range . -}}
+    {{- $type := index (strings.Split . "|") 0 | default "" -}}
+    {{- $value := index (strings.Split . "|") 1 | default "" -}}
+    {{- $desc := index (strings.Split . "|") 2 | default "" -}}
+    {{- $disabled := eq (index (strings.Split . "|") 3) "disabled" | default false -}}
+    {{- if eq $type "yt" -}}
+        {{ with resources.Get "images/social/youtube-color.svg" -}}
+            <a href="https://www.youtube.com/{{ $value }}" target="_blank" class="{{ if $disabled }}disabled{{ end }}" title="{{ $desc }}">
+                <div class="btn btn-icon btn-landing border-0 btn-sm">
+                    {{ .Content | safeHTML }}
+                </div>
+            </a>
+        {{- end -}}
+    {{- else if eq $type "xcom" -}}
+        {{ with resources.Get "images/social/x-color.svg" -}}
+            <a href="https://x.com/{{ $value }}" target="_blank" class="{{ if $disabled }}disabled{{ end }}" title="{{ $desc }}">
+                <div class="btn btn-icon btn-landing border-0 btn-sm">
+                    {{ .Content | safeHTML }}
+                </div>
+            </a>
+        {{- end -}}
+    {{- else if eq $type "ig" -}}
+        {{ with resources.Get "images/social/instagram-color.svg" -}}
+            <a href="https://www.instagram.com/{{ $value }}" target="_blank" class="{{ if $disabled }}disabled{{ end }}" title="{{ $desc }}">
+                <div class="btn btn-icon btn-landing border-0 btn-sm">
+                    {{ .Content | safeHTML }}
+                </div>
+            </a>
+        {{- end -}}
+    {{- else if eq $type "thr" -}}
+        {{ with resources.Get "images/social/threads-color.svg" -}}
+            <a href="https://www.threads.com/{{ $value }}" target="_blank" class="{{ if $disabled }}disabled{{ end }}" title="{{ $desc }}">
+                <div class="btn btn-icon btn-landing border-0 btn-sm">
+                    {{ .Content | safeHTML }}
+                </div>
+            </a>
+        {{- end -}}
+    {{- else if eq $type "tk" -}}
+        {{ with resources.Get "images/social/tiktok-color.svg" -}}
+            <a href="https://www.tiktok.com/{{ $value }}" target="_blank" class="{{ if $disabled }}disabled{{ end }}" title="{{ $desc }}">
+                <div class="btn btn-icon btn-landing border-0 btn-sm">
+                    {{ .Content | safeHTML }}
+                </div>
+            </a>
+        {{- end -}}
+    {{- else if eq $type "nc" -}}
+        {{ with resources.Get "images/social/naver-cafe-color.svg" -}}
+            <a href="https://cafe.naver.com/{{ $value }}" target="_blank" class="{{ if $disabled }}disabled{{ end }}" title="{{ $desc }}">
+                <div class="btn btn-icon btn-landing border-0 btn-sm">
+                    {{ .Content | safeHTML }}
+                </div>
+            </a>
+        {{- end -}}
+    {{- else if eq $type "spo" -}}
+        {{ with resources.Get "images/social/spotify-color.svg" -}}
+            <a href="https://open.spotify.com/artist/{{ $value }}" target="_blank" class="{{ if $disabled }}disabled{{ end }}" title="{{ $desc }}">
+                <div class="btn btn-icon btn-landing border-0 btn-sm">
+                    {{ .Content | safeHTML }}
+                </div>
+            </a>
+        {{- end -}}
+    {{- else if eq $type "wvs" -}}
+        {{ with resources.Get "images/social/weverse-color.svg" -}}
+            <a href="https://weverse.io/{{ $value }}" target="_blank" class="{{ if $disabled }}disabled{{ end }}" title="{{ $desc }}">
+                <div class="btn btn-icon btn-landing border-0 btn-sm">
+                    {{ .Content | safeHTML }}
+                </div>
+            </a>
+        {{- end -}}
+    {{- else if eq $type "pin" -}}
+        {{ with resources.Get "images/social/pinterest-color.svg" -}}
+            <a href="https://pinterest.com/{{ $value }}" target="_blank" class="{{ if $disabled }}disabled{{ end }}" title="{{ $desc }}">
+                <div class="btn btn-icon btn-landing border-0 btn-sm">
+                    {{ .Content | safeHTML }}
+                </div>
+            </a>
+        {{- end -}}
+    {{- else if eq $type "tw" -}}
+        {{ with resources.Get "images/social/twitch-color.svg" -}}
+            <a href="https://www.twitch.tv/{{ $value }}" target="_blank" class="{{ if $disabled }}disabled{{ end }}" title="{{ $desc }}">
+                <div class="btn btn-icon btn-landing border-0 btn-sm">
+                    {{ .Content | safeHTML }}
+                </div>
+            </a>
+        {{- end -}}
+    {{- else -}}
+        <div class="w-100"></div>
+    {{- end -}}
+{{ end -}}
+</div>
+{{ end -}}

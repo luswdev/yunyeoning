@@ -220,3 +220,16 @@ button:not(:disabled) {
         }
     }
 }
+
+.social-links-btn {
+    a {
+        &.disabled {
+            filter: grayscale(100%);
+            opacity: .5;
+        }
+
+        &:hover {
+            text-decoration: none !important;
+        }
+    }
+}
