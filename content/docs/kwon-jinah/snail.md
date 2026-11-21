@@ -2,7 +2,7 @@
 layout: "song-view"
 title: "달팽이"
 subtitle: ["Snail"]
-description: "單曲"
+description: "어디든 가요"
 icon: "genres"
 weight: 75
 date: 2025-07-12

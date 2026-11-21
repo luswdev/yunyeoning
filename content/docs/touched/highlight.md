@@ -2,7 +2,7 @@
 layout: "song-view"
 title: "Highlight"
 subtitle:
-description: "GSI"
+description: "Great Seoul Invasion"
 icon: "genres"
 weight: 8
 date: 2022-08-18

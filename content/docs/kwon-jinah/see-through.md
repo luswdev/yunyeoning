@@ -2,7 +2,7 @@
 layout: "song-view"
 title: "씨스루"
 subtitle: ["See-through"]
-description: "單曲"
+description: "K-POP STAR 3"
 icon: "genres"
 weight: 1
 date: 2014-03-03
@@ -10,7 +10,8 @@ images: ["/docs/kwon-jinah/see-through.jpg"]
 composition: ["Zion.T", "개코"]
 lyric: ["프라이머리", "Zion.T"]
 arrangement: ["MELODESIGN"]
-youtube: "GmU9BUNnkVk"
+original: ["프라이머리"]
+youtube: "OHCJEpPsmA0"
 ---
 
 Party time  
