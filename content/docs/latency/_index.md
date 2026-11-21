@@ -14,7 +14,7 @@ links: ["yt|@LATENCY_official", "ig|latency_official", "xcom|LATENCYOFFICIAL", "
 
 {{< membertable theme="#b51d22" titlePic="/docs/latency/latency-white.svg" >}}
 {{% membercol 
-    name="희연 HEEYEON" real="김희연"
+    name="희연 HEEYEON" real="김희연 Kim Heeyeon"
     nation="kr" birth="1998-11-17" pic="/docs/latency/hee-yeon.png" 
     rotation="主吉他,副唱"
     links="yt|@fingerstylish0,ig|fingerstylish_,ig|tungtreamer|經紀人,tk|@fingerstylish,xcom|fingerstylish_,nc|tungchitangchi"
@@ -30,9 +30,10 @@ links: ["yt|@LATENCY_official", "ig|latency_official", "xcom|LATENCYOFFICIAL", "
     rotation="鼓手"
 %}}
 {{% membercol 
-    name="유진 YUJIN"
+    name="유진 YUJIN" real="송유진 Song Yujin"
     nation="kr" birth="2005-12-06" pic="/docs/latency/yujin.png" 
     rotation="主唱"
+    links="yt|@songyujin3291,yt|@마석태|vlog,ig|yj._focus,nc|yjlove12"
 %}}
 {{< /membertable >}}
 
