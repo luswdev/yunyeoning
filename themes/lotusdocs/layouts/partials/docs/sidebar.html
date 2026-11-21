@@ -48,7 +48,7 @@
                                                         {{- range .Pages -}}
                                                             {{- $active := in $currentPageReal.RelPermalink .RelPermalink -}}
                                                             {{- if .IsSection }}
-                                                                <li class="sidebar-dropdown nested {{ if eq .Site.Params.docs.sidebarIconNest true -}}{{ else }}no-icon{{ end }} {{ if $active }}current active{{ end }}">
+                                                                <li class="sidebar-dropdown nested {{ if eq .Site.Params.docs.sidebarIcons true -}}{{ else }}no-icon{{ end }} {{ if $active }}current active{{ end }}">
                                                                     <button class="btn">
                                                                         {{- if eq .Site.Params.docs.sidebarIconNest true -}}
                                                                             <span class="material-icons me-2">{{- .Params.icon }}</span>
@@ -63,7 +63,7 @@
                                                                             {{- range .Pages -}}
                                                                                 {{- $active := in $currentPageReal.RelPermalink .RelPermalink -}}
                                                                                 {{- if .IsSection }}
-                                                                                    <li class="sidebar-dropdown nested {{ if eq .Site.Params.docs.sidebarIconNest true -}}{{ else }}no-icon{{ end }} {{ if $active }}current active{{ end }}">
+                                                                                    <li class="sidebar-dropdown nested {{ if eq .Site.Params.docs.sidebarIcons true -}}{{ else }}no-icon{{ end }} {{ if $active }}current active{{ end }}">
                                                                                         <button class="btn">
                                                                                             {{- if eq .Site.Params.docs.sidebarIconNest true -}}
                                                                                                 <span class="material-icons me-2">{{- .Params.icon }}</span>
