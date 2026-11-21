@@ -14,8 +14,12 @@
                                 <i class="material-icons align-middle">{{- .Params.icon | default "article" }}</i>
                                 <i class="material-icons icon-faint align-middle ms-auto" title="Directory">folder</i>
                             </span>
-                            <div class="card-body p-0 content d-flex justify-content-between align-items-center mt-3">
+                            <div class="card-body p-0 content d-flex gap-1 justify-content-between align-items-center mt-3">
+                                {{ if .Params.images -}}
+                                <div class="w-75">
+                                {{ else -}}
                                 <div>
+                                {{- end }}
                                     <p class="fs-5 fw-semibold card-title mb-1">
                                         {{- .Title -}}
                                     </p>
