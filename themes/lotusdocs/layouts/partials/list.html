@@ -22,7 +22,11 @@
                     {{ if .IsSection }}<i class="material-icons icon-faint align-middle ms-auto" title="Directory">folder</i>{{ end }}
                 </span>
                 <div class="card-body p-0 content d-flex justify-content-between align-items-center mt-3">
+                    {{ if .Params.images -}}
+                    <div class="w-75">
+                    {{ else -}}
                     <div>
+                    {{- end }}
                         <p class="fs-5 fw-semibold card-title mb-1">
                             {{- .Title -}}
                         </p>
