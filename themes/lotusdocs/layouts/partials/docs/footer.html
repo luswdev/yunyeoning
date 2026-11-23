@@ -16,6 +16,13 @@
             <div class="col">
                 <div class="text-sm-start text-center mx-md-2">
                     <p class="mb-0">
+                        {{- if .Site.Params.creative_commons.icon | default false -}}
+                            {{- range .Site.Params.creative_commons.icons -}}
+                                {{- with resources.Get (printf  "images/cc/icons/%s.svg" .) -}}
+                                    <span class="cc-icon">{{ .Content | safeHTML }}</span>
+                                {{- end -}}
+                            {{- end -}}
+                        {{- end -}}
                         {{ $yearToken := (cond (isset .Site.Params (lower "copyrightYearToken")) $.Site.Params.copyrightYearToken ":YEAR:") }}
                         {{ replace $.Site.Params.footer.copyright $yearToken (string (now.Format "2006")) | markdownify }}
                     </p>
