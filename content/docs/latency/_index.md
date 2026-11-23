@@ -23,11 +23,13 @@ links: ["yt|@LATENCY_official", "ig|latency_official", "xcom|LATENCYOFFICIAL", "
     name="수빈 SOOBIN"
     nation="kr" birth="2001-01-22" pic="/docs/latency/soobin.png" 
     rotation="貝斯"
+    links="ig|binso_o"
 %}}
 {{% membercol 
     name="서린 SEORYHN"
     nation="kr" birth="2005-03-11" pic="/docs/latency/seoryhn.png" 
     rotation="鼓手"
+    links="ig|_seoryhn"
 %}}
 {{% membercol 
     name="유진 YUJIN" real="송유진 Song Yujin"
