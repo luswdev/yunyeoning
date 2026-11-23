@@ -36,3 +36,6 @@
 
 [enable_dark_mode]
     other = "Enable dark mode"
+
+[draft]
+    other = "尚未發布"

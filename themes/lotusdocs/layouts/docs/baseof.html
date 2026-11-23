@@ -58,21 +58,23 @@
                                                 {{- end -}}
                                                 <h1 class="content-title">
                                                     {{- $currentPage.Title -}}
-                                                    {{- if .Draft -}}
-                                                        <span class="badge bg-default fs-6 mb-1 align-middle">DRAFT</span>
-                                                    {{- end -}}
                                                 </h1>
                                             </div>
                                             {{- $subtitle := delimit ($currentPage.Params.subtitle | default slice) " | " -}}
                                             {{- $desc := $currentPage.Description -}}
-                                            {{- if or $subtitle $desc }}
+                                            {{- $draft := .Draft -}}
+                                            {{- if or (or $subtitle $desc) $draft }}
                                                 <p class="lead mb-0">
-                                                    {{- with $subtitle -}}
-                                                        {{ . -}}
-                                                        {{- if $desc -}}{{ " · " | safeHTML }}{{- end -}}
-                                                    {{- end -}}
+                                                    {{- with $subtitle }}
+                                                        {{ . }}
+                                                        {{- if or $desc $draft -}}{{ " · " | safeHTML }}{{- end -}}
+                                                    {{- end }}
                                                     {{- with $desc }}
                                                         <span class="text-secondary">{{ . | markdownify }}</span>
+                                                        {{- if $draft -}}{{ " · " | safeHTML }}{{- end -}}
+                                                    {{- end }}
+                                                    {{- if $draft -}}
+                                                        <span class="text-danger">{{ i18n "draft" }}</span>
                                                     {{- end -}}
                                                 </p>
                                             {{- end }}

@@ -18,7 +18,7 @@
             <div class="card h-100 features feature-full-bg rounded p-4 position-relative overflow-hidden border-1\">
                 <span class="icon-color d-flex">
                     <i class="material-icons align-middle">{{- .Params.icon | default "person" }}</i>
-                    {{ if .Draft }}<span class="badge bg-default ms-2 fs-6 align-middle">DRAFT</span>{{ end }}
+                    {{ if .Draft }}<span class="ms-2 fs-6 align-middle text-danger">{{ i18n "draft" }}</span>{{ end }}
                     {{ if .IsSection }}<i class="material-icons icon-faint align-middle ms-auto" title="Directory">folder</i>{{ end }}
                 </span>
                 <div class="card-body p-0 content d-flex gap-1 justify-content-between align-items-center mt-3">

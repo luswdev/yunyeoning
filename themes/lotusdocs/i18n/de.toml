@@ -36,3 +36,6 @@
 
 [enable_dark_mode]
     other = "Dark mode aktivieren"
+
+[draft]
+    other = "DRAFT"
