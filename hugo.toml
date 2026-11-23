@@ -62,7 +62,7 @@ defaultContentLanguage = 'zh'
         youtube = "@yunyeoning"
 
     [params.footer]
-        copyright = "All photos are property of their respective owners. Lyric translation by &copy; :YEAR: yunyeoning"
+        copyright = "All photos are property of their respective owners. <br>Lyric translation by &copy; :YEAR: yunyeoning"
         version   = true
 
     [params.docs]
