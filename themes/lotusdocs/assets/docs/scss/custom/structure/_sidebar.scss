@@ -407,12 +407,12 @@
         }
 
         .layout-spacing {
-            padding: 94px 14px 24px !important;
+            padding: 94px 14px 0 !important;
             min-height: calc(100vh - 106px) !important;
             position: relative;
 
             @media (max-width: 425px) {
-                padding: 84px 0 24px !important;
+                padding: 84px 0 0 !important;
             }
         }
     }
