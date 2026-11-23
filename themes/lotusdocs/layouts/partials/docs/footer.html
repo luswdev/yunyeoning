@@ -10,7 +10,7 @@
                             <span>
                             {{- range .Site.Params.creative_commons.icons -}}
                                 {{- with resources.Get (printf  "images/cc/icons/%s.svg" .) -}}
-                                    <span class="cc-icon">{{ .Content | safeHTML }}</span>
+                                    <span class="cc-icon my-1">{{ .Content | safeHTML }}</span>
                                 {{- end -}}
                             {{- end -}}
                             </span>
