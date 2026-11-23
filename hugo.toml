@@ -49,6 +49,10 @@ defaultContentLanguage = 'zh'
 
     keywords = '中字, 繁中歌詞, 韓中歌詞, 中文歌詞, Lyrics, Mandarin Lyrics'
 
+    [params.creative_commons]
+        badge = true
+        type = "by-sa"
+
     [params.social]
         instagram = "yunyeoning"
         # threads = "yunyeoning"
