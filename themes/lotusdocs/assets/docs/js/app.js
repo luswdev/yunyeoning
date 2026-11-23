@@ -277,6 +277,7 @@ const grid = document.querySelector('.masonry-grid');
 waitForImages(grid).then(() => {
     const msnry = new Masonry(grid, {
         itemSelector: '.masonry-item',
+        horizontalOrder: true,
         percentPosition: true
     });
     
