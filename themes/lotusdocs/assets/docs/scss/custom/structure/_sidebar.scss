@@ -81,6 +81,7 @@
             display: flex;
             align-items: center;
             height: 72px;
+            > span,
             > a {
                 text-transform: uppercase;
                 font-weight: bold;
@@ -300,9 +301,11 @@
         .sidebar-header .user-info .user-role,
         .sidebar-header .user-info .user-status,
         .sidebar-brand > a,
+        .sidebar-brand > span,
         .sidebar-menu li a {
             color: var(--sidebar-text-color);
             font-weight: 600;
+            cursor: pointer;
         }
         // .sidebar-menu li:hover > a,
         .sidebar-menu li.current > a,
@@ -313,6 +316,7 @@
         .sidebar-menu li.current > button:before,
         // .sidebar-menu .sidebar-dropdown.active > a,
         .sidebar-header .user-info,
+        .sidebar-brand > span:hover,
         .sidebar-brand > a:hover {
             color: var(--sidebar-primary) !important;
         }

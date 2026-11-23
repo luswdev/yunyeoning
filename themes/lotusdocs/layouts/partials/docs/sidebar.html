@@ -1,12 +1,19 @@
 {{ "<!-- sidebar-wrapper  -->" | safeHTML }}
 <nav id="sidebar" class="sidebar-wrapper">
     <div class="sidebar-brand">
+        {{- if site.Params.docs.titleBackToTop | default false -}}
+        <span onclick="topFunction()" aria-label="HomePage" alt="HomePage">
+        {{- else -}}
         <a href="{{ (printf "/%s" .currentPage.Site.Params.docs.pathName)}}" aria-label="HomePage" alt="HomePage">
+            {{- end }}
             {{ with resources.Get "images/logos/logo.svg" -}}
                 {{ .Content | safeHTML }}
             {{- end }}
             <span class="sidebar-brand-title">{{ .currentPage.Site.Title }}</span>
+        {{- if site.Params.docs.titleBackToTop | default false -}}
+        {{- else }}
         </a>
+        {{- end }}
     </div>
     <div class="sidebar-content" style="height: calc(100% - 72px);">
         <ul class="sidebar-menu">
