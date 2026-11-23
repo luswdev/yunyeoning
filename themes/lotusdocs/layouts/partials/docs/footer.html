@@ -4,10 +4,10 @@
         <hr class="doc-hr">
         <div class="row align-items-center">
             <div class="col">
-                <div class="text-sm-start text-center mx-md-2">
+                <div class="text-start mx-md-2">
                     <p class="mb-0 d-flex flex-row gap-2 align-items-center">
                         {{- if .Site.Params.creative_commons.icon | default false -}}
-                            <span>
+                            <span class="d-flex gap-1">
                             {{- range .Site.Params.creative_commons.icons -}}
                                 {{- with resources.Get (printf  "images/cc/icons/%s.svg" .) -}}
                                     <span class="cc-icon my-1">{{ .Content | safeHTML }}</span>
